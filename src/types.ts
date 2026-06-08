@@ -7,6 +7,7 @@ export interface AdviceItem {
   year: number | null;
   citation: string | null;
   paperUrl: string | null;
+  blogUrl: string | null;
   youtubeUrl: string;
   categories: string[];
   tags: string[];

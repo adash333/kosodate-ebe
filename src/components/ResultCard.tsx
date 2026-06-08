@@ -34,7 +34,17 @@ export function ResultCard({ item }: { item: AdviceItem }) {
         >
           ▶ 解説動画を見る
         </a>
-        {item.paperUrl && (
+        {item.blogUrl ? (
+          <a
+            className="btn-paper"
+            href={item.blogUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => track('click_blog', { id: item.id })}
+          >
+            論文解説
+          </a>
+        ) : item.paperUrl ? (
           <a
             className="btn-paper"
             href={item.paperUrl}
@@ -44,7 +54,7 @@ export function ResultCard({ item }: { item: AdviceItem }) {
           >
             論文（{titleLabel}）
           </a>
-        )}
+        ) : null}
       </div>
     </div>
   );
