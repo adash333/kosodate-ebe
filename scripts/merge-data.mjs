@@ -29,8 +29,8 @@ for (const [id, e] of Object.entries(enrich.items)) {
     year: r.year,
     citation: r.citation,
     paperUrl: r.paperUrl,
-    // ブログ解説記事URL（人手付与の enrichment 優先、無ければraw抽出、無ければnull）
-    blogUrl: e.blogUrl ?? r.blogUrl ?? null,
+    // ブログ解説記事URL（enrichment.json で id ごとに付与。無ければnull）
+    blogUrl: e.blogUrl ?? null,
     // 直URLがあれば優先、無ければチャンネル内検索リンク（方式A）
     youtubeUrl: r.youtubeUrl || r.youtubeSearchUrl,
     categories: e.categories,

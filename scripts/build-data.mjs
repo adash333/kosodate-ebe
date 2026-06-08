@@ -59,13 +59,6 @@ function parseBody(text) {
   // youtubeUrl: 本文全体から
   const ytm = text.match(YT_RE);
   const youtubeUrl = ytm ? ytm[1] : null;
-  // blogUrl: risan.jpn.org の固有記事URL（共通テンプレの ?p=7101 は除外）
-  let blogUrl = null;
-  const blogM = text.match(/https?:\/\/risan\.jpn\.org\/\?p=(\d+)/g);
-  if (blogM) {
-    const hit = blogM.map(u => u.match(/\?p=(\d+)/)[1]).find(p => p !== '7101');
-    if (hit) blogUrl = `https://risan.jpn.org/?p=${hit}`;
-  }
   // 日本語タイトル訳 ＝ paperUrl の次の非空行（CJKを含む、URL/citation以外）
   let jpTitle = null, ctrTitle = null;
   const idx = nonEmpty.findIndex(l => paperUrl && l.includes(paperUrl));
@@ -75,7 +68,7 @@ function parseBody(text) {
   if (titleCands[0]) jpTitle = titleCands[0];
   // CTRタイトル ＝ 【】を含む行（最初のもの）
   ctrTitle = nonEmpty.find(l => /【.+】/.test(l) && cjk(l)) || (titleCands[1] || null);
-  return { citation, paperUrl, blogUrl, youtubeUrl, jpTitle, ctrTitle };
+  return { citation, paperUrl, youtubeUrl, jpTitle, ctrTitle };
 }
 
 function collect(dir, label) {
@@ -96,7 +89,6 @@ function collect(dir, label) {
       year: name.year ? Number(name.year) : null,
       citation: body.citation,
       paperUrl: body.paperUrl,
-      blogUrl: body.blogUrl,
       jpTitle: body.jpTitle,
       ctrTitle: body.ctrTitle,
       youtubeUrl: body.youtubeUrl,
