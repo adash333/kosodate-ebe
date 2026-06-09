@@ -1,98 +1,103 @@
 {
   "_comment": "idごとの意味づけ。merge-data.mjs が _raw_extract.json と結合して advice.json を生成。ageBands: preschool/elementary/teen。exclude:true は助言ボット対象外。",
   "items": {
-    "194": {
+    "100": {
+      "blogUrl": "https://risan.jpn.org/?p=9948",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Ii2HLsCgmJE",
       "categories": [
-        "development",
         "lifestyle"
       ],
       "tags": [
-        "ADHD",
-        "ゲーム",
-        "デジタル治療",
-        "集中力",
-        "発達"
+        "睡眠",
+        "成績",
+        "中高生"
+      ],
+      "ageBands": [
+        "teen"
+      ],
+      "finding": "中高生は睡眠時間が長く質が良いほど、成績が良い傾向がありました。",
+      "advice": "成績を伸ばす近道は、まず十分な睡眠です。",
+      "nextStep": "就寝時間を30分早めることから始めてみましょう。"
+    },
+    "101": {
+      "blogUrl": "https://risan.jpn.org/?p=10046",
+      "youtubeUrl": "https://www.youtube.com/watch?v=c9fxoIfhzw8",
+      "categories": [
+        "family"
+      ],
+      "tags": [
+        "関わり方",
+        "自己効力感",
+        "選択理論"
       ],
       "ageBands": [
         "elementary",
         "teen"
       ],
-      "finding": "ゲーム型の治療アプリ（米FDA承認）の試験で、ADHDの子どもの注意機能テストが改善しました。",
-      "advice": "ゲームも設計しだいで治療になりますが、薬や関わりの「代わり」ではなく補助です。",
-      "nextStep": "気になるときは自己判断せず、まず専門医に相談してみましょう。"
+      "finding": "他人（子ども）は変えられず、変えられるのは自分の関わり方だけ、という考えです（選択理論）。",
+      "advice": "子どもを変えようとするより、関わり方を変える方が動きます。",
+      "nextStep": "「やらせる」より「やりたくなる」関わりを1つ試しましょう。"
     },
-    "193": {
+    "102": {
+      "blogUrl": "https://risan.jpn.org/?p=10074",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ZwA-wXH1PjQ",
       "categories": [
-        "discipline"
+        "future",
+        "selfesteem"
       ],
       "tags": [
-        "報酬",
-        "ごほうび",
-        "習慣",
-        "行動"
+        "物質主義",
+        "お金",
+        "幸福"
       ],
       "ageBands": [
         "teen"
       ],
-      "finding": "大人の禁煙で、きちんと設計された金銭報酬が成功率を高めました。",
-      "advice": "ごほうびは、意志だけでは難しい行動の後押しになります。",
-      "nextStep": "続けたい行動に、できたら渡す小さなごほうびを決めてみましょう。"
+      "finding": "人生の目的をお金や物に置く人ほど、不安や抑うつが強い傾向がありました。",
+      "advice": "「お金が目的」の価値観は、幸福を遠ざけがちです。",
+      "nextStep": "将来の夢を、金額ではなく「どう生きたいか」で話してみましょう。"
     },
-    "192": {
+    "103": {
+      "blogUrl": "https://risan.jpn.org/?p=10165",
+      "youtubeUrl": "https://www.youtube.com/watch?v=BB_94fMt1TQ",
+      "categories": [
+        "selfesteem",
+        "family"
+      ],
+      "tags": [
+        "ブランド",
+        "物質主義",
+        "親の影響"
+      ],
+      "ageBands": [
+        "teen"
+      ],
+      "finding": "物で自分を測る親の子は、同じように物で自尊心を満たしやすいと示されました。",
+      "advice": "親の価値観は子に映ります。物より経験を大切にする姿を見せましょう。",
+      "nextStep": "買い物より、一緒に過ごす体験を家族の楽しみにしましょう。"
+    },
+    "104": {
+      "blogUrl": "https://risan.jpn.org/?p=10192",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KmOAq_6397k",
       "categories": [
         "discipline",
-        "study"
+        "social"
       ],
       "tags": [
-        "報酬",
-        "ごほうび",
-        "動機づけ"
+        "環境",
+        "行動",
+        "役割"
       ],
       "ageBands": [
-        "elementary",
         "teen"
       ],
-      "finding": "報酬は場面によって効果も逆効果もあり、額や設計しだいで結果が変わりました。",
-      "advice": "ごほうびは「使い方」しだい。目的に合った設計が大切です。",
-      "nextStep": "短期の後押しに使い、できたら言葉のほめに切り替えましょう。"
+      "finding": "環境や与えられた役割が、人の行動を大きく変えると示されました。",
+      "advice": "子の困った行動は、性格より環境のせいかもしれません。",
+      "nextStep": "行動を責める前に、まわりの状況を変えられないか考えましょう。"
     },
-    "191": {
-      "categories": [
-        "discipline"
-      ],
-      "tags": [
-        "トークン",
-        "ごほうびシール",
-        "習慣",
-        "報酬"
-      ],
-      "ageBands": [
-        "preschool",
-        "elementary"
-      ],
-      "finding": "ためて交換できる「トークン（シール）」で、望ましい行動を増やせると示した古典研究です。",
-      "advice": "ごほうびシール表は、行動を育てる科学的な方法です。",
-      "nextStep": "増やしたい行動を1つ決め、できたらシールを貼る表を作ってみましょう。"
-    },
-    "190": {
-      "categories": [
-        "discipline",
-        "lifestyle"
-      ],
-      "tags": [
-        "報酬",
-        "習慣",
-        "運動"
-      ],
-      "ageBands": [
-        "elementary",
-        "teen"
-      ],
-      "finding": "最初だけ報酬を与えると、運動などの習慣が定着しやすくなりました。",
-      "advice": "「最初だけごほうび」は、習慣づくりのきっかけに有効です。",
-      "nextStep": "新しい習慣の立ち上げ期だけ、小さなごほうびで背中を押してみましょう。"
-    },
-    "189": {
+    "105": {
+      "blogUrl": "https://risan.jpn.org/?p=10282",
+      "youtubeUrl": "https://www.youtube.com/watch?v=UJBvBKHVFr0",
       "categories": [
         "discipline",
         "study"
@@ -100,256 +105,1190 @@
       "tags": [
         "報酬",
         "内発的動機",
-        "やる気"
+        "認知的不協和"
       ],
       "ageBands": [
         "elementary",
         "teen"
       ],
-      "finding": "96研究のメタ分析で、ごほうびが必ずしもやる気を壊すわけではないと示されました。",
-      "advice": "「ごほうび＝逆効果」は言い過ぎ。条件しだいでやる気とも両立します。",
-      "nextStep": "子どもが嫌がる作業の取りかかりに、ごほうびを軽く添えてみましょう。"
+      "finding": "報酬で行動させると、かえってその行動を「好きでない」と感じやすくなります。",
+      "advice": "ごほうびを付けすぎると、本来好きなことも嫌いになりえます。",
+      "nextStep": "もともと好きなことには、ごほうびを足さず見守りましょう。"
     },
-    "188": {
+    "106": {
+      "blogUrl": "https://risan.jpn.org/?p=10308",
+      "youtubeUrl": "https://www.youtube.com/watch?v=x7KoowkoI7E",
       "categories": [
-        "selfesteem",
-        "future"
-      ],
-      "tags": [
-        "自己肯定感",
-        "環境",
-        "比較",
-        "進路"
-      ],
-      "ageBands": [
-        "teen"
-      ],
-      "finding": "同じ学力でも、まわりが優秀すぎる環境では自己評価が下がりやすいと示されました（大きな池の小さな魚効果）。",
-      "advice": "「上位校で最下位」より、力を発揮できる環境が自信を育てることがあります。",
-      "nextStep": "進路選びでは偏差値だけでなく、その子が活躍できる位置も一緒に考えましょう。"
-    },
-    "187": {
-      "categories": [
-        "future",
         "study"
       ],
       "tags": [
-        "早生まれ",
-        "相対年齢",
-        "学力",
-        "非認知能力"
+        "メタ認知",
+        "考える力"
+      ],
+      "ageBands": [
+        "elementary",
+        "teen"
+      ],
+      "finding": "自分の考えを考える「メタ認知」が、学びの質を高めます。",
+      "advice": "「どう考えた?」の問いが、頭の使い方を育てます。",
+      "nextStep": "勉強の後に、やり方をふり返って言葉にさせましょう。"
+    },
+    "107": {
+      "blogUrl": "https://risan.jpn.org/?p=10354",
+      "youtubeUrl": "https://www.youtube.com/watch?v=gVCCDb5aPGg",
+      "categories": [
+        "discipline"
+      ],
+      "tags": [
+        "叱り方",
+        "しつけ",
+        "内面化"
       ],
       "ageBands": [
         "preschool",
         "elementary"
       ],
-      "finding": "早生まれの子は、学力や非認知能力で平均的にやや不利な傾向が見られました（相対年齢効果）。",
-      "advice": "早生まれの「できない」は、発達の遅れではなく月齢差のことが多いです。",
-      "nextStep": "同学年で比べず、「半年前のその子」と比べて成長を見てあげましょう。"
+      "finding": "強く叱って従わせるより、軽い理由づけの方が、見ていないときも守る子に育ちました。",
+      "advice": "強い罰は、見ているときだけ従う子を作りがちです。",
+      "nextStep": "「なぜダメか」を短く理由で伝え、脅しは控えましょう。"
     },
-    "186": {
-      "exclude": true,
-      "_reason": "防災・正常性バイアス。日常子育て助言になじまないため対象外"
-    },
-    "185": {
-      "exclude": true,
-      "_reason": "防災・楽観バイアス。日常子育て助言になじまないため対象外"
-    },
-    "184": {
-      "exclude": true,
-      "_reason": "防災・避難行動。日常子育て助言になじまないため対象外"
-    },
-    "183": {
+    "108": {
+      "blogUrl": "https://risan.jpn.org/?p=10376",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WWXiSsOjMKI",
       "categories": [
-        "study"
+        "discipline",
+        "social"
       ],
       "tags": [
-        "説明",
-        "認知負荷",
-        "声かけ",
-        "勉強法"
+        "所属感",
+        "環境",
+        "行動"
       ],
       "ageBands": [
         "elementary",
         "teen"
       ],
-      "finding": "すでに分かっている子に説明しすぎると、かえって理解を妨げることがあります（冗長性効果）。",
-      "advice": "説明は「足りない」だけでなく「しすぎ」も逆効果。分かっていそうなら任せて。",
-      "nextStep": "教える前に「どこまで分かる?」と聞き、必要な所だけ説明しましょう。"
+      "finding": "人の行動は「しつけ」より、集団への所属感や状況で大きく変わると示されました。",
+      "advice": "行動を変えるカギは、叱責より「居場所」と感じられることです。",
+      "nextStep": "家庭やクラスで「自分はここの一員」と感じる役割を与えましょう。"
     },
-    "182": {
+    "109": {
+      "blogUrl": "https://risan.jpn.org/?p=10193",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WuYiOuUyYg0",
+      "categories": [
+        "selfesteem"
+      ],
+      "tags": [
+        "努力",
+        "価値",
+        "判断"
+      ],
+      "ageBands": [
+        "elementary"
+      ],
+      "finding": "努力して得たものを高く評価する一方で、その分だけ判断が歪むこともあります。",
+      "advice": "頑張った経験は価値を生みますが、思い入れすぎにも注意を。",
+      "nextStep": "努力をほめつつ、結果は冷静に振り返る声かけをしましょう。"
+    },
+    "110": {
+      "blogUrl": "https://risan.jpn.org/?p=10202",
+      "youtubeUrl": "https://www.youtube.com/watch?v=1aLd6DEfhGU",
       "categories": [
         "study"
       ],
       "tags": [
-        "勉強法",
-        "例題",
-        "認知負荷"
+        "メタ認知",
+        "考える力",
+        "幼児"
+      ],
+      "ageBands": [
+        "preschool"
+      ],
+      "finding": "3歳でも「考える力（メタ認知）」の芽が育っています。",
+      "advice": "小さくても、自分で考える機会が力の芽を伸ばします。",
+      "nextStep": "手伝う前に「どうしたらいいと思う?」と聞いてみましょう。"
+    },
+    "111": {
+      "blogUrl": "https://risan.jpn.org/?p=10222",
+      "youtubeUrl": "https://www.youtube.com/watch?v=bq0qn4uDXwc",
+      "categories": [
+        "study"
+      ],
+      "tags": [
+        "メタ認知",
+        "ふり返り",
+        "考える力"
+      ],
+      "ageBands": [
+        "preschool",
+        "elementary"
+      ],
+      "finding": "5歳でも、意図的に自分の考えをふり返るメタ認知が育ち始めます。",
+      "advice": "「どう考えた?」と聞くだけで、考える力が伸びます。",
+      "nextStep": "解いた後に「どうやって考えた?」と一言たずねてみましょう。"
+    },
+    "112": {
+      "blogUrl": "https://risan.jpn.org/?p=10242",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uMrO63C7xCE",
+      "categories": [
+        "selfesteem"
+      ],
+      "tags": [
+        "ブランド",
+        "自尊心",
+        "思春期"
+      ],
+      "ageBands": [
+        "teen"
+      ],
+      "finding": "自尊感情が低い思春期ほど、ブランドで自分を満たそうとしやすいと示されました。",
+      "advice": "物より、認められる経験が「自分はOK」を育てます。",
+      "nextStep": "持ち物より、努力や人柄を具体的にほめてあげましょう。"
+    },
+    "113": {
+      "blogUrl": "https://risan.jpn.org/?p=10246",
+      "youtubeUrl": "https://www.youtube.com/watch?v=z-fSqz1JtMg",
+      "categories": [
+        "discipline"
+      ],
+      "tags": [
+        "怒り",
+        "再評価",
+        "捉え方"
       ],
       "ageBands": [
         "elementary",
         "teen"
       ],
-      "finding": "自力で解かせるより、解き方の例題を見せる方が効率よく学べる場面があります。",
-      "advice": "つまずく問題は、まず解き方の「お手本」を見せると理解が早まります。",
-      "nextStep": "難しい問題は、答えの過程を一緒に読んでから取り組ませてみましょう。"
+      "finding": "出来事の捉え方を変える（再評価）と、怒りが大きく減ります。",
+      "advice": "怒りは「どう受け取るか」で半分にできます。",
+      "nextStep": "イラッとしたら「別の見方はない?」と自問する癖をつけましょう。"
     },
-    "181": {
+    "114": {
+      "blogUrl": "https://risan.jpn.org/?p=10316",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2b2-3-PxYmY",
       "categories": [
-        "study"
+        "discipline"
       ],
       "tags": [
-        "勉強法",
-        "認知負荷",
-        "例題"
+        "怒り",
+        "抑制",
+        "アンガーマネジメント"
       ],
       "ageBands": [
         "elementary",
         "teen"
       ],
-      "finding": "初学者には「まず自分で考えて」より、先に解き方を教える方が効果的なことがあります。",
-      "advice": "「まず自分で考えて」は、基礎がない段階では逆効果になることもあります。",
-      "nextStep": "新しい単元は、最初に解き方を示してから練習に入りましょう。"
+      "finding": "怒りをただ抑え込むと、かえって悪化することがあります。",
+      "advice": "我慢でフタをするより、捉え方を変える方が効きます。",
+      "nextStep": "「相手にも事情がある」と、一度言い換えてみましょう。"
     },
-    "180": {
+    "115": {
+      "blogUrl": "https://risan.jpn.org/?p=10397",
+      "youtubeUrl": "https://www.youtube.com/watch?v=flFU5BlPVEw",
+      "categories": [
+        "discipline"
+      ],
+      "tags": [
+        "怒り",
+        "アンガーマネジメント",
+        "6秒"
+      ],
+      "ageBands": [
+        "elementary",
+        "teen"
+      ],
+      "finding": "怒りは、数秒待つことで衝動が和らぎます（6秒ルール）。",
+      "advice": "カッとした瞬間の数秒をやり過ごすと、言いすぎを防げます。",
+      "nextStep": "怒りを感じたら、心の中で6秒数えてから口を開きましょう。"
+    },
+    "116": {
+      "blogUrl": "https://risan.jpn.org/?p=10423",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WsObLrHruEs",
+      "categories": [
+        "selfesteem",
+        "discipline"
+      ],
+      "tags": [
+        "感情",
+        "親の反応",
+        "共感"
+      ],
+      "ageBands": [
+        "preschool",
+        "elementary"
+      ],
+      "finding": "子どもの感情への親の反応の仕方が、子の社会的能力を左右します。",
+      "advice": "「泣くな」は逆効果。感情を受け止める方が育ちます。",
+      "nextStep": "泣いたときは止めず「悲しかったね」とまず気持ちに名前をつけましょう。"
+    },
+    "117": {
+      "blogUrl": "https://risan.jpn.org/?p=10443",
+      "youtubeUrl": "https://www.youtube.com/watch?v=PAuY0fc48C0",
+      "categories": [
+        "discipline",
+        "lifestyle"
+      ],
+      "tags": [
+        "自己制御",
+        "我慢",
+        "親",
+        "ストレス"
+      ],
+      "ageBands": [
+        "preschool",
+        "elementary",
+        "teen"
+      ],
+      "finding": "我慢を続けると自己制御が利きにくくなり、後で爆発しやすくなります。",
+      "advice": "親も我慢しすぎると爆発します。早めの息抜きが大切です。",
+      "nextStep": "限界の前に、5分でも一人になる時間を確保しましょう。"
+    },
+    "118": {
+      "blogUrl": "https://risan.jpn.org/?p=10464",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3Egk4kqN_Zc",
+      "categories": [
+        "discipline",
+        "selfesteem"
+      ],
+      "tags": [
+        "自己制御",
+        "我慢",
+        "自己消耗"
+      ],
+      "ageBands": [
+        "elementary",
+        "teen"
+      ],
+      "finding": "自己制御は、使うと一時的に減る資源のように働くことがあります。",
+      "advice": "いい子ほど外で我慢し、家で荒れるのは自然な反動です。",
+      "nextStep": "家では我慢を緩め、安心して甘えられる時間を作りましょう。"
+    },
+    "119": {
+      "blogUrl": "https://risan.jpn.org/?p=10486",
+      "youtubeUrl": "https://www.youtube.com/watch?v=PnoMz10qVP4",
+      "categories": [
+        "discipline",
+        "selfesteem"
+      ],
+      "tags": [
+        "自己制御",
+        "我慢",
+        "自己消耗"
+      ],
+      "ageBands": [
+        "elementary",
+        "teen"
+      ],
+      "finding": "「我慢で意志力が消耗する」説には反論もあり、本人の捉え方も影響します。",
+      "advice": "「電池切れ」で動けないときは、責めずに休ませるのも一手です。",
+      "nextStep": "集中が切れたら、短い休憩をはさんで切り替えさせましょう。"
+    },
+    "120": {
+      "blogUrl": "https://risan.jpn.org/?p=10506",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rUUgAdKqORc",
+      "categories": [
+        "lifestyle"
+      ],
+      "tags": [
+        "植物",
+        "健康",
+        "回復"
+      ],
+      "ageBands": [
+        "preschool",
+        "elementary",
+        "teen"
+      ],
+      "finding": "病室に植物を置くと、手術後の回復が良くなりました。",
+      "advice": "緑があるだけで、心身は整いやすくなります。",
+      "nextStep": "家の過ごす場所に、緑を1つ取り入れてみましょう。"
+    },
+    "121": {
+      "blogUrl": "https://risan.jpn.org/?p=10528",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ODJzeTMcruA",
+      "categories": [
+        "lifestyle"
+      ],
+      "tags": [
+        "植物",
+        "ストレス",
+        "リラックス"
+      ],
+      "ageBands": [
+        "preschool",
+        "elementary",
+        "teen"
+      ],
+      "finding": "室内の植物に触れると、心理・生理的なストレスが下がりました。",
+      "advice": "イライラしたとき、植物の世話が気持ちを落ち着けます。",
+      "nextStep": "水やりなど短い世話を、毎日のリセット習慣にしてみましょう。"
+    },
+    "122": {
+      "categories": [
+        "lifestyle"
+      ],
+      "tags": [
+        "植物",
+        "マインドフルネス",
+        "ストレス",
+        "余裕"
+      ],
+      "ageBands": [
+        "preschool",
+        "elementary",
+        "teen"
+      ],
+      "finding": "植物の世話が、心の余裕（マインドフルネス）を高めました。",
+      "advice": "植物を育てると、親自身の心に余裕が生まれます。",
+      "nextStep": "小さな観葉植物を1つ、目に入る場所に置いてみましょう。"
+    },
+    "123": {
+      "categories": [
+        "family"
+      ],
+      "tags": [
+        "夫婦",
+        "夫婦関係",
+        "ケンカ",
+        "コミュニケーション",
+        "家庭環境"
+      ],
+      "ageBands": [
+        "preschool",
+        "elementary",
+        "teen"
+      ],
+      "finding": "夫婦のやり取りを観察した研究では、口論そのものより、批判・侮辱・防御・無視が続くことが関係の悪化を予測しました。",
+      "advice": "ケンカしても大丈夫。大切なのは「相手を見下さない・無視しない」ことです。",
+      "nextStep": "意見が違っても、まず「あなたはそう思うんだね」と一度受け止めてから話してみましょう。"
+    },
+    "124": {
+      "blogUrl": "https://risan.jpn.org/?p=10596",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8rf21wjFU_Y",
+      "categories": [
+        "social"
+      ],
+      "tags": [
+        "集団圧力",
+        "同調",
+        "流される"
+      ],
+      "ageBands": [
+        "elementary",
+        "teen"
+      ],
+      "finding": "明らかに正しい答えでも、多数派に合わせて誤答してしまう「同調」が起きます。",
+      "advice": "流されない力は、家で「違っても言える」経験から育ちます。",
+      "nextStep": "家族で少数意見を歓迎する場面を、意識して作りましょう。"
+    },
+    "125": {
+      "categories": [
+        "social"
+      ],
+      "tags": [
+        "同調",
+        "思春期",
+        "判断"
+      ],
+      "ageBands": [
+        "teen"
+      ],
+      "finding": "12歳ごろから、自分の目より他人の意見を信じて同調しやすくなります。",
+      "advice": "思春期は周りの影響が強まる時期。頭ごなしより対話を。",
+      "nextStep": "友だちと違う意見も、家では安心して言える雰囲気を作りましょう。"
+    },
+    "126": {
+      "categories": [
+        "social"
+      ],
+      "tags": [
+        "同調",
+        "文化",
+        "協調"
+      ],
+      "ageBands": [
+        "elementary",
+        "teen"
+      ],
+      "finding": "日本は他国より同調率が高めですが、協調性は社会的成功にもつながりえます。",
+      "advice": "流されるのは悪いだけでなく、協調する力にもなります。",
+      "nextStep": "周りに合わせたときも、「自分はどう考えた?」を一緒に確認しましょう。"
+    },
+    "127": {
+      "blogUrl": "https://risan.jpn.org/?p=10707",
+      "youtubeUrl": "https://www.youtube.com/watch?v=eKG7IgarniA",
+      "categories": [
+        "social"
+      ],
+      "tags": [
+        "同調",
+        "流される",
+        "集団圧力"
+      ],
+      "ageBands": [
+        "elementary",
+        "teen"
+      ],
+      "finding": "同調には「正しいと思って合わせる」場合と「嫌われたくなくて合わせる」場合があります。",
+      "advice": "「みんなやってる」に流される理由を知ると、対処を教えられます。",
+      "nextStep": "「なぜそうしたい?自分はどう思う?」と理由を言葉にさせましょう。"
+    },
+    "128": {
+      "blogUrl": "https://risan.jpn.org/?p=10730",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Ilzgg0x8MiQ",
+      "categories": [
+        "future"
+      ],
+      "tags": [
+        "意思決定",
+        "十分満足",
+        "限定合理性"
+      ],
+      "ageBands": [
+        "teen"
+      ],
+      "finding": "人は完璧な選択はできない前提で、「十分よい」選択をする方が現実的です（限定合理性）。",
+      "advice": "子育ても勉強も、完璧な正解探しは不要です。",
+      "nextStep": "迷ったら「十分よい」選択でOKと、自分にも許可しましょう。"
+    },
+    "129": {
+      "blogUrl": "https://risan.jpn.org/?p=10757",
+      "youtubeUrl": "https://www.youtube.com/watch?v=af3IlaFJrWU",
       "categories": [
         "future",
         "selfesteem"
       ],
       "tags": [
-        "選択",
         "意思決定",
-        "自己決定"
+        "満足",
+        "幸福"
+      ],
+      "ageBands": [
+        "elementary",
+        "teen"
+      ],
+      "finding": "「そこそこで満足する人（サティスファイザー）」は、完璧主義者より幸福度が高いと示されました。",
+      "advice": "完璧を求めすぎると、親も子も苦しくなります。",
+      "nextStep": "「80点で十分」と、合格ラインを下げてあげる声かけを。"
+    },
+    "130": {
+      "blogUrl": "https://risan.jpn.org/?p=10779",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Z9UrGkOV2sM",
+      "categories": [
+        "future"
+      ],
+      "tags": [
+        "意思決定",
+        "マキシマイザー",
+        "後悔",
+        "決断力"
+      ],
+      "ageBands": [
+        "teen"
+      ],
+      "finding": "完璧な選択を求める人ほど、決断を避け後悔しやすいと示されました。",
+      "advice": "良い親ほど選択肢を与えすぎて、子の決断力を奪うことがあります。",
+      "nextStep": "選択肢は2〜3個に絞って、本人に決めさせてみましょう。"
+    },
+    "131": {
+      "blogUrl": "https://risan.jpn.org/?p=10803",
+      "youtubeUrl": "https://www.youtube.com/watch?v=PKX7mVexx2E",
+      "categories": [
+        "future",
+        "selfesteem"
+      ],
+      "tags": [
+        "意思決定",
+        "マキシマイザー",
+        "比較",
+        "幸福"
+      ],
+      "ageBands": [
+        "teen"
+      ],
+      "finding": "常に「最高」を求めて比べ続ける姿勢は、幸福度を下げやすいと示されました。",
+      "advice": "「最高」を目指すのは良いが、比べ続けさせるのは逆効果です。",
+      "nextStep": "決めたら振り返りすぎず、「これで十分」と区切る練習をさせましょう。"
+    },
+    "132": {
+      "blogUrl": "https://risan.jpn.org/?p=10825",
+      "youtubeUrl": "https://www.youtube.com/watch?v=dDnm9vV0oKg",
+      "categories": [
+        "future",
+        "selfesteem"
+      ],
+      "tags": [
+        "性教育",
+        "自己肯定感",
+        "安全"
+      ],
+      "ageBands": [
+        "preschool",
+        "elementary",
+        "teen"
+      ],
+      "finding": "国際的な指針では、年齢に応じた包括的性教育が子どもの安全と自己肯定感を育てるとされます。",
+      "advice": "性教育は「寝た子を起こす」ではなく、身を守る力になります。",
+      "nextStep": "年齢に合わせ、プライベートゾーンなど体の話を少しずつ伝えましょう。"
+    },
+    "133": {
+      "blogUrl": "https://risan.jpn.org/?p=10855",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EyDNFLRUIBQ",
+      "categories": [
+        "development"
+      ],
+      "tags": [
+        "自閉症",
+        "環境",
+        "総説"
       ],
       "ageBands": [
         "preschool",
         "elementary"
       ],
-      "finding": "4歳児やサルでも、自分で選んだものを後から好きになる傾向があります。",
-      "advice": "自分で選ばせると、その選択を好きになりやすくなります。",
-      "nextStep": "小さなことでも「どっちにする?」と本人に選ばせてみましょう。"
+      "finding": "自閉症は「子どもを変える」より「環境を整える」ことが重要だと総説が示しています。",
+      "advice": "子どもを直そうとせず、過ごしやすい環境を整えることが先です。",
+      "nextStep": "苦手な刺激（音・光など）を減らす工夫を1つ取り入れましょう。"
     },
-    "179": {
+    "134": {
+      "blogUrl": "https://risan.jpn.org/?p=10887",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KzwQdefyT2k",
+      "categories": [
+        "selfesteem",
+        "discipline"
+      ],
+      "tags": [
+        "感情",
+        "言語化",
+        "ストレス"
+      ],
+      "ageBands": [
+        "elementary",
+        "teen"
+      ],
+      "finding": "感情は「吐き出す」より、言葉にして整理する方が回復につながります。",
+      "advice": "モヤモヤは、ぶつけるより言葉にすると落ち着きます。",
+      "nextStep": "嫌なことがあった日、「何があった?どう感じた?」と言葉にさせてみましょう。"
+    },
+    "135": {
+      "blogUrl": "https://risan.jpn.org/?p=10911",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Zn0oc948Ykg",
+      "categories": [
+        "social",
+        "discipline"
+      ],
+      "tags": [
+        "同調",
+        "しつけ",
+        "流される"
+      ],
+      "ageBands": [
+        "preschool"
+      ],
+      "finding": "厳しく管理的に育てると、3歳ですでに周りに流されやすい傾向が見られました。",
+      "advice": "厳しすぎるしつけは、自分で考える力より同調を育てがちです。",
+      "nextStep": "指示で従わせるより、「どう思う?」と意見を聞く場面を増やしましょう。"
+    },
+    "136": {
+      "blogUrl": "https://risan.jpn.org/?p=10954",
+      "youtubeUrl": "https://www.youtube.com/watch?v=GfsdN9WvVC8",
+      "categories": [
+        "family",
+        "future"
+      ],
+      "tags": [
+        "収入",
+        "関わり",
+        "格差"
+      ],
+      "ageBands": [
+        "preschool",
+        "elementary"
+      ],
+      "finding": "収入の低さ自体より、親の関わりの質が子どもの育ちを左右します。",
+      "advice": "お金がなくても、関わり方で子どもはしっかり伸びます。",
+      "nextStep": "会話・読み聞かせなど、お金のかからない関わりを増やしましょう。"
+    },
+    "137": {
+      "blogUrl": "https://risan.jpn.org/?p=10935",
+      "youtubeUrl": "https://www.youtube.com/watch?v=pc--1OriulY",
+      "categories": [
+        "family"
+      ],
+      "tags": [
+        "共働き",
+        "働き方",
+        "愛着"
+      ],
+      "ageBands": [
+        "preschool",
+        "elementary"
+      ],
+      "finding": "共働きか専業かは、子どもの発達にほとんど影響しませんでした。",
+      "advice": "働き方より、一緒にいる時間の質が子どもには大切です。",
+      "nextStep": "短くても、子どもに集中して関わる時間を毎日作りましょう。"
+    },
+    "138": {
+      "blogUrl": "https://risan.jpn.org/?p=10974",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qbGVAoYm9F4",
+      "categories": [
+        "future"
+      ],
+      "tags": [
+        "教育費",
+        "成績",
+        "投資"
+      ],
+      "ageBands": [
+        "elementary",
+        "teen"
+      ],
+      "finding": "教育にかけるお金の額と成績の関係は、弱いものでした。",
+      "advice": "お金をかければ伸びるわけではありません。使い方が大事です。",
+      "nextStep": "教材を増やす前に、今あるものをやりきる仕組みを作りましょう。"
+    },
+    "139": {
+      "blogUrl": "https://risan.jpn.org/?p=11017",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ra3EVheYmCw",
+      "categories": [
+        "future"
+      ],
+      "tags": [
+        "教師",
+        "学校",
+        "進路"
+      ],
+      "ageBands": [
+        "elementary",
+        "teen"
+      ],
+      "finding": "質の高い教師に教わった子は、将来の収入まで高くなりやすいと示されました。",
+      "advice": "教育は「いくら使うか」より「誰に教わるか」が効きます。",
+      "nextStep": "相性の良い先生や指導者との出会いを大切にしましょう。"
+    },
+    "140": {
+      "blogUrl": "https://risan.jpn.org/?p=11036",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OlbCB_Cx4dY",
+      "categories": [
+        "future"
+      ],
+      "tags": [
+        "学歴",
+        "賃金",
+        "教育年数"
+      ],
+      "ageBands": [
+        "teen"
+      ],
+      "finding": "教育年数が長い人ほど賃金が高いという関係を、古典的データが示しました。",
+      "advice": "学びは将来の選択肢を広げる土台になります。",
+      "nextStep": "子どもが学び続けたくなる小さな成功体験を増やしましょう。"
+    },
+    "141": {
+      "blogUrl": "https://risan.jpn.org/?p=11057",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-wbZGxcUDTk",
+      "categories": [
+        "future"
+      ],
+      "tags": [
+        "学歴",
+        "収入",
+        "教育年数"
+      ],
+      "ageBands": [
+        "teen"
+      ],
+      "finding": "教育年数が1年増えると平均で約9%収入が上がりますが、本人の能力など他の要因も影響します。",
+      "advice": "学歴は収入と関連しますが、それだけが要因ではありません。",
+      "nextStep": "「何年学ぶか」より「何を身につけるか」を一緒に考えましょう。"
+    },
+    "142": {
+      "blogUrl": "https://risan.jpn.org/?p=11081",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3amKH6ygOj4",
+      "categories": [
+        "future"
+      ],
+      "tags": [
+        "学歴",
+        "収入",
+        "健康"
+      ],
+      "ageBands": [
+        "teen"
+      ],
+      "finding": "教育は一部の人の賃金や健康を改善しますが、全員に大学が必要なわけではありません。",
+      "advice": "「全員大学」ではなく、その子に合った進路が幸福につながります。",
+      "nextStep": "学歴一択で考えず、子どもの適性に合う道を一緒に探しましょう。"
+    },
+    "143": {
+      "blogUrl": "https://risan.jpn.org/?p=11106",
+      "youtubeUrl": "https://www.youtube.com/watch?v=x6hzlnsI2AM",
+      "categories": [
+        "future"
+      ],
+      "tags": [
+        "教育投資",
+        "格差",
+        "支出"
+      ],
+      "ageBands": [
+        "elementary",
+        "teen"
+      ],
+      "finding": "高所得家庭ほど子どもへの教育的支出を増やし、格差が広がっています。",
+      "advice": "お金をかけられなくても、時間と関わりは平等にかけられます。",
+      "nextStep": "高い教材より、図書館や対話など無料の学び資源を活用しましょう。"
+    },
+    "144": {
+      "blogUrl": "https://risan.jpn.org/?p=11134",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uO527NzuDdc",
+      "categories": [
+        "future"
+      ],
+      "tags": [
+        "年収",
+        "学力",
+        "格差"
+      ],
+      "ageBands": [
+        "elementary",
+        "teen"
+      ],
+      "finding": "親の年収と子どもの学力には強い相関があり、近年その差は拡大しています。",
+      "advice": "家庭の影響は大きいですが、決定ではありません。できることに集中を。",
+      "nextStep": "家庭でできる学びの習慣を1つ、今日から始めましょう。"
+    },
+    "145": {
+      "blogUrl": "https://risan.jpn.org/?p=11154",
+      "youtubeUrl": "https://www.youtube.com/watch?v=cxNL3T4Eez4",
+      "categories": [
+        "future",
+        "study"
+      ],
+      "tags": [
+        "収入",
+        "学力",
+        "家庭習慣"
+      ],
+      "ageBands": [
+        "elementary"
+      ],
+      "finding": "親の収入は小学校低学年の成績に影響しますが、家庭の関わりで差は縮められます。",
+      "advice": "収入が低くても、家庭の習慣で学力差は挽回できます。",
+      "nextStep": "読み聞かせ・会話・規則正しい生活など、お金のかからない習慣を続けましょう。"
+    },
+    "146": {
+      "exclude": true,
+      "_reason": "147（Chetty・住む場所と収入）とテーマ重複のため代表1本に集約"
+    },
+    "147": {
+      "blogUrl": "https://risan.jpn.org/?p=11195",
+      "youtubeUrl": "https://www.youtube.com/watch?v=JLwp2ojx0vE",
+      "categories": [
+        "future"
+      ],
+      "tags": [
+        "環境",
+        "収入",
+        "引っ越し",
+        "格差"
+      ],
+      "ageBands": [
+        "preschool",
+        "elementary"
+      ],
+      "finding": "子どものうちに良い地域へ引っ越した子は、将来の収入が高くなりやすいと示されました。",
+      "advice": "育つ「地域・環境」は、将来に長く影響します。",
+      "nextStep": "引っ越しが難しくても、良い人や良い習慣に触れる機会を増やしましょう。"
+    },
+    "148": {
+      "blogUrl": "https://risan.jpn.org/?p=11218",
+      "youtubeUrl": "https://www.youtube.com/watch?v=c4RmUqnNxBE",
+      "categories": [
+        "lifestyle",
+        "family"
+      ],
+      "tags": [
+        "マインドフルネス",
+        "親子",
+        "余裕"
+      ],
+      "ageBands": [
+        "preschool",
+        "elementary"
+      ],
+      "finding": "親のマインドフルネスな関わりで、親子関係が良くなりました。",
+      "advice": "反応する前の「ひと呼吸」が、親子の関係を和らげます。",
+      "nextStep": "イラッとしたら、返事の前に1秒だけ深呼吸してみましょう。"
+    },
+    "149": {
+      "blogUrl": "https://risan.jpn.org/?p=11240",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OAK-WAZYPY4",
+      "categories": [
+        "family"
+      ],
+      "tags": [
+        "親子関係",
+        "介入",
+        "愛着"
+      ],
+      "ageBands": [
+        "preschool"
+      ],
+      "finding": "母親への支援的な介入で、親子関係が改善しました。",
+      "advice": "子どもの困りごとのカギは、親子関係の質にあることが多いです。",
+      "nextStep": "1日数分、子どもと目を合わせて遊ぶ時間を意識しましょう。"
+    },
+    "150": {
+      "paperUrl": "https://cir.nii.ac.jp/crid/1520853832141931520",
+      "categories": [
+        "future"
+      ],
+      "tags": [
+        "教育",
+        "寺子屋",
+        "投資"
+      ],
+      "ageBands": [
+        "elementary",
+        "teen"
+      ],
+      "finding": "江戸時代の寺子屋は「教育は割に合う投資」という考えから広まりました。",
+      "advice": "教育は将来への投資。早くからの学ぶ環境づくりが効きます。",
+      "nextStep": "家庭に本や学ぶ道具を、手の届く所に置いてみましょう。"
+    },
+    "151": {
+      "youtubeUrl": "https://www.youtube.com/watch?v=zBt6GiSweDU",
+      "blogUrl": "https://risan.jpn.org/?p=11310",
+      "categories": [
+        "future",
+        "study"
+      ],
+      "tags": [
+        "個別学習",
+        "寺子屋",
+        "学び"
+      ],
+      "ageBands": [
+        "elementary"
+      ],
+      "finding": "寺子屋は一人ひとりに合わせた個別学習で、子どもを伸ばしていました。",
+      "advice": "みんな同じより、その子の進度に合わせる学びが力を伸ばします。",
+      "nextStep": "苦手は学年にこだわらず、できる所まで戻って進めてみましょう。"
+    },
+    "152": {
+      "blogUrl": "https://risan.jpn.org/?p=11330",
+      "youtubeUrl": "https://www.youtube.com/watch?v=cYsZRQqNaH8",
+      "categories": [
+        "family",
+        "social"
+      ],
+      "tags": [
+        "きょうだい",
+        "けんか",
+        "共感",
+        "心の理論"
+      ],
+      "ageBands": [
+        "preschool",
+        "elementary"
+      ],
+      "finding": "適度なきょうだいげんかは、相手の気持ちを読む力（心の理論）を育てる面があります。",
+      "advice": "きょうだいげんかは全部が悪ではなく、社会性の練習にもなります。",
+      "nextStep": "すぐ仲裁せず「相手はどう思ったかな?」と問いかけてみましょう。"
+    },
+    "153": {
+      "blogUrl": "https://risan.jpn.org/?p=11351",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rXQ1lgTlvjk",
+      "categories": [
+        "lifestyle"
+      ],
+      "tags": [
+        "スマホ",
+        "スクリーン",
+        "幸福",
+        "メディア"
+      ],
+      "ageBands": [
+        "teen"
+      ],
+      "finding": "スマホ等の使用が長い（目安5時間）ほど、心の不調と関連する傾向がありました。",
+      "advice": "スマホは「ゼロ」より「長すぎない」ことが大切です。",
+      "nextStep": "1日の使用時間の上限を、子どもと一緒に決めてみましょう。"
+    },
+    "154": {
+      "blogUrl": "https://risan.jpn.org/?p=11374",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5pi2ltJ-lZM",
+      "categories": [
+        "family"
+      ],
+      "tags": [
+        "出生順位",
+        "性格",
+        "きょうだい"
+      ],
+      "ageBands": [
+        "elementary",
+        "teen"
+      ],
+      "finding": "大規模研究では、出生順位は性格をほとんど変えませんでした。",
+      "advice": "「長子だから/末っ子だから」は思い込み。性格は順位で決まりません。",
+      "nextStep": "順位のレッテルを外し、その子個人として関わりましょう。"
+    },
+    "155": {
+      "blogUrl": "https://risan.jpn.org/?p=11398",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tVN1Psa8LDQ",
+      "categories": [
+        "family",
+        "study"
+      ],
+      "tags": [
+        "出生順位",
+        "IQ",
+        "きょうだい"
+      ],
+      "ageBands": [
+        "elementary"
+      ],
+      "finding": "上の子は下の子よりIQがわずかに高い傾向がありますが、差は小さく「教える経験」で説明されます。",
+      "advice": "生まれ順でかしこさは決まりません。教える経験が伸ばします。",
+      "nextStep": "下の子にも「教える役」を任せる場面を作ってみましょう。"
+    },
+    "156": {
+      "blogUrl": "https://risan.jpn.org/?p=11635",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4aPkhJM1j9c",
+      "categories": [
+        "family"
+      ],
+      "tags": [
+        "きょうだい",
+        "時間",
+        "長子",
+        "下の子"
+      ],
+      "ageBands": [
+        "preschool",
+        "elementary"
+      ],
+      "finding": "親は上の子と「質の高い時間」を多く過ごしがちで下の子は不利になりやすいが、週1の関わりで挽回できます。",
+      "advice": "下の子と1対1の時間が不足しがち。意識して作ると差を埋められます。",
+      "nextStep": "週に1回、下の子と二人だけの時間を予定に入れてみましょう。"
+    },
+    "157": {
+      "categories": [
+        "family"
+      ],
+      "tags": [
+        "きょうだい",
+        "巣立ち",
+        "出生順位"
+      ],
+      "ageBands": [
+        "teen"
+      ],
+      "finding": "兄姉が家を出ると、弟妹も後を追うように家を出やすくなると示されました。",
+      "advice": "巣立ちはきょうだいで連鎖しがち。寂しさは自然な反応です。",
+      "nextStep": "子どもの自立を、少しずつ手放す練習と捉えて見守りましょう。"
+    },
+    "158": {
       "categories": [
         "selfesteem",
         "family"
       ],
       "tags": [
-        "努力",
-        "先回り",
-        "過保護"
-      ],
-      "ageBands": [
-        "preschool",
-        "elementary"
-      ],
-      "finding": "努力して得たものほど価値を感じる一方、先回りで与えすぎると育ちを妨げます。",
-      "advice": "何でも先回りで与えるより、少し頑張って得る経験を残してあげましょう。",
-      "nextStep": "つい手を出す場面で、一呼吸おいて本人にやらせてみましょう。"
-    },
-    "178": {
-      "exclude": true,
-      "_reason": "近視治療の情報まとめ。医療情報で単一の助言化が難しいため対象外"
-    },
-    "177": {
-      "categories": [
-        "development"
-      ],
-      "tags": [
-        "ADHD",
-        "スペクトラム",
-        "個性",
-        "不注意"
-      ],
-      "ageBands": [
-        "elementary"
-      ],
-      "finding": "ADHDの特性は「あるかないか」ではなく、誰もが持つ特性の濃淡（スペクトラム）と捉えられます。",
-      "advice": "「何回言ってもできない」は、性格や努力不足ではなく特性のことがあります。",
-      "nextStep": "叱る前に「どうすればできる環境か」を一緒に工夫してみましょう。"
-    },
-    "176": {
-      "categories": [
-        "development",
-        "selfesteem"
-      ],
-      "tags": [
-        "自閉症",
-        "特性",
-        "個性",
-        "強み"
+        "条件付きの愛",
+        "愛情",
+        "自己肯定感"
       ],
       "ageBands": [
         "elementary",
         "teen"
       ],
-      "finding": "自閉スペクトラムの特性は程度の差で誰にでもあり、強みにもなりえます。",
-      "advice": "「ちょっと変わってる」は、見方を変えれば才能の芽かもしれません。",
-      "nextStep": "苦手を直すより、その子の強い興味を伸ばす関わりを増やしましょう。"
+      "finding": "「いい子なら愛する」という条件付きの関わりは、子どもがやりたいことを見失わせやすいと示されました。",
+      "advice": "「できたら好き」ではなく、存在そのものを受け止める言葉を大切に。",
+      "nextStep": "結果に関係なく「あなたがいてうれしい」と伝える日を作りましょう。"
     },
-    "175": {
+    "159": {
       "categories": [
-        "development"
+        "family"
       ],
       "tags": [
-        "自閉症",
-        "AQ",
-        "スペクトラム",
-        "個性"
+        "出生順位",
+        "きょうだい",
+        "性格"
       ],
       "ageBands": [
+        "elementary",
         "teen"
       ],
-      "finding": "自閉症の特性は連続的で、AQで測れ、理数系の才能と関連することがあります。",
-      "advice": "特性は優劣ではなく個性。理数の強みと結びつくこともあります。",
-      "nextStep": "気になる特性は、得意分野とセットで見てあげましょう。"
+      "finding": "きょうだいの中で下の子ほど、挑戦的・冒険的になりやすい傾向が見られました。",
+      "advice": "きょうだいで性格が違うのは自然なこと。比べず個性として見ましょう。",
+      "nextStep": "上の子・下の子それぞれの持ち味を、言葉にして認めてあげましょう。"
     },
-    "174": {
-      "exclude": true,
-      "_reason": "就活シリーズの詳細回。単一助言になじまないため対象外（総論165は採用）"
-    },
-    "173": {
-      "exclude": true,
-      "_reason": "就活シリーズの詳細回。単一助言になじまないため対象外（総論165は採用）"
-    },
-    "172": {
-      "exclude": true,
-      "_reason": "就活シリーズの詳細回。単一助言になじまないため対象外（総論165は採用）"
-    },
-    "171": {
+    "160": {
       "categories": [
-        "social",
-        "development"
+        "lifestyle",
+        "study"
       ],
       "tags": [
-        "友だち",
-        "社会スキル",
-        "自閉症",
-        "孤立"
+        "片付け",
+        "環境",
+        "集中力",
+        "勉強部屋",
+        "注意"
       ],
       "ageBands": [
-        "teen"
+        "preschool",
+        "elementary"
       ],
-      "finding": "親が関わるプログラムで、思春期の自閉症の子の友だち作りスキルが向上しました（PEERS）。",
-      "advice": "友だち作りのコツは教えられます。親が裏方で支えると効果的です。",
-      "nextStep": "「誘い方・話の入り方」を家でロールプレイして練習してみましょう。"
+      "finding": "幼児の実験では、掲示物などで視覚的に情報が多い教室ほど子どもの注意がそれやすく、学びの効率が下がりました。",
+      "advice": "勉強する場所は「見えるものを減らす」だけで、集中しやすくなります。",
+      "nextStep": "机まわりのおもちゃやポスターを片付け、今やることだけが見える状態にしてみましょう。"
     },
-    "170": {
+    "161": {
       "categories": [
-        "development"
+        "lifestyle"
       ],
       "tags": [
-        "不安",
-        "CBT",
-        "自閉症",
-        "認知行動療法"
+        "片付け",
+        "掃除",
+        "ストレス",
+        "親"
+      ],
+      "ageBands": [
+        "preschool",
+        "elementary",
+        "teen"
+      ],
+      "finding": "家が散らかっていると感じる母親ほど、ストレスホルモンが高い傾向がありました。",
+      "advice": "片付けは子どものためだけでなく、親の心の余裕にも効きます。",
+      "nextStep": "完璧を目指さず、目につく1か所だけ片付けてみましょう。"
+    },
+    "162": {
+      "categories": [
+        "lifestyle"
+      ],
+      "tags": [
+        "生活リズム",
+        "家庭環境",
+        "規則正しい",
+        "睡眠"
+      ],
+      "ageBands": [
+        "preschool",
+        "elementary"
+      ],
+      "finding": "家の中が騒がしく無秩序だと、子どもの社会情緒的な発達が妨げられやすいと示されました。",
+      "advice": "規則正しく落ち着いた家のリズムが、子どもの心の育ちを守ります。",
+      "nextStep": "食事・就寝など1日の節目の時間を、できる範囲で一定にしましょう。"
+    },
+    "163": {
+      "categories": [
+        "study",
+        "lifestyle"
+      ],
+      "tags": [
+        "お手伝い",
+        "家事",
+        "実行機能",
+        "考える力"
+      ],
+      "ageBands": [
+        "preschool",
+        "elementary"
+      ],
+      "finding": "家のお手伝いをする子は、計画・自制などの実行機能が高い傾向がありました。",
+      "advice": "毎日3分のお手伝いが、考える力（実行機能）を育てます。",
+      "nextStep": "食器運びなど、子ども担当の小さな家事を1つ決めてみましょう。"
+    },
+    "164": {
+      "categories": [
+        "study"
+      ],
+      "tags": [
+        "宿題",
+        "家庭学習",
+        "学力",
+        "勉強"
       ],
       "ageBands": [
         "elementary"
       ],
-      "finding": "認知行動療法（CBT）と親の関わりで、自閉症の子の不安が改善しました。",
-      "advice": "強い不安は、関わり方やCBTで和らげられます。",
-      "nextStep": "不安が強いときは、安心できる見通しを具体的に伝えてあげましょう。"
+      "finding": "宿題と成績の関係を調べたメタ分析では、特に小学生では宿題の量と学力の関連はとても小さいと示されました。",
+      "advice": "小学生のうちは、宿題の「量」よりも「楽しく学ぶ習慣」を大切にして大丈夫です。",
+      "nextStep": "宿題が進まない日も叱らず、「10分だけ一緒にやろう」と短く区切ってみましょう。"
+    },
+    "165": {
+      "categories": [
+        "future"
+      ],
+      "tags": [
+        "進路",
+        "業界研究",
+        "キャリア",
+        "学歴"
+      ],
+      "ageBands": [
+        "teen"
+      ],
+      "finding": "5つの軸（年収・将来性・働きやすさ・安定性・起業適性）で業界を比べると、進路選びの材料になります。",
+      "advice": "進路は「好き」だけでなく、複数の軸で一緒に眺めると視野が広がります。",
+      "nextStep": "興味のある仕事を、年収だけでなく将来性や働きやすさでも調べてみましょう。"
+    },
+    "166": {
+      "categories": [
+        "development",
+        "family"
+      ],
+      "tags": [
+        "自閉症",
+        "早期介入",
+        "遊び",
+        "関わり"
+      ],
+      "ageBands": [
+        "preschool"
+      ],
+      "finding": "家庭の遊びの中で親が関わる早期集中介入が、自閉症児の発達を改善しました（ESDM）。",
+      "advice": "特別な訓練より、日常の遊びでの濃い関わりが脳の育ちを支えます。",
+      "nextStep": "1日数回、子どもの好きな遊びに親が本気で付き合う時間を作りましょう。"
+    },
+    "167": {
+      "categories": [
+        "development",
+        "family"
+      ],
+      "tags": [
+        "自閉症",
+        "親の関わり",
+        "療育"
+      ],
+      "ageBands": [
+        "preschool",
+        "elementary"
+      ],
+      "finding": "親の関わり方を支援すると、自閉症の子の症状が6年後も改善していました。",
+      "advice": "子どもを変えようとするより、親の関わりが変わると長く効きます。",
+      "nextStep": "指示を減らし、子どものペースに合わせて待つ時間を増やしてみましょう。"
+    },
+    "168": {
+      "categories": [
+        "development",
+        "family"
+      ],
+      "tags": [
+        "自閉症",
+        "ことば",
+        "応答",
+        "関わり"
+      ],
+      "ageBands": [
+        "preschool"
+      ],
+      "finding": "親が子の関心に応答的に関わると、自閉症の子の言葉が10年後まで伸び続けました。",
+      "advice": "子どもが見ているものに合わせて応える関わりが、言葉を育てます。",
+      "nextStep": "子どもが指さしたものに「○○だね」と言葉を添えてみましょう。"
     },
     "169": {
       "categories": [
@@ -372,1142 +1311,248 @@
       "advice": "勉強の前に20分だけ体を動かすと、集中しやすくなることがあります。",
       "nextStep": "宿題の前に、なわとびや散歩を20分だけ試してみましょう。"
     },
-    "168": {
+    "170": {
       "categories": [
-        "development",
-        "family"
+        "development"
       ],
       "tags": [
+        "不安",
+        "CBT",
         "自閉症",
-        "ことば",
-        "応答",
-        "関わり"
-      ],
-      "ageBands": [
-        "preschool"
-      ],
-      "finding": "親が子の関心に応答的に関わると、自閉症の子の言葉が10年後まで伸び続けました。",
-      "advice": "子どもが見ているものに合わせて応える関わりが、言葉を育てます。",
-      "nextStep": "子どもが指さしたものに「○○だね」と言葉を添えてみましょう。"
-    },
-    "167": {
-      "categories": [
-        "development",
-        "family"
-      ],
-      "tags": [
-        "自閉症",
-        "親の関わり",
-        "療育"
-      ],
-      "ageBands": [
-        "preschool",
-        "elementary"
-      ],
-      "finding": "親の関わり方を支援すると、自閉症の子の症状が6年後も改善していました。",
-      "advice": "子どもを変えようとするより、親の関わりが変わると長く効きます。",
-      "nextStep": "指示を減らし、子どものペースに合わせて待つ時間を増やしてみましょう。"
-    },
-    "166": {
-      "categories": [
-        "development",
-        "family"
-      ],
-      "tags": [
-        "自閉症",
-        "早期介入",
-        "遊び",
-        "関わり"
-      ],
-      "ageBands": [
-        "preschool"
-      ],
-      "finding": "家庭の遊びの中で親が関わる早期集中介入が、自閉症児の発達を改善しました（ESDM）。",
-      "advice": "特別な訓練より、日常の遊びでの濃い関わりが脳の育ちを支えます。",
-      "nextStep": "1日数回、子どもの好きな遊びに親が本気で付き合う時間を作りましょう。"
-    },
-    "165": {
-      "categories": [
-        "future"
-      ],
-      "tags": [
-        "進路",
-        "業界研究",
-        "キャリア",
-        "学歴"
-      ],
-      "ageBands": [
-        "teen"
-      ],
-      "finding": "5つの軸（年収・将来性・働きやすさ・安定性・起業適性）で業界を比べると、進路選びの材料になります。",
-      "advice": "進路は「好き」だけでなく、複数の軸で一緒に眺めると視野が広がります。",
-      "nextStep": "興味のある仕事を、年収だけでなく将来性や働きやすさでも調べてみましょう。"
-    },
-    "164": {
-      "categories": [
-        "study"
-      ],
-      "tags": [
-        "宿題",
-        "家庭学習",
-        "学力",
-        "勉強"
+        "認知行動療法"
       ],
       "ageBands": [
         "elementary"
       ],
-      "finding": "宿題と成績の関係を調べたメタ分析では、特に小学生では宿題の量と学力の関連はとても小さいと示されました。",
-      "advice": "小学生のうちは、宿題の「量」よりも「楽しく学ぶ習慣」を大切にして大丈夫です。",
-      "nextStep": "宿題が進まない日も叱らず、「10分だけ一緒にやろう」と短く区切ってみましょう。"
+      "finding": "認知行動療法（CBT）と親の関わりで、自閉症の子の不安が改善しました。",
+      "advice": "強い不安は、関わり方やCBTで和らげられます。",
+      "nextStep": "不安が強いときは、安心できる見通しを具体的に伝えてあげましょう。"
     },
-    "163": {
-      "categories": [
-        "study",
-        "lifestyle"
-      ],
-      "tags": [
-        "お手伝い",
-        "家事",
-        "実行機能",
-        "考える力"
-      ],
-      "ageBands": [
-        "preschool",
-        "elementary"
-      ],
-      "finding": "家のお手伝いをする子は、計画・自制などの実行機能が高い傾向がありました。",
-      "advice": "毎日3分のお手伝いが、考える力（実行機能）を育てます。",
-      "nextStep": "食器運びなど、子ども担当の小さな家事を1つ決めてみましょう。"
-    },
-    "162": {
-      "categories": [
-        "lifestyle"
-      ],
-      "tags": [
-        "生活リズム",
-        "家庭環境",
-        "規則正しい",
-        "睡眠"
-      ],
-      "ageBands": [
-        "preschool",
-        "elementary"
-      ],
-      "finding": "家の中が騒がしく無秩序だと、子どもの社会情緒的な発達が妨げられやすいと示されました。",
-      "advice": "規則正しく落ち着いた家のリズムが、子どもの心の育ちを守ります。",
-      "nextStep": "食事・就寝など1日の節目の時間を、できる範囲で一定にしましょう。"
-    },
-    "161": {
-      "categories": [
-        "lifestyle"
-      ],
-      "tags": [
-        "片付け",
-        "掃除",
-        "ストレス",
-        "親"
-      ],
-      "ageBands": [
-        "preschool",
-        "elementary",
-        "teen"
-      ],
-      "finding": "家が散らかっていると感じる母親ほど、ストレスホルモンが高い傾向がありました。",
-      "advice": "片付けは子どものためだけでなく、親の心の余裕にも効きます。",
-      "nextStep": "完璧を目指さず、目につく1か所だけ片付けてみましょう。"
-    },
-    "160": {
-      "categories": [
-        "lifestyle",
-        "study"
-      ],
-      "tags": [
-        "片付け",
-        "環境",
-        "集中力",
-        "勉強部屋",
-        "注意"
-      ],
-      "ageBands": [
-        "preschool",
-        "elementary"
-      ],
-      "finding": "幼児の実験では、掲示物などで視覚的に情報が多い教室ほど子どもの注意がそれやすく、学びの効率が下がりました。",
-      "advice": "勉強する場所は「見えるものを減らす」だけで、集中しやすくなります。",
-      "nextStep": "机まわりのおもちゃやポスターを片付け、今やることだけが見える状態にしてみましょう。"
-    },
-    "159": {
-      "categories": [
-        "family"
-      ],
-      "tags": [
-        "出生順位",
-        "きょうだい",
-        "性格"
-      ],
-      "ageBands": [
-        "elementary",
-        "teen"
-      ],
-      "finding": "きょうだいの中で下の子ほど、挑戦的・冒険的になりやすい傾向が見られました。",
-      "advice": "きょうだいで性格が違うのは自然なこと。比べず個性として見ましょう。",
-      "nextStep": "上の子・下の子それぞれの持ち味を、言葉にして認めてあげましょう。"
-    },
-    "158": {
-      "categories": [
-        "selfesteem",
-        "family"
-      ],
-      "tags": [
-        "条件付きの愛",
-        "愛情",
-        "自己肯定感"
-      ],
-      "ageBands": [
-        "elementary",
-        "teen"
-      ],
-      "finding": "「いい子なら愛する」という条件付きの関わりは、子どもがやりたいことを見失わせやすいと示されました。",
-      "advice": "「できたら好き」ではなく、存在そのものを受け止める言葉を大切に。",
-      "nextStep": "結果に関係なく「あなたがいてうれしい」と伝える日を作りましょう。"
-    },
-    "157": {
-      "categories": [
-        "family"
-      ],
-      "tags": [
-        "きょうだい",
-        "巣立ち",
-        "出生順位"
-      ],
-      "ageBands": [
-        "teen"
-      ],
-      "finding": "兄姉が家を出ると、弟妹も後を追うように家を出やすくなると示されました。",
-      "advice": "巣立ちはきょうだいで連鎖しがち。寂しさは自然な反応です。",
-      "nextStep": "子どもの自立を、少しずつ手放す練習と捉えて見守りましょう。"
-    },
-    "156": {
-      "categories": [
-        "family"
-      ],
-      "tags": [
-        "きょうだい",
-        "時間",
-        "長子",
-        "下の子"
-      ],
-      "ageBands": [
-        "preschool",
-        "elementary"
-      ],
-      "finding": "親は上の子と「質の高い時間」を多く過ごしがちで下の子は不利になりやすいが、週1の関わりで挽回できます。",
-      "advice": "下の子と1対1の時間が不足しがち。意識して作ると差を埋められます。",
-      "nextStep": "週に1回、下の子と二人だけの時間を予定に入れてみましょう。"
-    },
-    "155": {
-      "youtubeUrl": "https://www.youtube.com/watch?v=tVN1Psa8LDQ",
-      "blogUrl": "https://risan.jpn.org/?p=11398",
-      "categories": [
-        "family",
-        "study"
-      ],
-      "tags": [
-        "出生順位",
-        "IQ",
-        "きょうだい"
-      ],
-      "ageBands": [
-        "elementary"
-      ],
-      "finding": "上の子は下の子よりIQがわずかに高い傾向がありますが、差は小さく「教える経験」で説明されます。",
-      "advice": "生まれ順でかしこさは決まりません。教える経験が伸ばします。",
-      "nextStep": "下の子にも「教える役」を任せる場面を作ってみましょう。"
-    },
-    "154": {
-      "youtubeUrl": "https://www.youtube.com/watch?v=5pi2ltJ-lZM",
-      "blogUrl": "https://risan.jpn.org/?p=11374",
-      "categories": [
-        "family"
-      ],
-      "tags": [
-        "出生順位",
-        "性格",
-        "きょうだい"
-      ],
-      "ageBands": [
-        "elementary",
-        "teen"
-      ],
-      "finding": "大規模研究では、出生順位は性格をほとんど変えませんでした。",
-      "advice": "「長子だから/末っ子だから」は思い込み。性格は順位で決まりません。",
-      "nextStep": "順位のレッテルを外し、その子個人として関わりましょう。"
-    },
-    "153": {
-      "youtubeUrl": "https://www.youtube.com/watch?v=rXQ1lgTlvjk",
-      "blogUrl": "https://risan.jpn.org/?p=11351",
-      "categories": [
-        "lifestyle"
-      ],
-      "tags": [
-        "スマホ",
-        "スクリーン",
-        "幸福",
-        "メディア"
-      ],
-      "ageBands": [
-        "teen"
-      ],
-      "finding": "スマホ等の使用が長い（目安5時間）ほど、心の不調と関連する傾向がありました。",
-      "advice": "スマホは「ゼロ」より「長すぎない」ことが大切です。",
-      "nextStep": "1日の使用時間の上限を、子どもと一緒に決めてみましょう。"
-    },
-    "152": {
-      "youtubeUrl": "https://www.youtube.com/watch?v=cYsZRQqNaH8",
-      "blogUrl": "https://risan.jpn.org/?p=11330",
-      "categories": [
-        "family",
-        "social"
-      ],
-      "tags": [
-        "きょうだい",
-        "けんか",
-        "共感",
-        "心の理論"
-      ],
-      "ageBands": [
-        "preschool",
-        "elementary"
-      ],
-      "finding": "適度なきょうだいげんかは、相手の気持ちを読む力（心の理論）を育てる面があります。",
-      "advice": "きょうだいげんかは全部が悪ではなく、社会性の練習にもなります。",
-      "nextStep": "すぐ仲裁せず「相手はどう思ったかな?」と問いかけてみましょう。"
-    },
-    "151": {
-      "youtubeUrl": "https://www.youtube.com/watch?v=zBt6GiSweDU",
-      "blogUrl": "https://risan.jpn.org/?p=11310",
-      "categories": [
-        "future",
-        "study"
-      ],
-      "tags": [
-        "個別学習",
-        "寺子屋",
-        "学び"
-      ],
-      "ageBands": [
-        "elementary"
-      ],
-      "finding": "寺子屋は一人ひとりに合わせた個別学習で、子どもを伸ばしていました。",
-      "advice": "みんな同じより、その子の進度に合わせる学びが力を伸ばします。",
-      "nextStep": "苦手は学年にこだわらず、できる所まで戻って進めてみましょう。"
-    },
-    "150": {
-      "paperUrl": "https://cir.nii.ac.jp/crid/1520853832141931520",
-      "categories": [
-        "future"
-      ],
-      "tags": [
-        "教育",
-        "寺子屋",
-        "投資"
-      ],
-      "ageBands": [
-        "elementary",
-        "teen"
-      ],
-      "finding": "江戸時代の寺子屋は「教育は割に合う投資」という考えから広まりました。",
-      "advice": "教育は将来への投資。早くからの学ぶ環境づくりが効きます。",
-      "nextStep": "家庭に本や学ぶ道具を、手の届く所に置いてみましょう。"
-    },
-    "149": {
-      "blogUrl": "https://risan.jpn.org/?p=11240",
-      "categories": [
-        "family"
-      ],
-      "tags": [
-        "親子関係",
-        "介入",
-        "愛着"
-      ],
-      "ageBands": [
-        "preschool"
-      ],
-      "finding": "母親への支援的な介入で、親子関係が改善しました。",
-      "advice": "子どもの困りごとのカギは、親子関係の質にあることが多いです。",
-      "nextStep": "1日数分、子どもと目を合わせて遊ぶ時間を意識しましょう。"
-    },
-    "148": {
-      "blogUrl": "https://risan.jpn.org/?p=11218",
-      "categories": [
-        "lifestyle",
-        "family"
-      ],
-      "tags": [
-        "マインドフルネス",
-        "親子",
-        "余裕"
-      ],
-      "ageBands": [
-        "preschool",
-        "elementary"
-      ],
-      "finding": "親のマインドフルネスな関わりで、親子関係が良くなりました。",
-      "advice": "反応する前の「ひと呼吸」が、親子の関係を和らげます。",
-      "nextStep": "イラッとしたら、返事の前に1秒だけ深呼吸してみましょう。"
-    },
-    "147": {
-      "blogUrl": "https://risan.jpn.org/?p=11195",
-      "categories": [
-        "future"
-      ],
-      "tags": [
-        "環境",
-        "収入",
-        "引っ越し",
-        "格差"
-      ],
-      "ageBands": [
-        "preschool",
-        "elementary"
-      ],
-      "finding": "子どものうちに良い地域へ引っ越した子は、将来の収入が高くなりやすいと示されました。",
-      "advice": "育つ「地域・環境」は、将来に長く影響します。",
-      "nextStep": "引っ越しが難しくても、良い人や良い習慣に触れる機会を増やしましょう。"
-    },
-    "146": {
-      "exclude": true,
-      "_reason": "147（Chetty・住む場所と収入）とテーマ重複のため代表1本に集約"
-    },
-    "145": {
-      "blogUrl": "https://risan.jpn.org/?p=11154",
-      "categories": [
-        "future",
-        "study"
-      ],
-      "tags": [
-        "収入",
-        "学力",
-        "家庭習慣"
-      ],
-      "ageBands": [
-        "elementary"
-      ],
-      "finding": "親の収入は小学校低学年の成績に影響しますが、家庭の関わりで差は縮められます。",
-      "advice": "収入が低くても、家庭の習慣で学力差は挽回できます。",
-      "nextStep": "読み聞かせ・会話・規則正しい生活など、お金のかからない習慣を続けましょう。"
-    },
-    "144": {
-      "blogUrl": "https://risan.jpn.org/?p=11134",
-      "categories": [
-        "future"
-      ],
-      "tags": [
-        "年収",
-        "学力",
-        "格差"
-      ],
-      "ageBands": [
-        "elementary",
-        "teen"
-      ],
-      "finding": "親の年収と子どもの学力には強い相関があり、近年その差は拡大しています。",
-      "advice": "家庭の影響は大きいですが、決定ではありません。できることに集中を。",
-      "nextStep": "家庭でできる学びの習慣を1つ、今日から始めましょう。"
-    },
-    "143": {
-      "blogUrl": "https://risan.jpn.org/?p=11106",
-      "categories": [
-        "future"
-      ],
-      "tags": [
-        "教育投資",
-        "格差",
-        "支出"
-      ],
-      "ageBands": [
-        "elementary",
-        "teen"
-      ],
-      "finding": "高所得家庭ほど子どもへの教育的支出を増やし、格差が広がっています。",
-      "advice": "お金をかけられなくても、時間と関わりは平等にかけられます。",
-      "nextStep": "高い教材より、図書館や対話など無料の学び資源を活用しましょう。"
-    },
-    "142": {
-      "blogUrl": "https://risan.jpn.org/?p=11081",
-      "categories": [
-        "future"
-      ],
-      "tags": [
-        "学歴",
-        "収入",
-        "健康"
-      ],
-      "ageBands": [
-        "teen"
-      ],
-      "finding": "教育は一部の人の賃金や健康を改善しますが、全員に大学が必要なわけではありません。",
-      "advice": "「全員大学」ではなく、その子に合った進路が幸福につながります。",
-      "nextStep": "学歴一択で考えず、子どもの適性に合う道を一緒に探しましょう。"
-    },
-    "141": {
-      "blogUrl": "https://risan.jpn.org/?p=11057",
-      "categories": [
-        "future"
-      ],
-      "tags": [
-        "学歴",
-        "収入",
-        "教育年数"
-      ],
-      "ageBands": [
-        "teen"
-      ],
-      "finding": "教育年数が1年増えると平均で約9%収入が上がりますが、本人の能力など他の要因も影響します。",
-      "advice": "学歴は収入と関連しますが、それだけが要因ではありません。",
-      "nextStep": "「何年学ぶか」より「何を身につけるか」を一緒に考えましょう。"
-    },
-    "140": {
-      "blogUrl": "https://risan.jpn.org/?p=11036",
-      "categories": [
-        "future"
-      ],
-      "tags": [
-        "学歴",
-        "賃金",
-        "教育年数"
-      ],
-      "ageBands": [
-        "teen"
-      ],
-      "finding": "教育年数が長い人ほど賃金が高いという関係を、古典的データが示しました。",
-      "advice": "学びは将来の選択肢を広げる土台になります。",
-      "nextStep": "子どもが学び続けたくなる小さな成功体験を増やしましょう。"
-    },
-    "139": {
-      "blogUrl": "https://risan.jpn.org/?p=11017",
-      "categories": [
-        "future"
-      ],
-      "tags": [
-        "教師",
-        "学校",
-        "進路"
-      ],
-      "ageBands": [
-        "elementary",
-        "teen"
-      ],
-      "finding": "質の高い教師に教わった子は、将来の収入まで高くなりやすいと示されました。",
-      "advice": "教育は「いくら使うか」より「誰に教わるか」が効きます。",
-      "nextStep": "相性の良い先生や指導者との出会いを大切にしましょう。"
-    },
-    "138": {
-      "blogUrl": "https://risan.jpn.org/?p=10974",
-      "categories": [
-        "future"
-      ],
-      "tags": [
-        "教育費",
-        "成績",
-        "投資"
-      ],
-      "ageBands": [
-        "elementary",
-        "teen"
-      ],
-      "finding": "教育にかけるお金の額と成績の関係は、弱いものでした。",
-      "advice": "お金をかければ伸びるわけではありません。使い方が大事です。",
-      "nextStep": "教材を増やす前に、今あるものをやりきる仕組みを作りましょう。"
-    },
-    "137": {
-      "blogUrl": "https://risan.jpn.org/?p=10935",
-      "categories": [
-        "family"
-      ],
-      "tags": [
-        "共働き",
-        "働き方",
-        "愛着"
-      ],
-      "ageBands": [
-        "preschool",
-        "elementary"
-      ],
-      "finding": "共働きか専業かは、子どもの発達にほとんど影響しませんでした。",
-      "advice": "働き方より、一緒にいる時間の質が子どもには大切です。",
-      "nextStep": "短くても、子どもに集中して関わる時間を毎日作りましょう。"
-    },
-    "136": {
-      "blogUrl": "https://risan.jpn.org/?p=10954",
-      "categories": [
-        "family",
-        "future"
-      ],
-      "tags": [
-        "収入",
-        "関わり",
-        "格差"
-      ],
-      "ageBands": [
-        "preschool",
-        "elementary"
-      ],
-      "finding": "収入の低さ自体より、親の関わりの質が子どもの育ちを左右します。",
-      "advice": "お金がなくても、関わり方で子どもはしっかり伸びます。",
-      "nextStep": "会話・読み聞かせなど、お金のかからない関わりを増やしましょう。"
-    },
-    "135": {
-      "blogUrl": "https://risan.jpn.org/?p=10911",
+    "171": {
       "categories": [
         "social",
-        "discipline"
+        "development"
       ],
       "tags": [
-        "同調",
-        "しつけ",
-        "流される"
+        "友だち",
+        "社会スキル",
+        "自閉症",
+        "孤立"
       ],
       "ageBands": [
-        "preschool"
-      ],
-      "finding": "厳しく管理的に育てると、3歳ですでに周りに流されやすい傾向が見られました。",
-      "advice": "厳しすぎるしつけは、自分で考える力より同調を育てがちです。",
-      "nextStep": "指示で従わせるより、「どう思う?」と意見を聞く場面を増やしましょう。"
-    },
-    "134": {
-      "blogUrl": "https://risan.jpn.org/?p=10887",
-      "categories": [
-        "selfesteem",
-        "discipline"
-      ],
-      "tags": [
-        "感情",
-        "言語化",
-        "ストレス"
-      ],
-      "ageBands": [
-        "elementary",
         "teen"
       ],
-      "finding": "感情は「吐き出す」より、言葉にして整理する方が回復につながります。",
-      "advice": "モヤモヤは、ぶつけるより言葉にすると落ち着きます。",
-      "nextStep": "嫌なことがあった日、「何があった?どう感じた?」と言葉にさせてみましょう。"
+      "finding": "親が関わるプログラムで、思春期の自閉症の子の友だち作りスキルが向上しました（PEERS）。",
+      "advice": "友だち作りのコツは教えられます。親が裏方で支えると効果的です。",
+      "nextStep": "「誘い方・話の入り方」を家でロールプレイして練習してみましょう。"
     },
-    "133": {
-      "blogUrl": "https://risan.jpn.org/?p=10855",
+    "172": {
+      "exclude": true,
+      "_reason": "就活シリーズの詳細回。単一助言になじまないため対象外（総論165は採用）"
+    },
+    "173": {
+      "exclude": true,
+      "_reason": "就活シリーズの詳細回。単一助言になじまないため対象外（総論165は採用）"
+    },
+    "174": {
+      "exclude": true,
+      "_reason": "就活シリーズの詳細回。単一助言になじまないため対象外（総論165は採用）"
+    },
+    "175": {
       "categories": [
         "development"
       ],
       "tags": [
         "自閉症",
-        "環境",
-        "総説"
+        "AQ",
+        "スペクトラム",
+        "個性"
       ],
       "ageBands": [
-        "preschool",
+        "teen"
+      ],
+      "finding": "自閉症の特性は連続的で、AQで測れ、理数系の才能と関連することがあります。",
+      "advice": "特性は優劣ではなく個性。理数の強みと結びつくこともあります。",
+      "nextStep": "気になる特性は、得意分野とセットで見てあげましょう。"
+    },
+    "176": {
+      "categories": [
+        "development",
+        "selfesteem"
+      ],
+      "tags": [
+        "自閉症",
+        "特性",
+        "個性",
+        "強み"
+      ],
+      "ageBands": [
+        "elementary",
+        "teen"
+      ],
+      "finding": "自閉スペクトラムの特性は程度の差で誰にでもあり、強みにもなりえます。",
+      "advice": "「ちょっと変わってる」は、見方を変えれば才能の芽かもしれません。",
+      "nextStep": "苦手を直すより、その子の強い興味を伸ばす関わりを増やしましょう。"
+    },
+    "177": {
+      "categories": [
+        "development"
+      ],
+      "tags": [
+        "ADHD",
+        "スペクトラム",
+        "個性",
+        "不注意"
+      ],
+      "ageBands": [
         "elementary"
       ],
-      "finding": "自閉症は「子どもを変える」より「環境を整える」ことが重要だと総説が示しています。",
-      "advice": "子どもを直そうとせず、過ごしやすい環境を整えることが先です。",
-      "nextStep": "苦手な刺激（音・光など）を減らす工夫を1つ取り入れましょう。"
+      "finding": "ADHDの特性は「あるかないか」ではなく、誰もが持つ特性の濃淡（スペクトラム）と捉えられます。",
+      "advice": "「何回言ってもできない」は、性格や努力不足ではなく特性のことがあります。",
+      "nextStep": "叱る前に「どうすればできる環境か」を一緒に工夫してみましょう。"
     },
-    "132": {
-      "blogUrl": "https://risan.jpn.org/?p=10825",
-      "categories": [
-        "future",
-        "selfesteem"
-      ],
-      "tags": [
-        "性教育",
-        "自己肯定感",
-        "安全"
-      ],
-      "ageBands": [
-        "preschool",
-        "elementary",
-        "teen"
-      ],
-      "finding": "国際的な指針では、年齢に応じた包括的性教育が子どもの安全と自己肯定感を育てるとされます。",
-      "advice": "性教育は「寝た子を起こす」ではなく、身を守る力になります。",
-      "nextStep": "年齢に合わせ、プライベートゾーンなど体の話を少しずつ伝えましょう。"
+    "178": {
+      "exclude": true,
+      "_reason": "近視治療の情報まとめ。医療情報で単一の助言化が難しいため対象外"
     },
-    "131": {
-      "blogUrl": "https://risan.jpn.org/?p=10803",
+    "179": {
       "categories": [
-        "future",
-        "selfesteem"
-      ],
-      "tags": [
-        "意思決定",
-        "マキシマイザー",
-        "比較",
-        "幸福"
-      ],
-      "ageBands": [
-        "teen"
-      ],
-      "finding": "常に「最高」を求めて比べ続ける姿勢は、幸福度を下げやすいと示されました。",
-      "advice": "「最高」を目指すのは良いが、比べ続けさせるのは逆効果です。",
-      "nextStep": "決めたら振り返りすぎず、「これで十分」と区切る練習をさせましょう。"
-    },
-    "130": {
-      "blogUrl": "https://risan.jpn.org/?p=10779",
-      "categories": [
-        "future"
-      ],
-      "tags": [
-        "意思決定",
-        "マキシマイザー",
-        "後悔",
-        "決断力"
-      ],
-      "ageBands": [
-        "teen"
-      ],
-      "finding": "完璧な選択を求める人ほど、決断を避け後悔しやすいと示されました。",
-      "advice": "良い親ほど選択肢を与えすぎて、子の決断力を奪うことがあります。",
-      "nextStep": "選択肢は2〜3個に絞って、本人に決めさせてみましょう。"
-    },
-    "129": {
-      "blogUrl": "https://risan.jpn.org/?p=10757",
-      "categories": [
-        "future",
-        "selfesteem"
-      ],
-      "tags": [
-        "意思決定",
-        "満足",
-        "幸福"
-      ],
-      "ageBands": [
-        "elementary",
-        "teen"
-      ],
-      "finding": "「そこそこで満足する人（サティスファイザー）」は、完璧主義者より幸福度が高いと示されました。",
-      "advice": "完璧を求めすぎると、親も子も苦しくなります。",
-      "nextStep": "「80点で十分」と、合格ラインを下げてあげる声かけを。"
-    },
-    "128": {
-      "blogUrl": "https://risan.jpn.org/?p=10730",
-      "categories": [
-        "future"
-      ],
-      "tags": [
-        "意思決定",
-        "十分満足",
-        "限定合理性"
-      ],
-      "ageBands": [
-        "teen"
-      ],
-      "finding": "人は完璧な選択はできない前提で、「十分よい」選択をする方が現実的です（限定合理性）。",
-      "advice": "子育ても勉強も、完璧な正解探しは不要です。",
-      "nextStep": "迷ったら「十分よい」選択でOKと、自分にも許可しましょう。"
-    },
-    "127": {
-      "blogUrl": "https://risan.jpn.org/?p=10707",
-      "categories": [
-        "social"
-      ],
-      "tags": [
-        "同調",
-        "流される",
-        "集団圧力"
-      ],
-      "ageBands": [
-        "elementary",
-        "teen"
-      ],
-      "finding": "同調には「正しいと思って合わせる」場合と「嫌われたくなくて合わせる」場合があります。",
-      "advice": "「みんなやってる」に流される理由を知ると、対処を教えられます。",
-      "nextStep": "「なぜそうしたい?自分はどう思う?」と理由を言葉にさせましょう。"
-    },
-    "126": {
-      "categories": [
-        "social"
-      ],
-      "tags": [
-        "同調",
-        "文化",
-        "協調"
-      ],
-      "ageBands": [
-        "elementary",
-        "teen"
-      ],
-      "finding": "日本は他国より同調率が高めですが、協調性は社会的成功にもつながりえます。",
-      "advice": "流されるのは悪いだけでなく、協調する力にもなります。",
-      "nextStep": "周りに合わせたときも、「自分はどう考えた?」を一緒に確認しましょう。"
-    },
-    "125": {
-      "categories": [
-        "social"
-      ],
-      "tags": [
-        "同調",
-        "思春期",
-        "判断"
-      ],
-      "ageBands": [
-        "teen"
-      ],
-      "finding": "12歳ごろから、自分の目より他人の意見を信じて同調しやすくなります。",
-      "advice": "思春期は周りの影響が強まる時期。頭ごなしより対話を。",
-      "nextStep": "友だちと違う意見も、家では安心して言える雰囲気を作りましょう。"
-    },
-    "124": {
-      "blogUrl": "https://risan.jpn.org/?p=10596",
-      "categories": [
-        "social"
-      ],
-      "tags": [
-        "集団圧力",
-        "同調",
-        "流される"
-      ],
-      "ageBands": [
-        "elementary",
-        "teen"
-      ],
-      "finding": "明らかに正しい答えでも、多数派に合わせて誤答してしまう「同調」が起きます。",
-      "advice": "流されない力は、家で「違っても言える」経験から育ちます。",
-      "nextStep": "家族で少数意見を歓迎する場面を、意識して作りましょう。"
-    },
-    "123": {
-      "categories": [
+        "selfesteem",
         "family"
       ],
       "tags": [
-        "夫婦",
-        "夫婦関係",
-        "ケンカ",
-        "コミュニケーション",
-        "家庭環境"
+        "努力",
+        "先回り",
+        "過保護"
       ],
       "ageBands": [
         "preschool",
-        "elementary",
-        "teen"
+        "elementary"
       ],
-      "finding": "夫婦のやり取りを観察した研究では、口論そのものより、批判・侮辱・防御・無視が続くことが関係の悪化を予測しました。",
-      "advice": "ケンカしても大丈夫。大切なのは「相手を見下さない・無視しない」ことです。",
-      "nextStep": "意見が違っても、まず「あなたはそう思うんだね」と一度受け止めてから話してみましょう。"
+      "finding": "努力して得たものほど価値を感じる一方、先回りで与えすぎると育ちを妨げます。",
+      "advice": "何でも先回りで与えるより、少し頑張って得る経験を残してあげましょう。",
+      "nextStep": "つい手を出す場面で、一呼吸おいて本人にやらせてみましょう。"
     },
-    "122": {
+    "180": {
       "categories": [
-        "lifestyle"
-      ],
-      "tags": [
-        "植物",
-        "マインドフルネス",
-        "ストレス",
-        "余裕"
-      ],
-      "ageBands": [
-        "preschool",
-        "elementary",
-        "teen"
-      ],
-      "finding": "植物の世話が、心の余裕（マインドフルネス）を高めました。",
-      "advice": "植物を育てると、親自身の心に余裕が生まれます。",
-      "nextStep": "小さな観葉植物を1つ、目に入る場所に置いてみましょう。"
-    },
-    "121": {
-      "blogUrl": "https://risan.jpn.org/?p=10528",
-      "categories": [
-        "lifestyle"
-      ],
-      "tags": [
-        "植物",
-        "ストレス",
-        "リラックス"
-      ],
-      "ageBands": [
-        "preschool",
-        "elementary",
-        "teen"
-      ],
-      "finding": "室内の植物に触れると、心理・生理的なストレスが下がりました。",
-      "advice": "イライラしたとき、植物の世話が気持ちを落ち着けます。",
-      "nextStep": "水やりなど短い世話を、毎日のリセット習慣にしてみましょう。"
-    },
-    "120": {
-      "blogUrl": "https://risan.jpn.org/?p=10506",
-      "categories": [
-        "lifestyle"
-      ],
-      "tags": [
-        "植物",
-        "健康",
-        "回復"
-      ],
-      "ageBands": [
-        "preschool",
-        "elementary",
-        "teen"
-      ],
-      "finding": "病室に植物を置くと、手術後の回復が良くなりました。",
-      "advice": "緑があるだけで、心身は整いやすくなります。",
-      "nextStep": "家の過ごす場所に、緑を1つ取り入れてみましょう。"
-    },
-    "119": {
-      "blogUrl": "https://risan.jpn.org/?p=10486",
-      "categories": [
-        "discipline",
+        "future",
         "selfesteem"
       ],
       "tags": [
-        "自己制御",
-        "我慢",
-        "自己消耗"
-      ],
-      "ageBands": [
-        "elementary",
-        "teen"
-      ],
-      "finding": "「我慢で意志力が消耗する」説には反論もあり、本人の捉え方も影響します。",
-      "advice": "「電池切れ」で動けないときは、責めずに休ませるのも一手です。",
-      "nextStep": "集中が切れたら、短い休憩をはさんで切り替えさせましょう。"
-    },
-    "118": {
-      "blogUrl": "https://risan.jpn.org/?p=10464",
-      "categories": [
-        "discipline",
-        "selfesteem"
-      ],
-      "tags": [
-        "自己制御",
-        "我慢",
-        "自己消耗"
-      ],
-      "ageBands": [
-        "elementary",
-        "teen"
-      ],
-      "finding": "自己制御は、使うと一時的に減る資源のように働くことがあります。",
-      "advice": "いい子ほど外で我慢し、家で荒れるのは自然な反動です。",
-      "nextStep": "家では我慢を緩め、安心して甘えられる時間を作りましょう。"
-    },
-    "117": {
-      "blogUrl": "https://risan.jpn.org/?p=10443",
-      "categories": [
-        "discipline",
-        "lifestyle"
-      ],
-      "tags": [
-        "自己制御",
-        "我慢",
-        "親",
-        "ストレス"
+        "選択",
+        "意思決定",
+        "自己決定"
       ],
       "ageBands": [
         "preschool",
+        "elementary"
+      ],
+      "finding": "4歳児やサルでも、自分で選んだものを後から好きになる傾向があります。",
+      "advice": "自分で選ばせると、その選択を好きになりやすくなります。",
+      "nextStep": "小さなことでも「どっちにする?」と本人に選ばせてみましょう。"
+    },
+    "181": {
+      "categories": [
+        "study"
+      ],
+      "tags": [
+        "勉強法",
+        "認知負荷",
+        "例題"
+      ],
+      "ageBands": [
         "elementary",
         "teen"
       ],
-      "finding": "我慢を続けると自己制御が利きにくくなり、後で爆発しやすくなります。",
-      "advice": "親も我慢しすぎると爆発します。早めの息抜きが大切です。",
-      "nextStep": "限界の前に、5分でも一人になる時間を確保しましょう。"
+      "finding": "初学者には「まず自分で考えて」より、先に解き方を教える方が効果的なことがあります。",
+      "advice": "「まず自分で考えて」は、基礎がない段階では逆効果になることもあります。",
+      "nextStep": "新しい単元は、最初に解き方を示してから練習に入りましょう。"
     },
-    "116": {
-      "blogUrl": "https://risan.jpn.org/?p=10423",
+    "182": {
+      "categories": [
+        "study"
+      ],
+      "tags": [
+        "勉強法",
+        "例題",
+        "認知負荷"
+      ],
+      "ageBands": [
+        "elementary",
+        "teen"
+      ],
+      "finding": "自力で解かせるより、解き方の例題を見せる方が効率よく学べる場面があります。",
+      "advice": "つまずく問題は、まず解き方の「お手本」を見せると理解が早まります。",
+      "nextStep": "難しい問題は、答えの過程を一緒に読んでから取り組ませてみましょう。"
+    },
+    "183": {
+      "categories": [
+        "study"
+      ],
+      "tags": [
+        "説明",
+        "認知負荷",
+        "声かけ",
+        "勉強法"
+      ],
+      "ageBands": [
+        "elementary",
+        "teen"
+      ],
+      "finding": "すでに分かっている子に説明しすぎると、かえって理解を妨げることがあります（冗長性効果）。",
+      "advice": "説明は「足りない」だけでなく「しすぎ」も逆効果。分かっていそうなら任せて。",
+      "nextStep": "教える前に「どこまで分かる?」と聞き、必要な所だけ説明しましょう。"
+    },
+    "184": {
+      "exclude": true,
+      "_reason": "防災・避難行動。日常子育て助言になじまないため対象外"
+    },
+    "185": {
+      "exclude": true,
+      "_reason": "防災・楽観バイアス。日常子育て助言になじまないため対象外"
+    },
+    "186": {
+      "exclude": true,
+      "_reason": "防災・正常性バイアス。日常子育て助言になじまないため対象外"
+    },
+    "187": {
+      "categories": [
+        "future",
+        "study"
+      ],
+      "tags": [
+        "早生まれ",
+        "相対年齢",
+        "学力",
+        "非認知能力"
+      ],
+      "ageBands": [
+        "preschool",
+        "elementary"
+      ],
+      "finding": "早生まれの子は、学力や非認知能力で平均的にやや不利な傾向が見られました（相対年齢効果）。",
+      "advice": "早生まれの「できない」は、発達の遅れではなく月齢差のことが多いです。",
+      "nextStep": "同学年で比べず、「半年前のその子」と比べて成長を見てあげましょう。"
+    },
+    "188": {
       "categories": [
         "selfesteem",
-        "discipline"
+        "future"
       ],
       "tags": [
-        "感情",
-        "親の反応",
-        "共感"
-      ],
-      "ageBands": [
-        "preschool",
-        "elementary"
-      ],
-      "finding": "子どもの感情への親の反応の仕方が、子の社会的能力を左右します。",
-      "advice": "「泣くな」は逆効果。感情を受け止める方が育ちます。",
-      "nextStep": "泣いたときは止めず「悲しかったね」とまず気持ちに名前をつけましょう。"
-    },
-    "115": {
-      "blogUrl": "https://risan.jpn.org/?p=10397",
-      "categories": [
-        "discipline"
-      ],
-      "tags": [
-        "怒り",
-        "アンガーマネジメント",
-        "6秒"
-      ],
-      "ageBands": [
-        "elementary",
-        "teen"
-      ],
-      "finding": "怒りは、数秒待つことで衝動が和らぎます（6秒ルール）。",
-      "advice": "カッとした瞬間の数秒をやり過ごすと、言いすぎを防げます。",
-      "nextStep": "怒りを感じたら、心の中で6秒数えてから口を開きましょう。"
-    },
-    "114": {
-      "blogUrl": "https://risan.jpn.org/?p=10316",
-      "categories": [
-        "discipline"
-      ],
-      "tags": [
-        "怒り",
-        "抑制",
-        "アンガーマネジメント"
-      ],
-      "ageBands": [
-        "elementary",
-        "teen"
-      ],
-      "finding": "怒りをただ抑え込むと、かえって悪化することがあります。",
-      "advice": "我慢でフタをするより、捉え方を変える方が効きます。",
-      "nextStep": "「相手にも事情がある」と、一度言い換えてみましょう。"
-    },
-    "113": {
-      "blogUrl": "https://risan.jpn.org/?p=10246",
-      "categories": [
-        "discipline"
-      ],
-      "tags": [
-        "怒り",
-        "再評価",
-        "捉え方"
-      ],
-      "ageBands": [
-        "elementary",
-        "teen"
-      ],
-      "finding": "出来事の捉え方を変える（再評価）と、怒りが大きく減ります。",
-      "advice": "怒りは「どう受け取るか」で半分にできます。",
-      "nextStep": "イラッとしたら「別の見方はない?」と自問する癖をつけましょう。"
-    },
-    "112": {
-      "blogUrl": "https://risan.jpn.org/?p=10242",
-      "categories": [
-        "selfesteem"
-      ],
-      "tags": [
-        "ブランド",
-        "自尊心",
-        "思春期"
-      ],
-      "ageBands": [
-        "teen"
-      ],
-      "finding": "自尊感情が低い思春期ほど、ブランドで自分を満たそうとしやすいと示されました。",
-      "advice": "物より、認められる経験が「自分はOK」を育てます。",
-      "nextStep": "持ち物より、努力や人柄を具体的にほめてあげましょう。"
-    },
-    "111": {
-      "blogUrl": "https://risan.jpn.org/?p=10222",
-      "categories": [
-        "study"
-      ],
-      "tags": [
-        "メタ認知",
-        "ふり返り",
-        "考える力"
-      ],
-      "ageBands": [
-        "preschool",
-        "elementary"
-      ],
-      "finding": "5歳でも、意図的に自分の考えをふり返るメタ認知が育ち始めます。",
-      "advice": "「どう考えた?」と聞くだけで、考える力が伸びます。",
-      "nextStep": "解いた後に「どうやって考えた?」と一言たずねてみましょう。"
-    },
-    "110": {
-      "blogUrl": "https://risan.jpn.org/?p=10202",
-      "categories": [
-        "study"
-      ],
-      "tags": [
-        "メタ認知",
-        "考える力",
-        "幼児"
-      ],
-      "ageBands": [
-        "preschool"
-      ],
-      "finding": "3歳でも「考える力（メタ認知）」の芽が育っています。",
-      "advice": "小さくても、自分で考える機会が力の芽を伸ばします。",
-      "nextStep": "手伝う前に「どうしたらいいと思う?」と聞いてみましょう。"
-    },
-    "109": {
-      "blogUrl": "https://risan.jpn.org/?p=10193",
-      "categories": [
-        "selfesteem"
-      ],
-      "tags": [
-        "努力",
-        "価値",
-        "判断"
-      ],
-      "ageBands": [
-        "elementary"
-      ],
-      "finding": "努力して得たものを高く評価する一方で、その分だけ判断が歪むこともあります。",
-      "advice": "頑張った経験は価値を生みますが、思い入れすぎにも注意を。",
-      "nextStep": "努力をほめつつ、結果は冷静に振り返る声かけをしましょう。"
-    },
-    "108": {
-      "blogUrl": "https://risan.jpn.org/?p=10376",
-      "categories": [
-        "discipline",
-        "social"
-      ],
-      "tags": [
-        "所属感",
+        "自己肯定感",
         "環境",
-        "行動"
+        "比較",
+        "進路"
       ],
       "ageBands": [
-        "elementary",
         "teen"
       ],
-      "finding": "人の行動は「しつけ」より、集団への所属感や状況で大きく変わると示されました。",
-      "advice": "行動を変えるカギは、叱責より「居場所」と感じられることです。",
-      "nextStep": "家庭やクラスで「自分はここの一員」と感じる役割を与えましょう。"
+      "finding": "同じ学力でも、まわりが優秀すぎる環境では自己評価が下がりやすいと示されました（大きな池の小さな魚効果）。",
+      "advice": "「上位校で最下位」より、力を発揮できる環境が自信を育てることがあります。",
+      "nextStep": "進路選びでは偏差値だけでなく、その子が活躍できる位置も一緒に考えましょう。"
     },
-    "107": {
-      "blogUrl": "https://risan.jpn.org/?p=10354",
-      "categories": [
-        "discipline"
-      ],
-      "tags": [
-        "叱り方",
-        "しつけ",
-        "内面化"
-      ],
-      "ageBands": [
-        "preschool",
-        "elementary"
-      ],
-      "finding": "強く叱って従わせるより、軽い理由づけの方が、見ていないときも守る子に育ちました。",
-      "advice": "強い罰は、見ているときだけ従う子を作りがちです。",
-      "nextStep": "「なぜダメか」を短く理由で伝え、脅しは控えましょう。"
-    },
-    "106": {
-      "blogUrl": "https://risan.jpn.org/?p=10308",
-      "categories": [
-        "study"
-      ],
-      "tags": [
-        "メタ認知",
-        "考える力"
-      ],
-      "ageBands": [
-        "elementary",
-        "teen"
-      ],
-      "finding": "自分の考えを考える「メタ認知」が、学びの質を高めます。",
-      "advice": "「どう考えた?」の問いが、頭の使い方を育てます。",
-      "nextStep": "勉強の後に、やり方をふり返って言葉にさせましょう。"
-    },
-    "105": {
-      "blogUrl": "https://risan.jpn.org/?p=10282",
+    "189": {
       "categories": [
         "discipline",
         "study"
@@ -1515,107 +1560,110 @@
       "tags": [
         "報酬",
         "内発的動機",
-        "認知的不協和"
+        "やる気"
       ],
       "ageBands": [
         "elementary",
         "teen"
       ],
-      "finding": "報酬で行動させると、かえってその行動を「好きでない」と感じやすくなります。",
-      "advice": "ごほうびを付けすぎると、本来好きなことも嫌いになりえます。",
-      "nextStep": "もともと好きなことには、ごほうびを足さず見守りましょう。"
+      "finding": "96研究のメタ分析で、ごほうびが必ずしもやる気を壊すわけではないと示されました。",
+      "advice": "「ごほうび＝逆効果」は言い過ぎ。条件しだいでやる気とも両立します。",
+      "nextStep": "子どもが嫌がる作業の取りかかりに、ごほうびを軽く添えてみましょう。"
     },
-    "104": {
-      "blogUrl": "https://risan.jpn.org/?p=10192",
+    "190": {
       "categories": [
         "discipline",
-        "social"
-      ],
-      "tags": [
-        "環境",
-        "行動",
-        "役割"
-      ],
-      "ageBands": [
-        "teen"
-      ],
-      "finding": "環境や与えられた役割が、人の行動を大きく変えると示されました。",
-      "advice": "子の困った行動は、性格より環境のせいかもしれません。",
-      "nextStep": "行動を責める前に、まわりの状況を変えられないか考えましょう。"
-    },
-    "103": {
-      "blogUrl": "https://risan.jpn.org/?p=10165",
-      "categories": [
-        "selfesteem",
-        "family"
-      ],
-      "tags": [
-        "ブランド",
-        "物質主義",
-        "親の影響"
-      ],
-      "ageBands": [
-        "teen"
-      ],
-      "finding": "物で自分を測る親の子は、同じように物で自尊心を満たしやすいと示されました。",
-      "advice": "親の価値観は子に映ります。物より経験を大切にする姿を見せましょう。",
-      "nextStep": "買い物より、一緒に過ごす体験を家族の楽しみにしましょう。"
-    },
-    "102": {
-      "blogUrl": "https://risan.jpn.org/?p=10074",
-      "categories": [
-        "future",
-        "selfesteem"
-      ],
-      "tags": [
-        "物質主義",
-        "お金",
-        "幸福"
-      ],
-      "ageBands": [
-        "teen"
-      ],
-      "finding": "人生の目的をお金や物に置く人ほど、不安や抑うつが強い傾向がありました。",
-      "advice": "「お金が目的」の価値観は、幸福を遠ざけがちです。",
-      "nextStep": "将来の夢を、金額ではなく「どう生きたいか」で話してみましょう。"
-    },
-    "101": {
-      "blogUrl": "https://risan.jpn.org/?p=10046",
-      "categories": [
-        "family"
-      ],
-      "tags": [
-        "関わり方",
-        "自己効力感",
-        "選択理論"
-      ],
-      "ageBands": [
-        "elementary",
-        "teen"
-      ],
-      "finding": "他人（子ども）は変えられず、変えられるのは自分の関わり方だけ、という考えです（選択理論）。",
-      "advice": "子どもを変えようとするより、関わり方を変える方が動きます。",
-      "nextStep": "「やらせる」より「やりたくなる」関わりを1つ試しましょう。"
-    },
-    "100": {
-      "blogUrl": "https://risan.jpn.org/?p=9948",
-      "categories": [
         "lifestyle"
       ],
       "tags": [
-        "睡眠",
-        "成績",
-        "中高生"
+        "報酬",
+        "習慣",
+        "運動"
+      ],
+      "ageBands": [
+        "elementary",
+        "teen"
+      ],
+      "finding": "最初だけ報酬を与えると、運動などの習慣が定着しやすくなりました。",
+      "advice": "「最初だけごほうび」は、習慣づくりのきっかけに有効です。",
+      "nextStep": "新しい習慣の立ち上げ期だけ、小さなごほうびで背中を押してみましょう。"
+    },
+    "191": {
+      "categories": [
+        "discipline"
+      ],
+      "tags": [
+        "トークン",
+        "ごほうびシール",
+        "習慣",
+        "報酬"
+      ],
+      "ageBands": [
+        "preschool",
+        "elementary"
+      ],
+      "finding": "ためて交換できる「トークン（シール）」で、望ましい行動を増やせると示した古典研究です。",
+      "advice": "ごほうびシール表は、行動を育てる科学的な方法です。",
+      "nextStep": "増やしたい行動を1つ決め、できたらシールを貼る表を作ってみましょう。"
+    },
+    "192": {
+      "categories": [
+        "discipline",
+        "study"
+      ],
+      "tags": [
+        "報酬",
+        "ごほうび",
+        "動機づけ"
+      ],
+      "ageBands": [
+        "elementary",
+        "teen"
+      ],
+      "finding": "報酬は場面によって効果も逆効果もあり、額や設計しだいで結果が変わりました。",
+      "advice": "ごほうびは「使い方」しだい。目的に合った設計が大切です。",
+      "nextStep": "短期の後押しに使い、できたら言葉のほめに切り替えましょう。"
+    },
+    "193": {
+      "categories": [
+        "discipline"
+      ],
+      "tags": [
+        "報酬",
+        "ごほうび",
+        "習慣",
+        "行動"
       ],
       "ageBands": [
         "teen"
       ],
-      "finding": "中高生は睡眠時間が長く質が良いほど、成績が良い傾向がありました。",
-      "advice": "成績を伸ばす近道は、まず十分な睡眠です。",
-      "nextStep": "就寝時間を30分早めることから始めてみましょう。"
+      "finding": "大人の禁煙で、きちんと設計された金銭報酬が成功率を高めました。",
+      "advice": "ごほうびは、意志だけでは難しい行動の後押しになります。",
+      "nextStep": "続けたい行動に、できたら渡す小さなごほうびを決めてみましょう。"
+    },
+    "194": {
+      "categories": [
+        "development",
+        "lifestyle"
+      ],
+      "tags": [
+        "ADHD",
+        "ゲーム",
+        "デジタル治療",
+        "集中力",
+        "発達"
+      ],
+      "ageBands": [
+        "elementary",
+        "teen"
+      ],
+      "finding": "ゲーム型の治療アプリ（米FDA承認）の試験で、ADHDの子どもの注意機能テストが改善しました。",
+      "advice": "ゲームも設計しだいで治療になりますが、薬や関わりの「代わり」ではなく補助です。",
+      "nextStep": "気になるときは自己判断せず、まず専門医に相談してみましょう。"
     },
     "099": {
       "blogUrl": "https://risan.jpn.org/?p=9928",
+      "youtubeUrl": "https://www.youtube.com/watch?v=RJh3GgsZZLg",
       "categories": [
         "lifestyle"
       ],
@@ -1634,6 +1682,7 @@
     },
     "098": {
       "blogUrl": "https://risan.jpn.org/?p=9907",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tAeHfe2yjcw",
       "categories": [
         "lifestyle"
       ],
@@ -1669,6 +1718,7 @@
     },
     "096": {
       "blogUrl": "https://risan.jpn.org/?p=9866",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KlAF3p4pVqg",
       "categories": [
         "family"
       ],
@@ -1686,6 +1736,7 @@
     },
     "095": {
       "blogUrl": "https://risan.jpn.org/?p=9843",
+      "youtubeUrl": "https://www.youtube.com/watch?v=kzTJ_QQu0qU",
       "categories": [
         "family",
         "selfesteem"
@@ -1705,6 +1756,7 @@
     },
     "094": {
       "blogUrl": "https://risan.jpn.org/?p=9821",
+      "youtubeUrl": "https://www.youtube.com/watch?v=v9gPoXojGB8",
       "categories": [
         "family"
       ],
@@ -1722,6 +1774,7 @@
     },
     "093": {
       "blogUrl": "https://risan.jpn.org/?p=9798",
+      "youtubeUrl": "https://www.youtube.com/watch?v=yccNrEyEBHY",
       "categories": [
         "lifestyle",
         "social"
@@ -1741,6 +1794,7 @@
     },
     "092": {
       "blogUrl": "https://risan.jpn.org/?p=9744",
+      "youtubeUrl": "https://www.youtube.com/watch?v=s0_J_UP8a8Q",
       "categories": [
         "lifestyle"
       ],
@@ -1759,6 +1813,7 @@
     },
     "091": {
       "blogUrl": "https://risan.jpn.org/?p=9716",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WPFBJvgSZWY",
       "categories": [
         "future"
       ],
@@ -1776,6 +1831,7 @@
     },
     "090": {
       "blogUrl": "https://risan.jpn.org/?p=9693",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uCujJSZzzg8",
       "categories": [
         "future"
       ],
@@ -1793,6 +1849,7 @@
     },
     "089": {
       "blogUrl": "https://risan.jpn.org/?p=9673",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OM6e9KC1Ucs",
       "categories": [
         "future"
       ],
@@ -1810,6 +1867,7 @@
     },
     "088": {
       "blogUrl": "https://risan.jpn.org/?p=9648",
+      "youtubeUrl": "https://www.youtube.com/watch?v=UA8-voJa9oE",
       "categories": [
         "study"
       ],
@@ -1828,6 +1886,7 @@
     },
     "087": {
       "blogUrl": "https://risan.jpn.org/?p=9631",
+      "youtubeUrl": "https://www.youtube.com/watch?v=RByM2j4aYqo",
       "categories": [
         "study",
         "family"
@@ -1846,6 +1905,7 @@
     },
     "086": {
       "blogUrl": "https://risan.jpn.org/?p=9573",
+      "youtubeUrl": "https://www.youtube.com/watch?v=j_Eeer3JCWo",
       "categories": [
         "study"
       ],
@@ -1879,6 +1939,7 @@
     },
     "083": {
       "blogUrl": "https://risan.jpn.org/?p=9438",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WIcNvhqfn_w",
       "categories": [
         "study"
       ],
@@ -1896,6 +1957,7 @@
     },
     "082": {
       "blogUrl": "https://risan.jpn.org/?p=9435",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rFJF7Nt1tik",
       "categories": [
         "study"
       ],
@@ -1914,6 +1976,7 @@
     },
     "081": {
       "blogUrl": "https://risan.jpn.org/?p=9419",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9GrNW-1JIyY",
       "categories": [
         "future"
       ],
@@ -1931,6 +1994,7 @@
     },
     "080": {
       "blogUrl": "https://risan.jpn.org/?p=9404",
+      "youtubeUrl": "https://www.youtube.com/watch?v=lowXramyZUw",
       "categories": [
         "future"
       ],
@@ -1948,6 +2012,7 @@
     },
     "079": {
       "blogUrl": "https://risan.jpn.org/?p=9385",
+      "youtubeUrl": "https://www.youtube.com/watch?v=0E5hMhVP_l0",
       "categories": [
         "future",
         "study"
@@ -1967,6 +2032,7 @@
     },
     "078": {
       "blogUrl": "https://risan.jpn.org/?p=9256",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_fKj3nM5DIo",
       "categories": [
         "discipline",
         "social"
@@ -1986,6 +2052,7 @@
     },
     "077": {
       "blogUrl": "https://risan.jpn.org/?p=9264",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4etv2qanFuk",
       "categories": [
         "family",
         "selfesteem"
@@ -2005,6 +2072,7 @@
     },
     "076": {
       "blogUrl": "https://risan.jpn.org/?p=9210",
+      "youtubeUrl": "https://www.youtube.com/watch?v=LeAqRDJ4w6A",
       "categories": [
         "discipline"
       ],
@@ -2023,6 +2091,7 @@
     },
     "075": {
       "blogUrl": "https://risan.jpn.org/?p=9129",
+      "youtubeUrl": "https://www.youtube.com/watch?v=GiSxuCFqI90",
       "categories": [
         "lifestyle"
       ],
@@ -2040,6 +2109,7 @@
     },
     "074": {
       "blogUrl": "https://risan.jpn.org/?p=9127",
+      "youtubeUrl": "https://www.youtube.com/watch?v=HJKWZE-I6aI",
       "categories": [
         "lifestyle"
       ],
@@ -2057,6 +2127,7 @@
     },
     "073": {
       "blogUrl": "https://risan.jpn.org/?p=9077",
+      "youtubeUrl": "https://www.youtube.com/watch?v=dvUzpr6bQM0",
       "categories": [
         "study"
       ],
@@ -2075,6 +2146,7 @@
     },
     "072": {
       "blogUrl": "https://risan.jpn.org/?p=9179",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ZdOZ-6L8EFA",
       "categories": [
         "study",
         "family"
@@ -2093,6 +2165,7 @@
     },
     "071": {
       "blogUrl": "https://risan.jpn.org/?p=9039",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ZDo7gJ-MhCs",
       "categories": [
         "study"
       ],
@@ -2110,6 +2183,7 @@
     },
     "070": {
       "blogUrl": "https://risan.jpn.org/?p=9005",
+      "youtubeUrl": "https://www.youtube.com/watch?v=h4JgJN1GF3M",
       "categories": [
         "future",
         "selfesteem"
@@ -2129,6 +2203,7 @@
     },
     "069": {
       "blogUrl": "https://risan.jpn.org/?p=8976",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OJA4CGxanTk",
       "categories": [
         "future",
         "study"
@@ -2148,6 +2223,7 @@
     },
     "068": {
       "blogUrl": "https://risan.jpn.org/?p=8950",
+      "youtubeUrl": "https://www.youtube.com/watch?v=JguL9kcLvtQ",
       "categories": [
         "discipline"
       ],
@@ -2166,6 +2242,7 @@
     },
     "067": {
       "blogUrl": "https://risan.jpn.org/?p=8924",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_lf8IlX7H6g",
       "categories": [
         "discipline"
       ],
@@ -2184,6 +2261,7 @@
     },
     "066": {
       "blogUrl": "https://risan.jpn.org/?p=8899",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OHIltYONv4s",
       "categories": [
         "discipline"
       ],
@@ -2202,6 +2280,7 @@
     },
     "065": {
       "blogUrl": "https://risan.jpn.org/?p=8869",
+      "youtubeUrl": "https://www.youtube.com/watch?v=1OyrmuULwdc",
       "categories": [
         "discipline"
       ],
@@ -2220,6 +2299,7 @@
     },
     "064": {
       "blogUrl": "https://risan.jpn.org/?p=8846",
+      "youtubeUrl": "https://www.youtube.com/watch?v=TiX3AkQ7BZg",
       "categories": [
         "discipline",
         "family"
@@ -2238,6 +2318,7 @@
     },
     "063": {
       "blogUrl": "https://risan.jpn.org/?p=8823",
+      "youtubeUrl": "https://www.youtube.com/watch?v=IpeVSyFJJi0",
       "categories": [
         "social"
       ],
@@ -2256,6 +2337,7 @@
     },
     "062": {
       "blogUrl": "https://risan.jpn.org/?p=8790",
+      "youtubeUrl": "https://www.youtube.com/watch?v=NF0i4zSN_vI",
       "categories": [
         "social"
       ],
@@ -2274,6 +2356,7 @@
     },
     "061": {
       "blogUrl": "https://risan.jpn.org/?p=8736",
+      "youtubeUrl": "https://www.youtube.com/watch?v=oNusJpSYw4M",
       "categories": [
         "social"
       ],
@@ -2292,6 +2375,7 @@
     },
     "060": {
       "blogUrl": "https://risan.jpn.org/?p=8767",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Rb_NTELWAcg",
       "categories": [
         "study"
       ],
@@ -2310,6 +2394,7 @@
     },
     "059": {
       "blogUrl": "https://risan.jpn.org/?p=8697",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OVbZdGtfpRQ",
       "categories": [
         "study",
         "family"
@@ -2329,6 +2414,7 @@
     },
     "058": {
       "blogUrl": "https://risan.jpn.org/?p=8614",
+      "youtubeUrl": "https://www.youtube.com/watch?v=TqPuzkLmGww",
       "categories": [
         "study",
         "discipline"
@@ -2348,6 +2434,7 @@
     },
     "057": {
       "blogUrl": "https://risan.jpn.org/?p=8640",
+      "youtubeUrl": "https://www.youtube.com/watch?v=VfC3rybxj6E",
       "categories": [
         "discipline",
         "development"
@@ -2366,6 +2453,7 @@
     },
     "056": {
       "blogUrl": "https://risan.jpn.org/?p=8591",
+      "youtubeUrl": "https://www.youtube.com/watch?v=0_HGjQ1bjas",
       "categories": [
         "discipline"
       ],
@@ -2383,6 +2471,7 @@
     },
     "055": {
       "blogUrl": "https://risan.jpn.org/?p=8561",
+      "youtubeUrl": "https://www.youtube.com/watch?v=GogOHCY2IaI",
       "categories": [
         "discipline"
       ],
@@ -2401,6 +2490,7 @@
     },
     "054": {
       "blogUrl": "https://risan.jpn.org/?p=8537",
+      "youtubeUrl": "https://www.youtube.com/watch?v=LvS33PxEvVU",
       "categories": [
         "discipline"
       ],
@@ -2418,6 +2508,7 @@
     },
     "053": {
       "blogUrl": "https://risan.jpn.org/?p=8516",
+      "youtubeUrl": "https://www.youtube.com/watch?v=A_Oh4iDsFcw",
       "categories": [
         "family",
         "development"
@@ -2436,6 +2527,7 @@
     },
     "052": {
       "blogUrl": "https://risan.jpn.org/?p=8487",
+      "youtubeUrl": "https://www.youtube.com/watch?v=wN1BBJuTw-w",
       "categories": [
         "study"
       ],
@@ -2453,6 +2545,7 @@
     },
     "051": {
       "blogUrl": "https://risan.jpn.org/?p=8458",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qsHt2Lep46k",
       "categories": [
         "future",
         "selfesteem"
@@ -2471,6 +2564,7 @@
     },
     "050": {
       "blogUrl": "https://risan.jpn.org/?p=8434",
+      "youtubeUrl": "https://www.youtube.com/watch?v=lK-EkqTkUgQ",
       "categories": [
         "future",
         "study"
@@ -2489,6 +2583,7 @@
     },
     "049": {
       "blogUrl": "https://risan.jpn.org/?p=8399",
+      "youtubeUrl": "https://www.youtube.com/watch?v=wuVFoR4_exw",
       "categories": [
         "social"
       ],
@@ -2507,6 +2602,7 @@
     },
     "048": {
       "blogUrl": "https://risan.jpn.org/?p=8380",
+      "youtubeUrl": "https://www.youtube.com/watch?v=g7NYehkb0rQ",
       "categories": [
         "social"
       ],
@@ -2525,6 +2621,7 @@
     },
     "047": {
       "blogUrl": "https://risan.jpn.org/?p=8355",
+      "youtubeUrl": "https://www.youtube.com/watch?v=auLzeJ6-N9o",
       "categories": [
         "social",
         "lifestyle"
@@ -2543,6 +2640,7 @@
     },
     "046": {
       "blogUrl": "https://risan.jpn.org/?p=8334",
+      "youtubeUrl": "https://www.youtube.com/watch?v=aMBMFtYPVFE",
       "categories": [
         "social"
       ],
@@ -2561,6 +2659,7 @@
     },
     "045": {
       "blogUrl": "https://risan.jpn.org/?p=8299",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3aNMGVvZliM",
       "categories": [
         "social"
       ],
@@ -2579,6 +2678,7 @@
     },
     "044": {
       "blogUrl": "https://risan.jpn.org/?p=8234",
+      "youtubeUrl": "https://www.youtube.com/watch?v=vKApYvJdZAk",
       "categories": [
         "social"
       ],
@@ -2597,6 +2697,7 @@
     },
     "043": {
       "blogUrl": "https://risan.jpn.org/?p=8205",
+      "youtubeUrl": "https://www.youtube.com/watch?v=E0Q-rLnWqpM",
       "categories": [
         "social"
       ],
@@ -2615,6 +2716,7 @@
     },
     "042": {
       "blogUrl": "https://risan.jpn.org/?p=8178",
+      "youtubeUrl": "https://www.youtube.com/watch?v=NshZe8LngUg",
       "categories": [
         "selfesteem"
       ],
@@ -2634,6 +2736,7 @@
     },
     "041": {
       "blogUrl": "https://risan.jpn.org/?p=8155",
+      "youtubeUrl": "https://www.youtube.com/watch?v=0p5eoFMmdGE",
       "categories": [
         "selfesteem"
       ],
@@ -2652,6 +2755,7 @@
     },
     "040": {
       "blogUrl": "https://risan.jpn.org/?p=8116",
+      "youtubeUrl": "https://www.youtube.com/watch?v=PkBmeB2_sdo",
       "categories": [
         "selfesteem"
       ],
@@ -2670,6 +2774,7 @@
     },
     "039": {
       "blogUrl": "https://risan.jpn.org/?p=8096",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Mw51V0q2snY",
       "categories": [
         "family",
         "discipline"
@@ -2689,6 +2794,7 @@
     },
     "038": {
       "blogUrl": "https://risan.jpn.org/?p=8070",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tXi0yGrhg-Q",
       "categories": [
         "selfesteem"
       ],
@@ -2707,6 +2813,7 @@
     },
     "037": {
       "blogUrl": "https://risan.jpn.org/?p=8035",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Gi3DRq497DY",
       "categories": [
         "selfesteem"
       ],
@@ -2727,6 +2834,7 @@
     },
     "036": {
       "blogUrl": "https://risan.jpn.org/?p=7984",
+      "youtubeUrl": "https://www.youtube.com/watch?v=fBF6aCUd-FM",
       "categories": [
         "discipline"
       ],
@@ -2748,6 +2856,7 @@
     },
     "035": {
       "blogUrl": "https://risan.jpn.org/?p=7944",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4fzfif2rE_o",
       "categories": [
         "lifestyle"
       ],
@@ -2766,6 +2875,7 @@
     },
     "034": {
       "blogUrl": "https://risan.jpn.org/?p=7913",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uCoV5ObjX2Y",
       "categories": [
         "lifestyle",
         "study"
