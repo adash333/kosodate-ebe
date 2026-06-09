@@ -35,8 +35,8 @@ for (const [id, e] of Object.entries(enrich.items)) {
     paperUrl: r.paperUrl,
     // ブログ解説記事URL（enrichment.json で id ごとに付与。無ければnull）
     blogUrl: e.blogUrl ?? null,
-    // 直URLがあれば優先、無ければチャンネル内検索リンク（方式A）
-    youtubeUrl: r.youtubeUrl || r.youtubeSearchUrl,
+    // 解説動画URL: enrichment(人手/スクリプト付与) > md直URL > チャンネル内検索リンク
+    youtubeUrl: e.youtubeUrl ?? r.youtubeUrl ?? r.youtubeSearchUrl,
     categories: e.categories,
     tags: e.tags,
     ageBands: e.ageBands,
