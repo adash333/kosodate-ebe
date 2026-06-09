@@ -32,7 +32,7 @@ for (const [id, e] of Object.entries(enrich.items)) {
     author: r.author,
     year: r.year,
     citation: r.citation,
-    paperUrl: r.paperUrl,
+    paperUrl: e.paperUrl ?? r.paperUrl,
     // ブログ解説記事URL（enrichment.json で id ごとに付与。無ければnull）
     blogUrl: e.blogUrl ?? null,
     // 解説動画URL: enrichment(人手/スクリプト付与) > md直URL > チャンネル内検索リンク
