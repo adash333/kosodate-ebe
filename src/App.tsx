@@ -6,7 +6,7 @@ import { ResultCard } from './components/ResultCard';
 import { Legal } from './components/Legal';
 import { track } from './analytics';
 
-type Step = 'intro' | 'q1' | 'q2' | 'q3' | 'q4' | 'result' | 'legal';
+type Step = 'intro' | 'q1' | 'q2' | 'q3' | 'q4' | 'result' | 'legal' | 'list';
 
 export default function App() {
   const [step, setStep] = useState<Step>('intro');
@@ -174,10 +174,64 @@ export default function App() {
           </section>
         )}
 
+        {step === 'list' && (
+          <section className="step">
+            <h2 className="result-head">動画・記事 一覧（全{adviceData.count}本）</h2>
+            <p className="sub">番号の新しい順。各項目から解説動画とブログ記事へ移動できます。</p>
+            <ul className="vlist">
+              {[...adviceData.items]
+                .sort((a, b) => Number(b.id) - Number(a.id))
+                .map((it) => (
+                  <li key={it.id} className="vrow">
+                    <span className="vno">#{it.id}</span>
+                    <div className="vbody">
+                      <div className="vadvice">{it.advice}</div>
+                      <div className="vlinks">
+                        <a
+                          className="vlink yt"
+                          href={it.youtubeUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          onClick={() => track('list_youtube', { id: it.id })}
+                        >
+                          ▶ 解説動画
+                        </a>
+                        {it.blogUrl ? (
+                          <a
+                            className="vlink blog"
+                            href={it.blogUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            onClick={() => track('list_blog', { id: it.id })}
+                          >
+                            論文解説
+                          </a>
+                        ) : it.paperUrl ? (
+                          <a
+                            className="vlink blog"
+                            href={it.paperUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            論文
+                          </a>
+                        ) : null}
+                      </div>
+                    </div>
+                  </li>
+                ))}
+            </ul>
+            <button className="btn-primary" onClick={reset}>トップへ戻る</button>
+          </section>
+        )}
+
         {step === 'legal' && <Legal onBack={() => setStep(back)} />}
       </main>
 
       <footer className="footer">
+        <button className="link" onClick={() => { setStep('list'); track('open_list'); }}>
+          動画一覧
+        </button>
         <button className="link" onClick={() => { setBack(step); setStep('legal'); }}>
           免責事項・プライバシーポリシー
         </button>

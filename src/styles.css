@@ -92,6 +92,16 @@ h2 { font-size: 1.25rem; margin: 6px 0 4px; }
 
 .empty { color: var(--muted); padding: 20px 0; }
 
+.vlist { list-style: none; padding: 0; margin: 8px 0 22px; }
+.vrow { display: flex; gap: 12px; padding: 14px 2px; border-bottom: 1px solid var(--line); }
+.vno { flex: 0 0 auto; min-width: 40px; font-size: .8rem; font-weight: 700; color: var(--muted); padding-top: 2px; }
+.vbody { flex: 1; min-width: 0; }
+.vadvice { font-size: .97rem; color: var(--ink); margin-bottom: 9px; line-height: 1.5; }
+.vlinks { display: flex; flex-wrap: wrap; gap: 8px; }
+.vlink { display: inline-block; text-decoration: none; font-size: .8rem; font-weight: 600; padding: 5px 11px; border-radius: 8px; }
+.vlink.yt { background: #ff0000; color: #fff; }
+.vlink.blog { background: #eef3ef; color: var(--green-d); }
+
 .legal { padding: 8px 0 24px; }
 .legal h2 { margin-top: 22px; }
 .legal p { font-size: .92rem; color: #333; }
