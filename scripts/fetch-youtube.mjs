@@ -72,13 +72,20 @@ function parsePost(p) {
   // YouTube URL
   const ym = content.match(YT_RE);
   const youtubeUrl = ym ? `https://www.youtube.com/watch?v=${ym[1]}` : null;
-  return { id: p.id, title, key, youtubeUrl };
+  return { id: p.id, date: (p.date || '').slice(0, 10), title, key, youtubeUrl };
 }
 
 async function main() {
   console.log('ブログ記事を取得中…');
   const posts = (await fetchAllPosts()).map(parsePost);
   console.log(`取得: ${posts.length}件`);
+
+  // 全記事の動画URLダンプ（記事ID=?p=, 投稿日, 著者, 年, YouTube）。番号未対応の記事も含む後工程の照合用。
+  const dump = posts.map((p) => ({
+    id: p.id, date: p.date, author: p.key?.author ?? null, year: p.key?.year ?? null, youtubeUrl: p.youtubeUrl,
+  }));
+  writeFileSync(join(DATA, 'blog-videos.json'), JSON.stringify(dump, null, 2) + '\n', 'utf8');
+  console.log(`data/blog-videos.json に ${dump.length}件 を書き出しました`);
 
   // 照合インデックス
   const byAuthorYear = new Map(); // "author|year" -> post
