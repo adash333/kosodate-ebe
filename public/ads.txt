@@ -1,2 +1,1 @@
-# Google AdSense 承認後に、発行されるパブリッシャーIDを記載します。
-# 例: google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+google.com, pub-6024571063221724, DIRECT, f08c47fec0942fa0

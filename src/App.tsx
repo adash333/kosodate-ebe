@@ -1,14 +1,17 @@
-import { useMemo, useState } from 'react';
+import { useMemo, useState, type ReactNode } from 'react';
 import { adviceData, taxonomy } from './data';
 import { recommend, type Query } from './match';
 import type { AgeBandId, Category, SubCategory } from './types';
 import { ResultCard } from './components/ResultCard';
 import { Legal } from './components/Legal';
+import { Company } from './components/Company';
+import { Contact } from './components/Contact';
 import { track } from './analytics';
 
 type Step = 'intro' | 'q1' | 'q2' | 'q3' | 'q4' | 'result' | 'legal' | 'list';
 
 export default function App() {
+  const route = window.location.pathname.replace(/\/$/, '') || '/';
   const [step, setStep] = useState<Step>('intro');
   const [category, setCategory] = useState<Category | null>(null);
   const [sub, setSub] = useState<SubCategory | null>(null);
@@ -39,6 +42,38 @@ export default function App() {
 
   function toggleChip(tag: string) {
     setChips((c) => (c.includes(tag) ? c.filter((t) => t !== tag) : [...c, tag]));
+  }
+
+  if (route === '/company') {
+    return (
+      <Shell>
+        <Company />
+      </Shell>
+    );
+  }
+
+  if (route === '/contact') {
+    return (
+      <Shell>
+        <Contact />
+      </Shell>
+    );
+  }
+
+  if (route === '/privacy') {
+    return (
+      <Shell>
+        <Legal mode="privacy" />
+      </Shell>
+    );
+  }
+
+  if (route === '/disclaimer') {
+    return (
+      <Shell>
+        <Legal mode="disclaimer" />
+      </Shell>
+    );
   }
 
   return (
@@ -235,12 +270,36 @@ export default function App() {
         <button className="link" onClick={() => { setBack(step); setStep('legal'); }}>
           免責事項・プライバシーポリシー
         </button>
+        <a className="link" href="/company">
+          会社情報
+        </a>
+        <a className="link" href="/contact">
+          お問い合わせ
+        </a>
         <a className="link" href="https://www.youtube.com/@evilab" target="_blank" rel="noopener noreferrer">
           YouTubeチャンネル
         </a>
         <a className="link" href="https://risan.jpn.org/" target="_blank" rel="noopener noreferrer">
           ブログ
         </a>
+      </footer>
+    </div>
+  );
+}
+
+function Shell({ children }: { children: ReactNode }) {
+  return (
+    <div className="app">
+      <header className="header">
+        <a className="logo logo-link" href="/">🌱 子育てエビデンス相談室</a>
+      </header>
+      <main className="main">{children}</main>
+      <footer className="footer">
+        <a className="link" href="/">トップ</a>
+        <a className="link" href="/company">会社情報</a>
+        <a className="link" href="/contact">お問い合わせ</a>
+        <a className="link" href="/privacy">プライバシーポリシー</a>
+        <a className="link" href="/disclaimer">免責事項</a>
       </footer>
     </div>
   );
