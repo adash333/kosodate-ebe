@@ -13,6 +13,9 @@ const DATA = join(__dirname, '..', 'data');
 
 const raw = JSON.parse(readFileSync(join(DATA, '_raw_extract.json'), 'utf8'));
 const enrich = JSON.parse(readFileSync(join(DATA, 'enrichment.json'), 'utf8'));
+// 公開済み動画の最新番号（2026-06-09時点）。未公開（番号がこれより大）はアプリに含めない。
+// 新作公開時はこの数値を更新する。
+const MAX_VIDEO_ID = 156;
 const byId = new Map();
 for (const r of raw) if (!byId.has(r.id)) byId.set(r.id, r); // 同id重複は先頭(=archive優先)
 
@@ -20,6 +23,7 @@ const items = [];
 const missing = [];
 for (const [id, e] of Object.entries(enrich.items)) {
   if (e.exclude) continue;
+  if (Number(id) > MAX_VIDEO_ID) continue; // 未公開動画は除外
   const r = byId.get(id);
   if (!r) { missing.push(id); continue; }
   items.push({
