@@ -28,8 +28,7 @@ export function Legal({ onBack, mode = 'both' }: { onBack?: () => void; mode?: '
             ポリシー（policies.google.com/technologies/partner-sites）をご覧ください。
           </p>
           <p>
-            お問い合わせは、関連サイト「近視進行予測シミュレーター」の運営者情報ページに
-            設置しているフォームから受け付けます。
+            お問い合わせは、当サイトのお問い合わせフォームから受け付けます。
           </p>
         </>
       ) : null}

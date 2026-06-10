@@ -1,3 +1,5 @@
+import { ContactForm } from './ContactForm';
+
 export function Company() {
   return (
     <div className="legal">
@@ -13,12 +15,18 @@ export function Company() {
         </div>
         <div>
           <dt>主な事業内容</dt>
-          <dd>Webサイト運営、教育・健康情報コンテンツ運営、遠隔読影サービス等</dd>
+          <dd>Webサイト運営、教育・健康情報コンテンツ運営等</dd>
         </div>
         <div>
           <dt>運営サイト</dt>
           <dd>
-            子育てエビデンス相談室、近視進行予測シミュレーター
+            <ul className="site-list">
+              <li>子育てエビデンス相談室</li>
+              <li>眼科医からみた子供の視力回復法</li>
+              <li>WordPressでフリーオリジナルフォント</li>
+              <li>サルでもわかるWEBプログラミング</li>
+              <li>サルでもわかる機械学習</li>
+            </ul>
           </dd>
         </div>
       </dl>
@@ -32,14 +40,9 @@ export function Company() {
 
       <h2>お問い合わせ</h2>
       <p>
-        お問い合わせは、関連サイト「近視進行予測シミュレーター」の運営者情報ページに
-        設置しているフォームからお願いいたします。
+        本サイトおよび合同会社5マイクロに関するお問い合わせは、以下のフォームよりお願いいたします。
       </p>
-      <p>
-        <a className="btn-inline" href="https://m.5micro.net/about" target="_blank" rel="noopener noreferrer">
-          お問い合わせフォームを開く
-        </a>
-      </p>
+      <ContactForm />
 
       <p className="muted">最終更新: 2026年6月</p>
     </div>
