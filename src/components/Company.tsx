@@ -1,5 +1,3 @@
-import { ContactForm } from './ContactForm';
-
 export function Company() {
   return (
     <div className="legal">
@@ -38,9 +36,12 @@ export function Company() {
 
       <h2>お問い合わせ</h2>
       <p>
-        本サイトおよび合同会社5マイクロに関するお問い合わせは、以下のフォームよりお願いいたします。
+        本サイトおよび合同会社5マイクロに関するお問い合わせは、
+        <a href="https://m.5micro.net/about" target="_blank" rel="noopener noreferrer">
+          こちらのページ
+        </a>
+        のお問い合わせフォームよりご連絡をお願いいたします。
       </p>
-      <ContactForm />
 
       <p className="muted">最終更新: 2026年6月</p>
     </div>
