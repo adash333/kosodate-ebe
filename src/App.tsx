@@ -5,7 +5,6 @@ import type { AgeBandId, Category, SubCategory } from './types';
 import { ResultCard } from './components/ResultCard';
 import { Legal } from './components/Legal';
 import { Company } from './components/Company';
-import { Contact } from './components/Contact';
 import { ArticlesList, ArticleView } from './components/Articles';
 import { articles } from './articles';
 import { track } from './analytics';
@@ -50,14 +49,6 @@ export default function App() {
     return (
       <Shell>
         <Company />
-      </Shell>
-    );
-  }
-
-  if (route === '/contact') {
-    return (
-      <Shell>
-        <Contact />
       </Shell>
     );
   }
@@ -298,9 +289,6 @@ export default function App() {
         <a className="link" href="/company">
           会社情報
         </a>
-        <a className="link" href="/contact">
-          お問い合わせ
-        </a>
         <a className="link" href="https://www.youtube.com/@evilab" target="_blank" rel="noopener noreferrer">
           YouTubeチャンネル
         </a>
@@ -323,7 +311,6 @@ function Shell({ children }: { children: ReactNode }) {
         <a className="link" href="/">トップ</a>
         <a className="link" href="/articles">読み物</a>
         <a className="link" href="/company">会社情報</a>
-        <a className="link" href="/contact">お問い合わせ</a>
         <a className="link" href="/privacy">プライバシーポリシー</a>
         <a className="link" href="/disclaimer">免責事項</a>
       </footer>
