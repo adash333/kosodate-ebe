@@ -12,12 +12,15 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA = join(__dirname, '..', 'data');
 
 const raw = JSON.parse(readFileSync(join(DATA, '_raw_extract.json'), 'utf8'));
+// 001-033 は vault 導入前の動画で md が無いため、0 論文リスト.md から起こした
+// legacy-videos.json を機械抽出ぶんとして補完する（build-data.mjs の再実行でも消えない）。
+const legacy = JSON.parse(readFileSync(join(DATA, 'legacy-videos.json'), 'utf8'));
 const enrich = JSON.parse(readFileSync(join(DATA, 'enrichment.json'), 'utf8'));
 // 公開済み動画の最新番号（2026-06-09時点）。未公開（番号がこれより大）はアプリに含めない。
 // 新作公開時はこの数値を更新する。
 const MAX_VIDEO_ID = 156;
 const byId = new Map();
-for (const r of raw) if (!byId.has(r.id)) byId.set(r.id, r); // 同id重複は先頭(=archive優先)
+for (const r of [...raw, ...legacy]) if (!byId.has(r.id)) byId.set(r.id, r); // 同id重複は先頭(=archive優先)
 
 const items = [];
 const missing = [];
@@ -52,7 +55,7 @@ writeFileSync(join(DATA, 'advice.json'),
 
 console.log(`advice.json 生成: ${items.length}件`);
 if (missing.length) console.log(`⚠ raw抽出に無いid（要確認）: ${missing.join(', ')}`);
-const rawIds = new Set(raw.map(r => r.id));
+const rawIds = new Set([...raw, ...legacy].map(r => r.id));
 const enrichIds = new Set(Object.keys(enrich.items));
 const notEnriched = [...rawIds].filter(id => !enrichIds.has(id));
 if (notEnriched.length) console.log(`未意味づけのid: ${notEnriched.join(', ')}`);

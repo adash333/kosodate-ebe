@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-09",
-  "count": 121,
+  "generatedAt": "2026-06-10",
+  "count": 154,
   "items": [
     {
       "id": "156",
@@ -3042,6 +3042,821 @@
       "finding": "学力低下と関連が強いのはスマホ全般より、テレビ視聴など特定のスクリーン利用でした。",
       "advice": "「スマホ＝悪」ではなく、何にどう使うかが大切です。",
       "nextStep": "利用時間より、ダラダラ見の中身を一緒に見直しましょう。"
+    },
+    {
+      "id": "033",
+      "title": "自己調整学習",
+      "author": "Zimmerman",
+      "year": 1989,
+      "citation": "Zimmerman, B. J. (1989). A social cognitive view of self-regulated academic learning. Journal of Educational Psychology, 81(3), 329-339.",
+      "paperUrl": "https://doi.org/10.1037/0022-0663.81.3.329",
+      "blogUrl": "https://risan.jpn.org/?p=7780",
+      "youtubeUrl": "https://youtu.be/mg5ZIJahCWM",
+      "categories": [
+        "study"
+      ],
+      "tags": [
+        "勉強法",
+        "メタ認知",
+        "自己調整"
+      ],
+      "ageBands": [
+        "elementary",
+        "teen"
+      ],
+      "finding": "成績の良い子は、目標設定→実行→振り返りを自分で回す「自己調整学習」をしていました。",
+      "advice": "「勉強しなさい」と言うより、計画と振り返りのやり方を教えましょう。",
+      "nextStep": "勉強の前に目標、後に振り返りを1分ずつ書く習慣を始めましょう。"
+    },
+    {
+      "id": "032",
+      "title": "乳児と父親の関わり",
+      "author": "Trautmann-Villalba",
+      "year": 2006,
+      "citation": "Trautmann-Villalba, P., Gschwendt, M., Schmidt, M. H., & Laucht, M. (2006). Father-infant interaction patterns as precursors of children's later externalizing behavior problems. European Archives of Psychiatry and Clinical Neuroscience, 256(6), 344-349.",
+      "paperUrl": null,
+      "blogUrl": "https://risan.jpn.org/?p=7967",
+      "youtubeUrl": "https://youtu.be/9bRx9IXKeiQ",
+      "categories": [
+        "family"
+      ],
+      "tags": [
+        "父親",
+        "赤ちゃん",
+        "問題行動"
+      ],
+      "ageBands": [
+        "preschool"
+      ],
+      "finding": "生後3か月の父子のやりとりの質が、子どもの後年の問題行動の少なさと関連しました。",
+      "advice": "父親の早期の関わりは、心の安定の土台になります。",
+      "nextStep": "新生児期から父親もおむつ替えや寝かしつけを分担しましょう。"
+    },
+    {
+      "id": "031",
+      "title": "勉強しなさいは意味なし",
+      "author": "Nakamuro",
+      "year": 2013,
+      "citation": "中室牧子ほか (2013). 学習時間と親の関わり方に関する実証研究.",
+      "paperUrl": null,
+      "blogUrl": "https://risan.jpn.org/?p=7883",
+      "youtubeUrl": "https://youtu.be/Rb_NTELWAcg",
+      "categories": [
+        "study"
+      ],
+      "tags": [
+        "やる気",
+        "家庭学習",
+        "声かけ"
+      ],
+      "ageBands": [
+        "elementary",
+        "teen"
+      ],
+      "finding": "「勉強しなさい」と言うだけでは効果が薄く、そばで見守る・一緒に時間を決めるなどの関わりが有効でした。",
+      "advice": "言葉の指示より、手間をかけた関わりが効きます。",
+      "nextStep": "「勉強しなさい」を「何時からやる？」と一緒に決める声かけに変えましょう。"
+    },
+    {
+      "id": "030",
+      "title": "努力の格差",
+      "author": "Matsuoka",
+      "year": 2015,
+      "citation": "Matsuoka, R., Nakamuro, M., & Inui, T. (2015). Emerging inequality in effort: A longitudinal investigation of parental involvement and early elementary school-aged children's learning time in Japan. Social Science Research, 54, 159-176.",
+      "paperUrl": null,
+      "blogUrl": "https://risan.jpn.org/?p=7847",
+      "youtubeUrl": "https://youtu.be/Rb_NTELWAcg",
+      "categories": [
+        "study"
+      ],
+      "tags": [
+        "家庭学習",
+        "習慣",
+        "学力"
+      ],
+      "ageBands": [
+        "elementary"
+      ],
+      "finding": "小学校低学年の時点で、家庭環境によって学習時間（努力する習慣）に差がついていました。",
+      "advice": "「努力できること」自体が家庭で育つ習慣です。",
+      "nextStep": "短時間でも毎日同じ時間に机に向かう習慣を作りましょう。"
+    },
+    {
+      "id": "029",
+      "title": "赤ちゃんと父親で認知力",
+      "author": "Sethna",
+      "year": 2017,
+      "citation": "Sethna, V., Perry, E., Domoney, J., et al. (2017). Father-child interactions at 3 months and 24 months: Contributions to children's cognitive development at 24 months. Infant Mental Health Journal, 38(3), 378-390.",
+      "paperUrl": null,
+      "blogUrl": "https://risan.jpn.org/?p=7809",
+      "youtubeUrl": "https://youtu.be/7EqOeAQ1W5U",
+      "categories": [
+        "family"
+      ],
+      "tags": [
+        "父親",
+        "赤ちゃん",
+        "関わり"
+      ],
+      "ageBands": [
+        "preschool"
+      ],
+      "finding": "生後3か月時点の父親の積極的な関わりが、2歳時の認知発達の高さと関連しました。",
+      "advice": "父親の育児参加は赤ちゃんの脳の発達に直結します。",
+      "nextStep": "父親が1人で赤ちゃんと遊ぶ時間を毎日作りましょう。"
+    },
+    {
+      "id": "028",
+      "title": "ゲームでドーパミン",
+      "author": "Koepp",
+      "year": 1998,
+      "citation": "Koepp, M. J., Gunn, R. N., Lawrence, A. D., et al. (1998). Evidence for striatal dopamine release during a video game. Nature, 393(6682), 266-268.",
+      "paperUrl": "https://doi.org/10.1038/30498",
+      "blogUrl": "https://risan.jpn.org/?p=7488",
+      "youtubeUrl": "https://youtu.be/dhMJoLMFBZY",
+      "categories": [
+        "lifestyle"
+      ],
+      "tags": [
+        "ゲーム",
+        "スマホ",
+        "依存"
+      ],
+      "ageBands": [
+        "elementary",
+        "teen"
+      ],
+      "finding": "ゲーム中の脳では、報酬物質ドーパミンの放出が確認されました。ハマるのは脳の仕組みとして自然です。",
+      "advice": "「意志が弱いからやめられない」のではありません。仕組みで対策しましょう。",
+      "nextStep": "時間で区切るルールを、ゲームを始める前に一緒に決めましょう。"
+    },
+    {
+      "id": "027",
+      "title": "話しかけの量と質",
+      "author": "Rowe",
+      "year": 2012,
+      "citation": "Rowe, M. L. (2012). A longitudinal investigation of the role of quantity and quality of child-directed speech in vocabulary development. Child Development, 83(5), 1762-1774.",
+      "paperUrl": "https://doi.org/10.1111/j.1467-8624.2012.01805.x",
+      "blogUrl": "https://risan.jpn.org/?p=7680",
+      "youtubeUrl": "https://youtu.be/jgUU1vQlBWg",
+      "categories": [
+        "study"
+      ],
+      "tags": [
+        "語彙",
+        "声かけ",
+        "会話"
+      ],
+      "ageBands": [
+        "preschool"
+      ],
+      "finding": "語彙を伸ばす話しかけは年齢で変わり、幼児期は量、その後は多様な語彙や説明的な会話が効きました。",
+      "advice": "年齢に合わせて話しかけ方をアップデートしましょう。",
+      "nextStep": "幼児にはたくさん、小学生には「なぜ？」を深掘りする会話を意識しましょう。"
+    },
+    {
+      "id": "026",
+      "title": "子供の愛着4つの型の割合",
+      "author": "van IJzendoorn",
+      "year": 1999,
+      "citation": "van IJzendoorn, M. H., Schuengel, C., & Bakermans-Kranenburg, M. J. (1999). Disorganized attachment in early childhood: Meta-analysis of precursors, concomitants, and sequelae. Development and Psychopathology, 11(2), 225-249.",
+      "paperUrl": "https://doi.org/10.1017/S0954579499002035",
+      "blogUrl": "https://risan.jpn.org/?p=7627",
+      "youtubeUrl": "https://youtu.be/B9taytcQZxo",
+      "categories": [
+        "family"
+      ],
+      "tags": [
+        "愛着",
+        "親子",
+        "愛情"
+      ],
+      "ageBands": [
+        "preschool"
+      ],
+      "finding": "愛着には4つの型があり、安定型は約6割。型は関わり方しだいで変わりうるものでした。",
+      "advice": "愛着は固定ではなく「修復できる関係の力」。今からの関わりで変わります。",
+      "nextStep": "子どもが不安なときに安心して戻れる対応を増やしましょう。"
+    },
+    {
+      "id": "025",
+      "title": "読書で情緒安定",
+      "author": "Mak",
+      "year": 2020,
+      "citation": "Mak, H. W., & Fancourt, D. (2020). 読書習慣と子どもの情緒・行動に関する縦断研究.",
+      "paperUrl": null,
+      "blogUrl": "https://risan.jpn.org/?p=7558",
+      "youtubeUrl": "https://youtu.be/J7g9rph9BIE",
+      "categories": [
+        "study",
+        "selfesteem"
+      ],
+      "tags": [
+        "読書",
+        "情緒",
+        "メンタル"
+      ],
+      "ageBands": [
+        "elementary"
+      ],
+      "finding": "楽しみのための読書をする子は、数年後の情緒が安定しやすい傾向がありました。",
+      "advice": "読書は学力だけでなく心の安定にも効きます。",
+      "nextStep": "子どもが好きなジャンルの本を自由に選ばせましょう。"
+    },
+    {
+      "id": "024",
+      "title": "インプット報酬",
+      "author": "Fryer",
+      "year": 2011,
+      "citation": "Fryer, R. G. (2011). Financial incentives and student achievement: Evidence from randomized trials. Quarterly Journal of Economics, 126(4), 1755-1798.",
+      "paperUrl": "https://doi.org/10.1093/qje/qjr045",
+      "blogUrl": "https://risan.jpn.org/?p=7536",
+      "youtubeUrl": "https://youtu.be/F7AyFJbz9iE",
+      "categories": [
+        "study",
+        "discipline"
+      ],
+      "tags": [
+        "報酬",
+        "ごほうび",
+        "やる気"
+      ],
+      "ageBands": [
+        "elementary"
+      ],
+      "finding": "成績（アウトプット）への報酬は効かず、読書など行動（インプット）への報酬は学力を上げました。",
+      "advice": "ごほうびは「テストの点」ではなく「本を読む」などの行動につけましょう。",
+      "nextStep": "「100点取ったら」を「毎日10分読んだら」に変えてみましょう。"
+    },
+    {
+      "id": "023",
+      "title": "運動でうつ病が治る",
+      "author": "Blumenthal",
+      "year": 1999,
+      "citation": "Blumenthal, J. A., Babyak, M. A., Moore, K. A., et al. (1999). Effects of exercise training on older patients with major depression. Archives of Internal Medicine, 159(19), 2349-2356.",
+      "paperUrl": "https://doi.org/10.1001/archinte.159.19.2349",
+      "blogUrl": "https://risan.jpn.org/?p=7518",
+      "youtubeUrl": "https://youtu.be/bNxcN_8Bg5I",
+      "categories": [
+        "lifestyle"
+      ],
+      "tags": [
+        "運動",
+        "メンタル",
+        "ストレス"
+      ],
+      "ageBands": [
+        "teen"
+      ],
+      "finding": "有酸素運動は抗うつ薬と同程度にうつ症状を改善しました。",
+      "advice": "気分の落ち込みにはまず運動。親子で体を動かしましょう。",
+      "nextStep": "週3回30分の散歩やジョギングを家族の習慣にしましょう。"
+    },
+    {
+      "id": "022",
+      "title": "運動で学業成績が上がる",
+      "author": "Takehara",
+      "year": 2021,
+      "citation": "Takehara, K., et al. (2021). 短時間の運動と子どもの学業成績に関する研究.",
+      "paperUrl": null,
+      "blogUrl": "https://risan.jpn.org/?p=7473",
+      "youtubeUrl": "https://youtu.be/pKe_Q-RFJIw",
+      "categories": [
+        "lifestyle",
+        "study"
+      ],
+      "tags": [
+        "運動",
+        "学力",
+        "集中力"
+      ],
+      "ageBands": [
+        "elementary",
+        "teen"
+      ],
+      "finding": "短時間の運動でも、その後の学習効率や成績に良い影響が見られました。",
+      "advice": "勉強の前後に体を動かすと学習効果が上がります。",
+      "nextStep": "勉強の合間に3分体を動かす休憩を入れてみましょう。"
+    },
+    {
+      "id": "021",
+      "title": "1万時間の法則",
+      "author": "Ericsson",
+      "year": 1993,
+      "citation": "Ericsson, K. A., Krampe, R. T., & Tesch-Römer, C. (1993). The role of deliberate practice in the acquisition of expert performance. Psychological Review, 100(3), 363-406.",
+      "paperUrl": "https://doi.org/10.1037/0033-295X.100.3.363",
+      "blogUrl": "https://risan.jpn.org/?p=7429",
+      "youtubeUrl": "https://www.youtube.com/@evilab/search?query=1%E4%B8%87%E6%99%82%E9%96%93%E3%81%AE%E6%B3%95%E5%89%87",
+      "categories": [
+        "study"
+      ],
+      "tags": [
+        "練習",
+        "習い事",
+        "勉強法"
+      ],
+      "ageBands": [
+        "elementary",
+        "teen"
+      ],
+      "finding": "一流の演奏家は累計1万時間の「質の高い意図的練習」を積んでいました。量だけでなく質が鍵です。",
+      "advice": "だらだら長くより、目的を持った短い練習を。",
+      "nextStep": "練習の前に「今日の目標」を1つ決めてから始めさせましょう。"
+    },
+    {
+      "id": "020",
+      "title": "自己決定と幸福度",
+      "author": "Nishimura",
+      "year": 2019,
+      "citation": "西村和雄・八木匡 (2018). 幸福感と自己決定―日本における実証研究. RIETI Discussion Paper Series 18-J-026.",
+      "paperUrl": null,
+      "blogUrl": "https://risan.jpn.org/?p=7439",
+      "youtubeUrl": "https://youtu.be/-fI-mbD5Mt0",
+      "categories": [
+        "selfesteem"
+      ],
+      "tags": [
+        "自己決定",
+        "幸福",
+        "自律"
+      ],
+      "ageBands": [
+        "elementary",
+        "teen"
+      ],
+      "finding": "日本の大規模調査で、所得や学歴より「自分で決めた」経験が幸福度と強く関連しました。",
+      "advice": "進路などは親が決めず、子ども自身に決めさせましょう。",
+      "nextStep": "日常の小さな選択（服・習い事）から子どもに任せていきましょう。"
+    },
+    {
+      "id": "019",
+      "title": "6歳のピアノでIQ上昇",
+      "author": "Schellenberg",
+      "year": 2004,
+      "citation": "Schellenberg, E. G. (2004). Music lessons enhance IQ. Psychological Science, 15(8), 511-514.",
+      "paperUrl": "https://doi.org/10.1111/j.0956-7976.2004.00711.x",
+      "blogUrl": "https://risan.jpn.org/?p=7417",
+      "youtubeUrl": "https://youtu.be/SI0GjrsH438",
+      "categories": [
+        "study"
+      ],
+      "tags": [
+        "習い事",
+        "音楽",
+        "IQ"
+      ],
+      "ageBands": [
+        "preschool",
+        "elementary"
+      ],
+      "finding": "6歳で音楽レッスン（ピアノ・歌）を1年受けた群は、ほかの群よりIQの伸びが大きいという結果でした。",
+      "advice": "音楽は楽しみながら認知発達も後押しします。",
+      "nextStep": "子どもが興味を持てば、音楽系の習い事を検討してみましょう。"
+    },
+    {
+      "id": "018",
+      "title": "読み聞かせが語彙を増やす",
+      "author": "Bus",
+      "year": 1995,
+      "citation": "Bus, A. G., van IJzendoorn, M. H., & Pellegrini, A. D. (1995). Joint book reading makes for success in learning to read: A meta-analysis on intergenerational transmission of literacy. Review of Educational Research, 65(1), 1-21.",
+      "paperUrl": "https://doi.org/10.3102/00346543065001001",
+      "blogUrl": "https://risan.jpn.org/?p=7403",
+      "youtubeUrl": "https://youtu.be/2lPqz_81jeM",
+      "categories": [
+        "study"
+      ],
+      "tags": [
+        "読み聞かせ",
+        "語彙",
+        "読解力"
+      ],
+      "ageBands": [
+        "preschool"
+      ],
+      "finding": "読み聞かせの頻度は、語彙・読む力・将来の読解力と一貫して関連しました（メタ分析）。",
+      "advice": "読み聞かせは最もコスパの高い知育のひとつです。",
+      "nextStep": "寝る前の10分読み聞かせを毎日の習慣にしましょう。"
+    },
+    {
+      "id": "017",
+      "title": "退屈が創造性を育む",
+      "author": "Mann",
+      "year": 2014,
+      "citation": "Mann, S., & Cadman, R. (2014). Does being bored make us more creative? Creativity Research Journal, 26(2), 165-173.",
+      "paperUrl": "https://doi.org/10.1080/10400419.2014.901073",
+      "blogUrl": "https://risan.jpn.org/?p=7391",
+      "youtubeUrl": "https://youtu.be/nhAtDfwTyrk",
+      "categories": [
+        "lifestyle",
+        "study"
+      ],
+      "tags": [
+        "創造性",
+        "退屈",
+        "余白"
+      ],
+      "ageBands": [
+        "elementary",
+        "teen"
+      ],
+      "finding": "退屈な作業をした後の方が、創造的なアイデアが多く出ました。",
+      "advice": "暇な時間は悪ではなく、創造性の栄養です。",
+      "nextStep": "予定を詰め込みすぎず「何もない時間」を週に数時間残しましょう。"
+    },
+    {
+      "id": "016",
+      "title": "嘘と実行機能",
+      "author": "Evans",
+      "year": 2013,
+      "citation": "Evans, A. D., & Lee, K. (2013). Emergence of lying in very young children. Developmental Psychology, 49(10), 1958-1963.",
+      "paperUrl": "https://doi.org/10.1037/a0031409",
+      "blogUrl": "https://risan.jpn.org/?p=7366",
+      "youtubeUrl": "https://youtu.be/NnXI1lk4cTU",
+      "categories": [
+        "discipline"
+      ],
+      "tags": [
+        "うそ",
+        "実行機能",
+        "正直"
+      ],
+      "ageBands": [
+        "preschool"
+      ],
+      "finding": "早くから嘘をつける子ほど、実行機能（がまん・切り替え・記憶）が発達していました。",
+      "advice": "嘘は認知発達のサイン。正直さは安心できる関係から育ちます。",
+      "nextStep": "正直に話したときに叱らない「正直の安全地帯」を作りましょう。"
+    },
+    {
+      "id": "015",
+      "title": "嘘と心の理論",
+      "author": "Ding",
+      "year": 2015,
+      "citation": "Ding, X. P., Wellman, H. M., Wang, Y., Fu, G., & Lee, K. (2015). Theory-of-mind training causes honest young children to lie. Psychological Science, 26(11), 1812-1821.",
+      "paperUrl": "https://doi.org/10.1177/0956797615604628",
+      "blogUrl": "https://risan.jpn.org/?p=7288",
+      "youtubeUrl": "https://youtu.be/H3jiSL6Ugqg",
+      "categories": [
+        "discipline"
+      ],
+      "tags": [
+        "うそ",
+        "正直",
+        "心の理論"
+      ],
+      "ageBands": [
+        "preschool"
+      ],
+      "finding": "「心の理論」を訓練された子は嘘がつけるようになりました。嘘は他者の心を理解できた発達の証拠です。",
+      "advice": "幼児の嘘は発達のサイン。頭ごなしに叱らず成長と捉えましょう。",
+      "nextStep": "嘘を見つけたら、罰するより「正直に言えたら褒める」を徹底しましょう。"
+    },
+    {
+      "id": "014",
+      "title": "対話的な読み聞かせ",
+      "author": "Whitehurst",
+      "year": 1988,
+      "citation": "Whitehurst, G. J., Falco, F. L., Lonigan, C. J., et al. (1988). Accelerating language development through picture book reading. Developmental Psychology, 24(4), 552-559.",
+      "paperUrl": "https://doi.org/10.1037/0012-1649.24.4.552",
+      "blogUrl": "https://risan.jpn.org/?p=7280",
+      "youtubeUrl": "https://youtu.be/-Gbj5w3Chfw",
+      "categories": [
+        "study"
+      ],
+      "tags": [
+        "読み聞かせ",
+        "語彙",
+        "読書"
+      ],
+      "ageBands": [
+        "preschool"
+      ],
+      "finding": "質問しながら読む「対話的読み聞かせ」で、子どもの言語発達が大きく進みました。",
+      "advice": "ただ読むより「どう思う？」と問いかけながら読みましょう。",
+      "nextStep": "絵本の途中で「次はどうなると思う？」と1回聞いてみましょう。"
+    },
+    {
+      "id": "013",
+      "title": "叱るほど問題行動が増える",
+      "author": "Kazdin",
+      "year": 1987,
+      "citation": "Kazdin, A. E. (1987). Treatment of antisocial behavior in children: Current status and future directions. Psychological Bulletin, 102(2), 187-203.",
+      "paperUrl": "https://doi.org/10.1037/0033-2909.102.2.187",
+      "blogUrl": "https://risan.jpn.org/?p=7185",
+      "youtubeUrl": "https://youtu.be/31rl6rkwf4g",
+      "categories": [
+        "discipline"
+      ],
+      "tags": [
+        "叱る",
+        "しつけ",
+        "問題行動"
+      ],
+      "ageBands": [
+        "preschool",
+        "elementary"
+      ],
+      "finding": "罰中心のしつけは長期的に問題行動をむしろ増やし、望ましい行動を教える方法が有効でした。",
+      "advice": "叱って止めるより、望ましい行動を教えて褒める方が効きます。",
+      "nextStep": "「やめなさい」の代わりに「○○しよう」と望ましい行動を伝えましょう。"
+    },
+    {
+      "id": "012",
+      "title": "親の態度と子のマインドセット",
+      "author": "Haimovitz",
+      "year": 2016,
+      "citation": "Haimovitz, K., & Dweck, C. S. (2016). What predicts children's fixed and growth intelligence mind-sets? Not their parents' views of intelligence but their parents' views of failure. Psychological Science, 27(6), 859-869.",
+      "paperUrl": "https://doi.org/10.1177/0956797616639727",
+      "blogUrl": "https://risan.jpn.org/?p=7174",
+      "youtubeUrl": "https://youtu.be/9ABx9pmLi_c",
+      "categories": [
+        "selfesteem"
+      ],
+      "tags": [
+        "マインドセット",
+        "失敗",
+        "声かけ"
+      ],
+      "ageBands": [
+        "elementary",
+        "teen"
+      ],
+      "finding": "子の「能力は伸ばせる」という考え方を決めるのは、親の知能観ではなく「失敗への反応」でした。",
+      "advice": "失敗を「ダメなこと」ではなく「学ぶ機会」として扱いましょう。",
+      "nextStep": "子どもが失敗したら、まず「何を学べたか」を一緒に話しましょう。"
+    },
+    {
+      "id": "011",
+      "title": "運動と実行機能",
+      "author": "Hillman",
+      "year": 2014,
+      "citation": "Hillman, C. H., Pontifex, M. B., Castelli, D. M., et al. (2014). Effects of the FITKids randomized controlled trial on executive control and brain function. Pediatrics, 134(4), e1063-e1071.",
+      "paperUrl": "https://doi.org/10.1542/peds.2013-3219",
+      "blogUrl": "https://risan.jpn.org/?p=7134",
+      "youtubeUrl": "https://youtu.be/GfGuEwU2VVc",
+      "categories": [
+        "lifestyle",
+        "study"
+      ],
+      "tags": [
+        "運動",
+        "実行機能",
+        "集中力"
+      ],
+      "ageBands": [
+        "elementary"
+      ],
+      "finding": "放課後の運動プログラムで、子どもの実行機能（切り替え・抑制）と脳機能が向上しました。",
+      "advice": "運動は体だけでなく脳も育てます。",
+      "nextStep": "放課後に体を動かす時間を毎日確保しましょう。"
+    },
+    {
+      "id": "010",
+      "title": "オペラント学習理論",
+      "author": "Wahler",
+      "year": 1965,
+      "citation": "Wahler, R. G., Winkel, G. H., Peterson, R. F., & Morrison, D. C. (1965). Mothers as behavior therapists for their own children. Behaviour Research and Therapy, 3(2), 113-124.",
+      "paperUrl": "https://doi.org/10.1016/0005-7967(65)90015-X",
+      "blogUrl": "https://risan.jpn.org/?p=7101",
+      "youtubeUrl": "https://youtu.be/2saYI27yNGo",
+      "categories": [
+        "discipline"
+      ],
+      "tags": [
+        "問題行動",
+        "強化",
+        "注目"
+      ],
+      "ageBands": [
+        "preschool",
+        "elementary"
+      ],
+      "finding": "問題行動は「注意される」こと自体が注目というごほうびになり、繰り返されていました。",
+      "advice": "困った行動への反応を減らし、望ましい行動に注目しましょう。",
+      "nextStep": "注意する回数を減らし、できている瞬間に声をかけてみましょう。"
+    },
+    {
+      "id": "009",
+      "title": "自己効力感",
+      "author": "Schunk",
+      "year": 1981,
+      "citation": "Schunk, D. H. (1981). Modeling and attributional effects on children's achievement: A self-efficacy analysis. Journal of Educational Psychology, 73(1), 93-105.",
+      "paperUrl": "https://doi.org/10.1037/0022-0663.73.1.93",
+      "blogUrl": "https://risan.jpn.org/?p=6980",
+      "youtubeUrl": "https://youtu.be/KO6IdIN20XQ",
+      "categories": [
+        "study"
+      ],
+      "tags": [
+        "自己効力感",
+        "勉強法",
+        "声かけ"
+      ],
+      "ageBands": [
+        "elementary"
+      ],
+      "finding": "大人が声に出して解き方の手本を見せると、子どもの「できそう」という感覚と算数の成績が伸びました。",
+      "advice": "「やってみせて、考え方を声に出す」が効果的です。",
+      "nextStep": "宿題で詰まったら、親が考え方をつぶやきながら例を1問解いて見せましょう。"
+    },
+    {
+      "id": "008",
+      "title": "睡眠6時間はヤバい",
+      "author": "Van Dongen",
+      "year": 2003,
+      "citation": "Van Dongen, H. P., Maislin, G., Mullington, J. M., & Dinges, D. F. (2003). The cumulative cost of additional wakefulness: Dose-response effects on neurobehavioral functions and sleep physiology from chronic sleep restriction and total sleep deprivation. Sleep, 26(2), 117-126.",
+      "paperUrl": "https://doi.org/10.1093/sleep/26.2.117",
+      "blogUrl": "https://risan.jpn.org/?p=6973",
+      "youtubeUrl": "https://youtu.be/uExCZgGzDd4",
+      "categories": [
+        "lifestyle"
+      ],
+      "tags": [
+        "睡眠",
+        "生活リズム"
+      ],
+      "ageBands": [
+        "elementary",
+        "teen"
+      ],
+      "finding": "6時間睡眠を2週間続けると、徹夜明けと同レベルまで認知機能が低下しました。しかも本人は気づきません。",
+      "advice": "勉強時間を削ってでも、睡眠を確保する方が成績には有利です。",
+      "nextStep": "就寝時刻を15分ずつ前倒しして、必要な睡眠時間を確保しましょう。"
+    },
+    {
+      "id": "007",
+      "title": "自己成就予言",
+      "author": "Merton",
+      "year": 1948,
+      "citation": "Merton, R. K. (1948). The self-fulfilling prophecy. The Antioch Review, 8(2), 193-210.",
+      "paperUrl": "https://www.jstor.org/stable/4609267",
+      "blogUrl": "https://risan.jpn.org/?p=6945",
+      "youtubeUrl": "https://youtu.be/ruXcCsevuqE",
+      "categories": [
+        "selfesteem"
+      ],
+      "tags": [
+        "期待",
+        "声かけ"
+      ],
+      "ageBands": [
+        "elementary",
+        "teen"
+      ],
+      "finding": "「こうなる」という思い込みが行動を変え、実際にその通りの結果を生み出していました。",
+      "advice": "子どもへのネガティブな決めつけは現実化しやすいので要注意です。",
+      "nextStep": "「あなたは○○が苦手だから」という決めつけ表現を控えましょう。"
+    },
+    {
+      "id": "006",
+      "title": "ピグマリオン効果",
+      "author": "Rosenthal",
+      "year": 1968,
+      "citation": "Rosenthal, R., & Jacobson, L. (1968). Pygmalion in the classroom. The Urban Review, 3(1), 16-20.",
+      "paperUrl": "https://doi.org/10.1007/BF02322211",
+      "blogUrl": "https://risan.jpn.org/?p=6920",
+      "youtubeUrl": "https://youtu.be/mkwnP_oshZI",
+      "categories": [
+        "selfesteem",
+        "study"
+      ],
+      "tags": [
+        "期待",
+        "声かけ",
+        "自己肯定感"
+      ],
+      "ageBands": [
+        "elementary"
+      ],
+      "finding": "教師が「伸びる」と期待した子は、実際に成績が伸びました。",
+      "advice": "大人の期待は伝わります。「どうせ」ではなく「きっとできる」を前提に接しましょう。",
+      "nextStep": "子どもの可能性を信じる言葉を1日1回意識して伝えましょう。"
+    },
+    {
+      "id": "005",
+      "title": "やり抜く力グリット",
+      "author": "Duckworth",
+      "year": 2007,
+      "citation": "Duckworth, A. L., Peterson, C., Matthews, M. D., & Kelly, D. R. (2007). Grit: Perseverance and passion for long-term goals. Journal of Personality and Social Psychology, 92(6), 1087-1101.",
+      "paperUrl": "https://doi.org/10.1037/0022-3514.92.6.1087",
+      "blogUrl": "https://risan.jpn.org/?p=6883",
+      "youtubeUrl": "https://youtu.be/CKbZBBuJm5s",
+      "categories": [
+        "study",
+        "selfesteem"
+      ],
+      "tags": [
+        "やり抜く力",
+        "やる気",
+        "レジリエンス"
+      ],
+      "ageBands": [
+        "elementary",
+        "teen"
+      ],
+      "finding": "長期目標への情熱と粘り強さ（グリット）は、才能とは別に成果を予測しました。",
+      "advice": "短期の成績より「続ける経験」を大切にしましょう。",
+      "nextStep": "習い事や趣味をすぐ辞めさせず、区切りまで続ける約束を作りましょう。"
+    },
+    {
+      "id": "004",
+      "title": "愛着と探索行動",
+      "author": "Ainsworth",
+      "year": 1970,
+      "citation": "Ainsworth, M. D. S., & Bell, S. M. (1970). Attachment, exploration, and separation: Illustrated by the behavior of one-year-olds in a strange situation. Child Development, 41(1), 49-67.",
+      "paperUrl": "https://doi.org/10.2307/1127388",
+      "blogUrl": "https://risan.jpn.org/?p=6850",
+      "youtubeUrl": "https://youtu.be/LJ8gYwNLrKc",
+      "categories": [
+        "family",
+        "selfesteem"
+      ],
+      "tags": [
+        "愛着",
+        "愛情",
+        "親子"
+      ],
+      "ageBands": [
+        "preschool"
+      ],
+      "finding": "親という安全基地がある子ほど、安心して探索（冒険）に出られました。",
+      "advice": "まず甘えをしっかり受け止めることが、自立への近道です。",
+      "nextStep": "子どもが戻ってきたときは手を止めて受け止める「おかえり」を意識しましょう。"
+    },
+    {
+      "id": "003",
+      "title": "マシュマロテスト",
+      "author": "Mischel",
+      "year": 1972,
+      "citation": "Mischel, W., Ebbesen, E. B., & Zeiss, A. R. (1972). Cognitive and attentional mechanisms in delay of gratification. Journal of Personality and Social Psychology, 21(2), 204-218.",
+      "paperUrl": "https://doi.org/10.1037/h0032198",
+      "blogUrl": "https://risan.jpn.org/?p=6818",
+      "youtubeUrl": "https://youtu.be/C5zEodPdnRs",
+      "categories": [
+        "discipline",
+        "study"
+      ],
+      "tags": [
+        "我慢",
+        "自制心",
+        "習慣"
+      ],
+      "ageBands": [
+        "preschool"
+      ],
+      "finding": "目の前のごほうびを我慢できるかは、気をそらすなどの「工夫」で大きく変わりました。",
+      "advice": "我慢は根性ではなく、注意をそらす技術として教えられます。",
+      "nextStep": "待つ場面では「別の遊びを考える」など気をそらす工夫を一緒に練習しましょう。"
+    },
+    {
+      "id": "002",
+      "title": "才能褒めより努力褒め",
+      "author": "Mueller & Dweck",
+      "year": 1998,
+      "citation": "Mueller, C. M., & Dweck, C. S. (1998). Praise for intelligence can undermine children's motivation and performance. Journal of Personality and Social Psychology, 75(1), 33-52.",
+      "paperUrl": "https://doi.org/10.1037/0022-3514.75.1.33",
+      "blogUrl": "https://risan.jpn.org/?p=6793",
+      "youtubeUrl": "https://youtu.be/Yd7MM11pPgM",
+      "categories": [
+        "selfesteem"
+      ],
+      "tags": [
+        "ほめ方",
+        "褒める",
+        "声かけ"
+      ],
+      "ageBands": [
+        "preschool",
+        "elementary"
+      ],
+      "finding": "「頭がいいね」と才能を褒められた子は難題を避け、努力を褒められた子は挑戦し続けました。",
+      "advice": "結果や才能ではなく、過程と努力を具体的に褒めましょう。",
+      "nextStep": "今日から「すごい」を「最後まで工夫したね」に言い換えてみましょう。"
+    },
+    {
+      "id": "001",
+      "title": "ペリー就学前プロジェクト",
+      "author": "Heckman",
+      "year": 2010,
+      "citation": "Heckman, J. J., Moon, S. H., Pinto, R., Savelyev, P. A., & Yavitz, A. (2010). The rate of return to the HighScope Perry Preschool Program. Journal of Public Economics, 94(1-2), 114-128.",
+      "paperUrl": "https://doi.org/10.1016/j.jpubeco.2009.11.001",
+      "blogUrl": "https://risan.jpn.org/?p=6771",
+      "youtubeUrl": "https://youtu.be/nqNqtIqnRNM",
+      "categories": [
+        "study",
+        "selfesteem"
+      ],
+      "tags": [
+        "幼児教育",
+        "非認知能力",
+        "やる気"
+      ],
+      "ageBands": [
+        "preschool"
+      ],
+      "finding": "質の高い幼児教育を受けた子は、40歳時点まで学歴・収入・生活の安定で差が続きました。",
+      "advice": "幼児期は読み書きの先取りより、意欲や我慢する力を育てる関わりが将来に効きます。",
+      "nextStep": "遊びの中で子どもが自分で決めてやり遂げる経験を増やしましょう。"
     }
   ]
 }
