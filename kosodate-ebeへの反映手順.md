@@ -1,5 +1,10 @@
 # webapp/ を kosodate-ebe リポジトリに反映する手順
 
+> **【完了済み・記録用】** この手順は 2026-06-08 に実施済み。アプリは本リポジトリで
+> 直接開発し、`main` への push で自動デプロイされる運用に移行した。
+> 公開URLも `k.5micro.net` → **`https://5micro.net`** に変更済み（2026-06-10）。
+> 現在の手順は `README.md` と `デプロイ手順.md` を参照。
+
 このセッションは `ObsidianGitVault` 専用にロックされており、こちらから
 `kosodate-ebe` へ直接 push できません。お手元（vaultをcloneしているPC）で
 以下を実行してください。`webapp/` の中身を **リポジトリのルート**として push します。
