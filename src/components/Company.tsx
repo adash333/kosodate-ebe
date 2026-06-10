@@ -22,7 +22,6 @@ export function Company() {
           <dd>
             <ul className="site-list">
               <li>子育てエビデンス相談室</li>
-              <li>WordPressでフリーオリジナルフォント</li>
               <li>サルでもわかるWEBプログラミング</li>
               <li>サルでもわかる機械学習</li>
             </ul>
