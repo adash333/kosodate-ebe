@@ -9,12 +9,17 @@ export interface ArticleSection {
   heading: string;
   body: string[]; // 段落の配列
 }
+export interface ArticleImage {
+  src: string;
+  alt: string;
+}
 export interface Article {
   slug: string;
   title: string;
   lead: string;
   updated: string;
   readMin: number;
+  heroImage?: ArticleImage;
   sections: ArticleSection[];
   steps: string[];
   references: ArticleRef[];
@@ -27,6 +32,10 @@ export const articles: Article[] = [
     lead: '「すごいね」「天才！」とつい言ってしまう。けれど心理学の研究は、同じ「ほめる」でも、言い方しだいで子どもの自信ややる気がむしろ下がることがある、と示しています。今日から変えられる3つのコツを、根拠とともに整理しました。',
     updated: '2026-06-10',
     readMin: 4,
+    heroImage: {
+      src: '/articles/homekata-praise.png',
+      alt: '机で絵を描く子どもに、保護者が穏やかに過程をほめているイラスト',
+    },
     sections: [
       {
         heading: '1. 「人」ではなく「やったこと」をほめる',
@@ -71,6 +80,10 @@ export const articles: Article[] = [
     lead: '勉強時間を増やすより先に、見直す価値があるのが睡眠です。研究は、睡眠の量と質が成績や集中力、気分に深く関わることを示しています。夜の睡眠と昼寝、それぞれのエビデンスを整理しました。',
     updated: '2026-06-10',
     readMin: 4,
+    heroImage: {
+      src: '/articles/sleep-gakuryoku.png',
+      alt: '眠っている子どもを保護者がそっと見守る、睡眠と学びを表したイラスト',
+    },
     sections: [
       {
         heading: '夜の睡眠は、成績と関連する',
@@ -113,6 +126,10 @@ export const articles: Article[] = [
     lead: 'やる気を出させようと指示や報酬を増やしても、長続きしない。研究が示すのは、「自分で決めた」という感覚こそが、やる気と自己肯定感の土台になるということです。指示型・放任型ではなく、自律を支える関わり方を紹介します。',
     updated: '2026-06-10',
     readMin: 4,
+    heroImage: {
+      src: '/articles/jiko-ketteikan.png',
+      alt: '保護者が子どもに選択肢を示し、子どもが自分で選ぼうとしているイラスト',
+    },
     sections: [
       {
         heading: '「自分で決めた感覚」がやる気を育てる',
@@ -155,6 +172,10 @@ export const articles: Article[] = [
     lead: '「上の子だから」「下の子だから」とつい言ってしまう。でも研究は、出生順位が性格を決めるわけではないこと、やきもちもけんかも実は正常な反応であることを示しています。きょうだいをめぐる思い込みを、エビデンスで整理しました。',
     updated: '2026-06-10',
     readMin: 4,
+    heroImage: {
+      src: '/articles/kyodai.png',
+      alt: '遊び場で過ごすきょうだいを保護者が穏やかに見守っているイラスト',
+    },
     sections: [
       {
         heading: '出生順位は、性格をほとんど変えない',
@@ -197,6 +218,10 @@ export const articles: Article[] = [
     lead: 'いじめは「いじめる子」と「いじめられる子」だけの問題ではありません。研究が一貫して示すのは、周りで見ている多くの子（傍観者）の動きこそが、いじめを止めるカギだということです。家庭でできることも含めて整理しました。',
     updated: '2026-06-10',
     readMin: 5,
+    heroImage: {
+      src: '/articles/ijime.png',
+      alt: '不安そうな子どもに友だちが寄り添い、先生が見守っているイラスト',
+    },
     sections: [
       {
         heading: '傍観は「中立」ではない',
@@ -240,6 +265,10 @@ export const articles: Article[] = [
     lead: '「スマホを取り上げれば解決する」とは限りません。研究は、スマホそのものの影響は思ったより小さく、使いすぎの背景にある生活リズムや孤独感のほうが重要だと示しています。「禁止」より効く視点を整理しました。',
     updated: '2026-06-10',
     readMin: 4,
+    heroImage: {
+      src: '/articles/smartphone.png',
+      alt: 'スマホを脇に置き、親子が食卓で生活リズムについて話しているイラスト',
+    },
     sections: [
       {
         heading: 'スマホ単体の影響は、意外と小さい',
@@ -282,6 +311,10 @@ export const articles: Article[] = [
     lead: '言葉の発達には、たくさんの言葉を浴びせることが大事——半分は正解ですが、研究が示すもっと大切なポイントは「会話の往復」です。読み聞かせと言葉かけのエビデンスを整理しました。',
     updated: '2026-06-10',
     readMin: 4,
+    heroImage: {
+      src: '/articles/yomikikase.png',
+      alt: '絵本を見ながら親子が指差しと会話をしているイラスト',
+    },
     sections: [
       {
         heading: 'カギは「言葉数」より「会話の往復」',
@@ -324,6 +357,10 @@ export const articles: Article[] = [
     lead: '言うことを聞かせたくて、つい強く叱ったり手が出そうになったり。でも研究は、体罰やきつい叱責が「効く」どころか、むしろ逆効果になることを一貫して示しています。代わりに何が効くのかを整理しました。',
     updated: '2026-06-10',
     readMin: 5,
+    heroImage: {
+      src: '/articles/shikarikata.png',
+      alt: '小さな失敗のあと、保護者が一呼吸おいて子どもに穏やかに話しているイラスト',
+    },
     sections: [
       {
         heading: '体罰に、良い効果は見つかっていない',
@@ -366,6 +403,10 @@ export const articles: Article[] = [
     lead: '失敗や困難にぶつかっても立ち直れる力（レジリエンス）。これは生まれつきの性格ではなく、育つ環境のなかで伸ばせる力だと研究は示しています。家庭でできることを整理しました。',
     updated: '2026-06-10',
     readMin: 4,
+    heroImage: {
+      src: '/articles/resilience.png',
+      alt: '落ち込んだ子どものそばで信頼できる大人が話を聞いているイラスト',
+    },
     sections: [
       {
         heading: 'カギは「味方になる大人」の存在',
@@ -407,6 +448,10 @@ export const articles: Article[] = [
     lead: '「お金をかけないと、いい教育はできない」——本当でしょうか。研究は、収入や教育費の額そのものより、親の関わりの質や環境のほうが子どもの育ちを左右することを示しています。データから見える現実的な視点を整理しました。',
     updated: '2026-06-10',
     readMin: 5,
+    heroImage: {
+      src: '/articles/okane-kakusa.png',
+      alt: '親子が食卓で本やノートを広げ、お金より関わりを大切に学んでいるイラスト',
+    },
     sections: [
       {
         heading: '収入と学力には差がある。でも縮められる',

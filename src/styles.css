@@ -119,6 +119,14 @@ h2 { font-size: 1.25rem; margin: 6px 0 4px; }
 .article p { font-size: .95rem; color: #333; margin: 0 0 12px; }
 .alead-top { font-weight: 600; }
 .amtop { font-size: .8rem; margin-bottom: 14px; }
+.article-hero { margin: 18px 0 20px; }
+.article-hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+}
 .article .steps, .article .refs { margin: 8px 0 16px; padding-left: 1.2em; }
 .article .steps li, .article .refs li { margin-bottom: 8px; font-size: .93rem; }
 .article .refs a { color: var(--green-d); }

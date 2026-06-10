@@ -28,6 +28,11 @@ export function ArticleView({ article }: { article: Article }) {
       <h2>{article.title}</h2>
       <p className="amtop muted">最終更新 {article.updated} ・ 約{article.readMin}分で読めます</p>
       <p className="alead-top">{article.lead}</p>
+      {article.heroImage && (
+        <figure className="article-hero">
+          <img src={article.heroImage.src} alt={article.heroImage.alt} />
+        </figure>
+      )}
 
       {article.sections.map((s, i) => (
         <section key={i}>
