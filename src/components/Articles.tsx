@@ -62,7 +62,7 @@ export function ArticleView({ article }: { article: Article }) {
           提供するものではありません。お子さんの発達・健康・心理に関する個別の判断が必要な場合は、
           小児科医・心療内科医・臨床心理士・学校・自治体の相談窓口など、専門機関にご相談ください。
         </p>
-        <p className="muted">運営: 合同会社5マイクロ ／ 監修: 子育てエビデンス研究所（東大理三夫婦）</p>
+        <p className="muted">運営: 合同会社5マイクロ ／ 監修: 子育てエビデンス研究所</p>
       </div>
 
       <p className="article-back">
