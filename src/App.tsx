@@ -6,6 +6,8 @@ import { ResultCard } from './components/ResultCard';
 import { Legal } from './components/Legal';
 import { Company } from './components/Company';
 import { Contact } from './components/Contact';
+import { ArticlesList, ArticleView } from './components/Articles';
+import { articles } from './articles';
 import { track } from './analytics';
 
 type Step = 'intro' | 'q1' | 'q2' | 'q3' | 'q4' | 'result' | 'legal' | 'list';
@@ -74,6 +76,26 @@ export default function App() {
         <Legal mode="disclaimer" />
       </Shell>
     );
+  }
+
+  if (route === '/articles') {
+    return (
+      <Shell>
+        <ArticlesList />
+      </Shell>
+    );
+  }
+
+  const articleMatch = route.match(/^\/articles\/(.+)$/);
+  if (articleMatch) {
+    const art = articles.find((a) => a.slug === articleMatch[1]);
+    if (art) {
+      return (
+        <Shell>
+          <ArticleView article={art} />
+        </Shell>
+      );
+    }
   }
 
   return (
@@ -267,6 +289,9 @@ export default function App() {
         <button className="link" onClick={() => { setStep('list'); track('open_list'); }}>
           動画一覧
         </button>
+        <a className="link" href="/articles">
+          読み物
+        </a>
         <button className="link" onClick={() => { setBack(step); setStep('legal'); }}>
           免責事項・プライバシーポリシー
         </button>
@@ -296,6 +321,7 @@ function Shell({ children }: { children: ReactNode }) {
       <main className="main">{children}</main>
       <footer className="footer">
         <a className="link" href="/">トップ</a>
+        <a className="link" href="/articles">読み物</a>
         <a className="link" href="/company">会社情報</a>
         <a className="link" href="/contact">お問い合わせ</a>
         <a className="link" href="/privacy">プライバシーポリシー</a>
