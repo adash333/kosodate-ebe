@@ -508,6 +508,10 @@ export const articles: Article[] = [
     updated: '2026-06-11',
     publish: '2026-06-11',
     readMin: 4,
+    heroImage: {
+      src: '/articles/henshoku.png',
+      alt: '食卓で野菜を前にした子どもを、保護者が無理に促さず穏やかに見守っているイラスト',
+    },
     sections: [
       {
         heading: '「くり返し出す」だけで、食べられるものは増える',
@@ -551,6 +555,10 @@ export const articles: Article[] = [
     updated: '2026-06-12',
     publish: '2026-06-12',
     readMin: 4,
+    heroImage: {
+      src: '/articles/undou-nou.png',
+      alt: '公園で子どもたちが走り、保護者が見守っている運動と学びを表したイラスト',
+    },
     sections: [
       {
         heading: 'ひと運動したあとは、集中しやすい',
