@@ -4,8 +4,6 @@ import { track } from '../analytics';
 export function SiteFooter() {
   return (
     <footer className="footer">
-      <a className="link" href="/">トップ</a>
-      <a className="link" href="/search" onClick={() => track('open_search')}>サイト内検索</a>
       <a className="link" href="/videos" onClick={() => track('open_list')}>動画一覧</a>
       <a className="link" href="/articles">読み物</a>
       <a className="link" href="/glossary">用語解説</a>
@@ -18,6 +16,7 @@ export function SiteFooter() {
       <a className="link" href="https://risan.jpn.org/" target="_blank" rel="noopener noreferrer">
         ブログ
       </a>
+      <a className="link" href="/search" onClick={() => track('open_search')}>サイト内検索</a>
     </footer>
   );
 }
