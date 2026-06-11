@@ -91,6 +91,11 @@ export const articles: Article[] = [
       { label: 'Deci, 1999（報酬と内発的動機づけ）', url: 'https://risan.jpn.org/?p=8614' },
       { label: 'Festinger, 1959（認知的不協和）', url: 'https://risan.jpn.org/?p=10282' },
     ],
+    relatedTerms: [
+      { slug: 'naihatsu-douki', term: '内発的動機づけ' },
+      { slug: 'growth-mindset', term: 'しなやかマインドセット（成長マインドセット）' },
+      { slug: 'undermining-effect', term: 'アンダーマイニング効果' },
+    ],
   },
   {
     slug: 'sleep-gakuryoku',
@@ -183,6 +188,10 @@ export const articles: Article[] = [
       { label: 'Deci, 1999（報酬と内発的動機づけ）', url: 'https://risan.jpn.org/?p=8614' },
       { label: 'Waters, 2017（強み活用型子育て）', url: 'https://risan.jpn.org/?p=8178' },
     ],
+    relatedTerms: [
+      { slug: 'jiko-kettei-riron', term: '自己決定理論' },
+      { slug: 'naihatsu-douki', term: '内発的動機づけ' },
+    ],
   },
   {
     slug: 'kyodai',
@@ -228,6 +237,9 @@ export const articles: Article[] = [
       { label: 'Volling, 2002（三者関係とやきもち）', url: 'https://risan.jpn.org/?p=9821' },
       { label: 'Dunn, 1980（赤ちゃん返り）', url: 'https://risan.jpn.org/?p=9886' },
       { label: 'Song, 2018（きょうだいげんかと心の理論）', url: 'https://risan.jpn.org/?p=11330' },
+    ],
+    relatedTerms: [
+      { slug: 'theory-of-mind', term: '心の理論' },
     ],
   },
   {
@@ -275,6 +287,9 @@ export const articles: Article[] = [
       { label: 'Spriggs, 2007（孤立と被害リスク）', url: 'https://risan.jpn.org/?p=8234' },
       { label: 'Karna, 2011（KiVaプログラム）', url: 'https://risan.jpn.org/?p=8334' },
       { label: 'van Noorden, 2015（いじめと共感性）', url: 'https://risan.jpn.org/?p=8823' },
+    ],
+    relatedTerms: [
+      { slug: 'boukansha-kouka', term: '傍観者効果' },
     ],
   },
   {
@@ -368,6 +383,9 @@ export const articles: Article[] = [
       { label: 'Stanovich, 1986（マタイ効果）', url: 'https://risan.jpn.org/?p=9438' },
       { label: 'Mol, 2011（読書量と成績・メタ分析）', url: 'https://risan.jpn.org/?p=9648' },
     ],
+    relatedTerms: [
+      { slug: 'matthew-effect', term: 'マタイ効果' },
+    ],
   },
   {
     slug: 'shikarikata',
@@ -458,6 +476,9 @@ export const articles: Article[] = [
       { label: 'Pennebaker, 1986（感情の言語化）', url: 'https://risan.jpn.org/?p=10887' },
       { label: 'Lyubomirsky, 2005（幸福と行動）', url: 'https://risan.jpn.org/?p=8155' },
       { label: 'Durlak, 2011（SELと学力）', url: 'https://risan.jpn.org/?p=8976' },
+    ],
+    relatedTerms: [
+      { slug: 'resilience', term: 'レジリエンス' },
     ],
   },
   {
@@ -554,6 +575,9 @@ export const articles: Article[] = [
       { label: 'Galloway et al., 2006（食べる強制の逆効果）', url: 'https://scholar.google.com/scholar?q=Galloway+2006+finish+your+soup+pressure+to+eat' },
       { label: 'Satter（食事の役割分担）', url: 'https://scholar.google.com/scholar?q=Satter+division+of+responsibility+in+feeding' },
     ],
+    relatedTerms: [
+      { slug: 'food-neophobia', term: '食物新奇性恐怖' },
+    ],
   },
   {
     slug: 'undou-nou',
@@ -645,6 +669,10 @@ export const articles: Article[] = [
       { label: 'Gottman et al., 1996（感情コーチング）', url: 'https://scholar.google.com/scholar?q=Gottman+1996+parental+meta-emotion+emotion+coaching' },
       { label: 'Denham et al., 2003（幼児の感情の力と適応）', url: 'https://scholar.google.com/scholar?q=Denham+2003+preschool+emotional+competence+social' },
       { label: 'Rosanbalm & Murray, 2017（共調整）', url: 'https://scholar.google.com/scholar?q=Rosanbalm+Murray+2017+co-regulation+from+birth+through+adolescence' },
+    ],
+    relatedTerms: [
+      { slug: 'emotion-coaching', term: '感情コーチング' },
+      { slug: 'co-regulation', term: '共調整' },
     ],
   },
   {
