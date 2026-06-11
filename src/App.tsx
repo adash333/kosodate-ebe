@@ -7,11 +7,14 @@ import { Legal } from './components/Legal';
 import { Company } from './components/Company';
 import { ArticlesList, ArticleView } from './components/Articles';
 import { GlossaryList, TermView } from './components/Glossary';
+import { VideoList } from './components/VideoList';
+import { SiteSearch } from './components/Search';
+import { SiteFooter } from './components/SiteFooter';
 import { articles, isPublished } from './articles';
 import { terms } from './glossary';
 import { track } from './analytics';
 
-type Step = 'intro' | 'q1' | 'q2' | 'q3' | 'q4' | 'result' | 'legal' | 'list';
+type Step = 'intro' | 'q1' | 'q2' | 'q3' | 'q4' | 'result';
 
 export default function App() {
   const route = window.location.pathname.replace(/\/$/, '') || '/';
@@ -21,7 +24,6 @@ export default function App() {
   const [chips, setChips] = useState<string[]>([]);
   const [freeText, setFreeText] = useState('');
   const [age, setAge] = useState<AgeBandId | null>(null);
-  const [back, setBack] = useState<Step>('intro');
 
   const results = useMemo(() => {
     if (step !== 'result') return [];
@@ -111,6 +113,22 @@ export default function App() {
     }
   }
 
+  if (route === '/videos') {
+    return (
+      <Shell>
+        <VideoList />
+      </Shell>
+    );
+  }
+
+  if (route === '/search') {
+    return (
+      <Shell>
+        <SiteSearch />
+      </Shell>
+    );
+  }
+
   return (
     <div className="app">
       <header className="header" onClick={reset} role="button">
@@ -128,6 +146,9 @@ export default function App() {
             <button className="btn-primary" onClick={() => { setStep('q1'); track('start'); }}>
               はじめる
             </button>
+            <p className="intro-search">
+              または、<a className="link" href="/search" onClick={() => track('open_search')}>キーワードでサイト内を検索</a>
+            </p>
           </section>
         )}
 
@@ -244,83 +265,9 @@ export default function App() {
           </section>
         )}
 
-        {step === 'list' && (
-          <section className="step">
-            <h2 className="result-head">動画・記事 一覧（全{adviceData.count}本）</h2>
-            <p className="sub">番号の新しい順。各項目から解説動画とブログ記事へ移動できます。</p>
-            <ul className="vlist">
-              {[...adviceData.items]
-                .sort((a, b) => Number(b.id) - Number(a.id))
-                .map((it) => (
-                  <li key={it.id} className="vrow">
-                    <span className="vno">#{it.id}</span>
-                    <div className="vbody">
-                      <div className="vadvice">{it.advice}</div>
-                      <div className="vlinks">
-                        <a
-                          className="vlink yt"
-                          href={it.youtubeUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          onClick={() => track('list_youtube', { id: it.id })}
-                        >
-                          ▶ 解説動画
-                        </a>
-                        {it.blogUrl ? (
-                          <a
-                            className="vlink blog"
-                            href={it.blogUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            onClick={() => track('list_blog', { id: it.id })}
-                          >
-                            論文解説
-                          </a>
-                        ) : it.paperUrl ? (
-                          <a
-                            className="vlink blog"
-                            href={it.paperUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            論文
-                          </a>
-                        ) : null}
-                      </div>
-                    </div>
-                  </li>
-                ))}
-            </ul>
-            <button className="btn-primary" onClick={reset}>トップへ戻る</button>
-          </section>
-        )}
-
-        {step === 'legal' && <Legal onBack={() => setStep(back)} />}
       </main>
 
-      <footer className="footer">
-        <button className="link" onClick={() => { setStep('list'); track('open_list'); }}>
-          動画一覧
-        </button>
-        <a className="link" href="/articles">
-          読み物
-        </a>
-        <a className="link" href="/glossary">
-          用語解説
-        </a>
-        <button className="link" onClick={() => { setBack(step); setStep('legal'); }}>
-          免責事項・プライバシーポリシー
-        </button>
-        <a className="link" href="/company">
-          会社情報
-        </a>
-        <a className="link" href="https://www.youtube.com/@evilab" target="_blank" rel="noopener noreferrer">
-          YouTubeチャンネル
-        </a>
-        <a className="link" href="https://risan.jpn.org/" target="_blank" rel="noopener noreferrer">
-          ブログ
-        </a>
-      </footer>
+      <SiteFooter />
     </div>
   );
 }
@@ -332,14 +279,7 @@ function Shell({ children }: { children: ReactNode }) {
         <a className="logo logo-link" href="/">🌱 子育てエビデンス相談室</a>
       </header>
       <main className="main">{children}</main>
-      <footer className="footer">
-        <a className="link" href="/">トップ</a>
-        <a className="link" href="/articles">読み物</a>
-        <a className="link" href="/glossary">用語解説</a>
-        <a className="link" href="/company">会社情報</a>
-        <a className="link" href="/privacy">プライバシーポリシー</a>
-        <a className="link" href="/disclaimer">免責事項</a>
-      </footer>
+      <SiteFooter />
     </div>
   );
 }
