@@ -1,6 +1,11 @@
-import { articles, type Article } from '../articles';
+import { articles, isPublished, type Article } from '../articles';
 
 export function ArticlesList() {
+  // 公開日が到来した記事のみを、公開日の新しい順に表示する。
+  const visible = articles
+    .filter((a) => isPublished(a))
+    .slice()
+    .sort((a, b) => (b.publish ?? b.updated).localeCompare(a.publish ?? a.updated));
   return (
     <div className="legal">
       <h2>読み物（エビデンス記事）</h2>
@@ -8,7 +13,7 @@ export function ArticlesList() {
         子育ての悩みに、学術研究の知見をもとにした一般的な情報をお届けします。
       </p>
       <ul className="alist">
-        {articles.map((a) => (
+        {visible.map((a) => (
           <li key={a.slug} className="arow">
             <a className="alink" href={`/articles/${a.slug}`}>
               <span className="atitle">{a.title}</span>

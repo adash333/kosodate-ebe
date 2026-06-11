@@ -6,7 +6,7 @@ import { ResultCard } from './components/ResultCard';
 import { Legal } from './components/Legal';
 import { Company } from './components/Company';
 import { ArticlesList, ArticleView } from './components/Articles';
-import { articles } from './articles';
+import { articles, isPublished } from './articles';
 import { track } from './analytics';
 
 type Step = 'intro' | 'q1' | 'q2' | 'q3' | 'q4' | 'result' | 'legal' | 'list';
@@ -80,7 +80,7 @@ export default function App() {
   const articleMatch = route.match(/^\/articles\/(.+)$/);
   if (articleMatch) {
     const art = articles.find((a) => a.slug === articleMatch[1]);
-    if (art) {
+    if (art && isPublished(art)) {
       return (
         <Shell>
           <ArticleView article={art} />

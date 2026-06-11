@@ -18,11 +18,22 @@ export interface Article {
   title: string;
   lead: string;
   updated: string;
+  /** 公開日 'YYYY-MM-DD'。未設定なら常に公開。この日付を過ぎるまで一覧・詳細に表示しない。 */
+  publish?: string;
   readMin: number;
   heroImage?: ArticleImage;
   sections: ArticleSection[];
   steps: string[];
   references: ArticleRef[];
+}
+
+/** 記事が公開済みか（閲覧者のブラウザの現在日付で判定。再デプロイ不要で日付到来時に自動表示される）。 */
+export function isPublished(a: Article, now: Date = new Date()): boolean {
+  if (!a.publish) return true;
+  const y = now.getFullYear();
+  const m = String(now.getMonth() + 1).padStart(2, '0');
+  const d = String(now.getDate()).padStart(2, '0');
+  return a.publish <= `${y}-${m}-${d}`;
 }
 
 export const articles: Article[] = [
@@ -488,6 +499,219 @@ export const articles: Article[] = [
       { label: 'Chetty, 2014（教師の質と将来収入）', url: 'https://risan.jpn.org/?p=11017' },
       { label: 'Kahneman, 2010 / Killingsworth, 2021（お金と幸福）', url: 'https://risan.jpn.org/?p=9673' },
       { label: 'Kasser, 1993（お金の目的化と不安）', url: 'https://risan.jpn.org/?p=10074' },
+    ],
+  },
+  {
+    slug: 'henshoku',
+    title: '子どもの好き嫌い・偏食 — 「無理に食べさせない」が近道なわけ',
+    lead: '「せっかく作ったのに食べてくれない」「野菜をひと口も口にしない」。毎日の食卓は悩みの種になりがちです。けれど研究は、無理に食べさせるより、出し続けて待つほうが結果的に食べられるものが増えることを示しています。今日からできる関わり方を整理しました。',
+    updated: '2026-06-11',
+    publish: '2026-06-11',
+    readMin: 4,
+    sections: [
+      {
+        heading: '「くり返し出す」だけで、食べられるものは増える',
+        body: [
+          'ウォードルら（2003）の研究では、子どもが嫌っていた野菜でも、毎日少しずつ味見をさせて出し続けると、2週間ほどで好んで食べるようになっていきました。新しい食べ物を受け入れるには、ふつう8〜15回の経験が必要だと報告されています。',
+          'バーチとマーリン（1982）も、2歳児に新しい食べ物をくり返し見せて味わわせると、回数を重ねるほど好みが高まることを示しました。「一度拒否された＝嫌い」と決めつけず、また食卓に並べることが大切です。',
+          '子どもが見慣れないものを警戒するのは「食物新奇性恐怖（neophobia）」と呼ばれ、ある程度は生まれつきの傾向です。叱って直すものではなく、経験を重ねてやわらげていくものだと考えると気が楽になります。',
+        ],
+      },
+      {
+        heading: '「食べなさい」のプレッシャーは、かえって嫌いにする',
+        body: [
+          'ギャロウェイら（2006）の実験では、「全部食べなさい」とプレッシャーをかけられた子どもは、同じスープをむしろ「おいしくない」と感じ、食べる量も減りました。強制は、その食べ物への嫌悪感を強めてしまうのです。',
+          '無理強いや「ごほうびで釣る」関わりは、短期的には食べさせられても、長い目で見るとその食べ物を好きにする助けにはなりにくいと報告されています。',
+        ],
+      },
+      {
+        heading: '「役割分担」で食卓を平和にする',
+        body: [
+          '栄養士のエリン・サターが提唱し広く支持されている「食事の役割分担（Division of Responsibility）」という考え方があります。親は「何を・いつ・どこで」出すかを決め、子どもは「食べるか・どれだけ食べるか」を決める、という線引きです。',
+          'この線引きを守ると、食卓での主導権争いが減り、親も「食べさせなきゃ」という焦りから解放されます。食べる量は日によって大きく変わるのが普通なので、一食単位ではなく数日単位でゆるく見るくらいがちょうどよいでしょう。',
+        ],
+      },
+    ],
+    steps: [
+      '嫌がられた食材も、量を減らして食卓に「また出す」。一度の拒否であきらめない。',
+      '「全部食べなさい」をやめ、ひと口だけ味見できたら十分とする。',
+      '「出すもの」は親が決め、「食べる量」は子どもに任せる、と線を引く。',
+    ],
+    references: [
+      { label: "Wardle et al., 2003（くり返し出すと食べられる）", url: 'https://scholar.google.com/scholar?q=Wardle+2003+modifying+children%27s+food+preferences+exposure' },
+      { label: 'Birch & Marlin, 1982（くり返しと好みの形成）', url: 'https://scholar.google.com/scholar?q=Birch+Marlin+1982+I+don%27t+like+it+exposure+food+preference' },
+      { label: 'Galloway et al., 2006（食べる強制の逆効果）', url: 'https://scholar.google.com/scholar?q=Galloway+2006+finish+your+soup+pressure+to+eat' },
+      { label: 'Satter（食事の役割分担）', url: 'https://scholar.google.com/scholar?q=Satter+division+of+responsibility+in+feeding' },
+    ],
+  },
+  {
+    slug: 'undou-nou',
+    title: '体を動かすと頭も育つ — 運動・外遊びと学力・集中力のエビデンス',
+    lead: '「勉強の前にまず運動」と言うと意外に聞こえるかもしれません。けれど研究は、体を動かすことが集中力や記憶、実行機能（自分をコントロールする力）を高めることをくり返し示しています。机に向かう時間とのバランスを考えるヒントを整理しました。',
+    updated: '2026-06-12',
+    publish: '2026-06-12',
+    readMin: 4,
+    sections: [
+      {
+        heading: 'ひと運動したあとは、集中しやすい',
+        body: [
+          'ヒルマンら（2009）は、20分ほど歩いた直後の子どものほうが、その後の課題で注意力が高まり、読解などの成績も良くなることを示しました。脳の反応を測る指標でも、運動後に集中に関わる働きが高まっていました。',
+          '「じっとさせれば集中する」とは限りません。授業の合間に体を動かす時間をはさむことが、かえって学習を助けることがあるのです。',
+        ],
+      },
+      {
+        heading: '続けると「自分をコントロールする力」が伸びる',
+        body: [
+          'ヒルマンらのFITKids研究（2014）では、放課後に体を動かすプログラムを9か月続けた子どもたちは、実行機能（注意の切り替えや衝動を抑える力）が高まりました。一回きりでなく、習慣にすることで効果が積み上がります。',
+          'ダイヤモンドとリー（2011）のレビューも、運動を含むさまざまな取り組みが子どもの実行機能を育てうると整理しています。実行機能は、学力だけでなく感情のコントロールや対人関係にも関わる土台です。',
+        ],
+      },
+      {
+        heading: '「運動か勉強か」ではなく、両方が支え合う',
+        body: [
+          'ドネリーら（2016）の大規模なレビューは、身体活動が子どもの脳の構造や働き、学業成績に良い影響を与えうると結論づけました。運動の時間を増やしても、学業成績が下がることはほとんどありません。',
+          'シブリーとエトニア（2003）のメタ分析も、身体活動と認知機能のあいだにプラスの関連があることを示しています。外遊びは「勉強時間を奪うもの」ではなく、学びを支える投資と考えてよいでしょう。',
+        ],
+      },
+    ],
+    steps: [
+      '勉強や宿題の前に、5〜10分でも体を動かす時間を入れてみる。',
+      '「座って集中」がうまくいかない日は、いったん外遊びや散歩をはさむ。',
+      '毎日の運動・外遊びを「学びの邪魔」ではなく「土台づくり」と捉える。',
+    ],
+    references: [
+      { label: 'Hillman et al., 2009（運動直後の集中・成績）', url: 'https://scholar.google.com/scholar?q=Hillman+2009+effects+of+acute+exercise+children+attention+academic' },
+      { label: 'Hillman et al., 2014（FITKids・実行機能）', url: 'https://scholar.google.com/scholar?q=Hillman+2014+FITKids+physical+activity+executive+control' },
+      { label: 'Diamond & Lee, 2011（実行機能を育てる）', url: 'https://scholar.google.com/scholar?q=Diamond+Lee+2011+interventions+executive+function+children' },
+      { label: 'Donnelly et al., 2016（身体活動と学業のレビュー）', url: 'https://scholar.google.com/scholar?q=Donnelly+2016+physical+activity+cognition+academic+systematic+review' },
+      { label: 'Sibley & Etnier, 2003（メタ分析）', url: 'https://scholar.google.com/scholar?q=Sibley+Etnier+2003+physical+activity+cognition+children+meta-analysis' },
+    ],
+  },
+  {
+    slug: 'kanjou-control',
+    title: 'かんしゃくとどう向き合うか — 感情のコントロールを育てる3つの土台',
+    lead: '泣きわめく、ひっくり返る、手が出る。かんしゃくは、親をいちばん消耗させる場面のひとつです。でも感情のコントロールは、生まれつきの性格ではなく、関わりのなかで育っていく力。研究が示す「土台のつくり方」を整理しました。',
+    updated: '2026-06-13',
+    publish: '2026-06-13',
+    readMin: 4,
+    sections: [
+      {
+        heading: '土台1：気持ちに「名前」をつける',
+        body: [
+          'リーバーマンら（2007）の研究では、自分の感情を言葉にする（「いま不安だ」と名づける）だけで、脳の興奮に関わる部分の活動が静まることが示されました。「名前をつけると、おさまる（name it to tame it）」とも言われます。',
+          '子どもがかんしゃくを起こしているときに「くやしかったね」「やりたかったんだね」と気持ちを言葉にして返すと、子どもは自分の感情を整理しやすくなります。否定せず、まず名前をつけてあげることが第一歩です。',
+        ],
+      },
+      {
+        heading: '土台2：感情を「悪いもの」にしない',
+        body: [
+          'ゴットマンら（1996）は、子どもの感情を受け止め、一緒に対処を考える「感情コーチング」をする親のもとで、子どもが感情をうまく扱えるように育ちやすいことを示しました。逆に、感情を「ダメなもの」として抑え込ませる関わりは、コントロールの力を育てにくいとされています。',
+          'デナムら（2003）の研究でも、幼児期に感情を理解し扱う力が高い子は、その後の対人関係や学校適応が良い傾向がありました。「泣くな」「怒るな」ではなく、「その気持ちはOK、出し方を一緒に考えよう」という姿勢が土台になります。',
+        ],
+      },
+      {
+        heading: '土台3：まず大人が落ち着く（共調整）',
+        body: [
+          '子どもが感情をコントロールする力は、最初は大人が「一緒に落ち着く」ことを通して育ちます（共調整＝co-regulation）。マレーやローザンバルムら（2017）は、まわりの大人が穏やかに寄り添うことが、子どもの自己コントロールの発達を支えると整理しています。',
+          'かんしゃくの最中に理屈で説得しても届きにくいものです。まず大人が深呼吸して声のトーンを落とし、落ち着いてから言葉をかける。嵐が過ぎてから振り返る——この順番が、結果的に近道になります。',
+        ],
+      },
+    ],
+    steps: [
+      'かんしゃくの最中は、まず「くやしかったね」と気持ちに名前をつけて返す。',
+      '「泣くな・怒るな」ではなく、「気持ちはOK、出し方を一緒に考えよう」と伝える。',
+      '説得より先に、まず大人が深呼吸して落ち着く。振り返りは落ち着いた後で。',
+    ],
+    references: [
+      { label: 'Lieberman et al., 2007（感情に名前をつける）', url: 'https://scholar.google.com/scholar?q=Lieberman+2007+putting+feelings+into+words+affect+labeling' },
+      { label: 'Gottman et al., 1996（感情コーチング）', url: 'https://scholar.google.com/scholar?q=Gottman+1996+parental+meta-emotion+emotion+coaching' },
+      { label: 'Denham et al., 2003（幼児の感情の力と適応）', url: 'https://scholar.google.com/scholar?q=Denham+2003+preschool+emotional+competence+social' },
+      { label: 'Rosanbalm & Murray, 2017（共調整）', url: 'https://scholar.google.com/scholar?q=Rosanbalm+Murray+2017+co-regulation+from+birth+through+adolescence' },
+    ],
+  },
+  {
+    slug: 'tomodachi-asobi',
+    title: '友だちづくりと社会性 — 「自由な遊び」がいちばんの練習になる',
+    lead: '「友だちとうまくやれているかな」「もっと習い事をさせたほうが…」。社会性は教え込むものに思えますが、研究は、子ども同士の自由な遊びこそが社会性のいちばんの練習場だと示しています。大人ができることを整理しました。',
+    updated: '2026-06-14',
+    publish: '2026-06-14',
+    readMin: 4,
+    sections: [
+      {
+        heading: '自由な遊びは「社会性の練習場」',
+        body: [
+          '子ども同士の遊びでは、順番を待つ、ルールを決める、ぶつかって折り合いをつける——といったやり取りが絶えず起きます。大人に管理されすぎない自由な遊びのなかでこそ、こうした力が鍛えられます。',
+          '心理学者のグレイ（2011）は、ここ数十年で子どもの自由な遊びが大きく減り、それと並行して不安や抑うつが増えてきたことを指摘しました。遊びの減少が、感情や社会性を育てる機会の減少につながっている可能性があるという問題提起です。',
+        ],
+      },
+      {
+        heading: '「休み時間」にも意味がある',
+        body: [
+          'ペレグリーニとボーン（2005）は、休み時間（recess）に体を動かして遊ぶことが、その後の授業での集中や、友だちとの関わりに良い影響を与えうることを示しました。遊びは学びの「ごほうび」ではなく、発達に必要な活動です。',
+          '遊びには発達の段階があることも知られています（パーテン, 1932）。最初はひとり遊びや横並びの遊びから始まり、やがて協力したりルールを共有したりする遊びへと進みます。今の段階を否定せず、次の一歩を見守る視点が役立ちます。',
+        ],
+      },
+      {
+        heading: '友だちは「多さ」より「質」',
+        body: [
+          'ハータップ（1996）は、友だちの数そのものより、安心できる友だち関係があることのほうが、その後の適応に大切だと整理しました。たくさんの友だちがいなくても、心を許せる相手が一人いれば十分なことが多いのです。',
+          '親ができるのは、無理に輪に入れることより、安心して遊べる機会を用意し、トラブルのときに気持ちを聞いて整理を手伝うこと。社会性は「教える」より「経験を支える」ことで育っていきます。',
+        ],
+      },
+    ],
+    steps: [
+      '習い事で埋めすぎず、子ども同士で自由に遊べる時間を意識して残す。',
+      '友だちの「数」で焦らず、安心できる関係が一つあるかに目を向ける。',
+      'トラブルは取り上げず、まず気持ちを聞いて一緒に整理する。',
+    ],
+    references: [
+      { label: 'Gray, 2011（自由な遊びの減少と心の健康）', url: 'https://scholar.google.com/scholar?q=Gray+2011+decline+of+play+rise+in+psychopathology+children' },
+      { label: 'Pellegrini & Bohn, 2005（休み時間と学校適応）', url: 'https://scholar.google.com/scholar?q=Pellegrini+Bohn+2005+recess+school+adjustment' },
+      { label: 'Parten, 1932（遊びの発達段階）', url: 'https://scholar.google.com/scholar?q=Parten+1932+social+participation+among+preschool+children' },
+      { label: 'Hartup, 1996（友だち関係の意味）', url: 'https://scholar.google.com/scholar?q=Hartup+1996+company+they+keep+friendships+developmental+significance' },
+    ],
+  },
+  {
+    slug: 'souki-kyouiku',
+    title: '早期教育・習い事は得か — 「先取り」より大切な土台',
+    lead: '「早く始めたほうが有利」「周りもやっているから」。早期教育には不安と期待がつきまといます。研究は、早い先取り学習の効果が長続きしにくい一方、遊びや自分で取り組む経験が後々まで効くことを示しています。冷静に考えるための整理です。',
+    updated: '2026-06-15',
+    publish: '2026-06-15',
+    readMin: 5,
+    sections: [
+      {
+        heading: '早い「先取り」の効果は、薄れやすい',
+        body: [
+          '幼児期に文字や数の詰め込みを重視した教育の効果は、入学直後はテストに表れても、数年で差が消えていく（フェードアウトする）ことが多いと報告されています。プロツコ（2015）は、早期介入で上がった知能の得点が、支援が終わると薄れていきやすいことを示しました。',
+          'テネシー州の就学前プログラムを追跡した研究（リプシーら, 2018）では、早い段階での学力面のメリットが続かず、一部ではむしろ後年に不利が見られたケースも報告されました。「早ければ早いほど得」とは単純に言えないのです。',
+        ],
+      },
+      {
+        heading: '「やらされる」より「自分で取り組む」',
+        body: [
+          'マーコン（2002）の研究では、大人主導で勉強を詰め込むタイプの幼児教育より、子どもが自分から関わるタイプの保育を受けた子のほうが、後の学年で成績が伸びやすい傾向が見られました。',
+          'リラードら（2013）は、ごっこ遊びなどの自発的な遊びが、自制心や言葉、想像力の発達と結びつくことを整理しています。「遊んでいるだけ」に見える時間が、実は土台づくりになっているのです。',
+        ],
+      },
+      {
+        heading: '本当に効くのは「土台の力」',
+        body: [
+          '有名なマシュマロ実験（ミシェル）は、目の前の欲求を我慢できる子が後年の成績も良い傾向を示し、自制心の大切さを印象づけました。ただし近年の大規模な追試（ワッツら, 2018）では、その関連は当初より弱く、家庭環境の影響も大きいと報告されています。自制心は「テストの裏ワザ」ではなく、育つ環境とセットで考えるべき力です。',
+          'まとめると、早い先取りそのものより、自分で取り組む経験・遊び・安心できる環境といった「土台の力」のほうが長く効きます。習い事を選ぶときも、「先取りできるか」より「本人が楽しんで取り組めるか」を物差しにすると、後悔が少なくなります。',
+        ],
+      },
+    ],
+    steps: [
+      '「早く始めるか」より「本人が楽しんで取り組めるか」で習い事を選ぶ。',
+      '詰め込みより、ごっこ遊びや自分で工夫する時間を大切にする。',
+      '目先のテスト結果で一喜一憂せず、自制心や安心できる環境という土台を育てる。',
+    ],
+    references: [
+      { label: 'Protzko, 2015（早期介入の効果のフェードアウト）', url: 'https://scholar.google.com/scholar?q=Protzko+2015+fadeout+effect+intelligence+interventions' },
+      { label: 'Lipsey et al., 2018（テネシー就学前プログラム追跡）', url: 'https://scholar.google.com/scholar?q=Lipsey+2018+Tennessee+voluntary+prekindergarten+effects' },
+      { label: 'Marcon, 2002（主導型 vs 自発型の保育）', url: 'https://scholar.google.com/scholar?q=Marcon+2002+preschool+models+later+school+success' },
+      { label: 'Lillard et al., 2013（ごっこ遊びと発達）', url: 'https://scholar.google.com/scholar?q=Lillard+2013+impact+of+pretend+play+development' },
+      { label: 'Watts et al., 2018（マシュマロ実験の追試）', url: 'https://scholar.google.com/scholar?q=Watts+2018+revisiting+marshmallow+test+conceptual+replication' },
     ],
   },
 ];
