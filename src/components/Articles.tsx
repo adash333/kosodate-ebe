@@ -66,6 +66,19 @@ export function ArticleView({ article }: { article: Article }) {
         ))}
       </ul>
 
+      {article.relatedTerms && article.relatedTerms.length > 0 && (
+        <>
+          <h3>関連する用語解説</h3>
+          <ul className="refs">
+            {article.relatedTerms.map((t) => (
+              <li key={t.slug}>
+                <a href={`/glossary/${t.slug}`}>{t.term}</a>
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
+
       <div className="article-note">
         <p className="muted">
           本記事は子育て世代向けの一般的な情報提供を目的としたものであり、診断・治療・個別の専門的助言を

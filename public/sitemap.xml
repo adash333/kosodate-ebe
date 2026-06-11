@@ -7,9 +7,6 @@
     <loc>https://5micro.net/company</loc>
   </url>
   <url>
-    <loc>https://5micro.net/contact</loc>
-  </url>
-  <url>
     <loc>https://5micro.net/privacy</loc>
   </url>
   <url>
@@ -17,6 +14,12 @@
   </url>
   <url>
     <loc>https://5micro.net/articles</loc>
+  </url>
+  <url>
+    <loc>https://5micro.net/glossary</loc>
+  </url>
+  <url>
+    <loc>https://5micro.net/glossary/jikkou-kinou</loc>
   </url>
   <url>
     <loc>https://5micro.net/articles/homekata</loc>

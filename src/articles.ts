@@ -13,6 +13,11 @@ export interface ArticleImage {
   src: string;
   alt: string;
 }
+/** 記事に関連する用語解説への導線。 */
+export interface RelatedTerm {
+  slug: string;
+  term: string;
+}
 export interface Article {
   slug: string;
   title: string;
@@ -25,6 +30,8 @@ export interface Article {
   sections: ArticleSection[];
   steps: string[];
   references: ArticleRef[];
+  /** 記事末尾に表示する関連用語解説（任意）。 */
+  relatedTerms?: RelatedTerm[];
 }
 
 /** 記事が公開済みか（閲覧者のブラウザの現在日付で判定。再デプロイ不要で日付到来時に自動表示される）。 */
@@ -593,6 +600,9 @@ export const articles: Article[] = [
       { label: 'Diamond & Lee, 2011（実行機能を育てる）', url: 'https://scholar.google.com/scholar?q=Diamond+Lee+2011+interventions+executive+function+children' },
       { label: 'Donnelly et al., 2016（身体活動と学業のレビュー）', url: 'https://scholar.google.com/scholar?q=Donnelly+2016+physical+activity+cognition+academic+systematic+review' },
       { label: 'Sibley & Etnier, 2003（メタ分析）', url: 'https://scholar.google.com/scholar?q=Sibley+Etnier+2003+physical+activity+cognition+children+meta-analysis' },
+    ],
+    relatedTerms: [
+      { slug: 'jikkou-kinou', term: '実行機能' },
     ],
   },
   {
