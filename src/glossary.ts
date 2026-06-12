@@ -41,7 +41,10 @@ export const terms: Term[] = [
     english: 'Executive Function',
     short: '目標に向けて自分の考えや行動を調整する脳の働き。「抑制」「ワーキングメモリ」「認知の柔軟性」の3つが土台とされ、学力や感情のコントロール、対人関係を支えます。',
     updated: '2026-06-11',
-    // heroImage は後から追加できるよう、フィールドのみ用意（現在は未設定）。
+    heroImage: {
+      src: '/glossary/jikkou-kinou.png',
+      alt: '子どもが計画を立てながらブロックを並べ、実行機能の3つの働きを科学的に表したイラスト',
+    },
     sections: [
       {
         heading: '実行機能とは',
@@ -92,6 +95,10 @@ export const terms: Term[] = [
     english: 'Working Memory',
     short: '必要な情報を一時的に頭の中に保ちながら使う力。実行機能の柱の一つで、指示の理解・暗算・会話など、学びと生活の土台になります。',
     updated: '2026-06-11',
+    heroImage: {
+      src: '/glossary/working-memory.png',
+      alt: '子どもが形や順番を頭に保ちながら考える、ワーキングメモリを科学的に表したイラスト',
+    },
     sections: [
       {
         heading: 'ワーキングメモリとは',
@@ -130,6 +137,10 @@ export const terms: Term[] = [
     english: 'Intrinsic Motivation',
     short: 'ごほうびや罰のためではなく、「やること自体が楽しい・やりたい」という内側からのやる気。長続きしやすく、創造性や学びの質を高めます。',
     updated: '2026-06-11',
+    heroImage: {
+      src: '/glossary/naihatsu-douki.png',
+      alt: '子どもが自分から活動を選び、内側からのやる気が明るく広がる様子を表したイラスト',
+    },
     sections: [
       {
         heading: '内発的動機づけとは',
@@ -169,6 +180,10 @@ export const terms: Term[] = [
     english: 'Self-Determination Theory',
     short: 'やる気の「質」を説明する理論。自律性・有能感・関係性という3つの欲求が満たされると、内側からのやる気と心の健康が育つとされます。',
     updated: '2026-06-11',
+    heroImage: {
+      src: '/glossary/jiko-kettei-riron.png',
+      alt: '子どもが自分で活動を選び、自律性・有能感・関係性を科学的な図で表したイラスト',
+    },
     sections: [
       {
         heading: '自己決定理論とは',
@@ -208,6 +223,10 @@ export const terms: Term[] = [
     english: 'Resilience',
     short: '困難や逆境にぶつかっても適応し、立ち直っていく力。生まれつきの才能ではなく、環境や関わりのなかで育つと考えられています。',
     updated: '2026-06-11',
+    heroImage: {
+      src: '/glossary/resilience.png',
+      alt: 'しなやかに戻る植物と子どもを通して、レジリエンスと保護因子を明るく表したイラスト',
+    },
     sections: [
       {
         heading: 'レジリエンスとは',
@@ -247,6 +266,10 @@ export const terms: Term[] = [
     english: 'Bystander Effect',
     short: '困っている人がいても、その場に人が多いほど、一人ひとりは助けに動きにくくなる心理現象。いじめの場面でも働きます。',
     updated: '2026-06-11',
+    heroImage: {
+      src: '/glossary/boukansha-kouka.png',
+      alt: '困っている子に一人が歩み寄り、周囲の子どもたちと責任の分散を科学的に表したイラスト',
+    },
     sections: [
       {
         heading: '傍観者効果とは',
@@ -285,6 +308,10 @@ export const terms: Term[] = [
     english: 'Matthew Effect',
     short: '「持つ者はさらに与えられる」——すでにできる子はさらに伸び、そうでない子との差が時間とともに広がっていく現象。読書でよく知られます。',
     updated: '2026-06-11',
+    heroImage: {
+      src: '/glossary/matthew-effect.png',
+      alt: '読書や学びの小さな差が成長曲線のように広がる、マタイ効果を表したイラスト',
+    },
     sections: [
       {
         heading: 'マタイ効果とは',
@@ -323,6 +350,10 @@ export const terms: Term[] = [
     english: 'Growth Mindset',
     short: '「能力は努力や工夫で伸ばせる」という考え方。「能力は生まれつきで変わらない」とする硬直（固定）マインドセットと対比されます。',
     updated: '2026-06-11',
+    heroImage: {
+      src: '/glossary/growth-mindset.png',
+      alt: '子どもが失敗から工夫して挑戦し、脳と成長のモチーフが広がるイラスト',
+    },
     sections: [
       {
         heading: '2つのマインドセット',
@@ -361,6 +392,10 @@ export const terms: Term[] = [
     english: 'Undermining / Overjustification Effect',
     short: 'もともと楽しんでやっていたことにごほうびを与えると、かえって「自分からやりたい」という意欲が下がってしまう現象。',
     updated: '2026-06-11',
+    heroImage: {
+      src: '/glossary/undermining-effect.png',
+      alt: '楽しんで絵を描く子どもと外からのごほうびが、やる気の変化として図解されたイラスト',
+    },
     sections: [
       {
         heading: 'どんな現象か',
@@ -397,6 +432,10 @@ export const terms: Term[] = [
     english: 'Emotion Coaching',
     short: '子どもの感情を「悪いもの」として抑え込ませるのではなく、受け止めて言葉にし、対処を一緒に考える関わり方。',
     updated: '2026-06-11',
+    heroImage: {
+      src: '/glossary/emotion-coaching.png',
+      alt: '親子が向き合い、感情の泡と脳と心のモチーフで感情コーチングを表したイラスト',
+    },
     sections: [
       {
         heading: '感情コーチングとは',
@@ -435,6 +474,10 @@ export const terms: Term[] = [
     english: 'Co-regulation',
     short: '子どもが自分で感情を整える力（自己調整）が育つ前に、まわりの大人が「一緒に落ち着く」ことで支える関わり。自己コントロールの土台になります。',
     updated: '2026-06-11',
+    heroImage: {
+      src: '/glossary/co-regulation.png',
+      alt: '親子が一緒に落ち着き、呼吸の波がそろっていく共調整を表したイラスト',
+    },
     sections: [
       {
         heading: '共調整とは',
@@ -471,6 +514,10 @@ export const terms: Term[] = [
     english: 'Theory of Mind',
     short: '相手にも自分とは違う気持ち・考え・知識があると理解し、それを推し量る力。4〜5歳ごろに大きく育ち、対人関係の土台になります。',
     updated: '2026-06-11',
+    heroImage: {
+      src: '/glossary/theory-of-mind.png',
+      alt: '二人の子どもが別々の考えを持つ様子を思考の泡で示した、心の理論のイラスト',
+    },
     sections: [
       {
         heading: '心の理論とは',
@@ -509,6 +556,10 @@ export const terms: Term[] = [
     english: 'Food Neophobia',
     short: '見慣れない食べ物を警戒して避ける傾向。子どもに多く、ある程度は生まれつき。くり返し経験するなかでやわらいでいきます。',
     updated: '2026-06-11',
+    heroImage: {
+      src: '/glossary/food-neophobia.png',
+      alt: '新しい野菜を慎重に見る子どもと、くり返しの経験で慣れていく過程を表したイラスト',
+    },
     sections: [
       {
         heading: '食物新奇性恐怖とは',
