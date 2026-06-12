@@ -636,6 +636,10 @@ export const articles: Article[] = [
     updated: '2026-06-13',
     publish: '2026-06-13',
     readMin: 4,
+    heroImage: {
+      src: '/articles/kanjou-control.png',
+      alt: 'かんしゃくで泣いている子どものそばで、保護者が落ち着いて寄り添っているイラスト',
+    },
     sections: [
       {
         heading: '土台1：気持ちに「名前」をつける',
@@ -682,6 +686,10 @@ export const articles: Article[] = [
     updated: '2026-06-14',
     publish: '2026-06-14',
     readMin: 4,
+    heroImage: {
+      src: '/articles/tomodachi-asobi.png',
+      alt: '公園で子どもたちが自由に遊び、保護者が少し離れて見守っているイラスト',
+    },
     sections: [
       {
         heading: '自由な遊びは「社会性の練習場」',
@@ -724,6 +732,10 @@ export const articles: Article[] = [
     updated: '2026-06-15',
     publish: '2026-06-15',
     readMin: 5,
+    heroImage: {
+      src: '/articles/souki-kyouiku.png',
+      alt: '親子が積み木や絵本で遊びながら、子どもが自分で取り組む時間を楽しんでいるイラスト',
+    },
     sections: [
       {
         heading: '早い「先取り」の効果は、薄れやすい',
