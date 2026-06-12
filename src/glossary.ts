@@ -972,6 +972,10 @@ export const terms: Term[] = [
     english: 'Cognitive / Affective Empathy',
     short: '相手の気持ちを「理解する」認知的共感と、「感じ取る」情動的共感の2つの側面があります。いじめを止める力や思いやりの土台になります。',
     updated: '2026-06-12',
+    heroImage: {
+      src: '/glossary/empathy.png',
+      alt: '相手の気持ちを理解し、感じ取る共感の働きを、子ども同士のやり取りと科学図解で表したイラスト',
+    },
     sections: [
       {
         heading: '2種類の共感',
@@ -1008,6 +1012,10 @@ export const terms: Term[] = [
     english: 'Social and Emotional Learning',
     short: '感情の理解・コントロールや、人との関わり方などを意図的に育てる教育の取り組み。心の安定だけでなく、学力にも良い影響があると報告されています。',
     updated: '2026-06-12',
+    heroImage: {
+      src: '/glossary/sel.png',
+      alt: '子どもたちが感情調整や協力、聞く力を学ぶSELを明るい科学図解で表したイラスト',
+    },
     sections: [
       {
         heading: 'SELとは',
@@ -1044,6 +1052,10 @@ export const terms: Term[] = [
     english: 'Fadeout Effect',
     short: '早期の教育や介入で一度上がった効果が、時間とともに薄れていく現象。「早く始めれば差がつき続ける」とは限らないことを示します。',
     updated: '2026-06-12',
+    heroImage: {
+      src: '/glossary/fadeout.png',
+      alt: '早期教育の効果が時間とともに変化し、支えのある環境が大切になることを表したイラスト',
+    },
     sections: [
       {
         heading: 'フェードアウト効果とは',
@@ -1080,6 +1092,10 @@ export const terms: Term[] = [
     english: 'Cognitive Dissonance',
     short: '自分の考えと行動が矛盾したときに感じる、心の居心地の悪さ。人はこの不快を減らそうと、考えや態度のほうを変えることがあります。',
     updated: '2026-06-12',
+    heroImage: {
+      src: '/glossary/cognitive-dissonance.png',
+      alt: '子どもが矛盾する考えを見つめ、認知的不協和を整理していく様子を表したイラスト',
+    },
     sections: [
       {
         heading: '認知的不協和とは',
@@ -1117,6 +1133,10 @@ export const terms: Term[] = [
     english: 'Protective Factors',
     short: '逆境のなかでも子どもの育ちを守り、レジリエンスを高める「条件・要因」。信じてくれる大人の存在、自己コントロールの力、安心できる環境などを指します。',
     updated: '2026-06-12',
+    heroImage: {
+      src: '/glossary/protective-factors.png',
+      alt: '子どもを支える関係や環境が保護因子として働く様子を、明るい科学図解で表したイラスト',
+    },
     sections: [
       {
         heading: '保護因子とは',
@@ -1154,6 +1174,10 @@ export const terms: Term[] = [
     english: 'Metacognition',
     short: '自分の考えや学び方を、一段上から客観的に見てコントロールする力。「分かっているか」を自分で点検し、やり方を調整する土台になります。',
     updated: '2026-06-12',
+    heroImage: {
+      src: '/glossary/metacognition.png',
+      alt: '子どもが自分の考えを見つめ直し、メタ認知で学び方を調整する様子を表したイラスト',
+    },
     sections: [
       {
         heading: 'メタ認知とは',
@@ -1187,6 +1211,10 @@ export const terms: Term[] = [
     english: 'Self-efficacy',
     short: '「自分はこれをやり遂げられそうだ」という見通し・自信。困難に挑む意欲や粘り強さを支えます。自己肯定感（自分への肯定的な感情）とは別の概念です。',
     updated: '2026-06-12',
+    heroImage: {
+      src: '/glossary/self-efficacy.png',
+      alt: '子どもが小さな成功を積み重ね、自己効力感を育てていく様子を表したイラスト',
+    },
     sections: [
       {
         heading: '自己効力感とは',
@@ -1223,6 +1251,10 @@ export const terms: Term[] = [
     english: 'Curiosity',
     short: '「知りたい」「やってみたい」という心の動き。学びや記憶を後押しし、内発的なやる気の源になります。',
     updated: '2026-06-12',
+    heroImage: {
+      src: '/glossary/curiosity.png',
+      alt: '子どもが身近なものを観察し、好奇心から発見していく様子を表したイラスト',
+    },
     sections: [
       {
         heading: '好奇心とは',
@@ -1256,6 +1288,10 @@ export const terms: Term[] = [
     english: 'Self-esteem',
     short: '自分を価値ある存在として受け止める、肯定的な感情。大切な土台ですが、「高ければ高いほど良い」わけではないことも分かってきました。',
     updated: '2026-06-12',
+    heroImage: {
+      src: '/glossary/self-esteem.png',
+      alt: '子どもがありのままの自分を受け止め、自己肯定感を育てていく様子を表したイラスト',
+    },
     sections: [
       {
         heading: '自己肯定感とは',
@@ -1293,6 +1329,10 @@ export const terms: Term[] = [
     english: 'Agency',
     short: '自分の人生や行動を、自分で考えて選び、動かしていく力・姿勢。「やらされる」のではなく「自分ごと」として取り組む感覚です。',
     updated: '2026-06-12',
+    heroImage: {
+      src: '/glossary/agency.png',
+      alt: '子どもが自分で選び行動する主体性を、分かれ道と支える大人で表したイラスト',
+    },
     sections: [
       {
         heading: '主体性（エージェンシー）とは',
@@ -1329,6 +1369,10 @@ export const terms: Term[] = [
     english: 'Stress and Coping',
     short: 'ストレスにどう対処するか（コーピング）の考え方。出来事そのものより、「どう捉え、どう対処するか」が、ストレスの影響を左右します。',
     updated: '2026-06-12',
+    heroImage: {
+      src: '/glossary/coping.png',
+      alt: '子どもがストレスに気づき、深呼吸や相談でコーピングしていく様子を表したイラスト',
+    },
     sections: [
       {
         heading: 'ストレスとコーピングとは',
