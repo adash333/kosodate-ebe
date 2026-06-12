@@ -598,6 +598,10 @@ export const terms: Term[] = [
     english: 'Default Mode Network（DMN）',
     short: '課題に集中していない「ぼーっとした」ときに、かえって活発になる脳のネットワーク。記憶の整理、自己理解、人の気持ちの想像などに関わります。',
     updated: '2026-06-11',
+    heroImage: {
+      src: '/glossary/default-mode-network.png',
+      alt: '子どもが静かに考えごとをするそばで、脳のネットワークが明るく広がる様子を表したイラスト',
+    },
     sections: [
       {
         heading: 'デフォルトモードネットワークとは',
@@ -636,6 +640,10 @@ export const terms: Term[] = [
     english: 'Attachment / Secure Base',
     short: '子どもが養育者との間に結ぶ、安心のための情緒的な絆。安心して頼れる「安全基地」があるからこそ、子どもは外の世界へ挑戦できます。',
     updated: '2026-06-11',
+    heroImage: {
+      src: '/glossary/attachment.png',
+      alt: '子どもが安心できる保護者を安全基地にして、少し離れて探索している様子を表したイラスト',
+    },
     sections: [
       {
         heading: '愛着とは',
@@ -674,6 +682,10 @@ export const terms: Term[] = [
     english: 'Exposure',
     short: '不安やこわさを感じる対象に、少しずつ慣れていく方法。避け続けると不安は強まり、小さく近づくほど和らぐ、という原理にもとづきます。',
     updated: '2026-06-11',
+    heroImage: {
+      src: '/glossary/exposure.png',
+      alt: '不安なものに小さな段階で近づき、子どもが少しずつ慣れていく過程を表したイラスト',
+    },
     sections: [
       {
         heading: 'エクスポージャーとは',
@@ -710,6 +722,10 @@ export const terms: Term[] = [
     english: 'Technoference',
     short: '親がスマホなどに気を取られ、子どもとの関わりが途切れること。日常の小さな中断の積み重ねが、やり取りや子どもの行動に影響しうると報告されています。',
     updated: '2026-06-11',
+    heroImage: {
+      src: '/glossary/technoference.png',
+      alt: '親子の関わりにスマホ通知が割り込む様子を、明るい科学図解として表したイラスト',
+    },
     sections: [
       {
         heading: 'テクノフェランスとは',
@@ -745,6 +761,10 @@ export const terms: Term[] = [
     english: 'Modeling / Observational Learning',
     short: '子どもが、まわりの人の行動を見て学ぶこと。教えなくても、大人の振る舞いや感情の出し方を見て、まねて身につけていきます。',
     updated: '2026-06-11',
+    heroImage: {
+      src: '/glossary/modeling.png',
+      alt: '子どもが保護者の行動を見てまねる、観察学習のしくみを表したイラスト',
+    },
     sections: [
       {
         heading: 'モデリングとは',
@@ -781,6 +801,10 @@ export const terms: Term[] = [
     english: 'Still-Face Experiment',
     short: '親が急に無表情・無反応になると、赤ちゃんが強い不安を示すという古典的な実験。やり取り（応答）が子どもにとっていかに大切かを示します。',
     updated: '2026-06-11',
+    heroImage: {
+      src: '/glossary/still-face.png',
+      alt: '親子の応答的な関わりと表情の変化を、スティルフェイス実験としてやさしく表したイラスト',
+    },
     sections: [
       {
         heading: 'どんな実験か',
@@ -816,6 +840,10 @@ export const terms: Term[] = [
     english: 'Critical / Sensitive Period',
     short: 'ある能力が特に育ちやすい時期のこと。「この時期を逃すと手遅れ」と誤解されがちですが、多くは「窓」が緩やかで、過ぎても学べます。',
     updated: '2026-06-11',
+    heroImage: {
+      src: '/glossary/critical-period.png',
+      alt: '子どもの発達の時期ごとの学びやすさを、成長の窓と曲線で表したイラスト',
+    },
     sections: [
       {
         heading: '臨界期・敏感期とは',
@@ -852,6 +880,10 @@ export const terms: Term[] = [
     english: 'Self-control',
     short: '目の前の欲求を抑えて、長い目で見て大切なことを選ぶ力。「マシュマロ実験」で知られますが、近年は環境の影響も大きいと分かってきました。',
     updated: '2026-06-11',
+    heroImage: {
+      src: '/glossary/self-control.png',
+      alt: '子どもが目の前のおやつを待ちながら、自制心を使って落ち着いている様子を表したイラスト',
+    },
     sections: [
       {
         heading: '自制心とマシュマロ実験',
@@ -888,6 +920,10 @@ export const terms: Term[] = [
     english: 'Non-cognitive Skills',
     short: 'IQやテストでは測りにくい力の総称。やり抜く力、自制心、意欲、社会性、感情のコントロールなどを含み、将来の幸福や成功と関わるとされます。',
     updated: '2026-06-11',
+    heroImage: {
+      src: '/glossary/hininchi-nouryoku.png',
+      alt: '子どもの粘り強さや協力、感情調整などの非認知能力を星座のように表したイラスト',
+    },
     sections: [
       {
         heading: '非認知能力とは',
