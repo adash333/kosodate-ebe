@@ -771,6 +771,9 @@ export const articles: Article[] = [
       { label: 'Lillard et al., 2013（ごっこ遊びと発達）', url: 'https://scholar.google.com/scholar?q=Lillard+2013+impact+of+pretend+play+development' },
       { label: 'Watts et al., 2018（マシュマロ実験の追試）', url: 'https://scholar.google.com/scholar?q=Watts+2018+revisiting+marshmallow+test+conceptual+replication' },
     ],
+    relatedTerms: [
+      { slug: 'self-control', term: '自制心（マシュマロ実験）' },
+    ],
   },
   {
     slug: 'iyaiya',
@@ -868,6 +871,8 @@ export const articles: Article[] = [
       { label: 'Field（恐怖のモデリング学習）', url: 'https://scholar.google.com/scholar?q=Field+children+fear+learning+modeling+vicarious' },
     ],
     relatedTerms: [
+      { slug: 'exposure', term: 'エクスポージャー（段階的曝露）' },
+      { slug: 'modeling', term: 'モデリング（観察学習）' },
       { slug: 'resilience', term: 'レジリエンス' },
       { slug: 'co-regulation', term: '共調整' },
     ],
@@ -1016,6 +1021,7 @@ export const articles: Article[] = [
       { label: 'Bialystok（二言語と認知）', url: 'https://scholar.google.com/scholar?q=Bialystok+bilingualism+cognitive+development+executive+control' },
     ],
     relatedTerms: [
+      { slug: 'critical-period', term: '臨界期・敏感期' },
       { slug: 'working-memory', term: 'ワーキングメモリ' },
       { slug: 'jikkou-kinou', term: '実行機能' },
     ],
@@ -1061,6 +1067,7 @@ export const articles: Article[] = [
       { label: 'Mann（退屈と創造性）', url: 'https://scholar.google.com/scholar?q=Mann+2014+does+being+bored+make+us+more+creative' },
     ],
     relatedTerms: [
+      { slug: 'default-mode-network', term: 'デフォルトモードネットワーク' },
       { slug: 'jikkou-kinou', term: '実行機能' },
     ],
   },
@@ -1105,6 +1112,7 @@ export const articles: Article[] = [
       { label: 'Winnicott（ほどよい親）', url: 'https://scholar.google.com/scholar?q=Winnicott+good+enough+mother+holding+environment' },
     ],
     relatedTerms: [
+      { slug: 'attachment', term: '愛着（アタッチメント）・安全基地' },
       { slug: 'co-regulation', term: '共調整' },
       { slug: 'resilience', term: 'レジリエンス' },
     ],
@@ -1195,6 +1203,8 @@ export const articles: Article[] = [
       { label: 'Radesky et al.（親のモバイル端末使用と食事中の関わり）', url: 'https://scholar.google.com/scholar?q=Radesky+caregiver+mobile+device+use+meals+children' },
     ],
     relatedTerms: [
+      { slug: 'technoference', term: 'テクノフェランス' },
+      { slug: 'still-face', term: 'スティルフェイス実験' },
       { slug: 'co-regulation', term: '共調整' },
     ],
   },

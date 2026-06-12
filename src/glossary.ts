@@ -591,4 +591,332 @@ export const terms: Term[] = [
       { label: 'Birch & Marlin, 1982（くり返しと好みの形成）', url: 'https://scholar.google.com/scholar?q=Birch+Marlin+1982+exposure+food+preference+children' },
     ],
   },
+  {
+    slug: 'default-mode-network',
+    term: 'デフォルトモードネットワーク',
+    reading: 'でふぉるともーどねっとわーく',
+    english: 'Default Mode Network（DMN）',
+    short: '課題に集中していない「ぼーっとした」ときに、かえって活発になる脳のネットワーク。記憶の整理、自己理解、人の気持ちの想像などに関わります。',
+    updated: '2026-06-11',
+    sections: [
+      {
+        heading: 'デフォルトモードネットワークとは',
+        body: [
+          'デフォルトモードネットワーク（DMN）は、レイクルら（2001）が見つけた、特定の作業をしていないときにこそ活発に働く脳のネットワークです。「安静時」「ぼーっとしているとき」に優位になります。',
+          '過去の出来事を思い返す、自分について考える、人の気持ちを想像する、未来を思い描く——といった「内側に向かう思考」に関わります。',
+        ],
+      },
+      {
+        heading: '「休んでいる脳」の大切な仕事',
+        body: [
+          '何もしていないように見えても、脳は経験を整理し、意味づけ、「自分」という感覚を育てています。イモルディーノ＝ヤンら（2012）は、休息や内省がこのネットワークを通じて社会性や道徳的思考を支えると指摘しました。',
+          '課題に集中する「外向き」の働き（実行機能など）とはシーソーのような関係にあり、両方のバランスが大切だと考えられています。',
+        ],
+      },
+      {
+        heading: '子育てでの意味',
+        body: [
+          '予定や刺激で隙間なく埋めるより、ぼんやりする余白を残すこと。退屈や空想の時間が、創造性や自己理解の土台になります。',
+        ],
+      },
+    ],
+    related: [
+      { slug: 'default-mode', title: '「ぼーっとする時間」の脳科学 — デフォルトモードネットワークと子どものこころ' },
+    ],
+    references: [
+      { label: 'Raichle et al., 2001（デフォルトモードネットワーク）', url: 'https://scholar.google.com/scholar?q=Raichle+2001+a+default+mode+of+brain+function' },
+      { label: 'Immordino-Yang et al., 2012（休息・内省と発達）', url: 'https://scholar.google.com/scholar?q=Immordino-Yang+2012+rest+is+not+idleness+default+mode' },
+      { label: 'Buckner et al., 2008（DMNの総説）', url: 'https://scholar.google.com/scholar?q=Buckner+2008+brain+default+network+anatomy+function' },
+    ],
+  },
+  {
+    slug: 'attachment',
+    term: '愛着（アタッチメント）・安全基地',
+    reading: 'あいちゃく',
+    english: 'Attachment / Secure Base',
+    short: '子どもが養育者との間に結ぶ、安心のための情緒的な絆。安心して頼れる「安全基地」があるからこそ、子どもは外の世界へ挑戦できます。',
+    updated: '2026-06-11',
+    sections: [
+      {
+        heading: '愛着とは',
+        body: [
+          '愛着（アタッチメント）とは、ボウルビィが提唱した、子どもが特定の養育者との間に結ぶ安心のための絆です。こわいとき・不安なときに「この人のところに行けば大丈夫」と感じられる関係を指します。',
+          'エインズワースは「ストレンジ・シチュエーション法」という観察で、安定型・回避型・抵抗型といった愛着のパターンを見いだしました。',
+        ],
+      },
+      {
+        heading: '「安全基地」と探索',
+        body: [
+          '安心の拠り所（安全基地）があるからこそ、子どもは安心して外の世界を探索し、挑戦できます。甘えと自立は対立せず、十分に頼れた経験が自立を支えます。',
+          '安定した愛着は、後の対人関係や感情のコントロール、ストレスへの強さとも関連すると報告されています。',
+        ],
+      },
+      {
+        heading: '完璧でなくていい',
+        body: [
+          'ウィニコットの「ほどよい親（good enough mother）」という言葉の通り、いつも応えられなくても、おおむね子どものサインに気づき応えていれば十分です。鍵になるのは「感受性」——求めに気づき、応えることです。',
+        ],
+      },
+    ],
+    related: [
+      { slug: 'aichaku', title: '愛着と「安全基地」 — 子どもの心の土台のつくり方' },
+    ],
+    references: [
+      { label: 'Bowlby（愛着理論）', url: 'https://scholar.google.com/scholar?q=Bowlby+attachment+theory+secure+base' },
+      { label: 'Ainsworth（ストレンジ・シチュエーション）', url: 'https://scholar.google.com/scholar?q=Ainsworth+strange+situation+patterns+of+attachment' },
+      { label: 'Sroufe et al.（愛着の長期追跡）', url: 'https://scholar.google.com/scholar?q=Sroufe+attachment+development+person+longitudinal' },
+    ],
+  },
+  {
+    slug: 'exposure',
+    term: 'エクスポージャー（段階的曝露）',
+    reading: 'えくすぽーじゃー',
+    english: 'Exposure',
+    short: '不安やこわさを感じる対象に、少しずつ慣れていく方法。避け続けると不安は強まり、小さく近づくほど和らぐ、という原理にもとづきます。',
+    updated: '2026-06-11',
+    sections: [
+      {
+        heading: 'エクスポージャーとは',
+        body: [
+          'エクスポージャー（曝露）とは、不安症への心理療法で最も確かな効果が示されている方法の一つです。こわいものを避けるのではなく、安全な範囲で少しずつ近づき、慣れていきます。',
+        ],
+      },
+      {
+        heading: 'なぜ効くのか',
+        body: [
+          '「避ける→ほっとする→次も避ける」という悪循環を断ちます。実際に近づいて「思ったより大丈夫だった」という経験が、不安の予測を上書きしていきます。一気にではなく、できそうな小さな段階を踏むのがポイントです（段階的曝露）。',
+        ],
+      },
+      {
+        heading: '家庭での応用',
+        body: [
+          'こわがる場面を全部避けさせず、できそうな一歩から一緒に挑戦する。先回りの手助け（過剰な配慮）を少しずつ手放す。なお、強い不安で生活に支障がある場合は専門機関にご相談ください。',
+        ],
+      },
+    ],
+    related: [
+      { slug: 'fuan', title: '子どもの不安・こわがり — 「逃げ道」を作りすぎない関わり' },
+    ],
+    references: [
+      { label: 'Kendall（小児の不安への認知行動療法）', url: 'https://scholar.google.com/scholar?q=Kendall+child+anxiety+cognitive+behavioral+therapy+exposure' },
+      { label: 'Craske et al.（エクスポージャーの仕組み）', url: 'https://scholar.google.com/scholar?q=Craske+2014+maximizing+exposure+therapy+inhibitory+learning' },
+      { label: 'Rapee（不安と回避）', url: 'https://scholar.google.com/scholar?q=Rapee+childhood+anxiety+avoidance+exposure' },
+    ],
+  },
+  {
+    slug: 'technoference',
+    term: 'テクノフェランス',
+    reading: 'てくのふぇらんす',
+    english: 'Technoference',
+    short: '親がスマホなどに気を取られ、子どもとの関わりが途切れること。日常の小さな中断の積み重ねが、やり取りや子どもの行動に影響しうると報告されています。',
+    updated: '2026-06-11',
+    sections: [
+      {
+        heading: 'テクノフェランスとは',
+        body: [
+          'テクノフェランス（technoference）は、マクダニエルとラデスキーらによる造語で、「テクノロジー（technology）」と「干渉（interference）」を合わせた言葉です。デジタル機器による、対面の関わりへの割り込み・中断を指します。',
+        ],
+      },
+      {
+        heading: 'なぜ気になるのか',
+        body: [
+          '会話の往復（やり取り）が言葉や脳の発達を支えます。中断が増えると応答の質が下がりやすく、トロニックのスティルフェイス実験が示すように、反応が返らない状態は子どもに不安を与えうるためです。',
+        ],
+      },
+      {
+        heading: '「メリハリ」で対処',
+        body: [
+          '完全に断つより、食事中・寝る前など「子どもに集中する時間」を決めること。通知を切る、置き場所を決める、話しかけられたら一度顔を上げて応える——小さな工夫がやり取りを守ります。',
+        ],
+      },
+    ],
+    related: [
+      { slug: 'technoference', title: '親の「ながらスマホ」が子に与えるもの — テクノフェランスを考える' },
+    ],
+    references: [
+      { label: 'McDaniel & Radesky（テクノフェランス）', url: 'https://scholar.google.com/scholar?q=McDaniel+Radesky+technoference+parent+child+interaction' },
+      { label: 'Radesky et al.（親のモバイル端末使用と関わり）', url: 'https://scholar.google.com/scholar?q=Radesky+caregiver+mobile+device+use+meals+children' },
+    ],
+  },
+  {
+    slug: 'modeling',
+    term: 'モデリング（観察学習）',
+    reading: 'もでりんぐ',
+    english: 'Modeling / Observational Learning',
+    short: '子どもが、まわりの人の行動を見て学ぶこと。教えなくても、大人の振る舞いや感情の出し方を見て、まねて身につけていきます。',
+    updated: '2026-06-11',
+    sections: [
+      {
+        heading: 'モデリングとは',
+        body: [
+          'モデリング（観察学習）は、バンデューラの社会的学習理論の中心概念です。直接教えられなくても、他者（モデル）の行動を観察し、まねることで学習が起こります。有名な「ボボ人形実験」では、大人の攻撃的な行動を見た子が、それをまねることが示されました。',
+        ],
+      },
+      {
+        heading: '感情や態度も伝わる',
+        body: [
+          '行動だけでなく、こわがり方・落ち着き方・人への接し方も伝わります。親が不安そうにすると子もこわがりやすく、落ち着いた姿は安心のモデルになります（恐怖のモデリング学習）。',
+        ],
+      },
+      {
+        heading: '「見せる」が最強の教え方',
+        body: [
+          '「やりなさい」より「やってみせる」。あいさつ・正直さ・感情の扱い方など、大人自身がモデルになることが、いちばん効く教え方です。',
+        ],
+      },
+    ],
+    related: [
+      { slug: 'fuan', title: '子どもの不安・こわがり — 「逃げ道」を作りすぎない関わり' },
+    ],
+    references: [
+      { label: 'Bandura（社会的学習理論・ボボ人形実験）', url: 'https://scholar.google.com/scholar?q=Bandura+social+learning+theory+Bobo+doll+imitation' },
+      { label: 'Bandura, 1977（社会的学習理論）', url: 'https://scholar.google.com/scholar?q=Bandura+1977+social+learning+theory' },
+      { label: 'Field（恐怖のモデリング学習）', url: 'https://scholar.google.com/scholar?q=Field+children+fear+learning+modeling+vicarious' },
+    ],
+  },
+  {
+    slug: 'still-face',
+    term: 'スティルフェイス実験',
+    reading: 'すてぃるふぇいすじっけん',
+    english: 'Still-Face Experiment',
+    short: '親が急に無表情・無反応になると、赤ちゃんが強い不安を示すという古典的な実験。やり取り（応答）が子どもにとっていかに大切かを示します。',
+    updated: '2026-06-11',
+    sections: [
+      {
+        heading: 'どんな実験か',
+        body: [
+          'スティルフェイス実験は、トロニックら（1978）の研究です。親が普通にやり取りした後、急に無表情になって反応しなくなると、赤ちゃんは笑いかけたり声を出したりして関わりを取り戻そうとし、やがてぐずって不安を示します。',
+        ],
+      },
+      {
+        heading: '何を教えてくれるか',
+        body: [
+          '赤ちゃんは一方的に世話されるだけの存在ではなく、応答のあるやり取りを求めていることが分かります。反応が返ってこない状態は、子どもにとってストレスになります。',
+        ],
+      },
+      {
+        heading: '日常へのヒント',
+        body: [
+          'いつも完璧に応える必要はありません（やり取りは「ずれて→直す」のくり返しです）。ただ、ながらスマホなどで反応が途切れがちになっていないか、ときどき振り返る価値があります。',
+        ],
+      },
+    ],
+    related: [
+      { slug: 'technoference', title: '親の「ながらスマホ」が子に与えるもの — テクノフェランスを考える' },
+    ],
+    references: [
+      { label: 'Tronick et al., 1978（スティルフェイス）', url: 'https://scholar.google.com/scholar?q=Tronick+1978+infants+response+to+still+face' },
+      { label: 'Mesman et al.（スティルフェイスのメタ分析）', url: 'https://scholar.google.com/scholar?q=Mesman+still+face+paradigm+meta-analysis+review' },
+    ],
+  },
+  {
+    slug: 'critical-period',
+    term: '臨界期・敏感期',
+    reading: 'りんかいき',
+    english: 'Critical / Sensitive Period',
+    short: 'ある能力が特に育ちやすい時期のこと。「この時期を逃すと手遅れ」と誤解されがちですが、多くは「窓」が緩やかで、過ぎても学べます。',
+    updated: '2026-06-11',
+    sections: [
+      {
+        heading: '臨界期・敏感期とは',
+        body: [
+          '臨界期・敏感期とは、特定の経験が発達に強く影響する、感受性の高い時期のことです。視覚や言語などで知られます。厳密に閉じる「臨界期」より、ゆるやかな「敏感期」と捉えるほうが、実態に近いことが多いとされます。',
+        ],
+      },
+      {
+        heading: '「早くないと手遅れ」は言い過ぎ',
+        body: [
+          '言語では、ハートショーンら（2018）が、ネイティブ並みの文法習得に有利な時期はあるものの、その窓は従来考えられていたより長いことを示しました。発音は早い開始が有利ですが、語彙や読み書きは後からでも十分に伸びます。',
+        ],
+      },
+      {
+        heading: '子育てでの意味',
+        body: [
+          '「今を逃すと…」と焦るより、その時期に豊かな経験ややり取りを重ねることが大切です。早期の詰め込みより、楽しく続けられることのほうが効きます。',
+        ],
+      },
+    ],
+    related: [
+      { slug: 'bilingual', title: 'バイリンガル・早期英語 — 「早いほど得」は本当か' },
+    ],
+    references: [
+      { label: 'Hartshorne et al., 2018（言語習得の臨界期）', url: 'https://scholar.google.com/scholar?q=Hartshorne+2018+critical+period+second+language+acquisition' },
+      { label: 'Hensch（臨界期の可塑性）', url: 'https://scholar.google.com/scholar?q=Hensch+critical+period+plasticity+brain' },
+      { label: 'Knudsen（敏感期）', url: 'https://scholar.google.com/scholar?q=Knudsen+sensitive+periods+development+brain+behavior' },
+    ],
+  },
+  {
+    slug: 'self-control',
+    term: '自制心（マシュマロ実験）',
+    reading: 'じせいしん',
+    english: 'Self-control',
+    short: '目の前の欲求を抑えて、長い目で見て大切なことを選ぶ力。「マシュマロ実験」で知られますが、近年は環境の影響も大きいと分かってきました。',
+    updated: '2026-06-11',
+    sections: [
+      {
+        heading: '自制心とマシュマロ実験',
+        body: [
+          'ミシェルの「マシュマロ実験」では、目の前のマシュマロを我慢できた子が、後年の成績などで良い傾向を示し、自制心の大切さを印象づけました。',
+        ],
+      },
+      {
+        heading: '「我慢する力」だけではない',
+        body: [
+          '近年の大規模な追試（ワッツら, 2018）では、その関連は当初より弱く、家庭環境の影響も大きいと報告されました。自制心は生まれつきの性格ではなく、安心できる環境や見通しのなかで育ち、実行機能とも深く関わります。',
+        ],
+      },
+      {
+        heading: '育て方',
+        body: [
+          '我慢を強いるより、見通しを示す・気をそらす工夫・安心できる関係。「待てた」という経験を積み重ねることが、自制心を育てます。',
+        ],
+      },
+    ],
+    related: [
+      { slug: 'souki-kyouiku', title: '早期教育・習い事は得か — 「先取り」より大切な土台' },
+    ],
+    references: [
+      { label: 'Mischel（マシュマロ実験）', url: 'https://scholar.google.com/scholar?q=Mischel+marshmallow+test+delay+of+gratification' },
+      { label: 'Watts et al., 2018（マシュマロ実験の追試）', url: 'https://scholar.google.com/scholar?q=Watts+2018+revisiting+marshmallow+test+conceptual+replication' },
+      { label: 'Duckworth（自制心とやり抜く力）', url: 'https://scholar.google.com/scholar?q=Duckworth+self-control+grit+academic' },
+    ],
+  },
+  {
+    slug: 'hininchi-nouryoku',
+    term: '非認知能力',
+    reading: 'ひにんちのうりょく',
+    english: 'Non-cognitive Skills',
+    short: 'IQやテストでは測りにくい力の総称。やり抜く力、自制心、意欲、社会性、感情のコントロールなどを含み、将来の幸福や成功と関わるとされます。',
+    updated: '2026-06-11',
+    sections: [
+      {
+        heading: '非認知能力とは',
+        body: [
+          '非認知能力とは、知能テストや学力テストで測られる「認知能力」に対して、それ以外の幅広い力をまとめた呼び方です。具体的には、自制心、やり抜く力（grit）、意欲、協調性、感情のコントロール、レジリエンスなどが含まれます。',
+        ],
+      },
+      {
+        heading: 'なぜ注目されるのか',
+        body: [
+          '経済学者ヘックマンらは、幼児期の介入（ペリー就学前計画）の長期的な効果が、IQの持続的な上昇というより、非認知的な力を通じて表れたと論じました。学力だけでなく、人生の幅広い面と関連すると考えられています。',
+        ],
+      },
+      {
+        heading: 'どう育つのか',
+        body: [
+          '特別な訓練より、遊び・対話・安心できる関係といった日常の関わりのなかで育ちます。ダックワースの「やり抜く力」の研究も、興味と粘りを支える環境の大切さを示しています。',
+          'なお「非認知」と「認知」はきれいに分かれるものではなく、互いに支え合う点にも注意が必要です。',
+        ],
+      },
+    ],
+    related: [
+      { slug: 'resilience', title: '逆境に強い子を育てる — レジリエンスのエビデンス' },
+      { slug: 'jiko-ketteikan', title: '「自分で決める力」を育てる関わり方 — 自己肯定感と自律のエビデンス' },
+    ],
+    references: [
+      { label: 'Heckman（非認知能力・ペリー就学前計画）', url: 'https://scholar.google.com/scholar?q=Heckman+noncognitive+skills+Perry+Preschool+returns' },
+      { label: 'Duckworth & Seligman（自制心・やり抜く力）', url: 'https://scholar.google.com/scholar?q=Duckworth+grit+perseverance+passion+long-term+goals' },
+      { label: 'OECD（社会情動的スキル）', url: 'https://scholar.google.com/scholar?q=OECD+social+and+emotional+skills+well-being' },
+    ],
+  },
 ];
