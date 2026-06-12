@@ -1,4 +1,5 @@
 import { terms, type Term } from '../glossary';
+import { articles, isPublished } from '../articles';
 
 export function GlossaryList() {
   // 用語名のよみ順（なければ用語名順）で並べる。
@@ -30,6 +31,11 @@ export function GlossaryList() {
 }
 
 export function TermView({ term }: { term: Term }) {
+  const related = (term.related ?? []).filter((r) => {
+    const article = articles.find((a) => a.slug === r.slug);
+    return article ? isPublished(article) : false;
+  });
+
   return (
     <article className="legal article">
       <h2>{term.term}</h2>
@@ -54,11 +60,11 @@ export function TermView({ term }: { term: Term }) {
         </section>
       ))}
 
-      {term.related && term.related.length > 0 && (
+      {related.length > 0 && (
         <>
           <h3>関連する読み物</h3>
           <ul className="refs">
-            {term.related.map((r) => (
+            {related.map((r) => (
               <li key={r.slug}>
                 <a href={`/articles/${r.slug}`}>{r.title}</a>
               </li>
