@@ -779,6 +779,10 @@ export const articles: Article[] = [
     updated: '2026-06-16',
     publish: '2026-06-16',
     readMin: 4,
+    heroImage: {
+      src: '/articles/iyaiya.png',
+      alt: '自分でやりたい子どもに、保護者が落ち着いて選択肢を示して寄り添っているイラスト',
+    },
     sections: [
       {
         heading: 'イヤイヤは「自分」が育つサイン',
@@ -825,6 +829,10 @@ export const articles: Article[] = [
     updated: '2026-06-17',
     publish: '2026-06-17',
     readMin: 4,
+    heroImage: {
+      src: '/articles/fuan.png',
+      alt: '不安そうな子どもが小さな一歩を踏み出せるよう、保護者が穏やかに見守っているイラスト',
+    },
     sections: [
       {
         heading: '「守りすぎ」が不安を育てることがある',
@@ -871,6 +879,10 @@ export const articles: Article[] = [
     updated: '2026-06-18',
     publish: '2026-06-18',
     readMin: 4,
+    heroImage: {
+      src: '/articles/otetsudai.png',
+      alt: '子どもが家事に参加し、保護者と一緒に食卓まわりを整えているイラスト',
+    },
     sections: [
       {
         heading: '早くから家事に参加した子は伸びやすい',
@@ -916,6 +928,10 @@ export const articles: Article[] = [
     updated: '2026-06-19',
     publish: '2026-06-19',
     readMin: 4,
+    heroImage: {
+      src: '/articles/uso.png',
+      alt: '小さな失敗のあと、子どもが正直に話せるよう保護者が落ち着いて聞いているイラスト',
+    },
     sections: [
       {
         heading: 'うそは「心が育った」サイン',
@@ -961,6 +977,10 @@ export const articles: Article[] = [
     updated: '2026-06-20',
     publish: '2026-06-20',
     readMin: 5,
+    heroImage: {
+      src: '/articles/bilingual.png',
+      alt: '親子が絵本や歌を通して、二つの言語に楽しく触れているイラスト',
+    },
     sections: [
       {
         heading: '二言語で「言葉が遅れる・混乱する」わけではない',
