@@ -192,6 +192,9 @@ export const articles: Article[] = [
     relatedTerms: [
       { slug: 'jiko-kettei-riron', term: '自己決定理論' },
       { slug: 'naihatsu-douki', term: '内発的動機づけ' },
+      { slug: 'self-esteem', term: '自己肯定感' },
+      { slug: 'self-efficacy', term: '自己効力感' },
+      { slug: 'agency', term: '主体性（エージェンシー）' },
     ],
   },
   {
@@ -483,6 +486,7 @@ export const articles: Article[] = [
       { slug: 'resilience', term: 'レジリエンス' },
       { slug: 'protective-factors', term: '保護因子' },
       { slug: 'sel', term: 'SEL（社会性と感情の学習）' },
+      { slug: 'coping', term: 'ストレスとコーピング' },
     ],
   },
   {
@@ -681,6 +685,7 @@ export const articles: Article[] = [
     relatedTerms: [
       { slug: 'emotion-coaching', term: '感情コーチング' },
       { slug: 'co-regulation', term: '共調整' },
+      { slug: 'coping', term: 'ストレスとコーピング' },
     ],
   },
   {

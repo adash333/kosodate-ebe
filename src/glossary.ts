@@ -1145,4 +1145,216 @@ export const terms: Term[] = [
       { label: 'Rutter（保護因子とレジリエンス）', url: 'https://scholar.google.com/scholar?q=Rutter+protective+factors+resilience+psychosocial' },
     ],
   },
+  {
+    slug: 'metacognition',
+    term: 'メタ認知',
+    reading: 'めたにんち',
+    english: 'Metacognition',
+    short: '自分の考えや学び方を、一段上から客観的に見てコントロールする力。「分かっているか」を自分で点検し、やり方を調整する土台になります。',
+    updated: '2026-06-12',
+    sections: [
+      {
+        heading: 'メタ認知とは',
+        body: [
+          'メタ認知とは、フラベル（1979）が提唱した概念で、「自分が何を分かっていて、何が分かっていないか」を把握し（メタ認知的知識）、自分の理解や進み方を点検・調整する（メタ認知的コントロール）働きのことです。「考えることについて考える」とも言われます。',
+        ],
+      },
+      {
+        heading: '学びを支える力',
+        body: [
+          '自分の理解度を点検できる子は、つまずきに気づき、やり方を変えられます。メタ認知は学習の成果と関わり、自分の学びを自分で進める「自己調整学習」の中心にあります。実行機能とも近い関係です。',
+        ],
+      },
+      {
+        heading: '家庭で育てる',
+        body: [
+          '「どこが分かって、どこが難しい？」「次はどうやってみる？」と問いかけること。答えをすぐ教えるより、自分で点検する習慣を促します。うまくいった・いかなかった理由を一緒に振り返るのも効果的です。',
+        ],
+      },
+    ],
+    references: [
+      { label: 'Flavell, 1979（メタ認知）', url: 'https://scholar.google.com/scholar?q=Flavell+1979+metacognition+cognitive+monitoring' },
+      { label: 'Zimmerman（自己調整学習）', url: 'https://scholar.google.com/scholar?q=Zimmerman+self-regulated+learning+metacognition' },
+      { label: 'Schraw & Dennison（メタ認知の測定）', url: 'https://scholar.google.com/scholar?q=Schraw+Dennison+assessing+metacognitive+awareness' },
+    ],
+  },
+  {
+    slug: 'self-efficacy',
+    term: '自己効力感',
+    reading: 'じここうりょくかん',
+    english: 'Self-efficacy',
+    short: '「自分はこれをやり遂げられそうだ」という見通し・自信。困難に挑む意欲や粘り強さを支えます。自己肯定感（自分への肯定的な感情）とは別の概念です。',
+    updated: '2026-06-12',
+    sections: [
+      {
+        heading: '自己効力感とは',
+        body: [
+          '自己効力感とは、バンデューラが提唱した、ある課題について「自分はできそうだ」と思える見通しのことです。自分全体への肯定的な感情（自己肯定感）とは異なり、「この場面でやれそうか」という、より具体的な感覚を指します。',
+        ],
+      },
+      {
+        heading: 'なぜ大切か',
+        body: [
+          '自己効力感が高いと、難しいことにも挑戦し、失敗しても粘りやすくなります。バンデューラは、①小さな成功体験、②人の成功を見ること（モデリング）、③励まし、④心身の状態、の4つが自己効力感を高めると整理しました。',
+        ],
+      },
+      {
+        heading: '家庭で育てる',
+        body: [
+          '「できた」という小さな成功を積ませること。手伝いすぎず、自分でやり遂げる経験を大切にすること。「すごい」と能力をほめるより、工夫や過程を具体的に認めることが、地に足のついた自信を育てます。',
+        ],
+      },
+    ],
+    related: [
+      { slug: 'jiko-ketteikan', title: '「自分で決める力」を育てる関わり方 — 自己肯定感と自律のエビデンス' },
+    ],
+    references: [
+      { label: 'Bandura, 1977（自己効力感）', url: 'https://scholar.google.com/scholar?q=Bandura+1977+self-efficacy+toward+unifying+theory' },
+      { label: 'Bandura, 1997（自己効力感）', url: 'https://scholar.google.com/scholar?q=Bandura+1997+self-efficacy+the+exercise+of+control' },
+      { label: 'Multon et al.（自己効力感と学業成績）', url: 'https://scholar.google.com/scholar?q=Multon+1991+self-efficacy+academic+outcomes+meta-analysis' },
+    ],
+  },
+  {
+    slug: 'curiosity',
+    term: '好奇心',
+    reading: 'こうきしん',
+    english: 'Curiosity',
+    short: '「知りたい」「やってみたい」という心の動き。学びや記憶を後押しし、内発的なやる気の源になります。',
+    updated: '2026-06-12',
+    sections: [
+      {
+        heading: '好奇心とは',
+        body: [
+          '好奇心とは、新しいことや分からないことに引かれ、知りたい・確かめたいと思う気持ちです。レーベンシュタイン（1994）は、これを「自分の知識のすきま（情報のギャップ）を埋めたい欲求」として説明しました。',
+        ],
+      },
+      {
+        heading: '学びと記憶を後押しする',
+        body: [
+          'グルーバーら（2014）は、好奇心が高まっている状態のとき、人は対象だけでなく、たまたま一緒に提示された無関係なことまでよく覚えていたことを示しました。好奇心は、学びの効率そのものを高めるのです。',
+        ],
+      },
+      {
+        heading: '家庭で育てる',
+        body: [
+          '子どもの「なんで？」を大切にすること。すぐ答えを与えるより、一緒に考え、調べること。正解を急がず、問いそのものを面白がる雰囲気が、好奇心を守ります。ごほうびで釣りすぎないこと（内発的動機づけ）も大切です。',
+        ],
+      },
+    ],
+    references: [
+      { label: 'Loewenstein, 1994（好奇心の情報ギャップ理論）', url: 'https://scholar.google.com/scholar?q=Loewenstein+1994+psychology+of+curiosity+information+gap' },
+      { label: 'Gruber et al., 2014（好奇心と記憶）', url: 'https://scholar.google.com/scholar?q=Gruber+2014+states+of+curiosity+modulate+memory+learning' },
+      { label: 'Kang et al., 2009（好奇心と学習）', url: 'https://scholar.google.com/scholar?q=Kang+2009+wick+in+the+candle+of+learning+curiosity' },
+    ],
+  },
+  {
+    slug: 'self-esteem',
+    term: '自己肯定感',
+    reading: 'じここうていかん',
+    english: 'Self-esteem',
+    short: '自分を価値ある存在として受け止める、肯定的な感情。大切な土台ですが、「高ければ高いほど良い」わけではないことも分かってきました。',
+    updated: '2026-06-12',
+    sections: [
+      {
+        heading: '自己肯定感とは',
+        body: [
+          '自己肯定感とは、自分自身を肯定的に受け止め、「これでいい」と思える感覚（自尊感情）です。ローゼンバーグの尺度などで測られてきました。心の安定の土台とされます。',
+        ],
+      },
+      {
+        heading: '「高ければ良い」わけではない',
+        body: [
+          'バウマイスターら（2003）の大規模なレビューは、自尊心の高さが学業成績や仕事の成功の「原因」になるとは言えず、むしろ良い結果が自尊心を高める面が大きいと結論づけました。',
+          '根拠のない過剰な称賛は、かえって打たれ弱さにつながることもあります（大げさなほめの研究）。「すごい」と中身なくほめ続けるより、ありのままを受け止めることが大切です。',
+        ],
+      },
+      {
+        heading: '育て方',
+        body: [
+          '安心できる関係（愛着）と、「できた」という経験（自己効力感）の積み重ねが、地に足のついた自己肯定感を育てます。結果や能力をほめるより、工夫や過程を具体的に認めることが土台になります。',
+        ],
+      },
+    ],
+    related: [
+      { slug: 'jiko-ketteikan', title: '「自分で決める力」を育てる関わり方 — 自己肯定感と自律のエビデンス' },
+    ],
+    references: [
+      { label: 'Rosenberg（自尊感情）', url: 'https://scholar.google.com/scholar?q=Rosenberg+self-esteem+society+and+the+adolescent+self-image' },
+      { label: 'Baumeister et al., 2003（自尊心と成果のレビュー）', url: 'https://scholar.google.com/scholar?q=Baumeister+2003+does+high+self-esteem+cause+better+performance' },
+      { label: 'Brummelman et al., 2014（過剰なほめ）', url: 'https://scholar.google.com/scholar?q=Brummelman+2014+inflated+praise+children+low+self-esteem' },
+    ],
+  },
+  {
+    slug: 'agency',
+    term: '主体性（エージェンシー）',
+    reading: 'しゅたいせい',
+    english: 'Agency',
+    short: '自分の人生や行動を、自分で考えて選び、動かしていく力・姿勢。「やらされる」のではなく「自分ごと」として取り組む感覚です。',
+    updated: '2026-06-12',
+    sections: [
+      {
+        heading: '主体性（エージェンシー）とは',
+        body: [
+          '主体性（エージェンシー）とは、自分の意思で目標を定め、選び、行動し、その結果に責任を持つ力です。OECDの「ラーニング・コンパス（Education 2030）」では、これからの時代に育てたい中心的な力として「生徒のエージェンシー」が掲げられています。',
+        ],
+      },
+      {
+        heading: '自律性・自己決定理論との関係',
+        body: [
+          '自己決定理論でいう「自律性（自分で選んでいる感覚）」と深く関わりますが、主体性はより広く、「自分の人生を自分で動かしていく」姿勢全体を指します。指示や報酬で動かされるのではなく、自分ごととして関わることが核になります。',
+        ],
+      },
+      {
+        heading: '家庭で育てる',
+        body: [
+          '小さな選択を子どもに委ねること。失敗も含めて、自分で決める経験を積ませること。先回りしすぎず、本人の「やってみたい」を尊重することが、主体性を育てます。',
+        ],
+      },
+    ],
+    related: [
+      { slug: 'jiko-ketteikan', title: '「自分で決める力」を育てる関わり方 — 自己肯定感と自律のエビデンス' },
+    ],
+    references: [
+      { label: 'OECD（Education 2030 / 生徒のエージェンシー）', url: 'https://scholar.google.com/scholar?q=OECD+Education+2030+learning+compass+student+agency' },
+      { label: 'Ryan & Deci（自己決定理論・自律性）', url: 'https://scholar.google.com/scholar?q=Ryan+Deci+self-determination+theory+autonomy' },
+      { label: 'Bandura（人間のエージェンシー）', url: 'https://scholar.google.com/scholar?q=Bandura+2001+human+agency+social+cognitive+theory' },
+    ],
+  },
+  {
+    slug: 'coping',
+    term: 'ストレスとコーピング',
+    reading: 'すとれすとこーぴんぐ',
+    english: 'Stress and Coping',
+    short: 'ストレスにどう対処するか（コーピング）の考え方。出来事そのものより、「どう捉え、どう対処するか」が、ストレスの影響を左右します。',
+    updated: '2026-06-12',
+    sections: [
+      {
+        heading: 'ストレスとコーピングとは',
+        body: [
+          'ラザルスとフォルクマン（1984）は、ストレスを「出来事」そのものではなく、「自分にとってどれほど脅威か」という評価と、「どう対処できそうか」という見積もりで決まると考えました。この対処の仕方を「コーピング」と呼びます。',
+        ],
+      },
+      {
+        heading: 'コーピングのいろいろ',
+        body: [
+          'コーピングには、問題そのものを解決しようとする「問題焦点型」と、気持ちを整える「情動焦点型」があり、状況に応じて使い分けることが大切です。子どもはまず、大人と一緒に落ち着く経験（共調整）を通じて、対処の仕方を学んでいきます。',
+        ],
+      },
+      {
+        heading: '大切な視点：「毒性ストレス」',
+        body: [
+          'ショーンコフらは、強いストレスでも支えてくれる大人がいれば耐えられる（耐えうるストレス）一方、支えのないまま長く続く強いストレスは発達に害を及ぼしうる（毒性ストレス）と整理しました。鍵は、ストレスをゼロにすることではなく、支える関係があることです。',
+        ],
+      },
+    ],
+    related: [
+      { slug: 'resilience', title: '逆境に強い子を育てる — レジリエンスのエビデンス' },
+      { slug: 'kanjou-control', title: 'かんしゃくとどう向き合うか — 感情のコントロールを育てる3つの土台' },
+    ],
+    references: [
+      { label: 'Lazarus & Folkman, 1984（ストレスとコーピング）', url: 'https://scholar.google.com/scholar?q=Lazarus+Folkman+1984+stress+appraisal+and+coping' },
+      { label: 'Shonkoff et al.（毒性ストレス）', url: 'https://scholar.google.com/scholar?q=Shonkoff+toxic+stress+childhood+development' },
+      { label: 'Compas et al.（子どものコーピング）', url: 'https://scholar.google.com/scholar?q=Compas+coping+with+stress+during+childhood+adolescence' },
+    ],
+  },
 ];
