@@ -1312,6 +1312,8 @@ export const articles: Article[] = [
       { slug: 'default-mode-network', term: 'デフォルトモードネットワーク' },
       { slug: 'protective-factors', term: '保護因子' },
       { slug: 'resilience', term: 'レジリエンス' },
+      { slug: 'gifted', term: 'ギフテッド' },
+      { slug: 'hsp', term: 'HSP（感覚処理感受性）' },
     ],
   },
 ];

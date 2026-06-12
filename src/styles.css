@@ -130,6 +130,10 @@ h2 { font-size: 1.25rem; margin: 6px 0 4px; }
   border-bottom: 1px solid var(--line); padding-bottom: 4px;
   scroll-margin-top: 12px;
 }
+.term-notice {
+  background: #fbf3e7; border: 1px solid #e9d8bf; border-radius: 10px;
+  padding: 10px 14px; margin: 10px 0 14px; font-size: .88rem; color: #6b5a3a;
+}
 .search-group { margin-top: 22px; }
 .search-group h3 { font-size: 1rem; margin: 0 0 10px; color: var(--green-d); }
 .intro-search { margin-top: 18px; font-size: .9rem; color: var(--muted); }

@@ -92,6 +92,7 @@ export function TermView({ term }: { term: Term }) {
         {' '}・ 最終更新 {term.updated}
       </p>
       <p className="alead-top">{term.short}</p>
+      {term.notice && <p className="term-notice">{term.notice}</p>}
       {term.heroImage && (
         <figure className="article-hero">
           <img src={term.heroImage.src} alt={term.heroImage.alt} />

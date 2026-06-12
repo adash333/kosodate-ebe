@@ -26,6 +26,8 @@ export interface Term {
   english?: string; // 英語名（例: Executive Function）
   short: string; // 一覧用の短い定義
   updated: string;
+  /** ページ冒頭に表示する注意書き（任意。医療系の用語で「診断ではない」旨を示すのに使う）。 */
+  notice?: string;
   /** アイキャッチ画像（任意。未設定なら表示しない。後から差し込めるようフィールドのみ用意）。 */
   heroImage?: TermImage;
   sections: TermSection[];
@@ -1355,6 +1357,219 @@ export const terms: Term[] = [
       { label: 'Lazarus & Folkman, 1984（ストレスとコーピング）', url: 'https://scholar.google.com/scholar?q=Lazarus+Folkman+1984+stress+appraisal+and+coping' },
       { label: 'Shonkoff et al.（毒性ストレス）', url: 'https://scholar.google.com/scholar?q=Shonkoff+toxic+stress+childhood+development' },
       { label: 'Compas et al.（子どものコーピング）', url: 'https://scholar.google.com/scholar?q=Compas+coping+with+stress+during+childhood+adolescence' },
+    ],
+  },
+  {
+    slug: 'developmental-disorders',
+    term: '発達障害（神経発達症）',
+    reading: 'はったつしょうがい',
+    english: 'Neurodevelopmental Disorders',
+    short: '生まれつきの脳の働き方の特性により、発達の現れ方に凸凹（得意・不得意の差）が見られる状態の総称。現在は「神経発達症」とも呼ばれ、ASD・ADHD・限局性学習症などを含みます。',
+    updated: '2026-06-12',
+    notice: 'このページは特性を理解するための一般的な情報であり、診断や自己判断のためのものではありません。気になる場合は、小児科・児童精神科・発達外来や、お住まいの自治体の発達相談などの専門機関にご相談ください。',
+    sections: [
+      {
+        heading: '発達障害（神経発達症）とは',
+        body: [
+          '発達障害とは、生まれつきの脳機能の特性により、発達の現れ方に凸凹（得意・不得意の差）が見られる状態の総称です。米国の診断基準DSM-5では「神経発達症（neurodevelopmental disorders）」と総称され、自閉スペクトラム症（ASD）、注意欠如多動症（ADHD）、限局性学習症（LD）、知的発達症などが含まれます。',
+          '育て方やしつけが原因で生じるものではない、と考えられています。',
+        ],
+      },
+      {
+        heading: '「治す」より「合わせる」',
+        body: [
+          '特性そのものをなくすというより、環境や関わりを本人に合わせて整えることで、力を発揮しやすくなります。早めに特性を理解し、合った支援につながることが大切です。',
+        ],
+      },
+      {
+        heading: '専門機関につながる',
+        body: [
+          '「もしかして」と思ったら、一人で抱え込まず、小児科・児童精神科・発達外来や、自治体の発達相談へ。診断の有無にかかわらず、特性に合った関わりや支援を受けることができます。',
+        ],
+      },
+    ],
+    references: [
+      { label: 'American Psychiatric Association, DSM-5（神経発達症）', url: 'https://scholar.google.com/scholar?q=DSM-5+neurodevelopmental+disorders+classification' },
+      { label: 'Thapar et al.（神経発達症の総説）', url: 'https://scholar.google.com/scholar?q=Thapar+neurodevelopmental+disorders+review' },
+      { label: '日本小児神経学会（神経発達症）', url: 'https://scholar.google.com/scholar?q=神経発達症+発達障害+概念+小児神経' },
+    ],
+  },
+  {
+    slug: 'asd',
+    term: '自閉スペクトラム症（ASD）',
+    reading: 'じへいすぺくとらむしょう',
+    english: 'Autism Spectrum Disorder',
+    short: '対人コミュニケーションのスタイルや、興味・感覚の現れ方に特性がある状態。「スペクトラム（連続体）」と呼ばれ、現れ方は一人ひとり大きく異なります。',
+    updated: '2026-06-12',
+    notice: 'このページは特性を理解するための一般的な情報であり、診断や自己判断のためのものではありません。気になる場合は、小児科・児童精神科・発達外来や、お住まいの自治体の発達相談などの専門機関にご相談ください。',
+    sections: [
+      {
+        heading: '自閉スペクトラム症とは',
+        body: [
+          '自閉スペクトラム症（ASD）は、社会的なコミュニケーションややり取りのスタイル、興味やこだわり、感覚（音・光・触覚などへの過敏や鈍感）の現れ方に特性がある状態です。DSM-5では、かつてのアスペルガー症候群などを統合し「自閉スペクトラム症」とされました。',
+          '「スペクトラム」は、特性の強さや現れ方が、人によって連続的に異なることを表しています。',
+        ],
+      },
+      {
+        heading: '「優劣」ではなく「特性」',
+        body: [
+          '特性は、細部への気づきや規則性への強さ、好きなことへの深い集中といった強みにも、難しさにもなりえます。ニューロダイバーシティ（脳の多様性）の視点では、違いを「治すべき欠陥」ではなく多様性として捉えます。',
+        ],
+      },
+      {
+        heading: '早めの理解と支援',
+        body: [
+          '見通しを示す、刺激を調整するなど、関わり方や環境の工夫で、本人が過ごしやすくなります。気になる場合は、自己判断せず専門機関にご相談ください。',
+        ],
+      },
+    ],
+    references: [
+      { label: 'American Psychiatric Association, DSM-5（ASD）', url: 'https://scholar.google.com/scholar?q=DSM-5+autism+spectrum+disorder+criteria' },
+      { label: 'Lord et al.（自閉スペクトラム症の総説）', url: 'https://scholar.google.com/scholar?q=Lord+autism+spectrum+disorder+Lancet+review' },
+      { label: 'CDC（自閉スペクトラム症）', url: 'https://scholar.google.com/scholar?q=CDC+autism+spectrum+disorder+prevalence+children' },
+    ],
+  },
+  {
+    slug: 'adhd',
+    term: 'ADHD（注意欠如多動症）',
+    reading: 'えーでぃーえいちでぃー',
+    english: 'Attention-Deficit / Hyperactivity Disorder',
+    short: '不注意（集中の持続が難しい）、多動・衝動性といった特性が、年齢に比べて強く、生活に影響している状態。脳の発達特性で、しつけの問題ではありません。',
+    updated: '2026-06-12',
+    notice: 'このページは特性を理解するための一般的な情報であり、診断や自己判断のためのものではありません。気になる場合は、小児科・児童精神科・発達外来や、お住まいの自治体の発達相談などの専門機関にご相談ください。',
+    sections: [
+      {
+        heading: 'ADHDとは',
+        body: [
+          'ADHD（注意欠如多動症）は、不注意（気が散りやすい、忘れやすい）、多動性（じっとしていにくい）、衝動性（待つのが苦手）などの特性が、発達段階に比べて強く、生活や学習に影響する状態です。遺伝の影響が大きいことが分かっており、育て方やしつけが原因ではありません。',
+        ],
+      },
+      {
+        heading: '強みの面もある',
+        body: [
+          '興味のあることへの高い集中（過集中）、行動力、発想の豊かさなど、特性が強みになる場面もあります。現れ方は、環境によっても大きく変わります。',
+        ],
+      },
+      {
+        heading: '支援につながる',
+        body: [
+          '課題を小さく分ける、見通しを示す、刺激を減らすといった環境調整、行動への関わり、必要に応じた医療的支援など、効果が確かめられた支援があります。気になる場合は専門機関にご相談ください。',
+        ],
+      },
+    ],
+    references: [
+      { label: 'American Psychiatric Association, DSM-5（ADHD）', url: 'https://scholar.google.com/scholar?q=DSM-5+ADHD+attention+deficit+hyperactivity+criteria' },
+      { label: 'Faraone et al.（ADHDの総説）', url: 'https://scholar.google.com/scholar?q=Faraone+attention-deficit+hyperactivity+disorder+nature+reviews' },
+      { label: 'Barkley（ADHDと実行機能）', url: 'https://scholar.google.com/scholar?q=Barkley+ADHD+executive+functions+self-regulation' },
+    ],
+  },
+  {
+    slug: 'ld',
+    term: '限局性学習症（LD）',
+    reading: 'げんきょくせいがくしゅうしょう',
+    english: 'Learning Disabilities / Specific Learning Disorder',
+    short: '全体の知的な発達に遅れがないのに、読み・書き・計算など特定の領域の学習に著しい困難がある状態。「努力不足」ではなく、脳の情報処理の特性です。',
+    updated: '2026-06-12',
+    notice: 'このページは特性を理解するための一般的な情報であり、診断や自己判断のためのものではありません。気になる場合は、小児科・児童精神科・発達外来や、お住まいの自治体の発達相談などの専門機関にご相談ください。',
+    sections: [
+      {
+        heading: '限局性学習症（LD）とは',
+        body: [
+          '限局性学習症（LD）は、知的な遅れや教える機会の不足では説明できないのに、読み（ディスレクシア）・書き・算数など、特定の領域の習得に著しい困難がある状態です。本人は努力していても、その領域だけがうまくいきにくいのが特徴です。',
+        ],
+      },
+      {
+        heading: '「怠けている」という誤解',
+        body: [
+          '努力不足やしつけの問題と誤解されやすいのですが、原因は脳の情報処理の特性です。叱責は、かえって自信や学ぶ意欲を奪ってしまいます。',
+        ],
+      },
+      {
+        heading: '合った方法で学べる',
+        body: [
+          '読み上げ機能やタブレットの活用、書く量の調整など、その子に合った方法や道具（合理的配慮）で学びやすくなります。早めの気づきと支援が大切です。気になる場合は専門機関にご相談ください。',
+        ],
+      },
+    ],
+    references: [
+      { label: 'American Psychiatric Association, DSM-5（限局性学習症）', url: 'https://scholar.google.com/scholar?q=DSM-5+specific+learning+disorder+criteria' },
+      { label: 'Snowling & Hulme（ディスレクシアの研究）', url: 'https://scholar.google.com/scholar?q=Snowling+Hulme+dyslexia+reading+development' },
+      { label: 'Peterson & Pennington（学習症の総説）', url: 'https://scholar.google.com/scholar?q=Peterson+Pennington+developmental+dyslexia+learning+disorders' },
+    ],
+  },
+  {
+    slug: 'gifted',
+    term: 'ギフテッド',
+    reading: 'ぎふてっど',
+    english: 'Giftedness',
+    short: '同年齢の子に比べて、特定の領域で著しく高い能力を示す状態。教育上の概念で、医学的な診断ではありません。才能と困難を併せ持つ「2E」もあります。',
+    updated: '2026-06-12',
+    notice: 'ギフテッドは教育上の概念であり、医学的な診断ではありません。このページは一般的な情報で、自己判断やレッテル貼りのためのものではありません。',
+    sections: [
+      {
+        heading: 'ギフテッドとは',
+        body: [
+          'ギフテッドとは、知能や特定の分野で、同年齢より著しく高い能力を示すことを指す、教育上の概念です。明確な医学的診断ではなく、定義や基準は国や立場によって異なります（IQ130以上を目安にすることが多い）。',
+        ],
+      },
+      {
+        heading: '「天才で順風満帆」は誤解',
+        body: [
+          'ギフテッドの子が、いつも幸せで成績優秀とは限りません。授業が退屈で力を持て余す、強い感受性や完璧主義に苦しむ、といった悩みを抱えることもあります。',
+          'また、才能と発達の困難（ASD・ADHD・LDなど）を併せ持つ「2E（twice-exceptional）」もあります。才能が困難を、困難が才能を、互いに隠し合って気づかれにくいこと（マスキング）が知られています。',
+        ],
+      },
+      {
+        heading: 'その子に合った関わりを',
+        body: [
+          '「賢いから大丈夫」と放置せず、知的好奇心を満たす機会を用意し、困りごとには支援を。強みと弱みの両方に目を向けることが大切です。',
+        ],
+      },
+    ],
+    related: [
+      { slug: 'hitori-jikan', title: 'ひとりが好きな子は心配？— 「賢い人ほど一人を好む」説と、ひとり時間のエビデンス' },
+    ],
+    references: [
+      { label: 'Renzulli / Gagné（ギフテッドのモデル）', url: 'https://scholar.google.com/scholar?q=Renzulli+Gagne+giftedness+definition+model' },
+      { label: 'Reis & Renzulli（ギフテッド教育）', url: 'https://scholar.google.com/scholar?q=Reis+Renzulli+gifted+talented+education+research' },
+      { label: 'Baum（2E・twice-exceptional）', url: 'https://scholar.google.com/scholar?q=twice-exceptional+gifted+learning+disabilities+Baum' },
+    ],
+  },
+  {
+    slug: 'hsp',
+    term: 'HSP（感覚処理感受性）',
+    reading: 'えいちえすぴー',
+    english: 'Highly Sensitive Person / Sensory Processing Sensitivity',
+    short: '周囲の刺激や他者の感情を、人より深く・強く受け取りやすい性格特性。アーロンが提唱した「感覚処理感受性（SPS）」のことで、医学的な診断や障害ではありません。',
+    updated: '2026-06-12',
+    notice: 'HSP（感覚処理感受性）は性格特性であり、医学的な診断・障害ではありません。このページは一般的な情報です。困りごとが強い場合は、自己判断せず専門機関にご相談ください。',
+    sections: [
+      {
+        heading: 'HSPとは',
+        body: [
+          'HSPは、心理学者アーロンが提唱した「感覚処理感受性（SPS）」を、分かりやすく表した言葉です。音・光・人の感情などの刺激を、深く・強く処理しやすい生まれつきの性格特性で、人口の15〜20%程度と推定されています。性格の自然な個人差であり、障害ではありません。',
+        ],
+      },
+      {
+        heading: '強みと、疲れやすさ',
+        body: [
+          '細やかに気づく、共感力が高い、深く考える、といった強みがある一方で、刺激の多い環境では疲れやすい面もあります。落ち着いた良い環境では、特に力を発揮しやすいとも言われます。',
+        ],
+      },
+      {
+        heading: '注意したいこと',
+        body: [
+          'HSPは医学的な診断ではなく、自己診断テストで安易にラベルを貼るのは禁物です。感覚過敏は自閉スペクトラム症など他の特性でも見られ、HSPと混同されやすいことも知られています。困りごとが強い場合は、HSPと決めつけず、専門機関にご相談ください。',
+        ],
+      },
+    ],
+    related: [
+      { slug: 'hitori-jikan', title: 'ひとりが好きな子は心配？— 「賢い人ほど一人を好む」説と、ひとり時間のエビデンス' },
+    ],
+    references: [
+      { label: 'Aron & Aron, 1997（感覚処理感受性）', url: 'https://scholar.google.com/scholar?q=Aron+1997+sensory+processing+sensitivity+highly+sensitive+person' },
+      { label: 'Greven et al., 2019（SPSの総説）', url: 'https://scholar.google.com/scholar?q=Greven+2019+sensory+processing+sensitivity+review+critical' },
+      { label: 'Pluess（環境感受性）', url: 'https://scholar.google.com/scholar?q=Pluess+environmental+sensitivity+children+differential+susceptibility' },
     ],
   },
 ];
