@@ -1410,6 +1410,10 @@ export const terms: Term[] = [
     english: 'Neurodevelopmental Disorders',
     short: '生まれつきの脳の働き方の特性により、発達の現れ方に凸凹（得意・不得意の差）が見られる状態の総称。現在は「神経発達症」とも呼ばれ、ASD・ADHD・限局性学習症などを含みます。',
     updated: '2026-06-12',
+    heroImage: {
+      src: '/glossary/developmental-disorders.png',
+      alt: '子どもたちの発達の多様な特性と、それぞれに合った支援環境を明るい科学図解で表したイラスト',
+    },
     notice: 'このページは特性を理解するための一般的な情報であり、診断や自己判断のためのものではありません。気になる場合は、小児科・児童精神科・発達外来や、お住まいの自治体の発達相談などの専門機関にご相談ください。',
     sections: [
       {
@@ -1445,6 +1449,10 @@ export const terms: Term[] = [
     english: 'Autism Spectrum Disorder',
     short: '対人コミュニケーションのスタイルや、興味・感覚の現れ方に特性がある状態。「スペクトラム（連続体）」と呼ばれ、現れ方は一人ひとり大きく異なります。',
     updated: '2026-06-12',
+    heroImage: {
+      src: '/glossary/asd.png',
+      alt: '子どもの興味や感覚、コミュニケーションの特性を、穏やかな支援環境とともに表したイラスト',
+    },
     notice: 'このページは特性を理解するための一般的な情報であり、診断や自己判断のためのものではありません。気になる場合は、小児科・児童精神科・発達外来や、お住まいの自治体の発達相談などの専門機関にご相談ください。',
     sections: [
       {
@@ -1480,6 +1488,10 @@ export const terms: Term[] = [
     english: 'Attention-Deficit / Hyperactivity Disorder',
     short: '不注意（集中の持続が難しい）、多動・衝動性といった特性が、年齢に比べて強く、生活に影響している状態。脳の発達特性で、しつけの問題ではありません。',
     updated: '2026-06-12',
+    heroImage: {
+      src: '/glossary/adhd.png',
+      alt: '注意の調整や活動量の特性を、見通しや休憩などの支援とともに明るく表したイラスト',
+    },
     notice: 'このページは特性を理解するための一般的な情報であり、診断や自己判断のためのものではありません。気になる場合は、小児科・児童精神科・発達外来や、お住まいの自治体の発達相談などの専門機関にご相談ください。',
     sections: [
       {
@@ -1514,6 +1526,10 @@ export const terms: Term[] = [
     english: 'Learning Disabilities / Specific Learning Disorder',
     short: '全体の知的な発達に遅れがないのに、読み・書き・計算など特定の領域の学習に著しい困難がある状態。「努力不足」ではなく、脳の情報処理の特性です。',
     updated: '2026-06-12',
+    heroImage: {
+      src: '/glossary/ld.png',
+      alt: '読み書きや計算などの学び方の違いに合わせて、支援ツールで学ぶ子どもを表したイラスト',
+    },
     notice: 'このページは特性を理解するための一般的な情報であり、診断や自己判断のためのものではありません。気になる場合は、小児科・児童精神科・発達外来や、お住まいの自治体の発達相談などの専門機関にご相談ください。',
     sections: [
       {
@@ -1548,6 +1564,10 @@ export const terms: Term[] = [
     english: 'Giftedness',
     short: '同年齢の子に比べて、特定の領域で著しく高い能力を示す状態。教育上の概念で、医学的な診断ではありません。才能と困難を併せ持つ「2E」もあります。',
     updated: '2026-06-12',
+    heroImage: {
+      src: '/glossary/gifted.png',
+      alt: '子どもの深い好奇心や高い能力と、適切な挑戦や支援の必要性を表したイラスト',
+    },
     notice: 'ギフテッドは教育上の概念であり、医学的な診断ではありません。このページは一般的な情報で、自己判断やレッテル貼りのためのものではありません。',
     sections: [
       {
@@ -1586,6 +1606,10 @@ export const terms: Term[] = [
     english: 'Highly Sensitive Person / Sensory Processing Sensitivity',
     short: '周囲の刺激や他者の感情を、人より深く・強く受け取りやすい性格特性。アーロンが提唱した「感覚処理感受性（SPS）」のことで、医学的な診断や障害ではありません。',
     updated: '2026-06-12',
+    heroImage: {
+      src: '/glossary/hsp.png',
+      alt: '子どもが光や音、感情などの繊細な刺激を深く受け取る感覚処理感受性を表したイラスト',
+    },
     notice: 'HSP（感覚処理感受性）は性格特性であり、医学的な診断・障害ではありません。このページは一般的な情報です。困りごとが強い場合は、自己判断せず専門機関にご相談ください。',
     sections: [
       {
