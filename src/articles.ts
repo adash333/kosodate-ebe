@@ -95,6 +95,7 @@ export const articles: Article[] = [
       { slug: 'naihatsu-douki', term: '内発的動機づけ' },
       { slug: 'growth-mindset', term: 'しなやかマインドセット（成長マインドセット）' },
       { slug: 'undermining-effect', term: 'アンダーマイニング効果' },
+      { slug: 'cognitive-dissonance', term: '認知的不協和' },
     ],
   },
   {
@@ -290,6 +291,7 @@ export const articles: Article[] = [
     ],
     relatedTerms: [
       { slug: 'boukansha-kouka', term: '傍観者効果' },
+      { slug: 'empathy', term: '共感（認知的共感・情動的共感）' },
     ],
   },
   {
@@ -479,6 +481,8 @@ export const articles: Article[] = [
     ],
     relatedTerms: [
       { slug: 'resilience', term: 'レジリエンス' },
+      { slug: 'protective-factors', term: '保護因子' },
+      { slug: 'sel', term: 'SEL（社会性と感情の学習）' },
     ],
   },
   {
@@ -773,6 +777,7 @@ export const articles: Article[] = [
     ],
     relatedTerms: [
       { slug: 'self-control', term: '自制心（マシュマロ実験）' },
+      { slug: 'fadeout', term: 'フェードアウト効果' },
     ],
   },
   {

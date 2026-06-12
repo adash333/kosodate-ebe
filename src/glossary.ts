@@ -243,6 +243,14 @@ export const terms: Term[] = [
         ],
       },
       {
+        heading: '「保護因子」「リスク因子」との違い',
+        body: [
+          'レジリエンスと「保護因子」は、しばしば混同されますが、同じものではありません。レジリエンスは、逆境にあっても適応し立ち直っていく「力・結果」そのものです。一方、保護因子は、そのレジリエンスを高める「条件・要因」を指します（信じてくれる大人の存在、感情を言葉にする力、安心できる環境など）。',
+          '逆に、貧困・虐待・孤立など、不適応のリスクを高める要因は「リスク因子」と呼ばれ、保護因子と対になります。子どもは、リスク因子と保護因子の綱引きのなかで育つ、と考えられています。',
+          'たとえるなら、レジリエンスはでき上がった料理（結果）、保護因子は材料や調味料（要因）、リスク因子は味を損なう要素です。だからこそ、子どもを直接「強くする」より、保護因子を一つずつ増やし、リスク因子をやわらげる関わりが現実的です。',
+        ],
+      },
+      {
         heading: '日々の関わりで育てる',
         body: [
           'つらい気持ちを言葉にして整理する関わりや、感情スキルを育てる教育（SEL）が、立ち直る力を支えると報告されています（Durlak, 2011 ほか）。',
@@ -953,6 +961,188 @@ export const terms: Term[] = [
       { label: 'Heckman（非認知能力・ペリー就学前計画）', url: 'https://scholar.google.com/scholar?q=Heckman+noncognitive+skills+Perry+Preschool+returns' },
       { label: 'Duckworth & Seligman（自制心・やり抜く力）', url: 'https://scholar.google.com/scholar?q=Duckworth+grit+perseverance+passion+long-term+goals' },
       { label: 'OECD（社会情動的スキル）', url: 'https://scholar.google.com/scholar?q=OECD+social+and+emotional+skills+well-being' },
+    ],
+  },
+  {
+    slug: 'empathy',
+    term: '共感（認知的共感・情動的共感）',
+    reading: 'きょうかん',
+    english: 'Cognitive / Affective Empathy',
+    short: '相手の気持ちを「理解する」認知的共感と、「感じ取る」情動的共感の2つの側面があります。いじめを止める力や思いやりの土台になります。',
+    updated: '2026-06-12',
+    sections: [
+      {
+        heading: '2種類の共感',
+        body: [
+          '共感には、相手の気持ちや状況を頭で理解する「認知的共感」と、相手の感情を自分も感じ取る「情動的共感」の2つの側面があります。相手の心を推し量る力（心の理論）は、とくに認知的共感と深く関わります。',
+        ],
+      },
+      {
+        heading: 'いじめを止める力との関係',
+        body: [
+          'ヴァン・ノールデンら（2015）は、いじめを止める子が、認知的共感と情動的共感の両方を持っていたことを示しました。相手の状況を理解し、かつその気持ちを感じ取れる子が、傍観者から擁護者へと変わりやすいのです。',
+        ],
+      },
+      {
+        heading: '家庭で育てる',
+        body: [
+          '「もし自分だったらどう感じる？」と相手の気持ちを想像する会話。絵本や日々の出来事を通じて、登場人物や相手の気持ちを言葉にすること。こうしたやり取りが、共感を育てます。',
+        ],
+      },
+    ],
+    related: [
+      { slug: 'ijime', title: 'いじめにどう向き合うか — カギを握るのは「傍観者」' },
+    ],
+    references: [
+      { label: 'van Noorden et al., 2015（いじめと共感性）', url: 'https://scholar.google.com/scholar?q=van+Noorden+2015+empathy+bullying+roles+children' },
+      { label: 'Eisenberg（共感と向社会的行動）', url: 'https://scholar.google.com/scholar?q=Eisenberg+empathy+related+responding+prosocial+behavior' },
+      { label: 'Decety（共感の神経科学）', url: 'https://scholar.google.com/scholar?q=Decety+empathy+development+neuroscience' },
+    ],
+  },
+  {
+    slug: 'sel',
+    term: 'SEL（社会性と感情の学習）',
+    reading: 'えすいーえる',
+    english: 'Social and Emotional Learning',
+    short: '感情の理解・コントロールや、人との関わり方などを意図的に育てる教育の取り組み。心の安定だけでなく、学力にも良い影響があると報告されています。',
+    updated: '2026-06-12',
+    sections: [
+      {
+        heading: 'SELとは',
+        body: [
+          'SEL（Social and Emotional Learning）とは、自分の感情に気づき扱う力、他者を思いやる力、責任ある判断、人間関係のスキルなどを、学校や家庭で意図的に育てる取り組みのことです。',
+        ],
+      },
+      {
+        heading: '学力にも効く',
+        body: [
+          'ダーラックら（2011）の大規模なメタ分析は、SELプログラムが、子どもの社会性や情緒の安定だけでなく、学業成績の向上にもつながったことを示しました。感情を扱う力は、学びの土台でもあるのです。',
+        ],
+      },
+      {
+        heading: '家庭でできること',
+        body: [
+          '感情に名前をつける、気持ちを言葉にして整理する、相手の立場を想像する——特別なプログラムでなくても、日常の関わりが立派なSELになります。',
+        ],
+      },
+    ],
+    related: [
+      { slug: 'resilience', title: '逆境に強い子を育てる — レジリエンスのエビデンス' },
+    ],
+    references: [
+      { label: 'Durlak et al., 2011（SELのメタ分析）', url: 'https://scholar.google.com/scholar?q=Durlak+2011+social+emotional+learning+meta-analysis' },
+      { label: 'CASEL（SELの枠組み）', url: 'https://scholar.google.com/scholar?q=CASEL+social+emotional+learning+framework+competencies' },
+      { label: 'Jones & Bouffard（SELの実践）', url: 'https://scholar.google.com/scholar?q=Jones+Bouffard+social+emotional+learning+schools' },
+    ],
+  },
+  {
+    slug: 'fadeout',
+    term: 'フェードアウト効果',
+    reading: 'ふぇーどあうとこうか',
+    english: 'Fadeout Effect',
+    short: '早期の教育や介入で一度上がった効果が、時間とともに薄れていく現象。「早く始めれば差がつき続ける」とは限らないことを示します。',
+    updated: '2026-06-12',
+    sections: [
+      {
+        heading: 'フェードアウト効果とは',
+        body: [
+          'フェードアウト（消失）効果とは、幼児期の教育や介入で上がったテストの成績などが、入学後の数年で差が縮まり、消えていくことがある現象です。',
+        ],
+      },
+      {
+        heading: 'どんな研究があるか',
+        body: [
+          'プロツコ（2015）は、早期介入で上がった知能の得点が、支援が終わると薄れやすいことを示しました。テネシー州の就学前プログラムの追跡（リプシーら, 2018）でも、初期の学力面のメリットが続かなかったと報告されています。',
+        ],
+      },
+      {
+        heading: 'どう捉えるか',
+        body: [
+          '「早期教育は無意味」という意味ではありません。点数の先取りより、自分で取り組む経験・遊び・安心できる環境といった「土台の力」のほうが長く効く、と捉えるのが現実的です。',
+        ],
+      },
+    ],
+    related: [
+      { slug: 'souki-kyouiku', title: '早期教育・習い事は得か — 「先取り」より大切な土台' },
+    ],
+    references: [
+      { label: 'Protzko, 2015（早期介入とフェードアウト）', url: 'https://scholar.google.com/scholar?q=Protzko+2015+fadeout+effect+intelligence+interventions' },
+      { label: 'Lipsey et al., 2018（テネシー就学前プログラム）', url: 'https://scholar.google.com/scholar?q=Lipsey+2018+Tennessee+voluntary+prekindergarten+effects' },
+      { label: 'Bailey et al.（フェードアウトの仕組み）', url: 'https://scholar.google.com/scholar?q=Bailey+persistence+fadeout+early+childhood+education+interventions' },
+    ],
+  },
+  {
+    slug: 'cognitive-dissonance',
+    term: '認知的不協和',
+    reading: 'にんちてきふきょうわ',
+    english: 'Cognitive Dissonance',
+    short: '自分の考えと行動が矛盾したときに感じる、心の居心地の悪さ。人はこの不快を減らそうと、考えや態度のほうを変えることがあります。',
+    updated: '2026-06-12',
+    sections: [
+      {
+        heading: '認知的不協和とは',
+        body: [
+          '認知的不協和とは、フェスティンガー（1957）が提唱した考え方です。「体に悪いと思っているのに続けている」のように、信念と行動が食い違うと、人は不快（不協和）を感じ、それを減らそうと考えや行動を調整します。',
+        ],
+      },
+      {
+        heading: '子育てとの関わり',
+        body: [
+          'フェスティンガーの古典研究（1959）は、外からの強い理由（報酬）で行動させると、その行動を「好きではない」と感じやすくなることを示しました。逆に、軽い理由づけで自分から選んで行動すると、「自分は好きだからやっている」と捉え直し、態度が内側から変わりやすくなります。',
+          'これは、強い罰や報酬より、納得して自分で選ぶ関わりのほうが効く、という知見の背景にもなっています。',
+        ],
+      },
+      {
+        heading: '日常での例',
+        body: [
+          '「やらされた」と感じると、その行動を嫌いになりやすく、「自分で決めた」と感じると好きになりやすいものです。小さな選択を委ねることが、前向きな態度を育てます。',
+        ],
+      },
+    ],
+    related: [
+      { slug: 'homekata', title: '「すごい」より効く、子どものほめ方 — 研究でわかった3つのコツ' },
+    ],
+    references: [
+      { label: 'Festinger, 1957（認知的不協和理論）', url: 'https://scholar.google.com/scholar?q=Festinger+1957+theory+of+cognitive+dissonance' },
+      { label: 'Festinger & Carlsmith, 1959（不協和の実験）', url: 'https://scholar.google.com/scholar?q=Festinger+Carlsmith+1959+cognitive+consequences+forced+compliance' },
+      { label: 'Aronson（不協和と子どもの行動）', url: 'https://scholar.google.com/scholar?q=Aronson+1963+effect+of+severity+of+threat+devaluation' },
+    ],
+  },
+  {
+    slug: 'protective-factors',
+    term: '保護因子',
+    reading: 'ほごいんし',
+    english: 'Protective Factors',
+    short: '逆境のなかでも子どもの育ちを守り、レジリエンスを高める「条件・要因」。信じてくれる大人の存在、自己コントロールの力、安心できる環境などを指します。',
+    updated: '2026-06-12',
+    sections: [
+      {
+        heading: '保護因子とは',
+        body: [
+          '保護因子とは、リスクのある状況でも、子どもが不適応に陥るのを防ぎ、立ち直る力（レジリエンス）を支える要因のことです。逆に、不適応のリスクを高める要因は「リスク因子」と呼ばれ、保護因子と対になります。',
+        ],
+      },
+      {
+        heading: 'レジリエンスとの違い',
+        body: [
+          'レジリエンスが「立ち直る力・結果」であるのに対し、保護因子は「それを支える要因」です。保護因子が積み重なることで、レジリエンスが発揮されやすくなります。両者は関係が深いものの、同じものではありません。',
+        ],
+      },
+      {
+        heading: '代表的な保護因子',
+        body: [
+          'ワーナーら（1993）の長期研究などから、「自分を信じてくれる大人が一人いること」「自己コントロールの力」「安心できる家庭や居場所」「得意なことや役割があること」などが知られています。',
+          '子どもを直接「強くする」より、こうした保護因子を一つずつ増やし、リスク因子をやわらげる関わりが現実的です。',
+        ],
+      },
+    ],
+    related: [
+      { slug: 'resilience', title: '逆境に強い子を育てる — レジリエンスのエビデンス' },
+    ],
+    references: [
+      { label: 'Werner, 1993（保護因子と長期追跡）', url: 'https://scholar.google.com/scholar?q=Werner+1993+risk+resilience+protective+factors+Kauai' },
+      { label: 'Masten, 2001（ordinary magic）', url: 'https://scholar.google.com/scholar?q=Masten+2001+ordinary+magic+resilience+development' },
+      { label: 'Rutter（保護因子とレジリエンス）', url: 'https://scholar.google.com/scholar?q=Rutter+protective+factors+resilience+psychosocial' },
     ],
   },
 ];

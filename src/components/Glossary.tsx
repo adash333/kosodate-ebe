@@ -1,31 +1,78 @@
 import { terms, type Term } from '../glossary';
 import { articles, isPublished } from '../articles';
 
+// 五十音の「行」ごとの索引。よみがな（reading）の先頭文字でグループ分けする。
+const GYO: { key: string; label: string; chars: string }[] = [
+  { key: 'a', label: 'あ', chars: 'あいうえおぁぃぅぇぉゔ' },
+  { key: 'ka', label: 'か', chars: 'かきくけこがぎぐげご' },
+  { key: 'sa', label: 'さ', chars: 'さしすせそざじずぜぞ' },
+  { key: 'ta', label: 'た', chars: 'たちつてとだぢづでどっ' },
+  { key: 'na', label: 'な', chars: 'なにぬねの' },
+  { key: 'ha', label: 'は', chars: 'はひふへほばびぶべぼぱぴぷぺぽ' },
+  { key: 'ma', label: 'ま', chars: 'まみむめも' },
+  { key: 'ya', label: 'や', chars: 'やゆよゃゅょ' },
+  { key: 'ra', label: 'ら', chars: 'らりるれろ' },
+  { key: 'wa', label: 'わ', chars: 'わをんゎ' },
+];
+
+function gyoKeyOf(reading: string): string {
+  const c = reading.charAt(0);
+  return GYO.find((g) => g.chars.includes(c))?.key ?? 'a';
+}
+
 export function GlossaryList() {
   // 用語名のよみ順（なければ用語名順）で並べる。
   const visible = terms
     .slice()
     .sort((a, b) => (a.reading ?? a.term).localeCompare(b.reading ?? b.term, 'ja'));
+
+  // 五十音の行ごとにグループ化（用語のある行だけ残す）。
+  const groups = GYO.map((g) => ({
+    ...g,
+    items: visible.filter((t) => gyoKeyOf(t.reading ?? t.term) === g.key),
+  })).filter((g) => g.items.length > 0);
+
   return (
     <div className="legal">
       <h2>用語解説</h2>
       <p className="sub">
-        読み物や子育てのエビデンスに出てくる専門用語を、やさしく解説します。
+        読み物や子育てのエビデンスに出てくる専門用語を、やさしく解説します（全{visible.length}語）。
       </p>
-      <ul className="alist">
-        {visible.map((t) => (
-          <li key={t.slug} className="arow">
-            <a className="alink" href={`/glossary/${t.slug}`}>
-              <span className="atitle">
-                {t.term}
-                {t.reading && <span className="treading">（{t.reading}）</span>}
-              </span>
-              <span className="alead">{t.short}</span>
-              {t.english && <span className="ameta">{t.english}</span>}
+
+      <nav className="gindex" aria-label="五十音索引">
+        {GYO.map((g) => {
+          const active = groups.some((x) => x.key === g.key);
+          return active ? (
+            <a key={g.key} className="gindex-link" href={`#gyo-${g.key}`}>
+              {g.label}
             </a>
-          </li>
-        ))}
-      </ul>
+          ) : (
+            <span key={g.key} className="gindex-link is-empty" aria-hidden="true">
+              {g.label}
+            </span>
+          );
+        })}
+      </nav>
+
+      {groups.map((g) => (
+        <section key={g.key} className="gsection">
+          <h3 id={`gyo-${g.key}`} className="gsection-head">{g.label}行</h3>
+          <ul className="alist">
+            {g.items.map((t) => (
+              <li key={t.slug} className="arow">
+                <a className="alink" href={`/glossary/${t.slug}`}>
+                  <span className="atitle">
+                    {t.term}
+                    {t.reading && <span className="treading">（{t.reading}）</span>}
+                  </span>
+                  <span className="alead">{t.short}</span>
+                  {t.english && <span className="ameta">{t.english}</span>}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
     </div>
   );
 }

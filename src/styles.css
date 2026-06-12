@@ -115,6 +115,21 @@ h2 { font-size: 1.25rem; margin: 6px 0 4px; }
 .alead { display: block; color: var(--ink); font-size: .9rem; margin: 8px 0 6px; line-height: 1.6; }
 .ameta { display: block; color: var(--muted); font-size: .78rem; }
 .treading { font-weight: 400; color: var(--muted); font-size: .82rem; }
+.gindex { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0 8px; }
+.gindex-link {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-width: 32px; padding: 6px 8px; border-radius: 8px;
+  border: 1.5px solid var(--line); background: #fff;
+  color: var(--green-d); font-weight: 700; font-size: .9rem; text-decoration: none;
+}
+.gindex-link:hover { border-color: var(--green); }
+.gindex-link.is-empty { color: var(--line); background: var(--bg); font-weight: 400; }
+.gsection { margin-top: 18px; }
+.gsection-head {
+  font-size: 1.05rem; margin: 0 0 8px; color: var(--green-d);
+  border-bottom: 1px solid var(--line); padding-bottom: 4px;
+  scroll-margin-top: 12px;
+}
 .search-group { margin-top: 22px; }
 .search-group h3 { font-size: 1rem; margin: 0 0 10px; color: var(--green-d); }
 .intro-search { margin-top: 18px; font-size: .9rem; color: var(--muted); }
