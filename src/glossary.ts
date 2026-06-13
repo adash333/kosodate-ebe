@@ -2148,4 +2148,218 @@ export const terms: Term[] = [
       { label: 'Flook et al.（幼児向けマインドフルネス）', url: 'https://scholar.google.com/scholar?q=Flook+2015+mindfulness+kindness+curriculum+preschool' },
     ],
   },
+  {
+    slug: 'parenting-style',
+    term: '養育スタイル',
+    reading: 'よういくすたいる',
+    english: 'Parenting Style',
+    short: '親の関わり方を、あたたかさと統制のバランスで整理する考え方。権威的・権威主義的・許容的・放任的などに分けて説明されます。',
+    updated: '2026-06-13',
+    heroImage: {
+      src: '/glossary/parenting-style.png',
+      alt: '親子のあたたかさとルールのバランスを、養育スタイルとして明るく表したイラスト',
+    },
+    sections: [
+      {
+        heading: '養育スタイルとは',
+        body: [
+          '養育スタイルは、親の関わり方を「あたたかさ・応答性」と「ルール・統制」の組み合わせで整理する考え方です。代表的には、権威的、権威主義的、許容的、放任的といった分類があります。',
+          '権威的な関わりは、子どもの気持ちを受け止めながら、必要なルールや見通しも示すスタイルです。研究では、このバランスのよい関わりが、子どもの自律や社会性と関連しやすいとされます。',
+        ],
+      },
+      {
+        heading: '厳しさだけでも、自由だけでもない',
+        body: [
+          '権威主義的な関わりは、命令や罰が中心になりやすく、子どもの納得や自律が育ちにくい場合があります。許容的な関わりは、あたたかい一方で境界線が弱くなり、見通しが持ちにくくなることがあります。',
+          '大切なのは、親がいつも完璧な型を守ることではありません。安心できる関係の中で、理由を説明し、子どもの声を聞きながら、必要な境界線を示すことです。',
+        ],
+      },
+      {
+        heading: '家庭でのヒント',
+        body: [
+          '「だめ」と言う場面でも、理由と代わりの行動を短く伝えます。「走らない」だけでなく「ここは歩こう。外に出たら走っていいよ」のように、ルールと選択肢をセットにします。',
+        ],
+      },
+    ],
+    related: [
+      { slug: 'shikarikata', title: '叱り方の科学 — 罰より効く「境界線」と「修復」' },
+      { slug: 'jiko-ketteikan', title: '「自分で決める力」を育てる関わり方 — 自己肯定感と自律のエビデンス' },
+    ],
+    references: [
+      { label: 'Baumrind（養育スタイル）', url: 'https://scholar.google.com/scholar?q=Baumrind+parenting+styles+authoritative+authoritarian+permissive' },
+      { label: 'Maccoby & Martin（養育スタイルの整理）', url: 'https://scholar.google.com/scholar?q=Maccoby+Martin+parenting+styles+responsiveness+demandingness' },
+      { label: 'Steinberg（権威的養育と発達）', url: 'https://scholar.google.com/scholar?q=Steinberg+authoritative+parenting+adolescent+development' },
+    ],
+  },
+  {
+    slug: 'parental-sensitivity',
+    term: '養育者感受性',
+    reading: 'よういくしゃかんじゅせい',
+    english: 'Parental Sensitivity',
+    short: '子どものサインに気づき、その意味を読み取り、タイミングよく応答する力。愛着や安全基地、共調整の土台になります。',
+    updated: '2026-06-13',
+    heroImage: {
+      src: '/glossary/parental-sensitivity.png',
+      alt: '養育者が子どもの小さなサインに気づき、やさしく応答する様子を表したイラスト',
+    },
+    sections: [
+      {
+        heading: '養育者感受性とは',
+        body: [
+          '養育者感受性は、子どもの表情、声、しぐさ、行動の変化に気づき、「何を求めているのか」を読み取り、適切なタイミングで応答する力です。',
+          '赤ちゃんが泣いたときにすぐ正解を当てることではなく、子どものサインを見ようとする姿勢と、試しながら調整する関わりを指します。',
+        ],
+      },
+      {
+        heading: '愛着との関係',
+        body: [
+          '愛着研究では、養育者が子どものサインに敏感に応答することが、安全基地の形成と関わるとされます。子どもは「困ったときに気づいてもらえる」という経験を通して、安心して探索しやすくなります。',
+          'ただし、常に完璧に応答する必要はありません。ずれたら気づいて修復することも、子どもにとって大切な経験です。',
+        ],
+      },
+      {
+        heading: '家庭でのヒント',
+        body: [
+          'まず観察し、決めつけずに言葉にします。「眠いのかな」「音が大きかったかな」「まだ遊びたかったね」のように仮説を出し、子どもの反応を見ながら調整します。',
+        ],
+      },
+    ],
+    related: [
+      { slug: 'aichaku', title: '愛着と「安全基地」 — 子どもの心の土台のつくり方' },
+    ],
+    references: [
+      { label: 'Ainsworth（養育者感受性と愛着）', url: 'https://scholar.google.com/scholar?q=Ainsworth+maternal+sensitivity+attachment+secure+base' },
+      { label: 'De Wolff & van IJzendoorn（感受性と愛着のメタ分析）', url: 'https://scholar.google.com/scholar?q=De+Wolff+van+IJzendoorn+1997+sensitivity+attachment+meta-analysis' },
+      { label: 'Bakermans-Kranenburg et al.（感受性介入）', url: 'https://scholar.google.com/scholar?q=Bakermans-Kranenburg+maternal+sensitivity+attachment+interventions+meta-analysis' },
+    ],
+  },
+  {
+    slug: 'predictability',
+    term: '予測可能性',
+    reading: 'よそくかのうせい',
+    english: 'Predictability',
+    short: '次に何が起こるかを見通せること。予定・ルール・大人の反応が予測しやすいと、子どもは安心して行動しやすくなります。',
+    updated: '2026-06-13',
+    heroImage: {
+      src: '/glossary/predictability.png',
+      alt: '子どもが予定や流れを見通し、安心して次の行動に移る予測可能性を表したイラスト',
+    },
+    sections: [
+      {
+        heading: '予測可能性とは',
+        body: [
+          '予測可能性は、次に何が起こるか、どんなルールで動けばよいか、大人がどのように応答するかが見通せることです。生活のリズムや一貫した関わりが、子どもの安心を支えます。',
+          '特に不安が強い子、ASDやADHDなどで切り替えが苦手な子、かんしゃくが起きやすい子にとって、見通しは大きな助けになります。',
+        ],
+      },
+      {
+        heading: '見通しがないと何が起きるか',
+        body: [
+          '急な予定変更、曖昧な指示、大人の反応が日によって大きく違う状況では、子どもは不安になりやすくなります。固まる、怒る、泣く、何度も確認する、といった形で表れることがあります。',
+          'これはわがままではなく、先が読めない状態で脳が警戒しているサインかもしれません。',
+        ],
+      },
+      {
+        heading: '家庭でのヒント',
+        body: [
+          '予定表、絵カード、タイマー、「あと2回で終わり」の予告などで、終わりと次の行動を見えるようにします。予定変更のときは、「何が変わるか」と「代わりに何をするか」をセットで伝えます。',
+        ],
+      },
+    ],
+    related: [
+      { slug: 'kanjou-control', title: 'かんしゃくとどう向き合うか — 感情のコントロールを育てる3つの土台' },
+      { slug: 'fuan', title: '子どもの不安・こわがり — 「逃げ道」を作りすぎない関わり' },
+    ],
+    references: [
+      { label: 'Evans et al.（混沌と子どもの発達）', url: 'https://scholar.google.com/scholar?q=Evans+chaos+home+environment+child+development' },
+      { label: 'Fiese et al.（家族ルーティン）', url: 'https://scholar.google.com/scholar?q=Fiese+family+routines+rituals+child+development' },
+      { label: 'Shonkoff et al.（ストレスと安定した関係）', url: 'https://scholar.google.com/scholar?q=Shonkoff+stable+responsive+relationships+toxic+stress+children' },
+    ],
+  },
+  {
+    slug: 'anticipatory-anxiety',
+    term: '予期不安',
+    reading: 'よきふあん',
+    english: 'Anticipatory Anxiety',
+    short: 'これから起こるかもしれない怖いことを考えて、不安が高まる状態。不安を避け続けると強まりやすく、段階的に慣れる支援と相性があります。',
+    updated: '2026-06-13',
+    heroImage: {
+      src: '/glossary/anticipatory-anxiety.png',
+      alt: '子どもがこれからの不安を見通し、小さな段階で安心を増やしていく予期不安を表したイラスト',
+    },
+    sections: [
+      {
+        heading: '予期不安とは',
+        body: [
+          '予期不安は、まだ起きていない出来事について「怖いことが起きるかも」「失敗するかも」と考え、不安が高まる状態です。発表、登校、病院、初めての場所、友だち関係などで起こります。',
+          '不安そのものは自然な反応ですが、避けることで一時的に楽になる経験が続くと、「避けないと危ない」という学習が強まり、不安が長引くことがあります。',
+        ],
+      },
+      {
+        heading: 'どう困るのか',
+        body: [
+          '前の日から眠れない、何度も確認する、腹痛や頭痛を訴える、直前に泣く・怒る・固まるなどの形で表れることがあります。本人も「行きたいのに怖い」という矛盾した気持ちを抱えていることがあります。',
+        ],
+      },
+      {
+        heading: '家庭でのヒント',
+        body: [
+          '安心させようとして完全に避け続けるより、小さな段階に分けて近づくことが役立つ場合があります。たとえば「校門まで行く」「先生に挨拶だけする」「5分だけ教室に入る」のように、できる一歩を設計します。',
+          '「怖くないよ」と否定するより、「怖い気持ちはあるね。そのうえで最初の一歩を小さくしよう」と扱います。不安が強く生活に支障がある場合は、専門機関に相談してください。',
+        ],
+      },
+    ],
+    related: [
+      { slug: 'fuan', title: '子どもの不安・こわがり — 「逃げ道」を作りすぎない関わり' },
+    ],
+    references: [
+      { label: 'Craske et al.（エクスポージャーと不安）', url: 'https://scholar.google.com/scholar?q=Craske+exposure+therapy+inhibitory+learning+anxiety' },
+      { label: 'Kendall（子どもの不安へのCBT）', url: 'https://scholar.google.com/scholar?q=Kendall+child+anxiety+cognitive+behavioral+therapy' },
+      { label: 'Rapee et al.（子どもの不安）', url: 'https://scholar.google.com/scholar?q=Rapee+childhood+anxiety+avoidance+anticipatory+anxiety' },
+    ],
+  },
+  {
+    slug: 'universal-design-learning',
+    term: 'ユニバーサルデザイン学習',
+    reading: 'ゆにばーさるでざいんがくしゅう',
+    english: 'Universal Design for Learning',
+    short: '学び方の違いを前提に、教材の提示・表現・参加方法を複数用意する考え方。あとから個別対応するだけでなく、最初から学びやすく設計します。',
+    updated: '2026-06-13',
+    heroImage: {
+      src: '/glossary/universal-design-learning.png',
+      alt: '子どもたちが複数の方法で学びに参加するユニバーサルデザイン学習を表したイラスト',
+    },
+    sections: [
+      {
+        heading: 'ユニバーサルデザイン学習とは',
+        body: [
+          'ユニバーサルデザイン学習（UDL）は、子どもの学び方が一人ひとり違うことを前提に、教材の見せ方、理解の示し方、参加の仕方を複数用意する考え方です。',
+          '特定の子だけを特別扱いするのではなく、最初から多くの子が学びやすい設計にします。LD、ADHD、ASDのある子だけでなく、体調や言語、得意不得意が違う子にも役立ちます。',
+        ],
+      },
+      {
+        heading: '合理的配慮との違い',
+        body: [
+          '合理的配慮は、個別の困りごとに応じて必要な調整を行うことです。UDLは、その前段階として、授業や教材を最初から柔軟に設計する考え方です。',
+          'たとえば、説明を聞くだけでなく図でも示す、答えを文章・口頭・図で表せるようにする、課題の選択肢を用意する、といった工夫があります。',
+        ],
+      },
+      {
+        heading: '具体例',
+        body: [
+          '教材を読み上げでも使えるようにする、重要な情報を色や枠で示す、手順をチェックリストにする、発表だけでなく録音や作品提出も認める、集中しやすい席や短い休憩を選べるようにする、などが例です。',
+          '「みんな同じやり方」ではなく、「同じ目標に複数の道で近づく」と考えると、支援が自然になります。',
+        ],
+      },
+    ],
+    related: [
+      { slug: 'ld', title: '限局性学習症（LD）' },
+      { slug: 'adhd', title: 'ADHD（注意欠如多動症）' },
+    ],
+    references: [
+      { label: 'CAST（Universal Design for Learning）', url: 'https://www.cast.org/impact/universal-design-for-learning-udl' },
+      { label: 'Meyer, Rose & Gordon（UDLの理論）', url: 'https://scholar.google.com/scholar?q=Meyer+Rose+Gordon+Universal+Design+for+Learning' },
+      { label: 'Rose & Meyer（UDLと学習者の多様性）', url: 'https://scholar.google.com/scholar?q=Rose+Meyer+universal+design+for+learning+learners+differences' },
+    ],
+  },
 ];
