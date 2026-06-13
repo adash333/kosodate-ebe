@@ -1640,4 +1640,382 @@ export const terms: Term[] = [
       { label: 'Pluess（環境感受性）', url: 'https://scholar.google.com/scholar?q=Pluess+environmental+sensitivity+children+differential+susceptibility' },
     ],
   },
+  {
+    slug: 'conscientiousness',
+    term: '誠実性',
+    reading: 'せいじつせい',
+    english: 'Conscientiousness',
+    short: '責任感、計画性、粘り強さ、約束を守る力などを含む性格特性。Big Fiveの一つで、学業や仕事、健康行動とも関わるとされます。',
+    updated: '2026-06-13',
+    heroImage: {
+      src: '/glossary/conscientiousness.png',
+      alt: '子どもが計画を立て、約束や手順を大切にしながら取り組む誠実性を表したイラスト',
+    },
+    sections: [
+      {
+        heading: '誠実性とは',
+        body: [
+          '誠実性は、Big Fiveと呼ばれる性格特性の一つで、計画性、責任感、自己管理、粘り強さ、慎重さなどを含みます。「まじめさ」だけでなく、目標に向けて行動を整える傾向を指します。',
+          '子どもの場合は、忘れ物をしない、順番を守る、最後まで取り組む、約束を覚えている、といった日常の姿に表れます。ただし年齢や環境の影響が大きく、幼い時期から大人と同じ水準を求めるものではありません。',
+        ],
+      },
+      {
+        heading: '実行機能や自制心との違い',
+        body: [
+          '実行機能や自制心は、注意や行動をその場で調整する力です。誠実性は、そうした力も含みながら、より長期的な行動傾向として見られる性格特性です。',
+          '「性格だから変わらない」と決めつける必要はありません。見通しを示す、片づけや準備を一緒に練習する、小さな責任を任せるなどの経験で育ちやすくなります。',
+        ],
+      },
+      {
+        heading: '育て方のヒント',
+        body: [
+          '叱って責任感を植えつけるより、できる手順を見える形にし、やり終えた経験を積むことが土台になります。「ちゃんとしなさい」より、「まず靴下、次に上着」のように具体化するほうが助けになります。',
+        ],
+      },
+    ],
+    related: [
+      { slug: 'otetsudai', title: 'お手伝い・家事参加が子どもを伸ばす' },
+    ],
+    references: [
+      { label: 'Roberts et al.（誠実性の発達と成果）', url: 'https://scholar.google.com/scholar?q=Roberts+conscientiousness+development+life+outcomes' },
+      { label: 'John & Srivastava（Big Five特性）', url: 'https://scholar.google.com/scholar?q=John+Srivastava+Big+Five+trait+taxonomy+conscientiousness' },
+      { label: 'Duckworth & Seligman（自制心と学業）', url: 'https://scholar.google.com/scholar?q=Duckworth+Seligman+self-discipline+outdoes+IQ+academic+performance' },
+    ],
+  },
+  {
+    slug: 'grit',
+    term: 'グリット（やり抜く力）',
+    reading: 'ぐりっと',
+    english: 'Grit',
+    short: '長期目標に向かう情熱と粘り強さ。成果と関連するとされますが、誠実性との重なりや、努力だけを強調しすぎる危うさも指摘されています。',
+    updated: '2026-06-13',
+    heroImage: {
+      src: '/glossary/grit.png',
+      alt: '子どもが長い道のりを小さな一歩で進み、やり抜く力を育てる様子を表したイラスト',
+    },
+    sections: [
+      {
+        heading: 'グリットとは',
+        body: [
+          'グリットは、長期的な目標に向かって関心を持ち続け、困難があっても粘り強く取り組む力として提案された概念です。「才能だけでなく、続ける力が大切」という視点を広げました。',
+          'ただし、研究では誠実性や努力の粘り強さとの重なりも指摘されています。グリットを、すべてを我慢して続ける根性論として扱わないことが大切です。',
+        ],
+      },
+      {
+        heading: '子育てでの注意点',
+        body: [
+          'やり抜く力は大切ですが、合わない環境で無理を続けることとは違います。休む、やり方を変える、助けを求めることも、長く続けるための力です。',
+          '子どもには「最後までやりなさい」だけでなく、「どこでつまずいた？」「次はどう試す？」と、工夫の仕方を一緒に考える関わりが役立ちます。',
+        ],
+      },
+      {
+        heading: '小さく続ける',
+        body: [
+          '大きな目標より、まずは小さな約束を守る経験が土台になります。短い練習、途中での振り返り、できた部分の具体的な確認が、現実的な粘り強さを育てます。',
+        ],
+      },
+    ],
+    related: [
+      { slug: 'resilience', title: '逆境に強い子を育てる — レジリエンスのエビデンス' },
+    ],
+    references: [
+      { label: 'Duckworth et al., 2007（グリット）', url: 'https://scholar.google.com/scholar?q=Duckworth+2007+grit+perseverance+passion+long-term+goals' },
+      { label: 'Credé et al., 2017（グリットのメタ分析）', url: 'https://scholar.google.com/scholar?q=Crede+Tynan+Harms+2017+grit+meta-analysis' },
+      { label: 'Duckworth & Quinn（Grit Scale）', url: 'https://scholar.google.com/scholar?q=Duckworth+Quinn+development+validation+short+grit+scale' },
+    ],
+  },
+  {
+    slug: 'critical-thinking',
+    term: '批判的思考',
+    reading: 'ひはんてきしこう',
+    english: 'Critical Thinking',
+    short: '情報や意見をそのまま受け取らず、根拠・前提・別の見方を確かめながら考える力。相手を否定することではなく、よりよく判断するための思考です。',
+    updated: '2026-06-13',
+    heroImage: {
+      src: '/glossary/critical-thinking.png',
+      alt: '子どもが情報の根拠を比べ、批判的思考で考えを整理する様子を表したイラスト',
+    },
+    sections: [
+      {
+        heading: '批判的思考とは',
+        body: [
+          '批判的思考は、情報をうのみにせず、根拠は何か、別の説明はあるか、結論は飛躍していないかを考える力です。「批判」という言葉が入りますが、人を責めることではありません。',
+          '学びの場面では、読んだ内容を比べる、理由を説明する、反対の立場を考える、といった活動に表れます。メタ認知とも関わり、自分の考え方を点検する力を支えます。',
+        ],
+      },
+      {
+        heading: '子どもにどう育つか',
+        body: [
+          '幼い時期から、正解を急ぐより「どうしてそう思ったの？」と理由を聞く関わりが土台になります。間違い探しではなく、考える過程を一緒に見ることが大切です。',
+          'ニュースや動画、友だちの話などに触れたときも、「誰が言っている？」「ほかの見方はある？」と対話することで、情報との距離の取り方を学びます。',
+        ],
+      },
+      {
+        heading: '家庭でのヒント',
+        body: [
+          '親がすぐに答えを出しすぎず、子どもの仮説を聞く時間をつくること。事実と感想を分けること。これらの小さな会話が、根拠をもって考える練習になります。',
+        ],
+      },
+    ],
+    related: [
+      { slug: 'yomikikase', title: '読み聞かせと言葉の発達 — 「たくさん話す」より「やり取りする」' },
+    ],
+    references: [
+      { label: 'Facione（批判的思考のDelphi報告）', url: 'https://scholar.google.com/scholar?q=Facione+1990+critical+thinking+Delphi+report' },
+      { label: 'National Research Council（21世紀型スキル）', url: 'https://scholar.google.com/scholar?q=National+Research+Council+Education+for+Life+and+Work+critical+thinking' },
+      { label: 'Halpern（批判的思考教育）', url: 'https://scholar.google.com/scholar?q=Halpern+critical+thinking+instruction+transfer' },
+    ],
+  },
+  {
+    slug: 'optimism',
+    term: '楽観性',
+    reading: 'らっかんせい',
+    english: 'Optimism',
+    short: '将来に良いことが起こりうると見通す傾向。困難を軽視することではなく、「やれることがある」と考える力として、レジリエンスとも関わります。',
+    updated: '2026-06-13',
+    heroImage: {
+      src: '/glossary/optimism.png',
+      alt: '子どもが困難の先に明るい見通しを持ち、楽観性を支えに進む様子を表したイラスト',
+    },
+    sections: [
+      {
+        heading: '楽観性とは',
+        body: [
+          '楽観性は、将来に対して良い結果を期待しやすい傾向です。単なる「なんとかなる」ではなく、困ったときにも「できることがある」と見通す力として働きます。',
+          '心理学では、楽観性はストレス対処や健康行動、レジリエンスと関連することが報告されています。一方で、現実を見ない過度な楽観は助けにならないこともあります。',
+        ],
+      },
+      {
+        heading: '説明スタイル',
+        body: [
+          '失敗を「自分はだめだから」と広く固定的に捉えるのか、「今回は準備が足りなかった」と具体的に捉えるのかで、次の行動は変わります。楽観性は、現実的な原因の見方とも関わります。',
+          '子どもには、失敗を人格ではなく状況や作戦の問題として扱う言葉がけが役立ちます。',
+        ],
+      },
+      {
+        heading: '現実的な楽観を育てる',
+        body: [
+          '「大丈夫」と励ますだけでなく、「次にできる一歩」を一緒に見つけること。安心と行動の見通しがそろうと、楽観性は根拠のある力になります。',
+        ],
+      },
+    ],
+    related: [
+      { slug: 'resilience', title: '逆境に強い子を育てる — レジリエンスのエビデンス' },
+    ],
+    references: [
+      { label: 'Scheier & Carver（楽観性と健康）', url: 'https://scholar.google.com/scholar?q=Scheier+Carver+optimism+health+coping' },
+      { label: 'Carver et al.（楽観性の総説）', url: 'https://scholar.google.com/scholar?q=Carver+Scheier+optimism+review' },
+      { label: 'Seligman（説明スタイルと楽観性）', url: 'https://scholar.google.com/scholar?q=Seligman+learned+optimism+explanatory+style+children' },
+    ],
+  },
+  {
+    slug: 'emotion-regulation',
+    term: '感情調整',
+    reading: 'かんじょうちょうせい',
+    english: 'Emotion Regulation',
+    short: '感情をなくすのではなく、気づき、名前をつけ、状況に合う形で扱う力。かんしゃく、ストレス対処、対人関係の土台になります。',
+    updated: '2026-06-13',
+    heroImage: {
+      src: '/glossary/emotion-regulation.png',
+      alt: '子どもが感情の波に気づき、呼吸や言葉で感情調整していく様子を表したイラスト',
+    },
+    sections: [
+      {
+        heading: '感情調整とは',
+        body: [
+          '感情調整は、怒り・不安・悲しみ・喜びなどの感情に気づき、強さや出し方を状況に合わせて整える力です。感情を消すことではなく、感情を扱えるようになることを指します。',
+          '子どもは最初から一人で感情を調整できるわけではありません。大人に受け止められ、一緒に落ち着く経験を通して、少しずつ自分でも扱えるようになります。',
+        ],
+      },
+      {
+        heading: '感情コーチング・共調整との関係',
+        body: [
+          '感情コーチングは、感情に名前をつけ、対処を一緒に考える関わり方です。共調整は、大人と一緒に落ち着くプロセスです。どちらも、子どもの感情調整を育てる土台になります。',
+        ],
+      },
+      {
+        heading: '家庭でできること',
+        body: [
+          'まず「怒っているね」「悔しかったね」と感情を言葉にすること。次に「叩くのはだめ」「少し離れて深呼吸しよう」と行動の線引きと対処を示すこと。この順番が役立ちます。',
+        ],
+      },
+    ],
+    related: [
+      { slug: 'kanjou-control', title: 'かんしゃくとどう向き合うか — 感情のコントロールを育てる3つの土台' },
+    ],
+    references: [
+      { label: 'Gross, 1998（感情調整の総説）', url: 'https://scholar.google.com/scholar?q=Gross+1998+emotion+regulation+review' },
+      { label: 'Thompson（子どもの感情調整）', url: 'https://scholar.google.com/scholar?q=Thompson+emotion+regulation+development+children' },
+      { label: 'Gottman et al.（感情コーチング）', url: 'https://scholar.google.com/scholar?q=Gottman+1996+parental+meta-emotion+emotion+coaching' },
+    ],
+  },
+  {
+    slug: 'time-perspective',
+    term: '時間的展望',
+    reading: 'じかんてきてんぼう',
+    english: 'Time Perspective',
+    short: '過去・現在・未来をどう見通し、今の行動と結びつけるかという心理的な枠組み。目標設定、自制心、主体性と関わります。',
+    updated: '2026-06-13',
+    heroImage: {
+      src: '/glossary/time-perspective.png',
+      alt: '子どもが過去・現在・未来をつなげて考え、時間的展望を育てる様子を表したイラスト',
+    },
+    sections: [
+      {
+        heading: '時間的展望とは',
+        body: [
+          '時間的展望は、過去・現在・未来をどのように捉え、今の行動と結びつけるかという心の枠組みです。「今これをすると、あとでどうなるか」を見通す力にも関わります。',
+          '未来を考える力は、自制心や計画性、主体性とつながります。ただし、幼い子どもは時間の見通しがまだ発達途中なので、大人の支えが必要です。',
+        ],
+      },
+      {
+        heading: '未来だけではなく、今も大切',
+        body: [
+          '未来志向は目標達成に役立ちますが、「将来のために今を我慢する」ばかりでは苦しくなります。過去の経験を振り返り、今の楽しさも大切にしながら、未来への見通しを持つバランスが大切です。',
+        ],
+      },
+      {
+        heading: '子どもへの関わり',
+        body: [
+          'カレンダー、予定表、写真での振り返りなど、時間を見える形にすることが助けになります。「昨日できたこと」「今日すること」「明日楽しみなこと」を一緒に話すだけでも、時間のつながりを学べます。',
+        ],
+      },
+    ],
+    related: [
+      { slug: 'jiko-ketteikan', title: '「自分で決める力」を育てる関わり方 — 自己肯定感と自律のエビデンス' },
+    ],
+    references: [
+      { label: 'Zimbardo & Boyd, 1999（時間的展望）', url: 'https://scholar.google.com/scholar?q=Zimbardo+Boyd+1999+time+perspective+inventory' },
+      { label: 'Mischel（遅延満足と未来志向）', url: 'https://scholar.google.com/scholar?q=Mischel+delay+of+gratification+future+orientation+children' },
+      { label: 'Lens et al.（未来展望と動機づけ）', url: 'https://scholar.google.com/scholar?q=Lens+future+time+perspective+motivation+learning' },
+    ],
+  },
+  {
+    slug: 'emotional-intelligence',
+    term: '情動知能（EI/EQ）',
+    reading: 'じょうどうちのう',
+    english: 'Emotional Intelligence',
+    short: '感情を知覚し、理解し、活用し、調整する力。共感・感情調整・対人関係と関わりますが、能力モデルと自己評価モデルを区別して見る必要があります。',
+    updated: '2026-06-13',
+    heroImage: {
+      src: '/glossary/emotional-intelligence.png',
+      alt: '子どもが自分と相手の感情を理解し、情動知能を使って関わる様子を表したイラスト',
+    },
+    sections: [
+      {
+        heading: '情動知能とは',
+        body: [
+          '情動知能は、感情を読み取り、理解し、考えや行動に活かし、必要に応じて調整する力として提案された概念です。一般にはEQと呼ばれることもあります。',
+          '研究では、能力として測るモデルと、自分の性格や傾向として答えるモデルがあります。すべてを一つの「EQの高さ」として単純に見るのではなく、どの力を指しているかを分けて考えることが大切です。',
+        ],
+      },
+      {
+        heading: '子育てとの関係',
+        body: [
+          '情動知能は、共感、感情調整、SELと重なります。子どもが自分の気持ちを言葉にし、相手の気持ちを想像し、対立を解決する力の土台になります。',
+        ],
+      },
+      {
+        heading: '日常で育つ場面',
+        body: [
+          '「今どんな気持ち？」「相手はどう感じたかな？」と感情を言葉にする会話、絵本の登場人物の気持ちを考える時間、落ち着く方法を一緒に試す経験が支えになります。',
+        ],
+      },
+    ],
+    related: [
+      { slug: 'kanjou-control', title: 'かんしゃくとどう向き合うか — 感情のコントロールを育てる3つの土台' },
+      { slug: 'ijime', title: 'いじめにどう向き合うか — カギを握るのは「傍観者」' },
+    ],
+    references: [
+      { label: 'Salovey & Mayer, 1990（情動知能）', url: 'https://scholar.google.com/scholar?q=Salovey+Mayer+1990+emotional+intelligence' },
+      { label: 'Mayer, Salovey & Caruso（能力モデル）', url: 'https://scholar.google.com/scholar?q=Mayer+Salovey+Caruso+emotional+intelligence+ability+model' },
+      { label: 'Durlak et al.（SELのメタ分析）', url: 'https://scholar.google.com/scholar?q=Durlak+2011+social+emotional+learning+meta-analysis' },
+    ],
+  },
+  {
+    slug: 'self-compassion',
+    term: 'セルフ・コンパッション',
+    reading: 'せるふこんぱっしょん',
+    english: 'Self-compassion',
+    short: '失敗したときや苦しいときに、自分を責めすぎず、思いやりをもって受け止める力。自己肯定感とは違い、うまくいかない自分への関わり方に焦点があります。',
+    updated: '2026-06-13',
+    heroImage: {
+      src: '/glossary/self-compassion.png',
+      alt: '子どもが失敗した自分をやさしく受け止め、セルフ・コンパッションを育てる様子を表したイラスト',
+    },
+    sections: [
+      {
+        heading: 'セルフ・コンパッションとは',
+        body: [
+          'セルフ・コンパッションは、苦しいときや失敗したときに、自分を厳しく責めるのではなく、思いやりをもって受け止める力です。自分へのやさしさ、誰にでも失敗はあるという感覚、今の気持ちに気づくことが柱とされます。',
+          '自己肯定感が「自分を肯定的に見られるか」に関わるのに対し、セルフ・コンパッションは「うまくいかない自分にどう関わるか」に焦点があります。',
+        ],
+      },
+      {
+        heading: '甘やかしではない',
+        body: [
+          '自分にやさしくすることは、努力しないことではありません。むしろ、失敗で心が折れすぎないため、次の一歩を選びやすくなります。',
+          '子どもにとっては、「失敗しても価値がなくなるわけではない」と感じられることが、挑戦の土台になります。',
+        ],
+      },
+      {
+        heading: '家庭での言葉がけ',
+        body: [
+          '「また失敗したね」ではなく、「悔しかったね。次は何を変えてみようか」と声をかけること。親自身が自分を責めすぎない姿を見せることも、子どもの学びになります。',
+        ],
+      },
+    ],
+    related: [
+      { slug: 'homekata', title: '「すごい」より効く、子どものほめ方 — 研究でわかった3つのコツ' },
+      { slug: 'jiko-ketteikan', title: '「自分で決める力」を育てる関わり方 — 自己肯定感と自律のエビデンス' },
+    ],
+    references: [
+      { label: 'Neff, 2003（セルフ・コンパッション）', url: 'https://scholar.google.com/scholar?q=Neff+2003+self-compassion+scale' },
+      { label: 'Neff & Germer（セルフ・コンパッション介入）', url: 'https://scholar.google.com/scholar?q=Neff+Germer+self-compassion+intervention' },
+      { label: 'Bluth & Neff（青年期のセルフ・コンパッション）', url: 'https://scholar.google.com/scholar?q=Bluth+Neff+self-compassion+adolescents' },
+    ],
+  },
+  {
+    slug: 'mindfulness',
+    term: 'マインドフルネス',
+    reading: 'まいんどふるねす',
+    english: 'Mindfulness',
+    short: '今この瞬間の体験に気づき、評価しすぎずに受け止める心のあり方。注意の調整、感情調整、ストレス対処と関わります。',
+    updated: '2026-06-13',
+    heroImage: {
+      src: '/glossary/mindfulness.png',
+      alt: '子どもが呼吸や体の感覚に気づき、今この瞬間に注意を向けるマインドフルネスを表したイラスト',
+    },
+    sections: [
+      {
+        heading: 'マインドフルネスとは',
+        body: [
+          'マインドフルネスは、今この瞬間の体験に注意を向け、良い・悪いとすぐ評価しすぎずに気づく心のあり方です。呼吸、体の感覚、音、気持ちの変化に気づく練習として使われます。',
+          '研究では、注意の調整、ストレス対処、感情調整との関連が調べられてきました。子ども向けには、短く、遊びや生活に近い形で取り入れることが大切です。',
+        ],
+      },
+      {
+        heading: '子どもに使うときの注意',
+        body: [
+          'じっと座って長く瞑想する必要はありません。小さな子どもには、風船のように息を吸う、足の裏の感覚に気づく、音を一つ探すなど、短い活動が向いています。',
+          '不安やつらさが強い場合に、無理に内面へ注意を向けるとかえって苦しくなることもあります。安全で穏やかな範囲で行うことが大切です。',
+        ],
+      },
+      {
+        heading: '親子でできること',
+        body: [
+          '寝る前に一緒に3回ゆっくり呼吸する、散歩で聞こえる音を探す、植物の世話をしながら手触りや匂いに気づく。日常の小さな気づきが、マインドフルネスの入口になります。',
+        ],
+      },
+    ],
+    related: [
+      { slug: 'kanjou-control', title: 'かんしゃくとどう向き合うか — 感情のコントロールを育てる3つの土台' },
+      { slug: 'resilience', title: '逆境に強い子を育てる — レジリエンスのエビデンス' },
+    ],
+    references: [
+      { label: 'Kabat-Zinn（マインドフルネス）', url: 'https://scholar.google.com/scholar?q=Kabat-Zinn+mindfulness+definition' },
+      { label: 'Bishop et al., 2004（操作的定義）', url: 'https://scholar.google.com/scholar?q=Bishop+2004+mindfulness+operational+definition' },
+      { label: 'Flook et al.（幼児向けマインドフルネス）', url: 'https://scholar.google.com/scholar?q=Flook+2015+mindfulness+kindness+curriculum+preschool' },
+    ],
+  },
 ];
