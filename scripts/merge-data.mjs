@@ -16,17 +16,22 @@ const raw = JSON.parse(readFileSync(join(DATA, '_raw_extract.json'), 'utf8'));
 // legacy-videos.json を機械抽出ぶんとして補完する（build-data.mjs の再実行でも消えない）。
 const legacy = JSON.parse(readFileSync(join(DATA, 'legacy-videos.json'), 'utf8'));
 const enrich = JSON.parse(readFileSync(join(DATA, 'enrichment.json'), 'utf8'));
-// 公開済み動画の最新番号（2026-06-09時点）。未公開（番号がこれより大）はアプリに含めない。
-// 新作公開時はこの数値を更新する。
-const MAX_VIDEO_ID = 156;
+// 動画ID→YouTube投稿(予定)日。出典: ObsidianGitVault 0 YouTube動画リスト.md。
+// 「投稿日が実行日(JST)より前」の動画だけをアプリに含める（id順≠投稿順のため日付で判定）。
+const publishDates = JSON.parse(readFileSync(join(DATA, 'video-publish-dates.json'), 'utf8')).dates;
+// 実行日(JST=Asia/Tokyo)を 'YYYY-MM-DD' で取得。これより前に投稿された動画のみ公開する。
+const TODAY = new Date(Date.now() + 9 * 60 * 60 * 1000).toISOString().slice(0, 10);
 const byId = new Map();
 for (const r of [...raw, ...legacy]) if (!byId.has(r.id)) byId.set(r.id, r); // 同id重複は先頭(=archive優先)
 
 const items = [];
 const missing = [];
+const noDate = [];
 for (const [id, e] of Object.entries(enrich.items)) {
   if (e.exclude) continue;
-  if (Number(id) > MAX_VIDEO_ID) continue; // 未公開動画は除外
+  const pub = publishDates[id]; // 投稿(予定)日
+  if (!pub) { noDate.push(id); continue; }     // 投稿日不明は載せない（安全側）
+  if (!(pub < TODAY)) continue;                 // 投稿日が本日以降（未投稿）は除外
   const r = byId.get(id);
   if (!r) { missing.push(id); continue; }
   items.push({
@@ -53,8 +58,9 @@ items.sort((a, b) => Number(b.id) - Number(a.id));
 writeFileSync(join(DATA, 'advice.json'),
   JSON.stringify({ generatedAt: new Date().toISOString().slice(0, 10), count: items.length, items }, null, 2) + '\n', 'utf8');
 
-console.log(`advice.json 生成: ${items.length}件`);
+console.log(`advice.json 生成: ${items.length}件（投稿日 < ${TODAY}）`);
 if (missing.length) console.log(`⚠ raw抽出に無いid（要確認）: ${missing.join(', ')}`);
+if (noDate.length) console.log(`⚠ 投稿日不明で除外したid: ${noDate.join(', ')}`);
 const rawIds = new Set([...raw, ...legacy].map(r => r.id));
 const enrichIds = new Set(Object.keys(enrich.items));
 const notEnriched = [...rawIds].filter(id => !enrichIds.has(id));

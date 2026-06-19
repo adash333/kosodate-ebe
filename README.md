@@ -6,7 +6,7 @@
 
 - 公開URL: **https://5micro.net** （apexドメイン。2026-06-10に `k.5micro.net` から移行）
 - 仕組み: ルールベース（静的・無料、実行時にAI APIを呼ばない）
-- データ: **154件**（`data/advice.json`、#001〜#156。欠番 #085/#146）
+- データ: **159件**（`data/advice.json`、投稿日が到来した動画のみ。`video-publish-dates.json` で投稿日管理）
 - Google AdSense: `public/ads.txt` 設置済み・**2026-06-10 再審査リクエスト済み（審査待ち）**
 
 ## ローカルで動かす
@@ -35,13 +35,19 @@ node scripts/merge-data.mjs   # _raw_extract + legacy-videos + enrichment → da
 
 1. vault に新作動画の md を追加（既存の命名規則どおり）
 2. `data/enrichment.json` に該当idの意味づけ（advice/finding/tags等）を追記
-3. `scripts/merge-data.mjs` の `MAX_VIDEO_ID`（公開済み最新番号）を更新
+3. `data/video-publish-dates.json` に該当idの **YouTube投稿(予定)日** を追記
+   （出典: ObsidianGitVault `0 YouTube動画リスト.md`）
 4. 上の2コマンドを実行 → `advice.json` 再生成 → commit & push（Actionsが自動デプロイ）
+
+> 公開判定は **投稿日ベース**。`merge-data.mjs` は `video-publish-dates.json` を見て
+> 「投稿日 < 実行日(JST)」の動画だけを `advice.json` に含める（id順≠投稿順のため）。
+> 投稿日が到来した動画を反映するには再生成（再 commit）すればよい。
 
 - `data/legacy-videos.json` … **#001〜#033**（vault導入前の動画）の機械抽出相当データ。
   vault に md が無いため `0 論文リスト.md` から起こした固定ファイル。
   `build-data.mjs` を再実行しても消えない（merge-data.mjs が結合する）。
 - `data/enrichment.json` … idごとの意味づけ（一言アドバイス等）。新規動画はここに追記。
+- `data/video-publish-dates.json` … idごとのYouTube投稿(予定)日。公開判定に使用。
 - `data/taxonomy.json` … 悩みカテゴリ階層（Q1→Q2 / 年齢）。
 
 ## 構成
