@@ -1246,7 +1246,9 @@
       ],
       "finding": "5つの軸（年収・将来性・働きやすさ・安定性・起業適性）で業界を比べると、進路選びの材料になります。",
       "advice": "進路は「好き」だけでなく、複数の軸で一緒に眺めると視野が広がります。",
-      "nextStep": "興味のある仕事を、年収だけでなく将来性や働きやすさでも調べてみましょう。"
+      "nextStep": "興味のある仕事を、年収だけでなく将来性や働きやすさでも調べてみましょう。",
+      "youtubeUrl": "https://www.youtube.com/watch?v=MaGlj6yoUfk",
+      "blogUrl": "https://risan.jpn.org/?p=11424"
     },
     "166": {
       "categories": [
@@ -1361,15 +1363,21 @@
     },
     "172": {
       "exclude": true,
-      "_reason": "就活シリーズの詳細回。単一助言になじまないため対象外（総論165は採用）"
+      "_reason": "就活シリーズの詳細回。単一助言になじまないため対象外（総論165は採用）",
+      "youtubeUrl": "https://www.youtube.com/watch?v=iDASY50C8xE",
+      "blogUrl": "https://risan.jpn.org/?p=11480"
     },
     "173": {
       "exclude": true,
-      "_reason": "就活シリーズの詳細回。単一助言になじまないため対象外（総論165は採用）"
+      "_reason": "就活シリーズの詳細回。単一助言になじまないため対象外（総論165は採用）",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ZfLnrM_rLZg",
+      "blogUrl": "https://risan.jpn.org/?p=11558"
     },
     "174": {
       "exclude": true,
-      "_reason": "就活シリーズの詳細回。単一助言になじまないため対象外（総論165は採用）"
+      "_reason": "就活シリーズの詳細回。単一助言になじまないため対象外（総論165は採用）",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KLgCGpS_CZY",
+      "blogUrl": "https://risan.jpn.org/?p=11584"
     },
     "175": {
       "categories": [
@@ -1429,7 +1437,9 @@
     },
     "178": {
       "exclude": true,
-      "_reason": "近視治療の情報まとめ。医療情報で単一の助言化が難しいため対象外"
+      "_reason": "近視治療の情報まとめ。医療情報で単一の助言化が難しいため対象外",
+      "youtubeUrl": "https://www.youtube.com/watch?v=oaE6zwYcDiI",
+      "blogUrl": "https://risan.jpn.org/?p=11808"
     },
     "179": {
       "categories": [
@@ -1959,7 +1969,8 @@
       "finding": "生成AIの普及で、「いい大学→いい会社」という前提が揺らいでいます。",
       "advice": "これからは学歴より、AIを使いこなす力や人間ならではの強みが大切です。",
       "nextStep": "子どもと一緒にAIに触れ、使い方を学んでみましょう。",
-      "youtubeUrl": "https://www.youtube.com/watch?v=hoJgOYBDNGw"
+      "youtubeUrl": "https://www.youtube.com/watch?v=hoJgOYBDNGw",
+      "blogUrl": "https://risan.jpn.org/?p=9545"
     },
     "083": {
       "blogUrl": "https://risan.jpn.org/?p=9438",
