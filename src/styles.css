@@ -155,6 +155,7 @@ h2 { font-size: 1.25rem; margin: 6px 0 4px; }
 .article .refs a { color: var(--green-d); }
 .article-note { border-top: 1px solid var(--line); margin-top: 22px; padding-top: 14px; }
 .article-back { margin-top: 20px; }
+.article-back-top { margin-top: 0; margin-bottom: 14px; }
 
 .legal { padding: 8px 0 24px; }
 .legal h2 { margin-top: 22px; }

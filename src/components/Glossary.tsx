@@ -85,6 +85,9 @@ export function TermView({ term }: { term: Term }) {
 
   return (
     <article className="legal article">
+      <p className="article-back article-back-top">
+        <a className="link" href="/glossary">← 用語解説一覧へ</a>
+      </p>
       <h2>{term.term}</h2>
       <p className="amtop muted">
         {term.reading && <>{term.reading}</>}
