@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-06-19",
-  "count": 159,
+  "generatedAt": "2026-06-20",
+  "count": 160,
   "items": [
+    {
+      "id": "166",
+      "title": "自閉症に早期超集中介入",
+      "author": "Dawson",
+      "year": 2010,
+      "citation": "Dawson G, Rogers S, Munson J, Smith M, Winter J, Greenson J, Donaldson A, Varley J. Randomized, controlled trial of an intervention for toddlers with autism: the Early Start Denver Model. Pediatrics. 2010 Jan;125(1):e17-23. doi: 10.1542/peds.2009-0958. Epub 2009 Nov 30. PMID: 19948568; PMCID: PMC4951085.",
+      "paperUrl": "https://pubmed.ncbi.nlm.nih.gov/19948568/",
+      "blogUrl": null,
+      "youtubeUrl": "https://www.youtube.com/watch?v=c3MCkGQ8F0k",
+      "categories": [
+        "development",
+        "family"
+      ],
+      "tags": [
+        "自閉症",
+        "早期介入",
+        "遊び",
+        "関わり"
+      ],
+      "ageBands": [
+        "preschool"
+      ],
+      "finding": "家庭の遊びの中で親が関わる早期集中介入が、自閉症児の発達を改善しました（ESDM）。",
+      "advice": "特別な訓練より、日常の遊びでの濃い関わりが脳の育ちを支えます。",
+      "nextStep": "1日数回、子どもの好きな遊びに親が本気で付き合う時間を作りましょう。"
+    },
     {
       "id": "165",
       "title": "就職活動のための業界研究総論ep1",
@@ -35,7 +61,7 @@
       "citation": "Cooper, H., Robinson, J. C., & Patall, E. A. (2006). Does homework improve academic achievement? A synthesis of research, 1987-2003. Review of Educational Research, 76(1), 1–62. https://doi.org/10.3102/00346543076001001",
       "paperUrl": "https://psycnet.apa.org/record/2007-08776-001",
       "blogUrl": null,
-      "youtubeUrl": "https://www.youtube.com/@evilab/search?query=%E5%AE%BF%E9%A1%8C%E3%81%AE%E5%AD%A6%E5%8A%9B%E5%90%91%E4%B8%8A%E5%8A%B9%E6%9E%9C%E3%81%AF%E3%81%BB%E3%81%BC%E3%81%AA%E3%81%84%E3%83%A1%E3%82%BF%E5%88%86%E6%9E%90",
+      "youtubeUrl": "https://www.youtube.com/watch?v=z2VvnFzaWbI",
       "categories": [
         "study"
       ],
@@ -60,7 +86,7 @@
       "citation": "Tepper DL, Howell TJ, Bennett PC. Executive functions and household chores: Does engagement in chores predict children's cognition? Aust Occup Ther J. 2022 Oct;69(5):585-598. doi: 10.1111/1440-1630.12822. Epub 2022 May 31. PMID: 35640882; PMCID: PMC9796572.",
       "paperUrl": "https://pubmed.ncbi.nlm.nih.gov/35640882/",
       "blogUrl": null,
-      "youtubeUrl": "https://www.youtube.com/@evilab/search?query=%E5%AD%90%E3%81%A9%E3%82%82%E3%81%8C%E3%81%8A%E6%89%8B%E4%BC%9D%E3%81%84%E3%82%92%E3%81%99%E3%82%8B%E3%81%A8%E5%AE%9F%E8%A1%8C%E6%A9%9F%E8%83%BD%E3%81%8C%E4%BC%B8%E3%81%B3%E3%82%8B",
+      "youtubeUrl": "https://www.youtube.com/watch?v=zHRrCwACMY8",
       "categories": [
         "study",
         "lifestyle"
@@ -87,7 +113,7 @@
       "citation": "Evans GW, Gonnella C, Marcynyszyn LA, Gentile L, Salpekar N. The role of chaos in poverty and children's socioemotional adjustment. Psychol Sci. 2005 Jul;16(7):560-5. doi: 10.1111/j.0956-7976.2005.01575.x. PMID: 16008790.",
       "paperUrl": "https://pubmed.ncbi.nlm.nih.gov/16008790/",
       "blogUrl": null,
-      "youtubeUrl": "https://www.youtube.com/@evilab/search?query=%E5%AE%B6%E5%BA%AD%E5%86%85%E3%81%AE%E6%B7%B7%E4%B9%B1%E7%84%A1%E7%A7%A9%E5%BA%8F%E3%81%AF%E5%AD%90%E3%81%A9%E3%82%82%E3%81%AE%E7%A4%BE%E4%BC%9A%E6%83%85%E7%B7%92%E7%9A%84%E7%99%BA%E9%81%94%E3%82%92%E9%98%BB%E5%AE%B3%E3%81%99%E3%82%8B",
+      "youtubeUrl": "https://www.youtube.com/watch?v=YyFzqpi9wzk",
       "categories": [
         "lifestyle"
       ],
@@ -113,7 +139,7 @@
       "citation": "Saxbe DE, Repetti R. No place like home: home tours correlate with daily patterns of mood and cortisol. Pers Soc Psychol Bull. 2010 Jan;36(1):71-81. doi: 10.1177/0146167209352864. Epub 2009 Nov 23. PMID: 19934011.",
       "paperUrl": "https://pubmed.ncbi.nlm.nih.gov/19934011/",
       "blogUrl": null,
-      "youtubeUrl": "https://www.youtube.com/@evilab/search?query=%E5%AE%B6%E3%81%AE%E6%8E%83%E9%99%A4%E3%81%A7%E6%AF%8D%E8%A6%AA%E3%81%AE%E3%82%B9%E3%83%88%E3%83%AC%E3%82%B9%E8%BB%BD%E6%B8%9B",
+      "youtubeUrl": "https://www.youtube.com/watch?v=81Qu5LHo9GI",
       "categories": [
         "lifestyle"
       ],
@@ -140,7 +166,7 @@
       "citation": "Fisher, A. V., Godwin, K. E., & Seltman, H. (2014). Visual environment, attention allocation, and learning in young children: When too much of a good thing may be bad. Psychological Science, 25(7), 1362–1370. https://doi.org/10.1177/0956797614533801",
       "paperUrl": "https://psycnet.apa.org/record/2014-29579-008",
       "blogUrl": null,
-      "youtubeUrl": "https://www.youtube.com/@evilab/search?query=%E8%A6%96%E8%A6%9A%E7%9A%84%E3%81%AB%E6%95%A3%E3%82%89%E3%81%8B%E3%81%A3%E3%81%9F%E7%92%B0%E5%A2%83%E3%81%AF%E5%AD%90%E3%81%A9%E3%82%82%E3%81%AE%E9%9B%86%E4%B8%AD%E5%8A%9B%E3%81%A8%E5%AD%A6%E7%BF%92%E5%8A%B9%E7%8E%87%E3%82%92%E4%B8%8B%E3%81%92%E3%82%8B",
+      "youtubeUrl": "https://www.youtube.com/watch?v=VQlO68hFvsg",
       "categories": [
         "lifestyle",
         "study"
@@ -168,7 +194,7 @@
       "citation": "Sulloway, F. J., & Zweigenhaft, R. L. (2010). Birth order and risk taking in athletics: A meta-analysis and study of major league baseball. Personality and Social Psychology Review, 14(4), 402–416. https://doi.org/10.1177/1088868310361241",
       "paperUrl": "https://psycnet.apa.org/record/2010-20661-004",
       "blogUrl": null,
-      "youtubeUrl": "https://www.youtube.com/@evilab/search?query=%E5%BC%9F%E3%81%AF%E5%85%84%E3%82%88%E3%82%8A%E3%83%AA%E3%82%B9%E3%82%AF%E3%82%92%E5%8F%96%E3%82%8A%E3%82%84%E3%81%99%E3%81%84",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Wb6h3VUJwog",
       "categories": [
         "family"
       ],
@@ -193,7 +219,7 @@
       "citation": "Assor A, Roth G, Deci EL. The emotional costs of parents' conditional regard: a self-determination theory analysis. J Pers. 2004 Feb;72(1):47-88. doi: 10.1111/j.0022-3506.2004.00256.x. PMID: 14686884.",
       "paperUrl": "https://pubmed.ncbi.nlm.nih.gov/14686884/",
       "blogUrl": null,
-      "youtubeUrl": "https://www.youtube.com/@evilab/search?query=%E8%A6%AA%E3%81%AE%E6%9D%A1%E4%BB%B6%E4%BB%98%E3%81%8D%E3%81%AE%E6%84%9B%E3%81%8C%E3%82%84%E3%82%8A%E3%81%9F%E3%81%84%E3%81%93%E3%81%A8%E3%82%92%E8%A6%8B%E5%A4%B1%E3%82%8F%E3%81%9B%E3%82%8B",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9RSPP6UAAHo",
       "categories": [
         "selfesteem",
         "family"
@@ -219,7 +245,7 @@
       "citation": "Her YC, Vergauwen J, Mortelmans D. Nest leaver or home stayer? Sibling influence on parental home leaving in the United Kingdom. Adv Life Course Res. 2022 Jun;52:100464. doi: 10.1016/j.alcr.2022.100464. Epub 2022 Jan 31. PMID: 36652319.",
       "paperUrl": "https://pubmed.ncbi.nlm.nih.gov/36652319/",
       "blogUrl": null,
-      "youtubeUrl": "https://www.youtube.com/@evilab/search?query=%E5%85%84%E3%81%8C%E5%AE%B6%E3%82%92%E5%87%BA%E3%82%8B%E3%81%A8%E5%BC%9F%E3%82%82%E5%AE%B6%E3%82%92%E5%87%BA%E3%82%8B",
+      "youtubeUrl": "https://www.youtube.com/watch?v=zHw3mOoBQdA",
       "categories": [
         "family"
       ],
@@ -974,7 +1000,7 @@
       "citation": "Ma J. Interaction with Nature Indoor: Psychological Impacts of Houseplants Care Behaviour on Mental Well-Being and Mindfulness in Chinese Adults. Int J Environ Res Public Health. 2022 Nov 28;19(23):15810. doi: 10.3390/ijerph19231Ma20225810. PMID: 36497883; PMCID: PMC9739745.",
       "paperUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9739745/",
       "blogUrl": null,
-      "youtubeUrl": "https://www.youtube.com/@evilab/search?query=%E6%A4%8D%E7%89%A9%E3%81%AE%E4%B8%96%E8%A9%B1%E3%81%A7%E3%83%9E%E3%82%A4%E3%83%B3%E3%83%89%E3%83%95%E3%83%AB%E3%83%8D%E3%82%B9",
+      "youtubeUrl": "https://www.youtube.com/watch?v=arjRj1QOuhM",
       "categories": [
         "lifestyle"
       ],
