@@ -22,6 +22,16 @@ export function Company() {
               <li>子育てエビデンス相談室</li>
               <li>サルでもわかるWEBプログラミング</li>
               <li>サルでもわかる機械学習</li>
+              <li>
+                <a href="https://h.5micro.net/" target="_blank" rel="noopener noreferrer">
+                  すくすく成長ノート
+                </a>
+              </li>
+              <li>
+                <a href="https://s.5micro.net/" target="_blank" rel="noopener noreferrer">
+                  ねむらぼ
+                </a>
+              </li>
             </ul>
           </dd>
         </div>
