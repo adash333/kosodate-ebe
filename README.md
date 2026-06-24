@@ -22,6 +22,12 @@ npm run dev      # http://localhost:5173
 npm run build    # dist/ に出力（GitHub Actions が Pages へ自動デプロイ）
 ```
 
+ビルドは各ルート（記事・動画・用語・固定ページ）を**プリレンダリング**して、本文入りの
+静的HTML＋ページ別の `<title>`/meta description/canonical/OGP/JSON-LD を生成する
+（`vite build --ssr src/entry-server.tsx` → `scripts/prerender.mjs`）。SPAの「空の殻HTML・
+全ページ同一メタ」を避け、検索エンジン・AdSense に中身を見せるための対応。クライアント側は
+従来どおり `src/main.tsx` が描画する。
+
 ## データ更新（新作動画が増えたとき）
 
 データ元は Obsidian vault の動画md（#034以降）＋ `data/legacy-videos.json`（#001〜#033）。

@@ -16,8 +16,9 @@ import { track } from './analytics';
 
 type Step = 'intro' | 'q1' | 'q2' | 'q3' | 'q4' | 'result';
 
-export default function App() {
-  const route = window.location.pathname.replace(/\/$/, '') || '/';
+export default function App({ path }: { path?: string } = {}) {
+  const route = (path ?? (typeof window !== 'undefined' ? window.location.pathname : '/'))
+    .replace(/\/$/, '') || '/';
   const [step, setStep] = useState<Step>('intro');
   const [category, setCategory] = useState<Category | null>(null);
   const [sub, setSub] = useState<SubCategory | null>(null);
