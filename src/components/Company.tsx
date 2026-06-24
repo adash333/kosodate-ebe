@@ -1,3 +1,5 @@
+import { AuthorCard } from './AuthorCard';
+
 export function Company() {
   return (
     <div className="legal">
@@ -43,6 +45,14 @@ export function Company() {
         一般的な情報と次の一歩を紹介するWebアプリです。診断、治療、個別の専門的助言を
         提供するものではありません。
       </p>
+
+      <h2>執筆・監修者</h2>
+      <p>
+        本サイトの記事は、医師・医学博士である運営者本人が、学術論文・研究知見にもとづいて
+        執筆・監修しています。日々の診療と自身の子育ての経験をふまえ、
+        専門的なエビデンスを保護者の方に届く言葉でお伝えすることを大切にしています。
+      </p>
+      <AuthorCard heading={null} />
 
       <h2>お問い合わせ</h2>
       <p>

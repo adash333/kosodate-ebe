@@ -1,4 +1,5 @@
 import { articles, isPublished, type Article } from '../articles';
+import { AuthorCard } from './AuthorCard';
 
 export function ArticlesList() {
   // 公開日が到来した記事のみを、公開日の新しい順に表示する。
@@ -79,13 +80,15 @@ export function ArticleView({ article }: { article: Article }) {
         </>
       )}
 
+      <AuthorCard />
+
       <div className="article-note">
         <p className="muted">
           本記事は子育て世代向けの一般的な情報提供を目的としたものであり、診断・治療・個別の専門的助言を
           提供するものではありません。お子さんの発達・健康・心理に関する個別の判断が必要な場合は、
           小児科医・心療内科医・臨床心理士・学校・自治体の相談窓口など、専門機関にご相談ください。
         </p>
-        <p className="muted">運営: 合同会社5マイクロ ／ 監修: 子育てエビデンス研究所</p>
+        <p className="muted">運営: 合同会社5マイクロ</p>
       </div>
 
       <p className="article-back">
