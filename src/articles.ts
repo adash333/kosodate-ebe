@@ -1043,6 +1043,10 @@ export const articles: Article[] = [
     updated: '2026-06-21',
     publish: '2026-06-21',
     readMin: 5,
+    heroImage: {
+      src: '/articles/default-mode.png',
+      alt: '窓辺で考えごとをしながら描く子どもを、保護者がそっと見守るイラスト',
+    },
     sections: [
       {
         heading: '「何もしない脳」は、休んでいない',
@@ -1088,6 +1092,10 @@ export const articles: Article[] = [
     updated: '2026-06-22',
     publish: '2026-06-22',
     readMin: 4,
+    heroImage: {
+      src: '/articles/aichaku.png',
+      alt: '保護者に抱きしめられて安心している子どもと、そばに玩具がある家庭のイラスト',
+    },
     sections: [
       {
         heading: '愛着とは「安心の絆」',
@@ -1134,6 +1142,10 @@ export const articles: Article[] = [
     updated: '2026-06-23',
     publish: '2026-06-23',
     readMin: 4,
+    heroImage: {
+      src: '/articles/oya-mental.png',
+      alt: '保護者が一息つき、家族が子どもを見守る明るい家庭のイラスト',
+    },
     sections: [
       {
         heading: '親の心の状態は、子どもに伝わる',
@@ -1179,6 +1191,10 @@ export const articles: Article[] = [
     updated: '2026-06-24',
     publish: '2026-06-24',
     readMin: 4,
+    heroImage: {
+      src: '/articles/technoference.png',
+      alt: 'スマートフォンを置いて、子どもの話に目を向ける保護者のイラスト',
+    },
     sections: [
       {
         heading: '「ながらスマホ」で、やり取りが途切れる',
@@ -1225,6 +1241,10 @@ export const articles: Article[] = [
     updated: '2026-06-25',
     publish: '2026-06-25',
     readMin: 4,
+    heroImage: {
+      src: '/articles/eiyou-nou.png',
+      alt: '親子で朝食を用意し、野菜や果物を並べた食卓のイラスト',
+    },
     sections: [
       {
         heading: '朝ごはんは、午前中の集中を支える',
@@ -1270,6 +1290,10 @@ export const articles: Article[] = [
     updated: '2026-06-26',
     publish: '2026-06-26',
     readMin: 5,
+    heroImage: {
+      src: '/articles/hitori-jikan.png',
+      alt: '窓辺でひとり読書やお絵かきを楽しむ子どもを、保護者が離れて見守るイラスト',
+    },
     sections: [
       {
         heading: '「賢い人ほど一人を好む」説の正体',
