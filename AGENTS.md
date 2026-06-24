@@ -83,3 +83,4 @@ npm run data
 - 生成済みの `data/advice.json` だけを手で直すのは避け、原則として生成元の `data/enrichment.json` やスクリプトを直してください。
 - 依存関係は増やしすぎないでください。現状はReact/Vite/TypeScriptだけで完結しています。
 - 法務・プライバシー・広告・解析に関わる変更は、`legal/`、`public/ads.txt`、`index.html`、`src/analytics.ts` の関係を確認してから行ってください。
+- ユーザーから実装・修正・データ更新・画像追加などの変更依頼を受けた場合は、作業完了後に必要な検証を行い、意図した変更だけをコミットして `main` に push してください。明示的に止められた場合や、作業ツリーに判断不能な unrelated changes がある場合は確認してください。
