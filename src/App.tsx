@@ -5,6 +5,7 @@ import type { AgeBandId, Category, SubCategory } from './types';
 import { ResultCard } from './components/ResultCard';
 import { Legal } from './components/Legal';
 import { Company } from './components/Company';
+import { Contact } from './components/Contact';
 import { ArticlesList, ArticleView } from './components/Articles';
 import { GlossaryList, TermView } from './components/Glossary';
 import { VideoList } from './components/VideoList';
@@ -25,6 +26,17 @@ export default function App({ path }: { path?: string } = {}) {
   const [chips, setChips] = useState<string[]>([]);
   const [freeText, setFreeText] = useState('');
   const [age, setAge] = useState<AgeBandId | null>(null);
+
+  // トップに出す「新着の読み物」。公開済み記事を新しい順に数本だけ抜き出す。
+  const featuredArticles = useMemo(
+    () =>
+      articles
+        .filter((a) => isPublished(a))
+        .slice()
+        .sort((a, b) => (b.publish ?? b.updated).localeCompare(a.publish ?? a.updated))
+        .slice(0, 6),
+    [],
+  );
 
   const results = useMemo(() => {
     if (step !== 'result') return [];
@@ -54,6 +66,14 @@ export default function App({ path }: { path?: string } = {}) {
     return (
       <Shell>
         <Company />
+      </Shell>
+    );
+  }
+
+  if (route === '/contact') {
+    return (
+      <Shell>
+        <Contact />
       </Shell>
     );
   }
@@ -150,6 +170,32 @@ export default function App({ path }: { path?: string } = {}) {
             <p className="intro-search">
               または、<a className="link" href="/search" onClick={() => track('open_search')}>キーワードでサイト内を検索</a>
             </p>
+
+            <section className="intro-articles">
+              <h2>新着の読み物（エビデンス解説）</h2>
+              <p className="sub">
+                子育ての悩みを、学術研究の知見にもとづいてやさしく解説した読み物です。
+                気になるテーマから読んでみてください。
+              </p>
+              <ul className="alist">
+                {featuredArticles.map((a) => (
+                  <li key={a.slug} className="arow">
+                    <a
+                      className="alink"
+                      href={`/articles/${a.slug}`}
+                      onClick={() => track('open_article', { slug: a.slug })}
+                    >
+                      <span className="atitle">{a.title}</span>
+                      <span className="alead">{a.lead}</span>
+                      <span className="ameta">約{a.readMin}分 ・ 最終更新 {a.updated}</span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+              <p className="intro-more">
+                <a className="link" href="/articles">読み物の一覧をすべて見る →</a>
+              </p>
+            </section>
           </section>
         )}
 

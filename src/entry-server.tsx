@@ -56,6 +56,11 @@ export function getRoutes(): PageMeta[] {
       description: `${SITE}の運営者情報。`,
     },
     {
+      path: '/contact',
+      title: `お問い合わせ｜${SITE}`,
+      description: `${SITE}および合同会社5マイクロへのお問い合わせフォーム。サイトの内容・ご感想・運営へのご連絡はこちらから。`,
+    },
+    {
       path: '/privacy',
       title: `プライバシーポリシー｜${SITE}`,
       description: `${SITE}のプライバシーポリシー。`,

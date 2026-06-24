@@ -47,10 +47,8 @@ export function Company() {
       <h2>お問い合わせ</h2>
       <p>
         本サイトおよび合同会社5マイクロに関するお問い合わせは、
-        <a href="https://m.5micro.net/about" target="_blank" rel="noopener noreferrer">
-          こちらのページ
-        </a>
-        のお問い合わせフォームよりご連絡をお願いいたします。
+        <a href="/contact">お問い合わせフォーム</a>
+        よりご連絡をお願いいたします。
       </p>
 
       <p className="muted">最終更新: 2026年6月</p>

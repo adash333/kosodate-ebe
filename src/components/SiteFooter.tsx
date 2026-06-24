@@ -8,6 +8,7 @@ export function SiteFooter() {
       <a className="link" href="/articles">読み物</a>
       <a className="link" href="/glossary">用語解説</a>
       <a className="link" href="/company">会社情報</a>
+      <a className="link" href="/contact">お問い合わせ</a>
       <a className="link" href="/privacy">プライバシーポリシー</a>
       <a className="link" href="/disclaimer">免責事項</a>
       <a className="link" href="https://www.youtube.com/@evilab" target="_blank" rel="noopener noreferrer">
