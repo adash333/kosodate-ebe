@@ -57,14 +57,26 @@ export function ArticleView({ article }: { article: Article }) {
       </ul>
 
       <h3>参考にした研究</h3>
+      <p className="refs-note muted">
+        各研究について、日本語の解説記事と、原典（英語論文）を探せる Google Scholar 検索へのリンクを掲載しています。
+      </p>
       <ul className="refs">
-        {article.references.map((r, i) => (
-          <li key={i}>
-            <a href={r.url} target="_blank" rel="noopener noreferrer">
-              {r.label}
-            </a>
-          </li>
-        ))}
+        {article.references.map((r, i) => {
+          // ラベルは「著者名, 年（日本語説明）」形式。説明部分を除いた書誌で原典を検索する。
+          const query = r.label.split('（')[0].trim();
+          const scholarUrl = `https://scholar.google.com/scholar?q=${encodeURIComponent(query)}`;
+          return (
+            <li key={i}>
+              <a href={r.url} target="_blank" rel="noopener noreferrer">
+                {r.label}
+              </a>
+              <span className="ref-sep"> ／ </span>
+              <a className="ref-scholar" href={scholarUrl} target="_blank" rel="noopener noreferrer">
+                原典を探す（Google Scholar）
+              </a>
+            </li>
+          );
+        })}
       </ul>
 
       {article.relatedTerms && article.relatedTerms.length > 0 && (

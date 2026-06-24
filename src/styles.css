@@ -165,6 +165,9 @@ h2 { font-size: 1.25rem; margin: 6px 0 4px; }
 .article .steps, .article .refs { margin: 8px 0 16px; padding-left: 1.2em; }
 .article .steps li, .article .refs li { margin-bottom: 8px; font-size: .93rem; }
 .article .refs a { color: var(--green-d); }
+.refs-note { font-size: .82rem; margin: 0 0 10px; }
+.ref-sep { color: var(--muted); }
+.ref-scholar { font-size: .82rem; white-space: nowrap; }
 .article-note { border-top: 1px solid var(--line); margin-top: 22px; padding-top: 14px; }
 .article-back { margin-top: 20px; }
 .article-back-top { margin-top: 0; margin-bottom: 14px; }
