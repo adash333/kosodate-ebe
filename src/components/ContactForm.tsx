@@ -3,6 +3,8 @@ import { useState, type FormEvent } from 'react';
 type Status = 'idle' | 'sending' | 'done' | 'error' | 'unconfigured';
 
 const CONTACT_ENDPOINT = import.meta.env.VITE_CONTACT_ENDPOINT ?? '';
+const CONTACT_TOKEN = import.meta.env.VITE_CONTACT_TOKEN ?? '';
+
 export function ContactForm() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -35,7 +37,7 @@ export function ContactForm() {
         method: 'POST',
         headers: { 'Content-Type': 'text/plain;charset=utf-8' },
         mode: 'no-cors',
-        body: JSON.stringify({ name, email, message, company }),
+        body: JSON.stringify({ name, email, message, company, token: CONTACT_TOKEN }),
       });
       setStatus('done');
       setName('');
