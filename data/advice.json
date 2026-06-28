@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-20",
-  "count": 160,
+  "generatedAt": "2026-06-28",
+  "count": 161,
   "items": [
     {
       "id": "166",
@@ -4014,6 +4014,31 @@
       "finding": "質の高い幼児教育を受けた子は、40歳時点まで学歴・収入・生活の安定で差が続きました。",
       "advice": "幼児期は読み書きの先取りより、意欲や我慢する力を育てる関わりが将来に効きます。",
       "nextStep": "遊びの中で子どもが自分で決めてやり遂げる経験を増やしましょう。"
+    },
+    {
+      "id": "150",
+      "title": "寺子屋の始まり",
+      "author": "井出",
+      "year": 2013,
+      "citation": "井出 草平. (2013). 江戸時代の教育制度と社会変動. 四天王寺大学紀要, (57), 207-223. https://cir.nii.ac.jp/crid/1520853832141931520",
+      "paperUrl": "https://cir.nii.ac.jp/crid/1520853832141931520",
+      "blogUrl": null,
+      "youtubeUrl": "https://www.youtube.com/watch?v=CKq17OV9xJo",
+      "categories": [
+        "future"
+      ],
+      "tags": [
+        "教育",
+        "寺子屋",
+        "投資"
+      ],
+      "ageBands": [
+        "elementary",
+        "teen"
+      ],
+      "finding": "江戸時代の寺子屋は「教育は割に合う投資」という考えから広まりました。",
+      "advice": "教育は将来への投資。早くからの学ぶ環境づくりが効きます。",
+      "nextStep": "家庭に本や学ぶ道具を、手の届く所に置いてみましょう。"
     }
   ]
 }
