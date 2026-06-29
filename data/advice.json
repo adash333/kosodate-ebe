@@ -1,7 +1,139 @@
 {
-  "generatedAt": "2026-06-28",
-  "count": 161,
+  "generatedAt": "2026-06-29",
+  "count": 169,
   "items": [
+    {
+      "id": "171",
+      "title": "思春期ASDの社会スキルを親と一緒に育てる",
+      "author": "Laugeson",
+      "year": 2012,
+      "citation": "Laugeson EA, Frankel F, Gantman A, Dillon AR, Mogil C. Evidence-based social skills training for adolescents with autism spectrum disorders: the UCLA PEERS program. J Autism Dev Disord. 2012 Jun;42(6):1025-36. doi: 10.1007/s10803-011-1339-1. PMID: 21858588.",
+      "paperUrl": "https://pubmed.ncbi.nlm.nih.gov/21858588/",
+      "blogUrl": "https://risan.jpn.org/?p=11981",
+      "youtubeUrl": "https://youtu.be/NADv1gyxtvI",
+      "categories": [
+        "social",
+        "development"
+      ],
+      "tags": [
+        "友だち",
+        "社会スキル",
+        "自閉症",
+        "孤立"
+      ],
+      "ageBands": [
+        "teen"
+      ],
+      "finding": "親が関わるプログラムで、思春期の自閉症の子の友だち作りスキルが向上しました（PEERS）。",
+      "advice": "友だち作りのコツは教えられます。親が裏方で支えると効果的です。",
+      "nextStep": "「誘い方・話の入り方」を家でロールプレイして練習してみましょう。"
+    },
+    {
+      "id": "170",
+      "title": "ASDの不安症はCBTで治る",
+      "author": "Wood",
+      "year": 2009,
+      "citation": "Wood JJ, Drahota A, Sze K, Har K, Chiu A, Langer DA. Cognitive behavioral therapy for anxiety in children with autism spectrum disorders: a randomized, controlled trial. J Child Psychol Psychiatry. 2009 Mar;50(3):224-34. doi: 10.1111/j.1469-7610.2008.01948.x. PMID: 19309326; PMCID: PMC4231198.",
+      "paperUrl": "https://pubmed.ncbi.nlm.nih.gov/19309326/",
+      "blogUrl": "https://risan.jpn.org/?p=11974",
+      "youtubeUrl": "https://youtu.be/cEkus9BbloM",
+      "categories": [
+        "development"
+      ],
+      "tags": [
+        "不安",
+        "CBT",
+        "自閉症",
+        "認知行動療法"
+      ],
+      "ageBands": [
+        "elementary"
+      ],
+      "finding": "認知行動療法（CBT）と親の関わりで、自閉症の子の不安が改善しました。",
+      "advice": "強い不安は、関わり方やCBTで和らげられます。",
+      "nextStep": "不安が強いときは、安心できる見通しを具体的に伝えてあげましょう。"
+    },
+    {
+      "id": "169",
+      "title": "20分の運動でADHDの脳が変わる",
+      "author": "Pontifex",
+      "year": 2013,
+      "citation": "Pontifex MB, Saliba BJ, Raine LB, Picchietti DL, Hillman CH. Exercise improves behavioral, neurocognitive, and scholastic performance in children with attention-deficit/hyperactivity disorder. J Pediatr. 2013 Mar;162(3):543-51. doi: 10.1016/j.jpeds.2012.08.036. Epub 2012 Oct 17. PMID: 23084704; PMCID: PMC3556380.",
+      "paperUrl": "https://pubmed.ncbi.nlm.nih.gov/23084704/",
+      "blogUrl": "https://risan.jpn.org/?p=11953",
+      "youtubeUrl": "https://youtu.be/8OU-_2ljXiw",
+      "categories": [
+        "development",
+        "study",
+        "lifestyle"
+      ],
+      "tags": [
+        "ADHD",
+        "運動",
+        "集中力",
+        "発達",
+        "勉強前"
+      ],
+      "ageBands": [
+        "elementary",
+        "teen"
+      ],
+      "finding": "ADHDの子どもが20分の有酸素運動をした直後は、注意力や読み・計算の課題の成績が上がりました。",
+      "advice": "勉強の前に20分だけ体を動かすと、集中しやすくなることがあります。",
+      "nextStep": "宿題の前に、なわとびや散歩を20分だけ試してみましょう。"
+    },
+    {
+      "id": "168",
+      "title": "自閉症の親が応答的だと子の言葉は10年後も伸び続ける",
+      "author": "Siller",
+      "year": 2008,
+      "citation": "Siller, M., & Sigman, M. (2008). Modeling longitudinal change in the language abilities of children with autism: Parent behaviors and child characteristics as predictors of change. Developmental Psychology, 44(6), 1691–1704. https://doi.org/10.1037/a0013771",
+      "paperUrl": "https://psycnet.apa.org/doiLanding?doi=10.1037%2Fa0013771",
+      "blogUrl": "https://risan.jpn.org/?p=11933",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-cnkVj9MzC8",
+      "categories": [
+        "development",
+        "family"
+      ],
+      "tags": [
+        "自閉症",
+        "ことば",
+        "応答",
+        "関わり"
+      ],
+      "ageBands": [
+        "preschool"
+      ],
+      "finding": "親が子の関心に応答的に関わると、自閉症の子の言葉が10年後まで伸び続けました。",
+      "advice": "子どもが見ているものに合わせて応える関わりが、言葉を育てます。",
+      "nextStep": "子どもが指さしたものに「○○だね」と言葉を添えてみましょう。"
+    },
+    {
+      "id": "167",
+      "title": "自閉症の親が変われば子どもが6年後も変わる",
+      "author": "Pickles",
+      "year": 2016,
+      "citation": "Pickles A, Le Couteur A, Leadbitter K, Salomone E, Cole-Fletcher R, Tobin H, Gammer I, Lowry J, Vamvakas G, Byford S, Aldred C, Slonims V, McConachie H, Howlin P, Parr JR, Charman T, Green J. Parent-mediated social communication therapy for young children with autism (PACT): long-term follow-up of a randomised controlled trial. Lancet. 2016 Nov 19;388(10059):2501-2509. doi: 10.1016/S0140-6736(16)31229-6. Epub 2016 Oct 25. PMID: 27793431; PMCID: PMC5121131.",
+      "paperUrl": "https://pubmed.ncbi.nlm.nih.gov/27793431/",
+      "blogUrl": "https://risan.jpn.org/?p=11914",
+      "youtubeUrl": "https://www.youtube.com/watch?v=UGEfXny_Jik",
+      "categories": [
+        "development",
+        "family"
+      ],
+      "tags": [
+        "自閉症",
+        "親の関わり",
+        "療育"
+      ],
+      "ageBands": [
+        "preschool",
+        "elementary"
+      ],
+      "finding": "親の関わり方を支援すると、自閉症の子の症状が6年後も改善していました。",
+      "advice": "子どもを変えようとするより、親の関わりが変わると長く効きます。",
+      "nextStep": "指示を減らし、子どものペースに合わせて待つ時間を増やしてみましょう。"
+    },
     {
       "id": "166",
       "title": "自閉症に早期超集中介入",
@@ -413,6 +545,31 @@
       "finding": "寺子屋は一人ひとりに合わせた個別学習で、子どもを伸ばしていました。",
       "advice": "みんな同じより、その子の進度に合わせる学びが力を伸ばします。",
       "nextStep": "苦手は学年にこだわらず、できる所まで戻って進めてみましょう。"
+    },
+    {
+      "id": "150",
+      "title": "寺子屋の始まり",
+      "author": "井出",
+      "year": 2013,
+      "citation": "井出 草平. (2013). 江戸時代の教育制度と社会変動. 四天王寺大学紀要, (57), 207–223. https://cir.nii.ac.jp/crid/1520853832141931520⁠",
+      "paperUrl": "https://cir.nii.ac.jp/crid/1520853832141931520",
+      "blogUrl": null,
+      "youtubeUrl": "https://www.youtube.com/watch?v=CKq17OV9xJo",
+      "categories": [
+        "future"
+      ],
+      "tags": [
+        "教育",
+        "寺子屋",
+        "投資"
+      ],
+      "ageBands": [
+        "elementary",
+        "teen"
+      ],
+      "finding": "江戸時代の寺子屋は「教育は割に合う投資」という考えから広まりました。",
+      "advice": "教育は将来への投資。早くからの学ぶ環境づくりが効きます。",
+      "nextStep": "家庭に本や学ぶ道具を、手の届く所に置いてみましょう。"
     },
     {
       "id": "149",
@@ -968,6 +1125,55 @@
       "nextStep": "「なぜそうしたい?自分はどう思う?」と理由を言葉にさせましょう。"
     },
     {
+      "id": "126",
+      "title": "日本はアメリカより同調率が高い",
+      "author": "Bond",
+      "year": 1996,
+      "citation": "Bond, R., & Smith, P. B. (1996). Culture and conformity: A meta-analysis of studies using Asch's (1952b, 1956) line judgment task. _Psychological Bulletin, 119_(1), 111–137. [https://doi.org/10.1037/0033-2909.119.1.111](https://psycnet.apa.org/doi/10.1037/0033-2909.119.1.111)",
+      "paperUrl": "https://psycnet.apa.org/record/1996-01401-008",
+      "blogUrl": null,
+      "youtubeUrl": "https://www.youtube.com/@evilab/search?query=%E6%97%A5%E6%9C%AC%E3%81%AF%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E3%82%88%E3%82%8A%E5%90%8C%E8%AA%BF%E7%8E%87%E3%81%8C%E9%AB%98%E3%81%84",
+      "categories": [
+        "social"
+      ],
+      "tags": [
+        "同調",
+        "文化",
+        "協調"
+      ],
+      "ageBands": [
+        "elementary",
+        "teen"
+      ],
+      "finding": "日本は他国より同調率が高めですが、協調性は社会的成功にもつながりえます。",
+      "advice": "流されるのは悪いだけでなく、協調する力にもなります。",
+      "nextStep": "周りに合わせたときも、「自分はどう考えた?」を一緒に確認しましょう。"
+    },
+    {
+      "id": "125",
+      "title": "12歳以降は周囲の声に同調",
+      "author": "Large",
+      "year": 2019,
+      "citation": "Large I, Pellicano E, Mojzisch A, Krug K. Developmental trajectory of social influence integration into perceptual decisions in children. Proc Natl Acad Sci U S A. 2019 Jan 28;116(7):2713-2722. doi: 10.1073/pnas.1808153116. PMID: 30692264; PMCID: PMC6377450.",
+      "paperUrl": "https://pubmed.ncbi.nlm.nih.gov/30692264/",
+      "blogUrl": null,
+      "youtubeUrl": "https://www.youtube.com/@evilab/search?query=12%E6%AD%B3%E4%BB%A5%E9%99%8D%E3%81%AF%E5%91%A8%E5%9B%B2%E3%81%AE%E5%A3%B0%E3%81%AB%E5%90%8C%E8%AA%BF",
+      "categories": [
+        "social"
+      ],
+      "tags": [
+        "同調",
+        "思春期",
+        "判断"
+      ],
+      "ageBands": [
+        "teen"
+      ],
+      "finding": "12歳ごろから、自分の目より他人の意見を信じて同調しやすくなります。",
+      "advice": "思春期は周りの影響が強まる時期。頭ごなしより対話を。",
+      "nextStep": "友だちと違う意見も、家では安心して言える雰囲気を作りましょう。"
+    },
+    {
       "id": "124",
       "title": "集団圧力",
       "author": "Asch",
@@ -991,6 +1197,34 @@
       "finding": "明らかに正しい答えでも、多数派に合わせて誤答してしまう「同調」が起きます。",
       "advice": "流されない力は、家で「違っても言える」経験から育ちます。",
       "nextStep": "家族で少数意見を歓迎する場面を、意識して作りましょう。"
+    },
+    {
+      "id": "123",
+      "title": "結婚と離婚",
+      "author": "Gottman",
+      "year": 1992,
+      "citation": "Gottman JM, Levenson RW. Marital processes predictive of later dissolution: behavior, physiology, and health. J Pers Soc Psychol. 1992 Aug;63(2):221-33. doi: 10.1037//0022-3514.63.2.221. PMID: 1403613.",
+      "paperUrl": "https://pubmed.ncbi.nlm.nih.gov/1403613/",
+      "blogUrl": null,
+      "youtubeUrl": "https://www.youtube.com/@evilab/search?query=%E7%B5%90%E5%A9%9A%E3%81%A8%E9%9B%A2%E5%A9%9A",
+      "categories": [
+        "family"
+      ],
+      "tags": [
+        "夫婦",
+        "夫婦関係",
+        "ケンカ",
+        "コミュニケーション",
+        "家庭環境"
+      ],
+      "ageBands": [
+        "preschool",
+        "elementary",
+        "teen"
+      ],
+      "finding": "夫婦のやり取りを観察した研究では、口論そのものより、批判・侮辱・防御・無視が続くことが関係の悪化を予測しました。",
+      "advice": "ケンカしても大丈夫。大切なのは「相手を見下さない・無視しない」ことです。",
+      "nextStep": "意見が違っても、まず「あなたはそう思うんだね」と一度受け止めてから話してみましょう。"
     },
     {
       "id": "122",
@@ -4014,31 +4248,6 @@
       "finding": "質の高い幼児教育を受けた子は、40歳時点まで学歴・収入・生活の安定で差が続きました。",
       "advice": "幼児期は読み書きの先取りより、意欲や我慢する力を育てる関わりが将来に効きます。",
       "nextStep": "遊びの中で子どもが自分で決めてやり遂げる経験を増やしましょう。"
-    },
-    {
-      "id": "150",
-      "title": "寺子屋の始まり",
-      "author": "井出",
-      "year": 2013,
-      "citation": "井出 草平. (2013). 江戸時代の教育制度と社会変動. 四天王寺大学紀要, (57), 207-223. https://cir.nii.ac.jp/crid/1520853832141931520",
-      "paperUrl": "https://cir.nii.ac.jp/crid/1520853832141931520",
-      "blogUrl": null,
-      "youtubeUrl": "https://www.youtube.com/watch?v=CKq17OV9xJo",
-      "categories": [
-        "future"
-      ],
-      "tags": [
-        "教育",
-        "寺子屋",
-        "投資"
-      ],
-      "ageBands": [
-        "elementary",
-        "teen"
-      ],
-      "finding": "江戸時代の寺子屋は「教育は割に合う投資」という考えから広まりました。",
-      "advice": "教育は将来への投資。早くからの学ぶ環境づくりが効きます。",
-      "nextStep": "家庭に本や学ぶ道具を、手の届く所に置いてみましょう。"
     }
   ]
 }
