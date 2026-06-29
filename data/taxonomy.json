@@ -42,8 +42,8 @@
       "id": "development",
       "label": "発達特性（ADHD・自閉症）",
       "sub": [
-        { "id": "dev-adhd", "label": "落ち着きがない・ADHD", "tags": ["ADHD", "多動", "不注意", "集中力"] },
-        { "id": "dev-asd", "label": "コミュニケーション・自閉症", "tags": ["自閉症", "ASD", "社会性", "ことば"] },
+        { "id": "dev-adhd", "label": "落ち着きがない・ADHD", "tags": ["ADHD", "多動", "不注意", "集中力", "有酸素運動"] },
+        { "id": "dev-asd", "label": "コミュニケーション・自閉症", "tags": ["自閉症", "ASD", "社会性", "ことば", "応答", "社会スキル"] },
         { "id": "dev-anxiety", "label": "不安が強い", "tags": ["不安", "CBT", "認知行動療法"] },
         { "id": "dev-support", "label": "家庭でできる関わり", "tags": ["関わり", "親の関わり", "療育", "運動"] }
       ]
