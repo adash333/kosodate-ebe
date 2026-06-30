@@ -161,7 +161,7 @@ export default function App({ path }: { path?: string } = {}) {
           <section className="step intro">
             <h1>子育ての悩み、<br />3タップでエビデンスへ。</h1>
             <p className="lead">
-              気になることを選ぶだけ。約{adviceData.count}本の論文から、
+              気になることを選ぶだけ。<a className="link" href="/videos" onClick={() => track('open_videos_lead')}>約{adviceData.count}本の論文</a>から、
               今日からできる「やさしい一言」をお届けします。
             </p>
             <button className="btn-primary" onClick={() => { setStep('q1'); track('start'); }}>
