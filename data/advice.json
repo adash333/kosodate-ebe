@@ -1,7 +1,32 @@
 {
-  "generatedAt": "2026-06-29",
+  "generatedAt": "2026-06-30",
   "count": 169,
   "items": [
+    {
+      "id": "175",
+      "title": "自閉症はスペクトラム",
+      "author": "Baron-Cohen",
+      "year": 2001,
+      "citation": "Baron-Cohen S, Wheelwright S, Skinner R, Martin J, Clubley E. The autism-spectrum quotient (AQ): evidence from Asperger syndrome/high-functioning autism, males and females, scientists and mathematicians. J Autism Dev Disord. 2001 Feb;31(1):5-17. doi: 10.1023/a:1005653411471. Erratum in: J Autism Dev Disord 2001 Dec;31(6):603. PMID: 11439754.",
+      "paperUrl": "https://pubmed.ncbi.nlm.nih.gov/11439754/",
+      "blogUrl": null,
+      "youtubeUrl": "https://www.youtube.com/watch?v=Kq2prT0aBXs",
+      "categories": [
+        "development"
+      ],
+      "tags": [
+        "自閉症",
+        "AQ",
+        "スペクトラム",
+        "個性"
+      ],
+      "ageBands": [
+        "teen"
+      ],
+      "finding": "自閉症の特性は連続的で、AQで測れ、理数系の才能と関連することがあります。",
+      "advice": "特性は優劣ではなく個性。理数の強みと結びつくこともあります。",
+      "nextStep": "気になる特性は、得意分野とセットで見てあげましょう。"
+    },
     {
       "id": "171",
       "title": "思春期ASDの社会スキルを親と一緒に育てる",
@@ -1131,8 +1156,8 @@
       "year": 1996,
       "citation": "Bond, R., & Smith, P. B. (1996). Culture and conformity: A meta-analysis of studies using Asch's (1952b, 1956) line judgment task. _Psychological Bulletin, 119_(1), 111–137. [https://doi.org/10.1037/0033-2909.119.1.111](https://psycnet.apa.org/doi/10.1037/0033-2909.119.1.111)",
       "paperUrl": "https://psycnet.apa.org/record/1996-01401-008",
-      "blogUrl": null,
-      "youtubeUrl": "https://www.youtube.com/@evilab/search?query=%E6%97%A5%E6%9C%AC%E3%81%AF%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E3%82%88%E3%82%8A%E5%90%8C%E8%AA%BF%E7%8E%87%E3%81%8C%E9%AB%98%E3%81%84",
+      "blogUrl": "https://risan.jpn.org/?p=10686",
+      "youtubeUrl": "https://www.youtube.com/watch?v=vlUiCX3o2Pk",
       "categories": [
         "social"
       ],
@@ -1156,8 +1181,8 @@
       "year": 2019,
       "citation": "Large I, Pellicano E, Mojzisch A, Krug K. Developmental trajectory of social influence integration into perceptual decisions in children. Proc Natl Acad Sci U S A. 2019 Jan 28;116(7):2713-2722. doi: 10.1073/pnas.1808153116. PMID: 30692264; PMCID: PMC6377450.",
       "paperUrl": "https://pubmed.ncbi.nlm.nih.gov/30692264/",
-      "blogUrl": null,
-      "youtubeUrl": "https://www.youtube.com/@evilab/search?query=12%E6%AD%B3%E4%BB%A5%E9%99%8D%E3%81%AF%E5%91%A8%E5%9B%B2%E3%81%AE%E5%A3%B0%E3%81%AB%E5%90%8C%E8%AA%BF",
+      "blogUrl": "https://risan.jpn.org/?p=10665",
+      "youtubeUrl": "https://youtu.be/9XwcudaxanM",
       "categories": [
         "social"
       ],
@@ -1197,34 +1222,6 @@
       "finding": "明らかに正しい答えでも、多数派に合わせて誤答してしまう「同調」が起きます。",
       "advice": "流されない力は、家で「違っても言える」経験から育ちます。",
       "nextStep": "家族で少数意見を歓迎する場面を、意識して作りましょう。"
-    },
-    {
-      "id": "123",
-      "title": "結婚と離婚",
-      "author": "Gottman",
-      "year": 1992,
-      "citation": "Gottman JM, Levenson RW. Marital processes predictive of later dissolution: behavior, physiology, and health. J Pers Soc Psychol. 1992 Aug;63(2):221-33. doi: 10.1037//0022-3514.63.2.221. PMID: 1403613.",
-      "paperUrl": "https://pubmed.ncbi.nlm.nih.gov/1403613/",
-      "blogUrl": null,
-      "youtubeUrl": "https://www.youtube.com/@evilab/search?query=%E7%B5%90%E5%A9%9A%E3%81%A8%E9%9B%A2%E5%A9%9A",
-      "categories": [
-        "family"
-      ],
-      "tags": [
-        "夫婦",
-        "夫婦関係",
-        "ケンカ",
-        "コミュニケーション",
-        "家庭環境"
-      ],
-      "ageBands": [
-        "preschool",
-        "elementary",
-        "teen"
-      ],
-      "finding": "夫婦のやり取りを観察した研究では、口論そのものより、批判・侮辱・防御・無視が続くことが関係の悪化を予測しました。",
-      "advice": "ケンカしても大丈夫。大切なのは「相手を見下さない・無視しない」ことです。",
-      "nextStep": "意見が違っても、まず「あなたはそう思うんだね」と一度受け止めてから話してみましょう。"
     },
     {
       "id": "122",
