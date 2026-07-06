@@ -1611,6 +1611,10 @@ export const articles: Article[] = [
     updated: '2026-07-02',
     publish: '2026-07-02',
     readMin: 5,
+    heroImage: {
+      src: '/articles/toilet-training.png',
+      alt: 'トイレトレーニング用の補助便座を前に、子どもを保護者が穏やかに見守るイラスト',
+    },
     sections: [
       {
         heading: '「早ければ得」とは限らない — 始める時期の研究',
@@ -1663,6 +1667,10 @@ export const articles: Article[] = [
     updated: '2026-07-03',
     publish: '2026-07-03',
     readMin: 7,
+    heroImage: {
+      src: '/articles/self-control.png',
+      alt: 'おやつを前に待つ練習をする子どもを、保護者がやさしく支えるイラスト',
+    },
     sections: [
       {
         heading: 'マシュマロ実験とは何だったのか',
@@ -1715,6 +1723,10 @@ export const articles: Article[] = [
     updated: '2026-07-04',
     publish: '2026-07-04',
     readMin: 7,
+    heroImage: {
+      src: '/articles/screen-baby.png',
+      alt: 'タブレットを脇に置き、幼い子どもと保護者が絵本を見ているイラスト',
+    },
     sections: [
       {
         heading: 'ガイドラインは何と言っているか',
@@ -1766,6 +1778,10 @@ export const articles: Article[] = [
     updated: '2026-07-05',
     publish: '2026-07-05',
     readMin: 8,
+    heroImage: {
+      src: '/articles/hoikuen.png',
+      alt: '保育園で保育者に迎えられる子どもを、保護者が安心して見守るイラスト',
+    },
     sections: [
       {
         heading: 'まず知っておきたい「NICHD研究」という大きな手がかり',
@@ -1818,6 +1834,10 @@ export const articles: Article[] = [
     updated: '2026-07-06',
     publish: '2026-07-06',
     readMin: 7,
+    heroImage: {
+      src: '/articles/toenshiburi.png',
+      alt: '玄関で登園や登校をためらう子どもに、保護者が目線を合わせて話を聞くイラスト',
+    },
     sections: [
       {
         heading: '「行きたくない」の背景にあるもの',
@@ -1870,6 +1890,10 @@ export const articles: Article[] = [
     updated: '2026-07-07',
     publish: '2026-07-07',
     readMin: 6,
+    heroImage: {
+      src: '/articles/kamitsuki.png',
+      alt: '遊び場で気持ちが高ぶった幼児たちの間に、保育者が落ち着いて入るイラスト',
+    },
     sections: [
       {
         heading: '2歳前後がピーク — 攻撃性は「発達のふつう」',
@@ -1921,6 +1945,10 @@ export const articles: Article[] = [
     updated: '2026-07-08',
     publish: '2026-07-08',
     readMin: 7,
+    heroImage: {
+      src: '/articles/okane-kyouiku.png',
+      alt: '親子で小銭や小さな入れ物を使い、おこづかいのやりくりを考えるイラスト',
+    },
     sections: [
       {
         heading: 'お金の基礎は7歳ごろまでに育ちはじめる',
@@ -1972,6 +2000,10 @@ export const articles: Article[] = [
     updated: '2026-07-09',
     publish: '2026-07-09',
     readMin: 7,
+    heroImage: {
+      src: '/articles/karada-anzen.png',
+      alt: '保護者と子どもが、からだと安全について絵カードを見ながら話すイラスト',
+    },
     sections: [
       {
         heading: '予防教育には効果がある — コクランレビューが示すこと',
@@ -2023,6 +2055,10 @@ export const articles: Article[] = [
     updated: '2026-07-10',
     publish: '2026-07-10',
     readMin: 7,
+    heroImage: {
+      src: '/articles/souzou-asobi.png',
+      alt: '子どもが身近な道具でごっこ遊びを楽しみ、保護者がそばで見守るイラスト',
+    },
     sections: [
       {
         heading: 'ごっこ遊びとは何か — 「見立て」が生まれるとき',
@@ -2075,6 +2111,10 @@ export const articles: Article[] = [
     updated: '2026-07-11',
     publish: '2026-07-11',
     readMin: 6,
+    heroImage: {
+      src: '/articles/koukishin.png',
+      alt: '親子で葉っぱや身近なものを観察し、子どもの疑問を一緒に考えるイラスト',
+    },
     sections: [
       {
         heading: '好奇心はどこから生まれるのか — 「知識のすき間」理論',
