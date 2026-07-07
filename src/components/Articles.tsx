@@ -74,6 +74,15 @@ export function ArticleView({ article }: { article: Article }) {
         ))}
       </ul>
 
+      {article.parentNote && article.parentNote.length > 0 && (
+        <aside className="parent-note">
+          <h3 className="parent-note-h">2児の父として</h3>
+          {article.parentNote.map((p, i) => (
+            <p key={i}>{p}</p>
+          ))}
+        </aside>
+      )}
+
       <h3>参考にした研究</h3>
       <p className="refs-note muted">
         各研究について、日本語の解説記事と、原典（英語論文）を探せる Google Scholar 検索へのリンクを掲載しています。
