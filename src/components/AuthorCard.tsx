@@ -17,6 +17,7 @@ export function AuthorCard({ heading = 'この記事を書いた人' }: { headin
             {l.label}
           </a>
         ))}
+        <a className="link" href="/author">執筆者の詳細プロフィール</a>
       </p>
     </aside>
   );

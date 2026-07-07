@@ -1,6 +1,23 @@
 import { articles, isPublished, type Article } from '../articles';
 import { AuthorCard } from './AuthorCard';
 
+// 現在の記事と関連度が高い記事を最大3件抽出する。
+// タイトル・リードに共通する単語（2文字以上）の数で簡易スコアリング。
+function relatedArticles(current: Article, limit = 3): Article[] {
+  const published = articles.filter((a) => isPublished(a) && a.slug !== current.slug);
+  const src = (current.title + ' ' + current.lead).split(/[\s、。,.\-・/／\n]+/).filter((t) => t.length >= 2);
+  return published
+    .map((a) => {
+      const hay = a.title + ' ' + a.lead;
+      const score = src.filter((w) => hay.includes(w)).length;
+      return { a, score };
+    })
+    .filter(({ score }) => score > 0)
+    .sort((x, y) => y.score - x.score)
+    .slice(0, limit)
+    .map(({ a }) => a);
+}
+
 export function ArticlesList() {
   // 公開日が到来した記事のみを、公開日の新しい順に表示する。
   const visible = articles
@@ -29,6 +46,7 @@ export function ArticlesList() {
 }
 
 export function ArticleView({ article }: { article: Article }) {
+  const related = relatedArticles(article);
   return (
     <article className="legal article">
       <h2>{article.title}</h2>
@@ -86,6 +104,22 @@ export function ArticleView({ article }: { article: Article }) {
             {article.relatedTerms.map((t) => (
               <li key={t.slug}>
                 <a href={`/glossary/${t.slug}`}>{t.term}</a>
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
+
+      {related.length > 0 && (
+        <>
+          <h3>関連する記事</h3>
+          <ul className="alist">
+            {related.map((a) => (
+              <li key={a.slug} className="arow">
+                <a className="alink" href={`/articles/${a.slug}`}>
+                  <span className="atitle">{a.title}</span>
+                  <span className="alead">{a.lead}</span>
+                </a>
               </li>
             ))}
           </ul>

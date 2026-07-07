@@ -11,6 +11,7 @@ import { GlossaryList, TermView } from './components/Glossary';
 import { VideoList } from './components/VideoList';
 import { SiteSearch } from './components/Search';
 import { SiteFooter } from './components/SiteFooter';
+import { AuthorPage } from './components/AuthorPage';
 import { articles, isPublished } from './articles';
 import { terms } from './glossary';
 import { track } from './analytics';
@@ -146,6 +147,14 @@ export default function App({ path }: { path?: string } = {}) {
     return (
       <Shell>
         <SiteSearch />
+      </Shell>
+    );
+  }
+
+  if (route === '/author') {
+    return (
+      <Shell>
+        <AuthorPage />
       </Shell>
     );
   }

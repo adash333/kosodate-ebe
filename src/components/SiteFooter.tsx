@@ -7,6 +7,7 @@ export function SiteFooter() {
       <a className="link" href="/videos" onClick={() => track('open_list')}>動画一覧</a>
       <a className="link" href="/articles">読み物</a>
       <a className="link" href="/glossary">用語解説</a>
+      <a className="link" href="/author">執筆者について</a>
       <a className="link" href="/company">会社情報</a>
       <a className="link" href="/contact">お問い合わせ</a>
       <a className="link" href="/privacy">プライバシーポリシー</a>
