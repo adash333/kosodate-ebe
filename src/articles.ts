@@ -25,6 +25,8 @@ export interface Article {
   updated: string;
   /** 公開日 'YYYY-MM-DD'。未設定なら常に公開。この日付を過ぎるまで一覧・詳細に表示しない。 */
   publish?: string;
+  /** 下書き。true の間は publish 日付に関わらず非公開（公表を保留する）。 */
+  draft?: boolean;
   readMin: number;
   heroImage?: ArticleImage;
   sections: ArticleSection[];
@@ -38,6 +40,7 @@ export interface Article {
 
 /** 記事が公開済みか（閲覧者のブラウザの現在日付で判定。再デプロイ不要で日付到来時に自動表示される）。 */
 export function isPublished(a: Article, now: Date = new Date()): boolean {
+  if (a.draft) return false;
   if (!a.publish) return true;
   const y = now.getFullYear();
   const m = String(now.getMonth() + 1).padStart(2, '0');
@@ -1986,6 +1989,7 @@ export const articles: Article[] = [
     lead: 'お金との付き合い方は、思春期よりずっと早く芽生えはじめます。おこづかいは「定額制かお手伝い報酬制か」で悩みがちですが、正解は一つではありません。研究が示す原則をもとに、家庭でできる関わり方を穏やかに整理します。',
     updated: '2026-07-08',
     publish: '2026-07-08',
+    draft: true,
     readMin: 7,
     heroImage: {
       src: '/articles/okane-kyouiku.png',
@@ -2041,6 +2045,7 @@ export const articles: Article[] = [
     lead: 'からだの安全教育は、子どもをこわがらせるためのものではありません。Walsh らの2015年コクランレビューは、学校での予防教育が子どもの知識と「自分を守る行動」を高めることを示しています。プライベートゾーンの考え方、体の部位を正しい名前で呼ぶこと、「いやと言う・逃げる・話す」を、落ち着いた言葉で家庭に取り入れる方法を整理します。',
     updated: '2026-07-09',
     publish: '2026-07-09',
+    draft: true,
     readMin: 7,
     heroImage: {
       src: '/articles/karada-anzen.png',
@@ -2096,6 +2101,7 @@ export const articles: Article[] = [
     lead: '電車になりきったり、葉っぱをお皿に見立てたり。子どもの「ごっこ遊び」は、ただの暇つぶしではなく、想像力・ことば・自己制御・人とのやりとりが絡みあう豊かな営みです。一方で「遊べば賢くなる」と断言できるほど研究はそろっていません。理論と最新のエビデンス、そして家庭でできる支え方を、相関と因果の限界も含めて穏やかに整理します。',
     updated: '2026-07-10',
     publish: '2026-07-10',
+    draft: true,
     readMin: 7,
     heroImage: {
       src: '/articles/souzou-asobi.png',
@@ -2152,6 +2158,7 @@ export const articles: Article[] = [
     lead: '「なぜ空は青いの？」「どうして？」と続く子どもの問いに、ときに疲れてしまうこともあります。でも、その好奇心は学びの原動力です。心理学や脳科学の知見をもとに、答えを全部与えずに一緒に探す関わり方を考えます。',
     updated: '2026-07-11',
     publish: '2026-07-11',
+    draft: true,
     readMin: 6,
     heroImage: {
       src: '/articles/koukishin.png',
@@ -2207,6 +2214,7 @@ export const articles: Article[] = [
     lead: '寝つきが悪い、夜中に起きる、朝起きられない。子どもの睡眠の悩みは親も消耗させます。研究は、就寝前のルーティンを固定することと、スクリーンの光を制限することが、睡眠の質を着実に改善すると示しています。ADHD・ASD のある子の睡眠改善に関するエビデンスも交えて整理します。',
     updated: '2026-07-12',
     publish: '2026-07-12',
+    draft: true,
     readMin: 7,
     sections: [
       {
