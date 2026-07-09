@@ -192,7 +192,7 @@ h2 { font-size: 1.25rem; margin: 6px 0 4px; }
 .author-links { display: flex; flex-wrap: wrap; gap: 8px 16px; margin: 0; font-size: .9rem; }
 
 .parent-note { margin: 24px 0 8px; padding: 16px 18px; background: #fff8ef; border: 1px solid #f0e0c8; border-left: 4px solid #e0a94e; border-radius: 12px; }
-.parent-note-h { font-size: 1rem; color: #b9791f; margin: 0 0 10px; }
+.parent-note .parent-note-h { font-size: 1rem; color: #b9791f; margin: 0 0 10px; }
 .parent-note p { font-size: .92rem; line-height: 1.8; color: #4a3f30; margin: 0 0 10px; }
 .parent-note p:last-child { margin-bottom: 0; }
 
