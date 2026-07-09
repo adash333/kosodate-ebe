@@ -274,7 +274,8 @@ export const articles: Article[] = [
       {
         heading: 'けんかには、育てる面もある',
         body: [
-          'きょうだいげんかは親を悩ませますが、ソンら（2018）は、適度なきょうだいげんかが「相手の気持ちを読む力（心の理論）」を育てる面があると示しました。',
+          'そもそも、きょうだいげんかはとても頻繁に起こります。クレイマーら（1999）が未就学の子どもたちを観察した研究では、きょうだいで一緒に遊んでいるあいだ、平均しておよそ10分に1回（1時間に約6回）のペースで衝突が起きていました。けんかが多いのは「うちのきょうだいがうまくいっていない」しるしではなく、この時期にはごく普通のことなのです。',
+          'そのうえで、ソンら（2018）は、適度なきょうだいげんかが「相手の気持ちを読む力（心の理論）」を育てる面があると示しました。',
           '危険やいじめに発展しない範囲であれば、すべてを止めて裁こうとせず、子ども同士が折り合いをつける経験として見守ることにも意味があります。',
         ],
       },
@@ -289,6 +290,7 @@ export const articles: Article[] = [
       { label: 'Kristensen, 2007（出生順位とIQ）', url: 'https://risan.jpn.org/?p=11398' },
       { label: 'Volling, 2002（三者関係とやきもち）', url: 'https://risan.jpn.org/?p=9821' },
       { label: 'Dunn, 1980（赤ちゃん返り）', url: 'https://risan.jpn.org/?p=9886' },
+      { label: 'Kramer, 1999（きょうだいの衝突頻度と親の対応）', url: 'https://scholar.google.com/scholar?q=Kramer+Perozynski+Chung+1999+Parental+responses+to+sibling+conflict' },
       { label: 'Song, 2018（きょうだいげんかと心の理論）', url: 'https://risan.jpn.org/?p=11330' },
     ],
     relatedTerms: [
