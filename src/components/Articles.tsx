@@ -76,7 +76,7 @@ export function ArticleView({ article }: { article: Article }) {
 
       {article.parentNote && article.parentNote.length > 0 && (
         <aside className="parent-note">
-          <h3 className="parent-note-h">今回の内容について、2児の父として思うこと</h3>
+          <h3 className="parent-note-h">この内容について親として感じたこと</h3>
           {article.parentNote.map((p, i) => (
             <p key={i}>{p}</p>
           ))}
