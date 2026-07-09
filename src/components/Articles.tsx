@@ -1,6 +1,19 @@
 import { articles, isPublished, type Article } from '../articles';
 import { AuthorCard } from './AuthorCard';
 
+// 本文中の URL をクリック可能なリンクに変換する（parentNote 用）。
+function linkify(text: string) {
+  return text.split(/(https?:\/\/[^\s]+)/g).map((part, i) =>
+    /^https?:\/\//.test(part) ? (
+      <a key={i} href={part} target="_blank" rel="noopener noreferrer">
+        {part}
+      </a>
+    ) : (
+      part
+    ),
+  );
+}
+
 // 現在の記事と関連度が高い記事を最大3件抽出する。
 // タイトル・リードに共通する単語（2文字以上）の数で簡易スコアリング。
 function relatedArticles(current: Article, limit = 3): Article[] {
@@ -78,7 +91,7 @@ export function ArticleView({ article }: { article: Article }) {
         <aside className="parent-note">
           <h3 className="parent-note-h">この内容について親として感じたこと</h3>
           {article.parentNote.map((p, i) => (
-            <p key={i}>{p}</p>
+            <p key={i}>{linkify(p)}</p>
           ))}
         </aside>
       )}
