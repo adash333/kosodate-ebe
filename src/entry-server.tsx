@@ -88,7 +88,7 @@ export function getRoutes(): PageMeta[] {
         '@type': 'Article',
         headline: a.title,
         description: clip(a.lead, 200),
-        datePublished: a.publish ?? a.updated,
+        datePublished: a.posted,
         dateModified: a.updated,
         author: { '@type': 'Organization', name: SITE },
         publisher: { '@type': 'Organization', name: SITE },

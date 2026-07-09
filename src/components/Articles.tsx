@@ -36,7 +36,7 @@ export function ArticlesList() {
   const visible = articles
     .filter((a) => isPublished(a))
     .slice()
-    .sort((a, b) => (b.publish ?? b.updated).localeCompare(a.publish ?? a.updated));
+    .sort((a, b) => b.posted.localeCompare(a.posted));
   return (
     <div className="legal">
       <h2>読み物（エビデンス記事）</h2>
@@ -49,7 +49,7 @@ export function ArticlesList() {
             <a className="alink" href={`/articles/${a.slug}`}>
               <span className="atitle">{a.title}</span>
               <span className="alead">{a.lead}</span>
-              <span className="ameta">約{a.readMin}分 ・ 最終更新 {a.updated}</span>
+              <span className="ameta">約{a.readMin}分 ・ 投稿日 {a.posted} ・ 更新日 {a.updated}</span>
             </a>
           </li>
         ))}
@@ -63,7 +63,7 @@ export function ArticleView({ article }: { article: Article }) {
   return (
     <article className="legal article">
       <h2>{article.title}</h2>
-      <p className="amtop muted">最終更新 {article.updated} ・ 約{article.readMin}分で読めます</p>
+      <p className="amtop muted">投稿日 {article.posted} ・ 更新日 {article.updated} ・ 約{article.readMin}分で読めます</p>
       <p className="alead-top">{article.lead}</p>
       {article.heroImage && (
         <figure className="article-hero">

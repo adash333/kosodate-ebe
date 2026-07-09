@@ -34,7 +34,7 @@ export default function App({ path }: { path?: string } = {}) {
       articles
         .filter((a) => isPublished(a))
         .slice()
-        .sort((a, b) => (b.publish ?? b.updated).localeCompare(a.publish ?? a.updated))
+        .sort((a, b) => b.posted.localeCompare(a.posted))
         .slice(0, 6),
     [],
   );
@@ -196,7 +196,7 @@ export default function App({ path }: { path?: string } = {}) {
                     >
                       <span className="atitle">{a.title}</span>
                       <span className="alead">{a.lead}</span>
-                      <span className="ameta">約{a.readMin}分 ・ 最終更新 {a.updated}</span>
+                      <span className="ameta">約{a.readMin}分 ・ 投稿日 {a.posted} ・ 更新日 {a.updated}</span>
                     </a>
                   </li>
                 ))}
