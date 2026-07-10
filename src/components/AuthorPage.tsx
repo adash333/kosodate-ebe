@@ -47,7 +47,7 @@ export function AuthorPage() {
             <a href="https://risan.jpn.org/" target="_blank" rel="noopener noreferrer">
               東大理三夫婦のこそだて
             </a>
-            — 子育て・教育・医療に関するエビデンス解説記事を掲載
+            — 日々の子育てについて記載
           </li>
           <li>
             <a href="https://www.youtube.com/@evilab" target="_blank" rel="noopener noreferrer">
