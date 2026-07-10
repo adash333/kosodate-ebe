@@ -51,7 +51,7 @@ export function AuthorPage() {
           </li>
           <li>
             <a href="https://www.youtube.com/@evilab" target="_blank" rel="noopener noreferrer">
-              YouTubeチャンネル（子育てエビデンス研究所）
+              YouTube「ゆっくり子育てエビデンス 研究所 【東大理三夫婦】」
             </a>
             — 170本以上の論文解説動画を公開中
           </li>
