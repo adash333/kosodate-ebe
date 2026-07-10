@@ -22,7 +22,7 @@ export const siteAuthor: Author = {
   bio:
     '普段は勤務医として診療にあたっています。自身の子育てをきっかけに、エビデンス（科学的根拠）にもとづく子育て・教育（EBE）に関心を持ち、ブログおよび YouTube チャンネル「子育てエビデンス研究所」で、論文をやさしく解説する情報発信を続けています。本サイトの記事は、これらの活動で扱った研究知見をもとに執筆・監修しています。',
   links: [
-    { label: '子育てエビデンス解説ブログ', url: 'https://risan.jpn.org/' },
+    { label: '東大理三夫婦のこそだて', url: 'https://risan.jpn.org/' },
     { label: 'YouTube「子育てエビデンス研究所」', url: 'https://www.youtube.com/@evilab' },
   ],
 };
