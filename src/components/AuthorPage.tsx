@@ -24,7 +24,7 @@ export function AuthorPage() {
           情報発信を続けています。
         </p>
         <p>
-          YouTubeチャンネルでは2025年時点で170本以上の動画を公開し、子育て・教育・発達に関する
+          YouTubeチャンネルでは200本以上の動画を公開し、子育て・教育・発達に関する
           学術論文をやさしく解説しています。ブログでも同様のテーマで継続的に執筆しています。
         </p>
 
@@ -53,7 +53,7 @@ export function AuthorPage() {
             <a href="https://www.youtube.com/@evilab" target="_blank" rel="noopener noreferrer">
               YouTube「ゆっくり子育てエビデンス 研究所 【東大理三夫婦】」
             </a>
-            — 170本以上の論文解説動画を公開中
+            — 200本以上の論文解説動画を公開中
           </li>
         </ul>
       </section>
@@ -73,7 +73,6 @@ export function AuthorPage() {
         </p>
         <p>
           運営: <a href="/company">合同会社5マイクロ</a>
-          （東京都中央区銀座）
         </p>
       </section>
 
