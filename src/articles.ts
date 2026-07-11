@@ -865,9 +865,9 @@ export const articles: Article[] = [
     title: '早期教育・習い事は得か — 「先取り」より大切な土台',
     lead: '「早く始めたほうが有利」「周りもやっているから」。早期教育には不安と期待がつきまといます。研究は、早い先取り学習の効果が長続きしにくい一方、遊びや自分で取り組む経験が後々まで効くことを示しています。冷静に考えるための整理です。',
     posted: '2026-06-15',
-    updated: '2026-06-15',
+    updated: '2026-07-10',
     publish: '2026-06-15',
-    readMin: 5,
+    readMin: 6,
     heroImage: {
       src: '/articles/souki-kyouiku.png',
       alt: '親子が積み木や絵本で遊びながら、子どもが自分で取り組む時間を楽しんでいるイラスト',
@@ -894,11 +894,24 @@ export const articles: Article[] = [
           'まとめると、早い先取りそのものより、自分で取り組む経験・遊び・安心できる環境といった「土台の力」のほうが長く効きます。習い事を選ぶときも、「先取りできるか」より「本人が楽しんで取り組めるか」を物差しにすると、後悔が少なくなります。',
         ],
       },
+      {
+        heading: '「幼児教育はコスパが良い」（ヘックマン）とどう両立する？',
+        body: [
+          'ノーベル経済学賞を受賞した経済学者ヘックマンらは、米国のペリー就学前プログラム（1962〜67年、低所得家庭の3〜4歳児123人が対象）を約40年間追跡し、幼児期の教育投資の社会的収益率を年率7〜10%と推計しました（ヘックマンら, 2010）。「幼児教育はコスパが良い」という主張の代表的な根拠で、日本では『幼児教育の経済学』などの書籍でも広く知られています。',
+          '一見、この記事の「先取りの効果は薄れる」という話と矛盾するようですが、実は同じ方向を向いています。ペリーでも、IQや学力の上昇は数年でフェードアウトしました。それでも大人になってからの所得・持ち家率・犯罪率などに差が残り、その理由は自制心ややり抜く力といった「非認知能力」が育ったためだと、ヘックマン自身が解釈しています。しかもプログラムの中身は、文字や数の詰め込みではなく、遊びと自主性を重んじるものでした。',
+          '注意したいのは、これが米国の貧困層の子どもへの公的な支援プログラムの話であり、一般家庭の「先取り学習」の効果を示したものではないという点です。また近年は、「若いほど教育投資の収益率が高い」というヘックマン曲線そのものは、多数のプログラムを横断したデータでは支持されなかったという報告もあります（レアとバートン, 2020）。それでも、「幼児期に大切なのは先取りより土台の力」という本記事の整理は、ヘックマンの研究とむしろ整合的です。',
+        ],
+      },
     ],
     steps: [
       '「早く始めるか」より「本人が楽しんで取り組めるか」で習い事を選ぶ。',
       '詰め込みより、ごっこ遊びや自分で工夫する時間を大切にする。',
       '目先のテスト結果で一喜一憂せず、自制心や安心できる環境という土台を育てる。',
+    ],
+    parentNote: [
+      '私がEBEに出会うきっかけになった「まんがでわかる「学力」の経済学」でも、ヘックマンの研究（幼児教育への投資はコスパが良い）は中心的に紹介されていました。最初に読んだときは「早くから勉強させたほうが得なのか」と早合点しそうになりましたが、よく調べてみると、効果が長続きしたのは学力ではなく非認知能力で、プログラムの中身も遊びと自主性が中心。「先取り」とはむしろ逆の話でした。',
+      '我が家の習い事は、本人たちが「やりたい」と言ったものだけにしています。毎朝のドリルと楽器の練習は続けていますが、これも「先取りして差をつける」ためというより、「毎日コツコツ続ける習慣」のためと位置づけています。',
+      'それでも、まわりの子の習い事や先取り学習の話を聞くと、正直、焦る気持ちが湧いてきます。そういうときは「フェードアウト効果」を思い出して、「うちはうち」と唱えるようにしています。エビデンスは、子どものためになるだけでなく、親の不安を鎮める薬にもなるのだと感じています。',
     ],
     references: [
       { label: 'Protzko, 2015（早期介入の効果のフェードアウト）', url: 'https://scholar.google.com/scholar?q=Protzko+2015+fadeout+effect+intelligence+interventions' },
@@ -906,10 +919,14 @@ export const articles: Article[] = [
       { label: 'Marcon, 2002（主導型 vs 自発型の保育）', url: 'https://scholar.google.com/scholar?q=Marcon+2002+preschool+models+later+school+success' },
       { label: 'Lillard et al., 2013（ごっこ遊びと発達）', url: 'https://scholar.google.com/scholar?q=Lillard+2013+impact+of+pretend+play+development' },
       { label: 'Watts et al., 2018（マシュマロ実験の追試）', url: 'https://scholar.google.com/scholar?q=Watts+2018+revisiting+marshmallow+test+conceptual+replication' },
+      { label: 'Heckman et al., 2010（ペリー就学前プログラムの収益率）', url: 'https://scholar.google.com/scholar?q=Heckman+2010+rate+of+return+HighScope+Perry+Preschool' },
+      { label: 'García, Heckman et al., 2020（ABC/CAREプログラムの生涯便益）', url: 'https://scholar.google.com/scholar?q=Garcia+Heckman+2020+quantifying+life-cycle+benefits+early+childhood+program' },
+      { label: 'Rea & Burton, 2020（ヘックマン曲線の検証）', url: 'https://scholar.google.com/scholar?q=Rea+Burton+2020+new+evidence+Heckman+curve' },
     ],
     relatedTerms: [
       { slug: 'self-control', term: '自制心（マシュマロ実験）' },
       { slug: 'fadeout', term: 'フェードアウト効果' },
+      { slug: 'hininchi-nouryoku', term: '非認知能力' },
     ],
   },
   {
