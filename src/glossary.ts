@@ -44,7 +44,7 @@ export const terms: Term[] = [
     short: '目標に向けて自分の考えや行動を調整する脳の働き。「抑制」「ワーキングメモリ」「認知の柔軟性」の3つが土台とされ、学力や感情のコントロール、対人関係を支えます。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/jikkou-kinou.png',
+      src: '/glossary/jikkou-kinou.webp',
       alt: '子どもが計画を立てながらブロックを並べ、実行機能の3つの働きを科学的に表したイラスト',
     },
     sections: [
@@ -109,7 +109,7 @@ export const terms: Term[] = [
     short: '必要な情報を一時的に頭の中に保ちながら使う力。実行機能の柱の一つで、指示の理解・暗算・会話など、学びと生活の土台になります。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/working-memory.png',
+      src: '/glossary/working-memory.webp',
       alt: '子どもが形や順番を頭に保ちながら考える、ワーキングメモリを科学的に表したイラスト',
     },
     sections: [
@@ -165,7 +165,7 @@ export const terms: Term[] = [
     short: 'ごほうびや罰のためではなく、「やること自体が楽しい・やりたい」という内側からのやる気。長続きしやすく、創造性や学びの質を高めます。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/naihatsu-douki.png',
+      src: '/glossary/naihatsu-douki.webp',
       alt: '子どもが自分から活動を選び、内側からのやる気が明るく広がる様子を表したイラスト',
     },
     sections: [
@@ -222,7 +222,7 @@ export const terms: Term[] = [
     short: 'やる気の「質」を説明する理論。自律性・有能感・関係性という3つの欲求が満たされると、内側からのやる気と心の健康が育つとされます。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/jiko-kettei-riron.png',
+      src: '/glossary/jiko-kettei-riron.webp',
       alt: '子どもが自分で活動を選び、自律性・有能感・関係性を科学的な図で表したイラスト',
     },
     sections: [
@@ -280,7 +280,7 @@ export const terms: Term[] = [
     short: '困難や逆境にぶつかっても適応し、立ち直っていく力。生まれつきの才能ではなく、環境や関わりのなかで育つと考えられています。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/resilience.png',
+      src: '/glossary/resilience.webp',
       alt: 'しなやかに戻る植物と子どもを通して、レジリエンスと保護因子を明るく表したイラスト',
     },
     sections: [
@@ -342,7 +342,7 @@ export const terms: Term[] = [
     short: '困っている人がいても、その場に人が多いほど、一人ひとりは助けに動きにくくなる心理現象。いじめの場面でも働きます。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/boukansha-kouka.png',
+      src: '/glossary/boukansha-kouka.webp',
       alt: '困っている子に一人が歩み寄り、周囲の子どもたちと責任の分散を科学的に表したイラスト',
     },
     sections: [
@@ -398,7 +398,7 @@ export const terms: Term[] = [
     short: '「持つ者はさらに与えられる」——すでにできる子はさらに伸び、そうでない子との差が時間とともに広がっていく現象。読書でよく知られます。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/matthew-effect.png',
+      src: '/glossary/matthew-effect.webp',
       alt: '読書や学びの小さな差が成長曲線のように広がる、マタイ効果を表したイラスト',
     },
     sections: [
@@ -454,7 +454,7 @@ export const terms: Term[] = [
     short: '「能力は努力や工夫で伸ばせる」という考え方。「能力は生まれつきで変わらない」とする硬直（固定）マインドセットと対比されます。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/growth-mindset.png',
+      src: '/glossary/growth-mindset.webp',
       alt: '子どもが失敗から工夫して挑戦し、脳と成長のモチーフが広がるイラスト',
     },
     sections: [
@@ -510,7 +510,7 @@ export const terms: Term[] = [
     short: 'もともと楽しんでやっていたことにごほうびを与えると、かえって「自分からやりたい」という意欲が下がってしまう現象。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/undermining-effect.png',
+      src: '/glossary/undermining-effect.webp',
       alt: '楽しんで絵を描く子どもと外からのごほうびが、やる気の変化として図解されたイラスト',
     },
     sections: [
@@ -564,7 +564,7 @@ export const terms: Term[] = [
     short: '子どもの感情を「悪いもの」として抑え込ませるのではなく、受け止めて言葉にし、対処を一緒に考える関わり方。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/emotion-coaching.png',
+      src: '/glossary/emotion-coaching.webp',
       alt: '親子が向き合い、感情の泡と脳と心のモチーフで感情コーチングを表したイラスト',
     },
     sections: [
@@ -619,7 +619,7 @@ export const terms: Term[] = [
     short: '子どもが自分で感情を整える力（自己調整）が育つ前に、まわりの大人が「一緒に落ち着く」ことで支える関わり。自己コントロールの土台になります。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/co-regulation.png',
+      src: '/glossary/co-regulation.webp',
       alt: '親子が一緒に落ち着き、呼吸の波がそろっていく共調整を表したイラスト',
     },
     sections: [
@@ -673,7 +673,7 @@ export const terms: Term[] = [
     short: '相手にも自分とは違う気持ち・考え・知識があると理解し、それを推し量る力。4〜5歳ごろに大きく育ち、対人関係の土台になります。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/theory-of-mind.png',
+      src: '/glossary/theory-of-mind.webp',
       alt: '二人の子どもが別々の考えを持つ様子を思考の泡で示した、心の理論のイラスト',
     },
     sections: [
@@ -729,7 +729,7 @@ export const terms: Term[] = [
     short: '見慣れない食べ物を警戒して避ける傾向。子どもに多く、ある程度は生まれつき。くり返し経験するなかでやわらいでいきます。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/food-neophobia.png',
+      src: '/glossary/food-neophobia.webp',
       alt: '新しい野菜を慎重に見る子どもと、くり返しの経験で慣れていく過程を表したイラスト',
     },
     sections: [
@@ -786,7 +786,7 @@ export const terms: Term[] = [
     short: '課題に集中していない「ぼーっとした」ときに、かえって活発になる脳のネットワーク。記憶の整理、自己理解、人の気持ちの想像などに関わります。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/default-mode-network.png',
+      src: '/glossary/default-mode-network.webp',
       alt: '子どもが静かに考えごとをするそばで、脳のネットワークが明るく広がる様子を表したイラスト',
     },
     sections: [
@@ -843,7 +843,7 @@ export const terms: Term[] = [
     short: '子どもが養育者との間に結ぶ、安心のための情緒的な絆。安心して頼れる「安全基地」があるからこそ、子どもは外の世界へ挑戦できます。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/attachment.png',
+      src: '/glossary/attachment.webp',
       alt: '子どもが安心できる保護者を安全基地にして、少し離れて探索している様子を表したイラスト',
     },
     sections: [
@@ -901,7 +901,7 @@ export const terms: Term[] = [
     short: '不安やこわさを感じる対象に、少しずつ慣れていく方法。避け続けると不安は強まり、小さく近づくほど和らぐ、という原理にもとづきます。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/exposure.png',
+      src: '/glossary/exposure.webp',
       alt: '不安なものに小さな段階で近づき、子どもが少しずつ慣れていく過程を表したイラスト',
     },
     sections: [
@@ -958,7 +958,7 @@ export const terms: Term[] = [
     short: '親がスマホなどに気を取られ、子どもとの関わりが途切れること。日常の小さな中断の積み重ねが、やり取りや子どもの行動に影響しうると報告されています。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/technoference.png',
+      src: '/glossary/technoference.webp',
       alt: '親子の関わりにスマホ通知が割り込む様子を、明るい科学図解として表したイラスト',
     },
     sections: [
@@ -1012,7 +1012,7 @@ export const terms: Term[] = [
     short: '子どもが、まわりの人の行動を見て学ぶこと。教えなくても、大人の振る舞いや感情の出し方を見て、まねて身につけていきます。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/modeling.png',
+      src: '/glossary/modeling.webp',
       alt: '子どもが保護者の行動を見てまねる、観察学習のしくみを表したイラスト',
     },
     sections: [
@@ -1069,7 +1069,7 @@ export const terms: Term[] = [
     short: '親が急に無表情・無反応になると、赤ちゃんが強い不安を示すという古典的な実験。やり取り（応答）が子どもにとっていかに大切かを示します。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/still-face.png',
+      src: '/glossary/still-face.webp',
       alt: '親子の応答的な関わりと表情の変化を、スティルフェイス実験としてやさしく表したイラスト',
     },
     sections: [
@@ -1125,7 +1125,7 @@ export const terms: Term[] = [
     short: 'ある能力が特に育ちやすい時期のこと。「この時期を逃すと手遅れ」と誤解されがちですが、多くは「窓」が緩やかで、過ぎても学べます。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/critical-period.png',
+      src: '/glossary/critical-period.webp',
       alt: '子どもの発達の時期ごとの学びやすさを、成長の窓と曲線で表したイラスト',
     },
     sections: [
@@ -1183,7 +1183,7 @@ export const terms: Term[] = [
     short: '目の前の欲求を抑えて、長い目で見て大切なことを選ぶ力。「マシュマロ実験」で知られますが、近年は環境の影響も大きいと分かってきました。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/self-control.png',
+      src: '/glossary/self-control.webp',
       alt: '子どもが目の前のおやつを待ちながら、自制心を使って落ち着いている様子を表したイラスト',
     },
     sections: [
@@ -1241,7 +1241,7 @@ export const terms: Term[] = [
     short: 'IQやテストでは測りにくい力の総称。やり抜く力、自制心、意欲、社会性、感情のコントロールなどを含み、将来の幸福や成功と関わるとされます。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/hininchi-nouryoku.png',
+      src: '/glossary/hininchi-nouryoku.webp',
       alt: '子どもの粘り強さや協力、感情調整などの非認知能力を星座のように表したイラスト',
     },
     sections: [
@@ -1299,7 +1299,7 @@ export const terms: Term[] = [
     short: '相手の気持ちを「理解する」認知的共感と、「感じ取る」情動的共感の2つの側面があります。いじめを止める力や思いやりの土台になります。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/empathy.png',
+      src: '/glossary/empathy.webp',
       alt: '相手の気持ちを理解し、感じ取る共感の働きを、子ども同士のやり取りと科学図解で表したイラスト',
     },
     sections: [
@@ -1353,7 +1353,7 @@ export const terms: Term[] = [
     short: '感情の理解・コントロールや、人との関わり方などを意図的に育てる教育の取り組み。心の安定だけでなく、学力にも良い影響があると報告されています。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/sel.png',
+      src: '/glossary/sel.webp',
       alt: '子どもたちが感情調整や協力、聞く力を学ぶSELを明るい科学図解で表したイラスト',
     },
     sections: [
@@ -1408,7 +1408,7 @@ export const terms: Term[] = [
     short: '早期の教育や介入で一度上がった効果が、時間とともに薄れていく現象。「早く始めれば差がつき続ける」とは限らないことを示します。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/fadeout.png',
+      src: '/glossary/fadeout.webp',
       alt: '早期教育の効果が時間とともに変化し、支えのある環境が大切になることを表したイラスト',
     },
     sections: [
@@ -1463,7 +1463,7 @@ export const terms: Term[] = [
     short: '自分の考えと行動が矛盾したときに感じる、心の居心地の悪さ。人はこの不快を減らそうと、考えや態度のほうを変えることがあります。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/cognitive-dissonance.png',
+      src: '/glossary/cognitive-dissonance.webp',
       alt: '子どもが矛盾する考えを見つめ、認知的不協和を整理していく様子を表したイラスト',
     },
     sections: [
@@ -1518,7 +1518,7 @@ export const terms: Term[] = [
     short: '逆境のなかでも子どもの育ちを守り、レジリエンスを支える「条件・要因」。信じてくれる大人の存在、感情調整や自己コントロールの力、安心できる環境などを指します。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/protective-factors.png',
+      src: '/glossary/protective-factors.webp',
       alt: '子どもを支える関係や環境が保護因子として働く様子を、明るい科学図解で表したイラスト',
     },
     sections: [
@@ -1588,7 +1588,7 @@ export const terms: Term[] = [
     short: '自分の考えや学び方を、一段上から客観的に見てコントロールする力。「分かっているか」を自分で点検し、やり方を調整する土台になります。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/metacognition.png',
+      src: '/glossary/metacognition.webp',
       alt: '子どもが自分の考えを見つめ直し、メタ認知で学び方を調整する様子を表したイラスト',
     },
     sections: [
@@ -1640,7 +1640,7 @@ export const terms: Term[] = [
     short: '「自分はこれをやり遂げられそうだ」という見通し・自信。困難に挑む意欲や粘り強さを支えます。自己肯定感（自分への肯定的な感情）とは別の概念です。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/self-efficacy.png',
+      src: '/glossary/self-efficacy.webp',
       alt: '子どもが小さな成功を積み重ね、自己効力感を育てていく様子を表したイラスト',
     },
     sections: [
@@ -1695,7 +1695,7 @@ export const terms: Term[] = [
     short: '「知りたい」「やってみたい」という心の動き。学びや記憶を後押しし、内発的なやる気の源になります。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/curiosity.png',
+      src: '/glossary/curiosity.webp',
       alt: '子どもが身近なものを観察し、好奇心から発見していく様子を表したイラスト',
     },
     sections: [
@@ -1747,7 +1747,7 @@ export const terms: Term[] = [
     short: '自分を価値ある存在として受け止める、肯定的な感情。大切な土台ですが、「高ければ高いほど良い」わけではないことも分かってきました。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/self-esteem.png',
+      src: '/glossary/self-esteem.webp',
       alt: '子どもがありのままの自分を受け止め、自己肯定感を育てていく様子を表したイラスト',
     },
     sections: [
@@ -1802,7 +1802,7 @@ export const terms: Term[] = [
     short: '自分の人生や行動を、自分で考えて選び、動かしていく力・姿勢。「やらされる」のではなく「自分ごと」として取り組む感覚です。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/agency.png',
+      src: '/glossary/agency.webp',
       alt: '子どもが自分で選び行動する主体性を、分かれ道と支える大人で表したイラスト',
     },
     sections: [
@@ -1857,7 +1857,7 @@ export const terms: Term[] = [
     short: 'ストレスにどう対処するか（コーピング）の考え方。出来事そのものより、「どう捉え、どう対処するか」が、ストレスの影響を左右します。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/coping.png',
+      src: '/glossary/coping.webp',
       alt: '子どもがストレスに気づき、深呼吸や相談でコーピングしていく様子を表したイラスト',
     },
     sections: [
@@ -1919,7 +1919,7 @@ export const terms: Term[] = [
     short: '生まれつきの脳の働き方の特性により、発達の現れ方に凸凹（得意・不得意の差）が見られる状態の総称。現在は「神経発達症」とも呼ばれ、ASD・ADHD・限局性学習症などを含みます。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/developmental-disorders.png',
+      src: '/glossary/developmental-disorders.webp',
       alt: '子どもたちの発達の多様な特性と、それぞれに合った支援環境を明るい科学図解で表したイラスト',
     },
     notice: 'このページは特性を理解するための一般的な情報であり、診断や自己判断のためのものではありません。気になる場合は、小児科・児童精神科・発達外来や、お住まいの自治体の発達相談などの専門機関にご相談ください。',
@@ -1983,7 +1983,7 @@ export const terms: Term[] = [
     short: '対人コミュニケーションのスタイルや、興味・感覚の現れ方に特性がある状態。「スペクトラム（連続体）」と呼ばれ、現れ方は一人ひとり大きく異なります。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/asd.png',
+      src: '/glossary/asd.webp',
       alt: '子どもの興味や感覚、コミュニケーションの特性を、穏やかな支援環境とともに表したイラスト',
     },
     notice: 'このページは特性を理解するための一般的な情報であり、診断や自己判断のためのものではありません。気になる場合は、小児科・児童精神科・発達外来や、お住まいの自治体の発達相談などの専門機関にご相談ください。',
@@ -2056,7 +2056,7 @@ export const terms: Term[] = [
     short: '不注意（集中の持続が難しい）、多動・衝動性といった特性が、年齢に比べて強く、生活に影響している状態。脳の発達特性で、しつけの問題ではありません。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/adhd.png',
+      src: '/glossary/adhd.webp',
       alt: '注意の調整や活動量の特性を、見通しや休憩などの支援とともに明るく表したイラスト',
     },
     notice: 'このページは特性を理解するための一般的な情報であり、診断や自己判断のためのものではありません。気になる場合は、小児科・児童精神科・発達外来や、お住まいの自治体の発達相談などの専門機関にご相談ください。',
@@ -2129,7 +2129,7 @@ export const terms: Term[] = [
     short: '全体の知的な発達に遅れがないのに、読み・書き・計算など特定の領域の学習に著しい困難がある状態。「努力不足」ではなく、脳の情報処理の特性です。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/ld.png',
+      src: '/glossary/ld.webp',
       alt: '読み書きや計算などの学び方の違いに合わせて、支援ツールで学ぶ子どもを表したイラスト',
     },
     notice: 'このページは特性を理解するための一般的な情報であり、診断や自己判断のためのものではありません。気になる場合は、小児科・児童精神科・発達外来や、お住まいの自治体の発達相談などの専門機関にご相談ください。',
@@ -2202,7 +2202,7 @@ export const terms: Term[] = [
     short: '同年齢の子に比べて、特定の領域で著しく高い能力を示す状態。教育上の概念で、医学的な診断ではありません。才能と困難を併せ持つ「2E」もあります。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/gifted.png',
+      src: '/glossary/gifted.webp',
       alt: '子どもの深い好奇心や高い能力と、適切な挑戦や支援の必要性を表したイラスト',
     },
     notice: 'ギフテッドは教育上の概念であり、医学的な診断ではありません。このページは一般的な情報で、自己判断やレッテル貼りのためのものではありません。',
@@ -2279,7 +2279,7 @@ export const terms: Term[] = [
     short: '周囲の刺激や他者の感情を、人より深く・強く受け取りやすい性格特性。アーロンが提唱した「感覚処理感受性（SPS）」のことで、医学的な診断や障害ではありません。',
     updated: '2026-06-13',
     heroImage: {
-      src: '/glossary/hsp.png',
+      src: '/glossary/hsp.webp',
       alt: '子どもが光や音、感情などの繊細な刺激を深く受け取る感覚処理感受性を表したイラスト',
     },
     notice: 'HSP（感覚処理感受性）は性格特性であり、医学的な診断・障害ではありません。このページは一般的な情報です。困りごとが強い場合は、自己判断せず専門機関にご相談ください。',
@@ -2348,7 +2348,7 @@ export const terms: Term[] = [
     short: '責任感、計画性、粘り強さ、約束を守る力などを含む性格特性。Big Fiveの一つで、学業や仕事、健康行動とも関わるとされます。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/conscientiousness.png',
+      src: '/glossary/conscientiousness.webp',
       alt: '子どもが計画を立て、約束や手順を大切にしながら取り組む誠実性を表したイラスト',
     },
     sections: [
@@ -2409,7 +2409,7 @@ export const terms: Term[] = [
     short: '長期目標に向かう情熱と粘り強さ。成果と関連するとされますが、誠実性との重なりや、努力だけを強調しすぎる危うさも指摘されています。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/grit.png',
+      src: '/glossary/grit.webp',
       alt: '子どもが長い道のりを小さな一歩で進み、やり抜く力を育てる様子を表したイラスト',
     },
     sections: [
@@ -2476,7 +2476,7 @@ export const terms: Term[] = [
     short: '情報や意見をそのまま受け取らず、根拠・前提・別の見方を確かめながら考える力。相手を否定することではなく、よりよく判断するための思考です。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/critical-thinking.png',
+      src: '/glossary/critical-thinking.webp',
       alt: '子どもが情報の根拠を比べ、批判的思考で考えを整理する様子を表したイラスト',
     },
     sections: [
@@ -2543,7 +2543,7 @@ export const terms: Term[] = [
     short: '将来に良いことが起こりうると見通す傾向。困難を軽視することではなく、「やれることがある」と考える力として、レジリエンスとも関わります。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/optimism.png',
+      src: '/glossary/optimism.webp',
       alt: '子どもが困難の先に明るい見通しを持ち、楽観性を支えに進む様子を表したイラスト',
     },
     sections: [
@@ -2610,7 +2610,7 @@ export const terms: Term[] = [
     short: '感情をなくすのではなく、気づき、名前をつけ、状況に合う形で扱う力。かんしゃく、ストレス対処、対人関係の土台になります。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/emotion-regulation.png',
+      src: '/glossary/emotion-regulation.webp',
       alt: '子どもが感情の波に気づき、呼吸や言葉で感情調整していく様子を表したイラスト',
     },
     sections: [
@@ -2670,7 +2670,7 @@ export const terms: Term[] = [
     short: '過去・現在・未来をどう見通し、今の行動と結びつけるかという心理的な枠組み。目標設定、自制心、主体性と関わります。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/time-perspective.png',
+      src: '/glossary/time-perspective.webp',
       alt: '子どもが過去・現在・未来をつなげて考え、時間的展望を育てる様子を表したイラスト',
     },
     sections: [
@@ -2731,7 +2731,7 @@ export const terms: Term[] = [
     short: '感情を知覚し、理解し、活用し、調整する力。共感・感情調整・対人関係と関わりますが、能力モデルと自己評価モデルを区別して見る必要があります。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/emotional-intelligence.png',
+      src: '/glossary/emotional-intelligence.webp',
       alt: '子どもが自分と相手の感情を理解し、情動知能を使って関わる様子を表したイラスト',
     },
     sections: [
@@ -2794,7 +2794,7 @@ export const terms: Term[] = [
     short: '失敗したときや苦しいときに、自分を責めすぎず、思いやりをもって受け止める力。自己肯定感とは違い、うまくいかない自分への関わり方に焦点があります。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/self-compassion.png',
+      src: '/glossary/self-compassion.webp',
       alt: '子どもが失敗した自分をやさしく受け止め、セルフ・コンパッションを育てる様子を表したイラスト',
     },
     sections: [
@@ -2856,7 +2856,7 @@ export const terms: Term[] = [
     short: '今この瞬間の体験に気づき、評価しすぎずに受け止める心のあり方。注意の調整、感情調整、ストレス対処と関わります。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/mindfulness.png',
+      src: '/glossary/mindfulness.webp',
       alt: '子どもが呼吸や体の感覚に気づき、今この瞬間に注意を向けるマインドフルネスを表したイラスト',
     },
     sections: [
@@ -2920,7 +2920,7 @@ export const terms: Term[] = [
     short: '親の関わり方を、あたたかさと統制のバランスで整理する考え方。権威的・権威主義的・許容的・放任的などに分けて説明されます。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/parenting-style.png',
+      src: '/glossary/parenting-style.webp',
       alt: '親子のあたたかさとルールのバランスを、養育スタイルとして明るく表したイラスト',
     },
     sections: [
@@ -2983,7 +2983,7 @@ export const terms: Term[] = [
     short: '子どものサインに気づき、その意味を読み取り、タイミングよく応答する力。愛着や安全基地、共調整の土台になります。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/parental-sensitivity.png',
+      src: '/glossary/parental-sensitivity.webp',
       alt: '養育者が子どもの小さなサインに気づき、やさしく応答する様子を表したイラスト',
     },
     sections: [
@@ -3045,7 +3045,7 @@ export const terms: Term[] = [
     short: '次に何が起こるかを見通せること。予定・ルール・大人の反応が予測しやすいと、子どもは安心して行動しやすくなります。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/predictability.png',
+      src: '/glossary/predictability.webp',
       alt: '子どもが予定や流れを見通し、安心して次の行動に移る予測可能性を表したイラスト',
     },
     sections: [
@@ -3108,7 +3108,7 @@ export const terms: Term[] = [
     short: 'これから起こるかもしれない怖いことを考えて、不安が高まる状態。不安を避け続けると強まりやすく、段階的に慣れる支援と相性があります。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/anticipatory-anxiety.png',
+      src: '/glossary/anticipatory-anxiety.webp',
       alt: '子どもがこれからの不安を見通し、小さな段階で安心を増やしていく予期不安を表したイラスト',
     },
     sections: [
@@ -3169,7 +3169,7 @@ export const terms: Term[] = [
     short: '学び方の違いを前提に、教材の提示・表現・参加方法を複数用意する考え方。あとから個別対応するだけでなく、最初から学びやすく設計します。',
     updated: '2026-08-11',
     heroImage: {
-      src: '/glossary/universal-design-learning.png',
+      src: '/glossary/universal-design-learning.webp',
       alt: '子どもたちが複数の方法で学びに参加するユニバーサルデザイン学習を表したイラスト',
     },
     sections: [

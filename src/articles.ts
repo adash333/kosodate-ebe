@@ -60,7 +60,7 @@ export const articles: Article[] = [
     updated: '2026-07-08',
     readMin: 4,
     heroImage: {
-      src: '/articles/homekata-praise.png',
+      src: '/articles/homekata-praise.webp',
       alt: '机で絵を描く子どもに、保護者が穏やかに過程をほめているイラスト',
     },
     sections: [
@@ -131,7 +131,7 @@ export const articles: Article[] = [
     updated: '2026-07-08',
     readMin: 4,
     heroImage: {
-      src: '/articles/sleep-gakuryoku.png',
+      src: '/articles/sleep-gakuryoku.webp',
       alt: '眠っている子どもを保護者がそっと見守る、睡眠と学びを表したイラスト',
     },
     sections: [
@@ -192,7 +192,7 @@ export const articles: Article[] = [
     updated: '2026-07-09',
     readMin: 4,
     heroImage: {
-      src: '/articles/jiko-ketteikan.png',
+      src: '/articles/jiko-ketteikan.webp',
       alt: '保護者が子どもに選択肢を示し、子どもが自分で選ぼうとしているイラスト',
     },
     sections: [
@@ -260,7 +260,7 @@ export const articles: Article[] = [
     updated: '2026-07-09',
     readMin: 4,
     heroImage: {
-      src: '/articles/kyodai.png',
+      src: '/articles/kyodai.webp',
       alt: '遊び場で過ごすきょうだいを保護者が穏やかに見守っているイラスト',
     },
     sections: [
@@ -316,7 +316,7 @@ export const articles: Article[] = [
     updated: '2026-07-09',
     readMin: 5,
     heroImage: {
-      src: '/articles/ijime.png',
+      src: '/articles/ijime.webp',
       alt: '不安そうな子どもに友だちが寄り添い、先生が見守っているイラスト',
     },
     sections: [
@@ -375,7 +375,7 @@ export const articles: Article[] = [
     updated: '2026-07-09',
     readMin: 4,
     heroImage: {
-      src: '/articles/smartphone.png',
+      src: '/articles/smartphone.webp',
       alt: 'スマホを脇に置き、親子が食卓で生活リズムについて話しているイラスト',
     },
     sections: [
@@ -434,7 +434,7 @@ export const articles: Article[] = [
     updated: '2026-07-09',
     readMin: 4,
     heroImage: {
-      src: '/articles/yomikikase.png',
+      src: '/articles/yomikikase.webp',
       alt: '絵本を見ながら親子が指差しと会話をしているイラスト',
     },
     sections: [
@@ -490,7 +490,7 @@ export const articles: Article[] = [
     updated: '2026-07-09',
     readMin: 5,
     heroImage: {
-      src: '/articles/shikarikata.png',
+      src: '/articles/shikarikata.webp',
       alt: '小さな失敗のあと、保護者が一呼吸おいて子どもに穏やかに話しているイラスト',
     },
     sections: [
@@ -541,7 +541,7 @@ export const articles: Article[] = [
     updated: '2026-07-09',
     readMin: 4,
     heroImage: {
-      src: '/articles/resilience.png',
+      src: '/articles/resilience.webp',
       alt: '落ち込んだ子どものそばで信頼できる大人が話を聞いているイラスト',
     },
     sections: [
@@ -599,7 +599,7 @@ export const articles: Article[] = [
     updated: '2026-07-09',
     readMin: 5,
     heroImage: {
-      src: '/articles/okane-kakusa.png',
+      src: '/articles/okane-kakusa.webp',
       alt: '親子が食卓で本やノートを広げ、お金より関わりを大切に学んでいるイラスト',
     },
     sections: [
@@ -654,7 +654,7 @@ export const articles: Article[] = [
     publish: '2026-06-11',
     readMin: 4,
     heroImage: {
-      src: '/articles/henshoku.png',
+      src: '/articles/henshoku.webp',
       alt: '食卓で野菜を前にした子どもを、保護者が無理に促さず穏やかに見守っているイラスト',
     },
     sections: [
@@ -709,7 +709,7 @@ export const articles: Article[] = [
     publish: '2026-06-12',
     readMin: 4,
     heroImage: {
-      src: '/articles/undou-nou.png',
+      src: '/articles/undou-nou.webp',
       alt: '公園で子どもたちが走り、保護者が見守っている運動と学びを表したイラスト',
     },
     sections: [
@@ -765,7 +765,7 @@ export const articles: Article[] = [
     publish: '2026-06-13',
     readMin: 4,
     heroImage: {
-      src: '/articles/kanjou-control.png',
+      src: '/articles/kanjou-control.webp',
       alt: 'かんしゃくで泣いている子どものそばで、保護者が落ち着いて寄り添っているイラスト',
     },
     sections: [
@@ -822,7 +822,7 @@ export const articles: Article[] = [
     publish: '2026-06-14',
     readMin: 4,
     heroImage: {
-      src: '/articles/tomodachi-asobi.png',
+      src: '/articles/tomodachi-asobi.webp',
       alt: '公園で子どもたちが自由に遊び、保護者が少し離れて見守っているイラスト',
     },
     sections: [
@@ -869,7 +869,7 @@ export const articles: Article[] = [
     publish: '2026-06-15',
     readMin: 6,
     heroImage: {
-      src: '/articles/souki-kyouiku.png',
+      src: '/articles/souki-kyouiku.webp',
       alt: '親子が積み木や絵本で遊びながら、子どもが自分で取り組む時間を楽しんでいるイラスト',
     },
     sections: [
@@ -938,7 +938,7 @@ export const articles: Article[] = [
     publish: '2026-06-16',
     readMin: 4,
     heroImage: {
-      src: '/articles/iyaiya.png',
+      src: '/articles/iyaiya.webp',
       alt: '自分でやりたい子どもに、保護者が落ち着いて選択肢を示して寄り添っているイラスト',
     },
     sections: [
@@ -993,7 +993,7 @@ export const articles: Article[] = [
     publish: '2026-06-17',
     readMin: 4,
     heroImage: {
-      src: '/articles/fuan.png',
+      src: '/articles/fuan.webp',
       alt: '不安そうな子どもが小さな一歩を踏み出せるよう、保護者が穏やかに見守っているイラスト',
     },
     sections: [
@@ -1046,7 +1046,7 @@ export const articles: Article[] = [
     publish: '2026-06-18',
     readMin: 4,
     heroImage: {
-      src: '/articles/otetsudai.png',
+      src: '/articles/otetsudai.webp',
       alt: '子どもが家事に参加し、保護者と一緒に食卓まわりを整えているイラスト',
     },
     sections: [
@@ -1096,7 +1096,7 @@ export const articles: Article[] = [
     publish: '2026-06-19',
     readMin: 4,
     heroImage: {
-      src: '/articles/uso.png',
+      src: '/articles/uso.webp',
       alt: '小さな失敗のあと、子どもが正直に話せるよう保護者が落ち着いて聞いているイラスト',
     },
     sections: [
@@ -1146,7 +1146,7 @@ export const articles: Article[] = [
     publish: '2026-06-20',
     readMin: 5,
     heroImage: {
-      src: '/articles/bilingual.png',
+      src: '/articles/bilingual.webp',
       alt: '親子が絵本や歌を通して、二つの言語に楽しく触れているイラスト',
     },
     sections: [
@@ -1198,7 +1198,7 @@ export const articles: Article[] = [
     publish: '2026-06-21',
     readMin: 5,
     heroImage: {
-      src: '/articles/default-mode.png',
+      src: '/articles/default-mode.webp',
       alt: '窓辺で考えごとをしながら描く子どもを、保護者がそっと見守るイラスト',
     },
     sections: [
@@ -1248,7 +1248,7 @@ export const articles: Article[] = [
     publish: '2026-06-22',
     readMin: 4,
     heroImage: {
-      src: '/articles/aichaku.png',
+      src: '/articles/aichaku.webp',
       alt: '保護者に抱きしめられて安心している子どもと、そばに玩具がある家庭のイラスト',
     },
     sections: [
@@ -1299,7 +1299,7 @@ export const articles: Article[] = [
     publish: '2026-06-23',
     readMin: 4,
     heroImage: {
-      src: '/articles/oya-mental.png',
+      src: '/articles/oya-mental.webp',
       alt: '保護者が一息つき、家族が子どもを見守る明るい家庭のイラスト',
     },
     sections: [
@@ -1349,7 +1349,7 @@ export const articles: Article[] = [
     publish: '2026-06-24',
     readMin: 4,
     heroImage: {
-      src: '/articles/technoference.png',
+      src: '/articles/technoference.webp',
       alt: 'スマートフォンを置いて、子どもの話に目を向ける保護者のイラスト',
     },
     sections: [
@@ -1400,7 +1400,7 @@ export const articles: Article[] = [
     publish: '2026-06-25',
     readMin: 4,
     heroImage: {
-      src: '/articles/eiyou-nou.png',
+      src: '/articles/eiyou-nou.webp',
       alt: '親子で朝食を用意し、野菜や果物を並べた食卓のイラスト',
     },
     sections: [
@@ -1450,7 +1450,7 @@ export const articles: Article[] = [
     publish: '2026-06-26',
     readMin: 5,
     heroImage: {
-      src: '/articles/hitori-jikan.png',
+      src: '/articles/hitori-jikan.webp',
       alt: '窓辺でひとり読書やお絵かきを楽しむ子どもを、保護者が離れて見守るイラスト',
     },
     sections: [
@@ -1508,7 +1508,7 @@ export const articles: Article[] = [
     publish: '2026-06-27',
     readMin: 4,
     heroImage: {
-      src: '/articles/shukudai-shukan.png',
+      src: '/articles/shukudai-shukan.webp',
       alt: '宿題を前にした子どもに、保護者がやさしく選択肢を示しているイラスト',
     },
     sections: [
@@ -1562,7 +1562,7 @@ export const articles: Article[] = [
     publish: '2026-06-28',
     readMin: 4,
     heroImage: {
-      src: '/articles/sotoasobi-shizen.png',
+      src: '/articles/sotoasobi-shizen.webp',
       alt: '公園で葉っぱを集める子どもを保護者が見守っているイラスト',
     },
     sections: [
@@ -1615,7 +1615,7 @@ export const articles: Article[] = [
     publish: '2026-06-29',
     readMin: 5,
     heroImage: {
-      src: '/articles/game-rule.png',
+      src: '/articles/game-rule.webp',
       alt: 'ゲームの約束を親子で落ち着いて相談している家庭のイラスト',
     },
     sections: [
@@ -1669,7 +1669,7 @@ export const articles: Article[] = [
     publish: '2026-06-30',
     readMin: 4,
     heroImage: {
-      src: '/articles/shippai-resilience.png',
+      src: '/articles/shippai-resilience.webp',
       alt: '崩れた積み木を前にした子どもに、保護者が次の一歩を示しているイラスト',
     },
     sections: [
@@ -1723,7 +1723,7 @@ export const articles: Article[] = [
     publish: '2026-07-01',
     readMin: 4,
     heroImage: {
-      src: '/articles/oyako-kaiwa.png',
+      src: '/articles/oyako-kaiwa.webp',
       alt: '絵本や絵を見ながら親子で楽しそうに会話しているイラスト',
     },
     sections: [
@@ -1777,7 +1777,7 @@ export const articles: Article[] = [
     publish: '2026-07-02',
     readMin: 5,
     heroImage: {
-      src: '/articles/toilet-training.png',
+      src: '/articles/toilet-training.webp',
       alt: 'トイレトレーニング用の補助便座を前に、子どもを保護者が穏やかに見守るイラスト',
     },
     sections: [
@@ -1834,7 +1834,7 @@ export const articles: Article[] = [
     publish: '2026-07-03',
     readMin: 7,
     heroImage: {
-      src: '/articles/self-control.png',
+      src: '/articles/self-control.webp',
       alt: 'おやつを前に待つ練習をする子どもを、保護者がやさしく支えるイラスト',
     },
     sections: [
@@ -1891,7 +1891,7 @@ export const articles: Article[] = [
     publish: '2026-07-04',
     readMin: 7,
     heroImage: {
-      src: '/articles/screen-baby.png',
+      src: '/articles/screen-baby.webp',
       alt: 'タブレットを脇に置き、幼い子どもと保護者が絵本を見ているイラスト',
     },
     sections: [
@@ -1947,7 +1947,7 @@ export const articles: Article[] = [
     publish: '2026-07-05',
     readMin: 8,
     heroImage: {
-      src: '/articles/hoikuen.png',
+      src: '/articles/hoikuen.webp',
       alt: '保育園で保育者に迎えられる子どもを、保護者が安心して見守るイラスト',
     },
     sections: [
@@ -2004,7 +2004,7 @@ export const articles: Article[] = [
     publish: '2026-07-06',
     readMin: 7,
     heroImage: {
-      src: '/articles/toenshiburi.png',
+      src: '/articles/toenshiburi.webp',
       alt: '玄関で登園や登校をためらう子どもに、保護者が目線を合わせて話を聞くイラスト',
     },
     sections: [
@@ -2061,7 +2061,7 @@ export const articles: Article[] = [
     publish: '2026-07-07',
     readMin: 6,
     heroImage: {
-      src: '/articles/kamitsuki.png',
+      src: '/articles/kamitsuki.webp',
       alt: '遊び場で気持ちが高ぶった幼児たちの間に、保育者が落ち着いて入るイラスト',
     },
     sections: [
@@ -2118,7 +2118,7 @@ export const articles: Article[] = [
     draft: true,
     readMin: 7,
     heroImage: {
-      src: '/articles/okane-kyouiku.png',
+      src: '/articles/okane-kyouiku.webp',
       alt: '親子で小銭や小さな入れ物を使い、おこづかいのやりくりを考えるイラスト',
     },
     sections: [
@@ -2175,7 +2175,7 @@ export const articles: Article[] = [
     draft: true,
     readMin: 7,
     heroImage: {
-      src: '/articles/karada-anzen.png',
+      src: '/articles/karada-anzen.webp',
       alt: '保護者と子どもが、からだと安全について絵カードを見ながら話すイラスト',
     },
     sections: [
@@ -2232,7 +2232,7 @@ export const articles: Article[] = [
     draft: true,
     readMin: 7,
     heroImage: {
-      src: '/articles/souzou-asobi.png',
+      src: '/articles/souzou-asobi.webp',
       alt: '子どもが身近な道具でごっこ遊びを楽しみ、保護者がそばで見守るイラスト',
     },
     sections: [
@@ -2290,7 +2290,7 @@ export const articles: Article[] = [
     draft: true,
     readMin: 6,
     heroImage: {
-      src: '/articles/koukishin.png',
+      src: '/articles/koukishin.webp',
       alt: '親子で葉っぱや身近なものを観察し、子どもの疑問を一緒に考えるイラスト',
     },
     sections: [

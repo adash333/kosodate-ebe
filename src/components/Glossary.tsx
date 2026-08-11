@@ -98,7 +98,14 @@ export function TermView({ term }: { term: Term }) {
       {term.notice && <p className="term-notice">{term.notice}</p>}
       {term.heroImage && (
         <figure className="article-hero">
-          <img src={term.heroImage.src} alt={term.heroImage.alt} />
+          <img
+            src={term.heroImage.src}
+            alt={term.heroImage.alt}
+            width={1200}
+            height={675}
+            decoding="async"
+            {...({ fetchpriority: 'high' } as Record<string, string>)}
+          />
         </figure>
       )}
 

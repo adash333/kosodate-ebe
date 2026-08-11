@@ -25,6 +25,8 @@ export interface PageMeta {
   jsonLd?: string;
   /** true なら robots noindex を付与し、sitemap.xml からも除外する */
   noindex?: boolean;
+  /** OGP画像（未指定ならサイト既定の /ogp.png が使われる） */
+  ogImage?: { src: string; width: number; height: number };
 }
 
 /** プリレンダリング対象の全ルートとメタ情報。公開済み記事・全用語・固定ページを含む。 */
@@ -94,6 +96,7 @@ export function getRoutes(): PageMeta[] {
       path: `/articles/${a.slug}`,
       title: `${a.title}｜${SITE}`,
       description: clip(a.lead),
+      ...(a.heroImage ? { ogImage: { src: a.heroImage.src, width: 1200, height: 675 } } : {}),
       jsonLd: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'Article',
@@ -120,6 +123,7 @@ export function getRoutes(): PageMeta[] {
     path: `/glossary/${t.slug}`,
     title: `${t.term}とは？子育て視点でやさしく解説｜${SITE}`,
     description: clip(t.short),
+    ...(t.heroImage ? { ogImage: { src: t.heroImage.src, width: 1200, height: 675 } } : {}),
   }));
 
   return [...base, ...videoPages, ...articlePages, ...termPages];

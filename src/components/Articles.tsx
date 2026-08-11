@@ -67,7 +67,15 @@ export function ArticleView({ article }: { article: Article }) {
       <p className="alead-top">{article.lead}</p>
       {article.heroImage && (
         <figure className="article-hero">
-          <img src={article.heroImage.src} alt={article.heroImage.alt} />
+          {/* ヒーロー画像は 1200×675 で統一（scripts/optimize-images.mjs）。CLS対策で寸法を明示 */}
+          <img
+            src={article.heroImage.src}
+            alt={article.heroImage.alt}
+            width={1200}
+            height={675}
+            decoding="async"
+            {...({ fetchpriority: 'high' } as Record<string, string>)}
+          />
         </figure>
       )}
 

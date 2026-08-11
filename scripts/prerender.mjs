@@ -37,6 +37,8 @@ const canonicalUrl = (path) => ORIGIN + (path === '/' ? '/' : path + '/');
 
 function headTags(meta) {
   const url = canonicalUrl(meta.path);
+  // ページ固有のOGP画像（記事・用語のヒーロー画像）がなければサイト既定の画像を使う。
+  const img = meta.ogImage ?? { src: '/ogp.png', width: 1200, height: 630 };
   const tags = [
     `<link rel="canonical" href="${escAttr(url)}" />`,
     `<meta property="og:type" content="${meta.path.startsWith('/articles/') ? 'article' : 'website'}" />`,
@@ -44,7 +46,10 @@ function headTags(meta) {
     `<meta property="og:description" content="${escAttr(meta.description)}" />`,
     `<meta property="og:url" content="${escAttr(url)}" />`,
     `<meta property="og:site_name" content="子育てエビデンス相談室" />`,
-    `<meta name="twitter:card" content="summary" />`,
+    `<meta property="og:image" content="${escAttr(ORIGIN + img.src)}" />`,
+    `<meta property="og:image:width" content="${img.width}" />`,
+    `<meta property="og:image:height" content="${img.height}" />`,
+    `<meta name="twitter:card" content="summary_large_image" />`,
   ];
   if (meta.noindex) tags.push(`<meta name="robots" content="noindex, follow" />`);
   if (meta.jsonLd) tags.push(`<script type="application/ld+json">${meta.jsonLd}</script>`);
