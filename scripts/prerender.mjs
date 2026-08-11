@@ -43,6 +43,7 @@ function headTags(meta) {
     `<meta property="og:site_name" content="子育てエビデンス相談室" />`,
     `<meta name="twitter:card" content="summary" />`,
   ];
+  if (meta.noindex) tags.push(`<meta name="robots" content="noindex, follow" />`);
   if (meta.jsonLd) tags.push(`<script type="application/ld+json">${meta.jsonLd}</script>`);
   return '<!--prerender:start-->\n    ' + tags.join('\n    ') + '\n    <!--prerender:end-->';
 }
@@ -74,14 +75,15 @@ for (const meta of routes) {
   count++;
 }
 
-// sitemap.xml を公開対象ルートで再生成（未公開記事は含めない）
+// sitemap.xml を公開対象ルートで再生成（未公開記事・noindex ページは含めない）
+const indexableRoutes = routes.filter((m) => !m.noindex);
 const sitemap =
   '<?xml version="1.0" encoding="UTF-8"?>\n' +
   '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
-  routes
+  indexableRoutes
     .map((m) => `  <url>\n    <loc>${ORIGIN}${m.path === '/' ? '/' : m.path}</loc>\n  </url>`)
     .join('\n') +
   '\n</urlset>\n';
 writeFileSync(join(DIST, 'sitemap.xml'), sitemap, 'utf8');
 
-console.log(`プリレンダリング完了: ${count}ページ + sitemap.xml（${routes.length}URL）`);
+console.log(`プリレンダリング完了: ${count}ページ + sitemap.xml（${indexableRoutes.length}URL）`);

@@ -21,6 +21,8 @@ export interface PageMeta {
   description: string;
   /** 記事ページ用 Article 構造化データ（任意） */
   jsonLd?: string;
+  /** true なら robots noindex を付与し、sitemap.xml からも除外する */
+  noindex?: boolean;
 }
 
 /** プリレンダリング対象の全ルートとメタ情報。公開済み記事・全用語・固定ページを含む。 */
@@ -71,9 +73,16 @@ export function getRoutes(): PageMeta[] {
       description: `${SITE}の免責事項。掲載内容は一般的な情報提供であり、医療・専門的助言に代わるものではありません。`,
     },
     {
+      path: '/author',
+      title: `執筆・監修者について｜${SITE}`,
+      description:
+        '当サイトの執筆・監修者（医師・医学博士）の経歴・資格・活動内容と、記事作成のポリシー（学術論文・公的ガイドラインを一次資料とし医師が確認・監修）をご紹介します。',
+    },
+    {
       path: '/search',
       title: `サイト内検索｜${SITE}`,
       description: '子育ての悩みのキーワードで、読み物・用語解説・論文解説動画をまとめて検索できます。',
+      noindex: true,
     },
   ];
 
