@@ -3,7 +3,7 @@ import { AuthorCard } from './AuthorCard';
 export function Company() {
   return (
     <div className="legal">
-      <h2>会社情報</h2>
+      <h1>会社情報</h1>
       <dl className="info-list">
         <div>
           <dt>会社名</dt>

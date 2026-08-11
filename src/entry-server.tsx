@@ -5,6 +5,8 @@ import { renderToString } from 'react-dom/server';
 import App from './App';
 import { articles, isPublished } from './articles';
 import { terms } from './glossary';
+import { adviceData } from './data';
+import { VIDEO_PAGE_SIZE } from './components/VideoList';
 
 const SITE = '子育てエビデンス相談室';
 const ORIGIN = 'https://5micro.net';
@@ -101,10 +103,18 @@ export function getRoutes(): PageMeta[] {
         dateModified: a.updated,
         author: { '@type': 'Organization', name: SITE },
         publisher: { '@type': 'Organization', name: SITE },
-        mainEntityOfPage: `${ORIGIN}/articles/${a.slug}`,
+        mainEntityOfPage: `${ORIGIN}/articles/${a.slug}/`,
         ...(a.heroImage ? { image: `${ORIGIN}${a.heroImage.src}` } : {}),
       }),
     }));
+
+  // 動画一覧の2ページ目以降（ページ送りを実URLにしたぶんをプリレンダリング対象へ）。
+  const videoPageCount = Math.ceil(adviceData.items.length / VIDEO_PAGE_SIZE);
+  const videoPages: PageMeta[] = Array.from({ length: Math.max(0, videoPageCount - 1) }, (_, i) => ({
+    path: `/videos/page/${i + 2}`,
+    title: `論文解説動画 一覧（${i + 2}/${videoPageCount}ページ目）｜${SITE}`,
+    description: `子育てに関わる論文を一本ずつ解説した動画の一覧（${i + 2}ページ目）。発達・教育・心理のエビデンスをやさしく紹介します。`,
+  }));
 
   const termPages: PageMeta[] = terms.map((t) => ({
     path: `/glossary/${t.slug}`,
@@ -112,7 +122,7 @@ export function getRoutes(): PageMeta[] {
     description: clip(t.short),
   }));
 
-  return [...base, ...articlePages, ...termPages];
+  return [...base, ...videoPages, ...articlePages, ...termPages];
 }
 
 /** 指定パスのページ本文HTMLを返す。 */

@@ -2,7 +2,12 @@ import { useState, useMemo } from 'react';
 import { adviceData } from '../data';
 import { track } from '../analytics';
 
-const PAGE_SIZE = 50;
+// 1ページあたりの表示件数。entry-server.tsx（プリレンダリングのルート生成）からも参照する。
+export const VIDEO_PAGE_SIZE = 50;
+const PAGE_SIZE = VIDEO_PAGE_SIZE;
+
+// 絞り込みなしのページ送りは実URL（クローラーが辿れる a タグ）にする。
+const pageHref = (p: number) => (p <= 1 ? '/videos' : `/videos/page/${p}`);
 
 const sortedItems = [...adviceData.items].sort((a, b) => Number(b.id) - Number(a.id));
 
@@ -19,29 +24,50 @@ const TOP_N = 30;
 function Pager({
   page,
   total,
+  asLinks,
   onChange,
 }: {
   page: number;
   total: number;
+  /** true なら実URLの a タグで遷移（絞り込みなしの通常一覧）。false ならクライアント側で切替。 */
+  asLinks: boolean;
   onChange: (p: number) => void;
 }) {
+  const prev = asLinks ? (
+    page <= 1 ? (
+      <span className="vpager-btn" aria-disabled="true">← 前へ</span>
+    ) : (
+      <a className="vpager-btn" href={pageHref(page - 1)}>← 前へ</a>
+    )
+  ) : (
+    <button className="vpager-btn" disabled={page <= 1} onClick={() => onChange(page - 1)}>
+      ← 前へ
+    </button>
+  );
+  const next = asLinks ? (
+    page >= total ? (
+      <span className="vpager-btn" aria-disabled="true">次へ →</span>
+    ) : (
+      <a className="vpager-btn" href={pageHref(page + 1)}>次へ →</a>
+    )
+  ) : (
+    <button className="vpager-btn" disabled={page >= total} onClick={() => onChange(page + 1)}>
+      次へ →
+    </button>
+  );
   return (
     <div className="vpager">
-      <button className="vpager-btn" disabled={page <= 1} onClick={() => onChange(page - 1)}>
-        ← 前へ
-      </button>
+      {prev}
       <span className="vpager-info">{page} / {total} ページ</span>
-      <button className="vpager-btn" disabled={page >= total} onClick={() => onChange(page + 1)}>
-        次へ →
-      </button>
+      {next}
     </div>
   );
 }
 
-export function VideoList() {
+export function VideoList({ initialPage = 1 }: { initialPage?: number } = {}) {
   const [query, setQuery] = useState('');
   const [activeTags, setActiveTags] = useState<Set<string>>(new Set());
-  const [page, setPage] = useState(1);
+  const [page, setPage] = useState(Math.max(1, initialPage));
   const [showAllTags, setShowAllTags] = useState(false);
 
   const goPage = (p: number) => {
@@ -76,7 +102,7 @@ export function VideoList() {
 
   return (
     <div className="legal">
-      <h2>動画・記事 一覧（全{adviceData.count}本）</h2>
+      <h1>動画・記事 一覧（全{adviceData.count}本）</h1>
       <p className="sub">番号の新しい順。各項目から解説動画とブログ記事へ移動できます。</p>
 
       <div className="vfilter">
@@ -129,7 +155,7 @@ export function VideoList() {
         )}
       </div>
 
-      {totalPages > 1 && <Pager page={page} total={totalPages} onChange={goPage} />}
+      {totalPages > 1 && <Pager page={page} total={totalPages} asLinks={!hasFilter} onChange={goPage} />}
 
       {pageItems.length === 0 ? (
         <p className="empty">該当する動画がありません。</p>
@@ -190,7 +216,7 @@ export function VideoList() {
         </ul>
       )}
 
-      {totalPages > 1 && <Pager page={page} total={totalPages} onChange={goPage} />}
+      {totalPages > 1 && <Pager page={page} total={totalPages} asLinks={!hasFilter} onChange={goPage} />}
     </div>
   );
 }

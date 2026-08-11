@@ -39,7 +39,7 @@ export function ArticlesList() {
     .sort((a, b) => b.posted.localeCompare(a.posted));
   return (
     <div className="legal">
-      <h2>読み物（エビデンス記事）</h2>
+      <h1>読み物（エビデンス記事）</h1>
       <p className="sub">
         子育ての悩みに、学術研究の知見をもとにした一般的な情報をお届けします。
       </p>
@@ -62,7 +62,7 @@ export function ArticleView({ article }: { article: Article }) {
   const related = relatedArticles(article);
   return (
     <article className="legal article">
-      <h2>{article.title}</h2>
+      <h1>{article.title}</h1>
       <p className="amtop muted">投稿日 {article.posted} ・ 更新日 {article.updated} ・ 約{article.readMin}分で読めます</p>
       <p className="alead-top">{article.lead}</p>
       {article.heroImage && (

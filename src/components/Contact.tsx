@@ -3,7 +3,7 @@ import { ContactForm } from './ContactForm';
 export function Contact() {
   return (
     <div className="legal">
-      <h2>お問い合わせ</h2>
+      <h1>お問い合わせ</h1>
       <p>
         子育てエビデンス相談室および合同会社5マイクロに関するお問い合わせは、
         以下のフォームよりお願いいたします。

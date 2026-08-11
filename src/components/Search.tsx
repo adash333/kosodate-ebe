@@ -113,7 +113,7 @@ export function SiteSearch() {
 
   return (
     <div className="legal">
-      <h2>サイト内検索</h2>
+      <h1>サイト内検索</h1>
       <p className="sub">読み物・用語解説・動画/記事をまとめて検索できます。</p>
 
       <input

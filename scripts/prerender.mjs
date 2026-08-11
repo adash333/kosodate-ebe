@@ -32,8 +32,11 @@ const escAttr = (s) =>
 const escText = (s) =>
   String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
+// 実際の配信URL（GitHub Pages はディレクトリ配信のため末尾スラッシュあり）に合わせる。
+const canonicalUrl = (path) => ORIGIN + (path === '/' ? '/' : path + '/');
+
 function headTags(meta) {
-  const url = ORIGIN + (meta.path === '/' ? '/' : meta.path);
+  const url = canonicalUrl(meta.path);
   const tags = [
     `<link rel="canonical" href="${escAttr(url)}" />`,
     `<meta property="og:type" content="${meta.path.startsWith('/articles/') ? 'article' : 'website'}" />`,
@@ -75,13 +78,25 @@ for (const meta of routes) {
   count++;
 }
 
+// 専用404ページ（GitHub Pages は未知パスで 404.html を返す）。
+writeFileSync(
+  join(DIST, '404.html'),
+  buildHtml({
+    path: '/404',
+    title: 'ページが見つかりません｜子育てエビデンス相談室',
+    description: 'お探しのページは見つかりませんでした。記事一覧・用語解説・サイト内検索からお探しください。',
+    noindex: true,
+  }),
+  'utf8',
+);
+
 // sitemap.xml を公開対象ルートで再生成（未公開記事・noindex ページは含めない）
 const indexableRoutes = routes.filter((m) => !m.noindex);
 const sitemap =
   '<?xml version="1.0" encoding="UTF-8"?>\n' +
   '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
   indexableRoutes
-    .map((m) => `  <url>\n    <loc>${ORIGIN}${m.path === '/' ? '/' : m.path}</loc>\n  </url>`)
+    .map((m) => `  <url>\n    <loc>${canonicalUrl(m.path)}</loc>\n  </url>`)
     .join('\n') +
   '\n</urlset>\n';
 writeFileSync(join(DIST, 'sitemap.xml'), sitemap, 'utf8');

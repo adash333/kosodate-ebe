@@ -21,9 +21,12 @@ body {
 
 .app { max-width: 560px; margin: 0 auto; min-height: 100vh; display: flex; flex-direction: column; }
 
-.header { padding: 16px 20px; cursor: pointer; }
-.logo { font-weight: 700; font-size: 1.05rem; color: var(--green-d); }
+.header { padding: 16px 20px; display: flex; flex-wrap: wrap; align-items: center; gap: 6px 16px; }
+.logo { font-weight: 700; font-size: 1.05rem; color: var(--green-d); cursor: pointer; }
 .logo-link { text-decoration: none; }
+.gnav { margin-left: auto; display: flex; flex-wrap: wrap; gap: 4px 14px; }
+.gnav a { color: var(--green-d); text-decoration: none; font-size: .88rem; font-weight: 600; }
+.gnav a:hover { text-decoration: underline; }
 
 .main { flex: 1; padding: 8px 20px 32px; }
 
@@ -218,7 +221,13 @@ h2 { font-size: 1.25rem; margin: 6px 0 4px; }
 .article-back { margin-top: 20px; }
 .article-back-top { margin-top: 0; margin-bottom: 14px; }
 
+.card-related { margin-top: 14px; padding-top: 10px; border-top: 1px dashed var(--line); }
+.card-related-list { margin: 6px 0 0; padding-left: 1.2em; }
+.card-related-list li { margin: 4px 0; font-size: .9rem; }
+.card-related-list a { color: var(--green-d); }
+
 .legal { padding: 8px 0 24px; }
+.legal h1 { font-size: 1.45rem; line-height: 1.45; margin: 14px 0 4px; }
 .legal h2 { margin-top: 22px; }
 .legal p { font-size: .92rem; color: #333; }
 .muted { color: var(--muted); font-size: .85rem; }

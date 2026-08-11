@@ -13,7 +13,7 @@ export function Legal({ onBack, mode = 'both' }: { onBack?: () => void; mode?: '
 function Disclaimer() {
   return (
     <>
-      <h2>免責事項</h2>
+      <h1>免責事項</h1>
 
       <h3>情報の性質について</h3>
       <p>
@@ -65,7 +65,7 @@ function Disclaimer() {
 function PrivacyPolicy() {
   return (
     <>
-      <h2>プライバシーポリシー</h2>
+      <h1>プライバシーポリシー</h1>
       <p>
         合同会社5マイクロ（以下「当社」）が運営する子育てエビデンス相談室（以下「当サイト」、
         URL: https://5micro.net）は、利用者のプライバシーを尊重し、個人情報の適切な取り扱いに

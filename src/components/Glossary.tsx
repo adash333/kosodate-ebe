@@ -34,7 +34,7 @@ export function GlossaryList() {
 
   return (
     <div className="legal">
-      <h2>用語解説</h2>
+      <h1>用語解説</h1>
       <p className="sub">
         読み物や子育てのエビデンスに出てくる専門用語を、やさしく解説します（全{visible.length}語）。
       </p>
@@ -88,7 +88,7 @@ export function TermView({ term }: { term: Term }) {
       <p className="article-back article-back-top">
         <a className="link" href="/glossary">← 用語解説一覧へ</a>
       </p>
-      <h2>{term.term}</h2>
+      <h1>{term.term}</h1>
       <p className="amtop muted">
         {term.reading && <>{term.reading}</>}
         {term.english && <> ・ {term.english}</>}

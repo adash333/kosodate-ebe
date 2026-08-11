@@ -3,7 +3,7 @@
 export function AuthorPage() {
   return (
     <div className="legal author-page">
-      <h2>執筆・監修者について</h2>
+      <h1>執筆・監修者について</h1>
 
       <section className="author-detail">
         <h3>りさお（医師・医学博士）</h3>

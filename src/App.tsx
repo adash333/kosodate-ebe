@@ -135,10 +135,11 @@ export default function App({ path }: { path?: string } = {}) {
     }
   }
 
-  if (route === '/videos') {
+  const videosMatch = route.match(/^\/videos(?:\/page\/(\d+))?$/);
+  if (videosMatch) {
     return (
       <Shell>
-        <VideoList />
+        <VideoList initialPage={videosMatch[1] ? Number(videosMatch[1]) : 1} />
       </Shell>
     );
   }
@@ -159,10 +160,21 @@ export default function App({ path }: { path?: string } = {}) {
     );
   }
 
+  // どのルートにも一致しない場合は専用の404ページを表示する
+  // （プリレンダリングでは /404 として dist/404.html に書き出される）。
+  if (route !== '/') {
+    return (
+      <Shell>
+        <NotFound />
+      </Shell>
+    );
+  }
+
   return (
     <div className="app">
-      <header className="header" onClick={reset} role="button">
-        <span className="logo">🌱 子育てエビデンス相談室</span>
+      <header className="header">
+        <span className="logo" onClick={reset} role="button">🌱 子育てエビデンス相談室</span>
+        <HeaderNav />
       </header>
 
       <main className="main">
@@ -333,9 +345,42 @@ function Shell({ children }: { children: ReactNode }) {
     <div className="app">
       <header className="header">
         <a className="logo logo-link" href="/">🌱 子育てエビデンス相談室</a>
+        <HeaderNav />
       </header>
       <main className="main">{children}</main>
       <SiteFooter />
+    </div>
+  );
+}
+
+// 全ページ共通のグローバルナビゲーション（ヘッダー内）。
+function HeaderNav() {
+  return (
+    <nav className="gnav" aria-label="メインメニュー">
+      <a href="/articles">読み物</a>
+      <a href="/glossary">用語解説</a>
+      <a href="/videos">動画</a>
+      <a href="/author">執筆者</a>
+    </nav>
+  );
+}
+
+// 専用404ページ。ステータスコードはサーバー側（404.html）が返す。
+function NotFound() {
+  return (
+    <div className="legal">
+      <h1>お探しのページは見つかりませんでした</h1>
+      <p>
+        URLが変更されたか、ページが削除された可能性があります。
+        お手数ですが、以下からお探しください。
+      </p>
+      <ul className="site-list">
+        <li><a className="link" href="/">トップページ（3タップ相談室）</a></li>
+        <li><a className="link" href="/articles">読み物（エビデンス記事）一覧</a></li>
+        <li><a className="link" href="/glossary">用語解説</a></li>
+        <li><a className="link" href="/videos">論文解説動画 一覧</a></li>
+        <li><a className="link" href="/search">キーワードでサイト内を検索</a></li>
+      </ul>
     </div>
   );
 }
