@@ -37,6 +37,15 @@ export function getRoutes(): PageMeta[] {
       title: `${SITE}｜論文（エビデンス）に基づく子育てアドバイス`,
       description:
         '子育ての悩みを選ぶだけ。論文（エビデンス）に基づく一言アドバイスと、次の一歩、解説動画・出典をやさしくお届けします。',
+      jsonLd: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: SITE,
+        url: `${ORIGIN}/`,
+        description:
+          '子育ての悩みを選ぶだけ。論文（エビデンス）に基づく一言アドバイスをお届けする情報サイト。',
+        publisher: { '@type': 'Organization', name: '合同会社5マイクロ' },
+      }),
     },
     {
       path: '/articles',
@@ -124,6 +133,14 @@ export function getRoutes(): PageMeta[] {
     title: `${t.term}とは？子育て視点でやさしく解説｜${SITE}`,
     description: clip(t.short),
     ...(t.heroImage ? { ogImage: { src: t.heroImage.src, width: 1200, height: 675 } } : {}),
+    jsonLd: JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'DefinedTerm',
+      name: t.term,
+      description: clip(t.short, 200),
+      url: `${ORIGIN}/glossary/${t.slug}/`,
+      inDefinedTermSet: { '@type': 'DefinedTermSet', name: `${SITE} 用語解説`, url: `${ORIGIN}/glossary/` },
+    }),
   }));
 
   return [...base, ...videoPages, ...articlePages, ...termPages];
