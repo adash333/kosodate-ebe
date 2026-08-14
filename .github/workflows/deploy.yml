@@ -3,6 +3,9 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+  schedule:
+    # 毎朝 6:15 JST に再ビルドし、publish 日付が到来した記事をプリレンダリング・sitemapへ反映する
+    - cron: '15 21 * * *'
   workflow_dispatch:
 
 permissions:
