@@ -287,3 +287,9 @@ h2 { font-size: 1.25rem; margin: 6px 0 4px; }
 .consult-note p { font-size: .82rem; color: #555; margin: 0; }
 .result-consult { font-size: .9rem; margin: 6px 0 14px; }
 .choice-link { display: flex; align-items: center; justify-content: center; text-decoration: none; color: inherit; }
+
+/* 動画一覧の独自解説 */
+.vfinding { font-size: .85rem; color: #444; margin: 4px 0 2px; }
+.vstudy { color: #6b7a72; font-weight: 600; }
+.vnext { font-size: .82rem; color: #555; margin: 2px 0 4px; }
+.vlink.guide { color: #3b7a57; }

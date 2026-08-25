@@ -1,6 +1,8 @@
 import { useState, useMemo } from 'react';
-import { adviceData } from '../data';
+import { adviceData, taxonomy } from '../data';
 import { track } from '../analytics';
+import { getConsultIntro } from '../consult';
+import type { AdviceItem } from '../types';
 
 // 1ページあたりの表示件数。entry-server.tsx（プリレンダリングのルート生成）からも参照する。
 export const VIDEO_PAGE_SIZE = 50;
@@ -10,6 +12,36 @@ const PAGE_SIZE = VIDEO_PAGE_SIZE;
 const pageHref = (p: number) => (p <= 1 ? '/videos' : `/videos/page/${p}`);
 
 const sortedItems = [...adviceData.items].sort((a, b) => Number(b.id) - Number(a.id));
+
+// 各動画に最も近い「悩み別ガイド」（/consult/:id）をタグの一致数で選ぶ。
+// 外部リンクだけで終わらせず、サイト内の解説ページへ回遊できるようにする。
+const consultOf = (() => {
+  const subs = taxonomy.categories.flatMap((c) =>
+    c.sub.map((s) => ({ id: s.id, label: s.label, catId: c.id, tags: new Set(s.tags) })),
+  );
+  const map = new Map<string, { id: string; label: string }>();
+  for (const it of adviceData.items) {
+    let best: { id: string; label: string } | null = null;
+    let bestScore = 0;
+    for (const sub of subs) {
+      let score = it.tags.filter((t) => sub.tags.has(t)).length * 2;
+      if (it.categories.includes(sub.catId)) score += 1;
+      if (score > bestScore && getConsultIntro(sub.id)) {
+        bestScore = score;
+        best = { id: sub.id, label: sub.label };
+      }
+    }
+    if (best && bestScore >= 2) map.set(it.id, best);
+  }
+  return map;
+})();
+
+// 研究のラベル（著者・年）。title は動画タイトル由来なので補助的に使う。
+function studyLabel(it: AdviceItem): string | null {
+  if (it.author && it.year) return `${it.author}ほか（${it.year}年）の研究`;
+  if (it.author) return `${it.author}らの研究`;
+  return null;
+}
 
 const tagFreq: [string, number][] = (() => {
   const freq = new Map<string, number>();
@@ -103,7 +135,10 @@ export function VideoList({ initialPage = 1 }: { initialPage?: number } = {}) {
   return (
     <div className="legal">
       <h1>動画・記事 一覧（全{adviceData.count}本）</h1>
-      <p className="sub">番号の新しい順。各項目から解説動画とブログ記事へ移動できます。</p>
+      <p className="sub">
+        子育てに関わる論文を1本ずつ取り上げ、「研究でわかったこと」「今日からできる一言アドバイス」「次の一歩」に
+        整理しています（番号の新しい順）。くわしい解説は各項目の動画・論文解説からご覧いただけます。
+      </p>
 
       <div className="vfilter">
         <input
@@ -166,6 +201,11 @@ export function VideoList({ initialPage = 1 }: { initialPage?: number } = {}) {
               <span className="vno">#{it.id}</span>
               <div className="vbody">
                 <div className="vadvice">{it.advice}</div>
+                <p className="vfinding">
+                  {studyLabel(it) && <span className="vstudy">{studyLabel(it)}: </span>}
+                  {it.finding}
+                </p>
+                {it.nextStep && <p className="vnext">👣 次の一歩: {it.nextStep}</p>}
                 {it.tags.length > 0 && (
                   <div className="vrow-tags">
                     {it.tags.map((t) => (
@@ -209,6 +249,15 @@ export function VideoList({ initialPage = 1 }: { initialPage?: number } = {}) {
                       論文
                     </a>
                   ) : null}
+                  {consultOf.has(it.id) && (
+                    <a
+                      className="vlink guide"
+                      href={`/consult/${consultOf.get(it.id)!.id}`}
+                      onClick={() => track('list_consult', { id: it.id })}
+                    >
+                      関連ガイド: {consultOf.get(it.id)!.label}
+                    </a>
+                  )}
                 </div>
               </div>
             </li>
