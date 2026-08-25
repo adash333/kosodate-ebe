@@ -7,6 +7,7 @@ import { articles, isPublished } from './articles';
 import { terms } from './glossary';
 import { adviceData } from './data';
 import { VIDEO_PAGE_SIZE } from './components/VideoList';
+import { getConsultPages } from './components/Consult';
 
 const SITE = '子育てエビデンス相談室';
 const ORIGIN = 'https://5micro.net';
@@ -128,6 +129,18 @@ export function getRoutes(): PageMeta[] {
     description: `子育てに関わる論文を一本ずつ解説した動画の一覧（${i + 2}ページ目）。発達・教育・心理のエビデンスをやさしく紹介します。`,
   }));
 
+  const consultIndex: PageMeta = {
+    path: '/consult',
+    title: `悩み別ガイド 一覧｜${SITE}`,
+    description:
+      '勉強のやる気・叱り方・自己肯定感・睡眠・スマホなど、子育てのよくある悩み32テーマについて、研究（エビデンス）からわかっていることを整理した悩み別ガイドの一覧。',
+  };
+  const consultPages: PageMeta[] = getConsultPages().map((c) => ({
+    path: `/consult/${c.id}`,
+    title: `${c.label}｜${c.categoryLabel}のエビデンス｜${SITE}`,
+    description: clip(c.lead),
+  }));
+
   const termPages: PageMeta[] = terms.map((t) => ({
     path: `/glossary/${t.slug}`,
     title: `${t.term}とは？子育て視点でやさしく解説｜${SITE}`,
@@ -143,7 +156,7 @@ export function getRoutes(): PageMeta[] {
     }),
   }));
 
-  return [...base, ...videoPages, ...articlePages, ...termPages];
+  return [...base, consultIndex, ...consultPages, ...videoPages, ...articlePages, ...termPages];
 }
 
 /** 指定パスのページ本文HTMLを返す。 */

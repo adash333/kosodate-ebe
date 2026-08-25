@@ -278,3 +278,12 @@ h2 { font-size: 1.25rem; margin: 6px 0 4px; }
   font-size: .85rem; text-decoration: none;
 }
 .link:hover { color: var(--green-d); }
+
+/* 悩み別ガイド（/consult） */
+.consult .breadcrumb { font-size: .8rem; color: #888; margin-top: 8px; }
+.consult-lead { font-size: .84rem; color: #666; }
+.consult .cards { margin: 8px 0 8px; }
+.consult-note { margin-top: 26px; padding: 12px 14px; background: #f4f7f4; border-radius: 12px; }
+.consult-note p { font-size: .82rem; color: #555; margin: 0; }
+.result-consult { font-size: .9rem; margin: 6px 0 14px; }
+.choice-link { display: flex; align-items: center; justify-content: center; text-decoration: none; color: inherit; }

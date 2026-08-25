@@ -12,6 +12,8 @@ import { VideoList } from './components/VideoList';
 import { SiteSearch } from './components/Search';
 import { SiteFooter } from './components/SiteFooter';
 import { AuthorPage } from './components/AuthorPage';
+import { ConsultIndex, ConsultView, findSub } from './components/Consult';
+import { getConsultIntro } from './consult';
 import { articles, isPublished } from './articles';
 import { terms } from './glossary';
 import { track } from './analytics';
@@ -160,6 +162,26 @@ export default function App({ path }: { path?: string } = {}) {
     );
   }
 
+  if (route === '/consult') {
+    return (
+      <Shell>
+        <ConsultIndex />
+      </Shell>
+    );
+  }
+
+  const consultMatch = route.match(/^\/consult\/(.+)$/);
+  if (consultMatch) {
+    const found = findSub(consultMatch[1]);
+    if (found && getConsultIntro(consultMatch[1])) {
+      return (
+        <Shell>
+          <ConsultView subId={consultMatch[1]} />
+        </Shell>
+      );
+    }
+  }
+
   // どのルートにも一致しない場合は専用の404ページを表示する
   // （プリレンダリングでは /404 として dist/404.html に書き出される）。
   if (route !== '/') {
@@ -215,6 +237,23 @@ export default function App({ path }: { path?: string } = {}) {
               </ul>
               <p className="intro-more">
                 <a className="link" href="/articles">読み物の一覧をすべて見る →</a>
+              </p>
+            </section>
+
+            <section className="intro-articles">
+              <h2>悩み別にエビデンスを探す</h2>
+              <p className="sub">
+                よくある悩みを32のテーマに分けて、研究からわかっていることを整理しました。
+              </p>
+              <div className="grid">
+                {taxonomy.categories.map((c) => (
+                  <a key={c.id} className="choice choice-link" href={`/consult/${c.sub[0].id}`}>
+                    {c.label}
+                  </a>
+                ))}
+              </div>
+              <p className="intro-more">
+                <a className="link" href="/consult">悩み別ガイドの一覧を見る →</a>
               </p>
             </section>
           </section>
@@ -329,6 +368,14 @@ export default function App({ path }: { path?: string } = {}) {
             ) : (
               results.map((r) => <ResultCard key={r.item.id} item={r.item} />)
             )}
+            {sub && getConsultIntro(sub.id) && (
+              <p className="result-consult">
+                このテーマの解説ページ:{' '}
+                <a className="link" href={`/consult/${sub.id}`} onClick={() => track('result_open_consult', { sub: sub.id })}>
+                  「{sub.label}」のエビデンスまとめ
+                </a>
+              </p>
+            )}
             <button className="btn-primary" onClick={reset}>別の悩みも見る</button>
           </section>
         )}
@@ -357,6 +404,7 @@ function Shell({ children }: { children: ReactNode }) {
 function HeaderNav() {
   return (
     <nav className="gnav" aria-label="メインメニュー">
+      <a href="/consult">悩み別</a>
       <a href="/articles">読み物</a>
       <a href="/glossary">用語解説</a>
       <a href="/videos">動画</a>
@@ -376,6 +424,7 @@ function NotFound() {
       </p>
       <ul className="site-list">
         <li><a className="link" href="/">トップページ（3タップ相談室）</a></li>
+        <li><a className="link" href="/consult">悩み別ガイド（テーマから探す）</a></li>
         <li><a className="link" href="/articles">読み物（エビデンス記事）一覧</a></li>
         <li><a className="link" href="/glossary">用語解説</a></li>
         <li><a className="link" href="/videos">論文解説動画 一覧</a></li>
